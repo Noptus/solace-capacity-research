@@ -1,0 +1,176 @@
+{
+  "training_cases": [
+    "train-32768-4",
+    "train-256-1",
+    "train-4096-4",
+    "train-131072-1",
+    "train-256-4",
+    "train-32768-1",
+    "train-131072-4",
+    "train-4096-1"
+  ],
+  "test_cases": [
+    "test-8192-2",
+    "test-65536-3"
+  ],
+  "results": {
+    "constant_messages": {
+      "model": {
+        "constant": 1907.8037110374466
+      },
+      "held_out_predictions": [
+        {
+          "case": "test-8192-2",
+          "predicted_messages_per_second": 1907.8037110374466,
+          "observed_messages_per_second": 1256.7007753450398,
+          "signed_relative_error": 0.5181049844690675,
+          "absolute_relative_error": 0.5181049844690675
+        },
+        {
+          "case": "test-65536-3",
+          "predicted_messages_per_second": 1907.8037110374466,
+          "observed_messages_per_second": 159.82228131872733,
+          "signed_relative_error": 10.937032154063601,
+          "absolute_relative_error": 10.937032154063601
+        }
+      ],
+      "mean_absolute_relative_error": 5.727568569266334,
+      "max_absolute_relative_error": 10.937032154063601
+    },
+    "constant_payload_bytes": {
+      "model": {
+        "bytes_per_second": 13653989.267235793
+      },
+      "held_out_predictions": [
+        {
+          "case": "test-8192-2",
+          "predicted_messages_per_second": 1666.7467367231193,
+          "observed_messages_per_second": 1256.7007753450398,
+          "signed_relative_error": 0.32628766483055394,
+          "absolute_relative_error": 0.32628766483055394
+        },
+        {
+          "case": "test-65536-3",
+          "predicted_messages_per_second": 208.3433420903899,
+          "observed_messages_per_second": 159.82228131872733,
+          "signed_relative_error": 0.303593844183083,
+          "absolute_relative_error": 0.303593844183083
+        }
+      ],
+      "mean_absolute_relative_error": 0.31494075450681847,
+      "max_absolute_relative_error": 0.32628766483055394
+    },
+    "two_limit_roofline": {
+      "model": {
+        "fixed_microseconds": 169.5098339762464,
+        "microseconds_per_payload_KiB": 75.85360443978755,
+        "effective_message_limit": 5899.362748123103,
+        "effective_payload_byte_limit": 13499688.084207645
+      },
+      "held_out_predictions": [
+        {
+          "case": "test-8192-2",
+          "predicted_messages_per_second": 1647.9111430917535,
+          "observed_messages_per_second": 1256.7007753450398,
+          "signed_relative_error": 0.3112995355949415,
+          "absolute_relative_error": 0.3112995355949415
+        },
+        {
+          "case": "test-65536-3",
+          "predicted_messages_per_second": 205.9888928864692,
+          "observed_messages_per_second": 159.82228131872733,
+          "signed_relative_error": 0.2888621735768717,
+          "absolute_relative_error": 0.2888621735768717
+        }
+      ],
+      "mean_absolute_relative_error": 0.3000808545859066,
+      "max_absolute_relative_error": 0.3112995355949415
+    },
+    "size_only": {
+      "model": {
+        "effective_microseconds_coefficients": [
+          0.0,
+          75.85576447612904
+        ],
+        "training_squared_service_demand_error": 10577035.252226595
+      },
+      "held_out_predictions": [
+        {
+          "case": "test-8192-2",
+          "predicted_messages_per_second": 1647.864217878077,
+          "observed_messages_per_second": 1256.7007753450398,
+          "signed_relative_error": 0.31126219558959,
+          "absolute_relative_error": 0.31126219558959
+        },
+        {
+          "case": "test-65536-3",
+          "predicted_messages_per_second": 205.98302723475962,
+          "observed_messages_per_second": 159.82228131872733,
+          "signed_relative_error": 0.2888254724882553,
+          "absolute_relative_error": 0.2888254724882553
+        }
+      ],
+      "mean_absolute_relative_error": 0.30004383403892265,
+      "max_absolute_relative_error": 0.31126219558959
+    },
+    "additive_size_fanout": {
+      "model": {
+        "effective_microseconds_coefficients": [
+          0.0,
+          75.85576447612904,
+          0.0
+        ],
+        "training_squared_service_demand_error": 10577035.252226595
+      },
+      "held_out_predictions": [
+        {
+          "case": "test-8192-2",
+          "predicted_messages_per_second": 1647.864217878077,
+          "observed_messages_per_second": 1256.7007753450398,
+          "signed_relative_error": 0.31126219558959,
+          "absolute_relative_error": 0.31126219558959
+        },
+        {
+          "case": "test-65536-3",
+          "predicted_messages_per_second": 205.98302723475962,
+          "observed_messages_per_second": 159.82228131872733,
+          "signed_relative_error": 0.2888254724882553,
+          "absolute_relative_error": 0.2888254724882553
+        }
+      ],
+      "mean_absolute_relative_error": 0.30004383403892265,
+      "max_absolute_relative_error": 0.31126219558959
+    },
+    "joint_work": {
+      "model": {
+        "effective_microseconds_coefficients": [
+          0.0,
+          75.85576447612904,
+          0.0,
+          0.0
+        ],
+        "training_squared_service_demand_error": 10577035.252226595
+      },
+      "held_out_predictions": [
+        {
+          "case": "test-8192-2",
+          "predicted_messages_per_second": 1647.864217878077,
+          "observed_messages_per_second": 1256.7007753450398,
+          "signed_relative_error": 0.31126219558959,
+          "absolute_relative_error": 0.31126219558959
+        },
+        {
+          "case": "test-65536-3",
+          "predicted_messages_per_second": 205.98302723475962,
+          "observed_messages_per_second": 159.82228131872733,
+          "signed_relative_error": 0.2888254724882553,
+          "absolute_relative_error": 0.2888254724882553
+        }
+      ],
+      "mean_absolute_relative_error": 0.30004383403892265,
+      "max_absolute_relative_error": 0.31126219558959
+    }
+  },
+  "scope": "Standard-edition, fixed-SDK, completion-window-controlled pipeline; no unrestricted broker capacity claim",
+  "statistical_limit": "two held-out cases; descriptive errors, no population-level accuracy or coverage claim"
+}

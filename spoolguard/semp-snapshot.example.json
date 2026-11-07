@@ -1,0 +1,7 @@
+{
+  "meta": {"responseCode": 200},
+  "data": [
+    {"queueName": "archive", "msgSpoolUsage": 45000000,
+     "maxMsgSpoolUsage": 100, "rxByteRate": 4000000, "txByteRate": 0}
+  ]
+}

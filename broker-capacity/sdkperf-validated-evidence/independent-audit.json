@@ -1,0 +1,381 @@
+{
+  "study": "outputs/broker-capacity/sdkperf-validated-evidence",
+  "study_completed": false,
+  "designed_cases": 8,
+  "audited_accepted_cases": 4,
+  "excluded_or_unrun_cases": [
+    "sdk-4-32768-1000",
+    "sdk-5-131072-152",
+    "sdk-6-131072-300",
+    "sdk-7-256-8000"
+  ],
+  "checks": [
+    {
+      "name": "design_hash",
+      "passed": true
+    },
+    {
+      "name": "terminal_all_cases",
+      "passed": true
+    },
+    {
+      "name": "at_least_one_accepted_case",
+      "passed": true
+    },
+    {
+      "name": "sdk-0-256-4000:case_matches_design",
+      "passed": true
+    },
+    {
+      "name": "sdk-0-256-4000:accepted_integrity_record",
+      "passed": true
+    },
+    {
+      "name": "sdk-0-256-4000:expected_transmitted",
+      "passed": true
+    },
+    {
+      "name": "sdk-0-256-4000:expected_acked",
+      "passed": true
+    },
+    {
+      "name": "sdk-0-256-4000:no_nacks",
+      "passed": true
+    },
+    {
+      "name": "sdk-0-256-4000:received",
+      "passed": true
+    },
+    {
+      "name": "sdk-0-256-4000:all_crc_ok",
+      "passed": true
+    },
+    {
+      "name": "sdk-0-256-4000:no_crc_errors",
+      "passed": true
+    },
+    {
+      "name": "sdk-0-256-4000:all_order_checked",
+      "passed": true
+    },
+    {
+      "name": "sdk-0-256-4000:Total Out of Order Msgs",
+      "passed": true
+    },
+    {
+      "name": "sdk-0-256-4000:Total Missing Msgs",
+      "passed": true
+    },
+    {
+      "name": "sdk-0-256-4000:Total Duplicate Msgs",
+      "passed": true
+    },
+    {
+      "name": "sdk-0-256-4000:Total Redelivered Msgs",
+      "passed": true
+    },
+    {
+      "name": "sdk-0-256-4000:broker_attempts_equal_expected",
+      "passed": true
+    },
+    {
+      "name": "sdk-0-256-4000:drained",
+      "passed": true
+    },
+    {
+      "name": "sdk-0-256-4000:queue_received",
+      "passed": true
+    },
+    {
+      "name": "sdk-0-256-4000:returncodes",
+      "passed": true
+    },
+    {
+      "name": "sdk-0-256-4000:enough_interior_samples",
+      "passed": true
+    },
+    {
+      "name": "sdk-0-256-4000:strict_sample_times",
+      "passed": true
+    },
+    {
+      "name": "sdk-0-256-4000:interior_rate_recomputed",
+      "passed": true
+    },
+    {
+      "name": "sdk-1-256-8000:case_matches_design",
+      "passed": true
+    },
+    {
+      "name": "sdk-1-256-8000:accepted_integrity_record",
+      "passed": true
+    },
+    {
+      "name": "sdk-1-256-8000:expected_transmitted",
+      "passed": true
+    },
+    {
+      "name": "sdk-1-256-8000:expected_acked",
+      "passed": true
+    },
+    {
+      "name": "sdk-1-256-8000:no_nacks",
+      "passed": true
+    },
+    {
+      "name": "sdk-1-256-8000:received",
+      "passed": true
+    },
+    {
+      "name": "sdk-1-256-8000:all_crc_ok",
+      "passed": true
+    },
+    {
+      "name": "sdk-1-256-8000:no_crc_errors",
+      "passed": true
+    },
+    {
+      "name": "sdk-1-256-8000:all_order_checked",
+      "passed": true
+    },
+    {
+      "name": "sdk-1-256-8000:Total Out of Order Msgs",
+      "passed": true
+    },
+    {
+      "name": "sdk-1-256-8000:Total Missing Msgs",
+      "passed": true
+    },
+    {
+      "name": "sdk-1-256-8000:Total Duplicate Msgs",
+      "passed": true
+    },
+    {
+      "name": "sdk-1-256-8000:Total Redelivered Msgs",
+      "passed": true
+    },
+    {
+      "name": "sdk-1-256-8000:broker_attempts_equal_expected",
+      "passed": true
+    },
+    {
+      "name": "sdk-1-256-8000:drained",
+      "passed": true
+    },
+    {
+      "name": "sdk-1-256-8000:queue_received",
+      "passed": true
+    },
+    {
+      "name": "sdk-1-256-8000:returncodes",
+      "passed": true
+    },
+    {
+      "name": "sdk-1-256-8000:enough_interior_samples",
+      "passed": true
+    },
+    {
+      "name": "sdk-1-256-8000:strict_sample_times",
+      "passed": true
+    },
+    {
+      "name": "sdk-1-256-8000:interior_rate_recomputed",
+      "passed": true
+    },
+    {
+      "name": "sdk-2-256-9500:case_matches_design",
+      "passed": true
+    },
+    {
+      "name": "sdk-2-256-9500:accepted_integrity_record",
+      "passed": true
+    },
+    {
+      "name": "sdk-2-256-9500:expected_transmitted",
+      "passed": true
+    },
+    {
+      "name": "sdk-2-256-9500:expected_acked",
+      "passed": true
+    },
+    {
+      "name": "sdk-2-256-9500:no_nacks",
+      "passed": true
+    },
+    {
+      "name": "sdk-2-256-9500:received",
+      "passed": true
+    },
+    {
+      "name": "sdk-2-256-9500:all_crc_ok",
+      "passed": true
+    },
+    {
+      "name": "sdk-2-256-9500:no_crc_errors",
+      "passed": true
+    },
+    {
+      "name": "sdk-2-256-9500:all_order_checked",
+      "passed": true
+    },
+    {
+      "name": "sdk-2-256-9500:Total Out of Order Msgs",
+      "passed": true
+    },
+    {
+      "name": "sdk-2-256-9500:Total Missing Msgs",
+      "passed": true
+    },
+    {
+      "name": "sdk-2-256-9500:Total Duplicate Msgs",
+      "passed": true
+    },
+    {
+      "name": "sdk-2-256-9500:Total Redelivered Msgs",
+      "passed": true
+    },
+    {
+      "name": "sdk-2-256-9500:broker_attempts_equal_expected",
+      "passed": true
+    },
+    {
+      "name": "sdk-2-256-9500:drained",
+      "passed": true
+    },
+    {
+      "name": "sdk-2-256-9500:queue_received",
+      "passed": true
+    },
+    {
+      "name": "sdk-2-256-9500:returncodes",
+      "passed": true
+    },
+    {
+      "name": "sdk-2-256-9500:enough_interior_samples",
+      "passed": true
+    },
+    {
+      "name": "sdk-2-256-9500:strict_sample_times",
+      "passed": true
+    },
+    {
+      "name": "sdk-2-256-9500:interior_rate_recomputed",
+      "passed": true
+    },
+    {
+      "name": "sdk-3-32768-500:case_matches_design",
+      "passed": true
+    },
+    {
+      "name": "sdk-3-32768-500:accepted_integrity_record",
+      "passed": true
+    },
+    {
+      "name": "sdk-3-32768-500:expected_transmitted",
+      "passed": true
+    },
+    {
+      "name": "sdk-3-32768-500:expected_acked",
+      "passed": true
+    },
+    {
+      "name": "sdk-3-32768-500:no_nacks",
+      "passed": true
+    },
+    {
+      "name": "sdk-3-32768-500:received",
+      "passed": true
+    },
+    {
+      "name": "sdk-3-32768-500:all_crc_ok",
+      "passed": true
+    },
+    {
+      "name": "sdk-3-32768-500:no_crc_errors",
+      "passed": true
+    },
+    {
+      "name": "sdk-3-32768-500:all_order_checked",
+      "passed": true
+    },
+    {
+      "name": "sdk-3-32768-500:Total Out of Order Msgs",
+      "passed": true
+    },
+    {
+      "name": "sdk-3-32768-500:Total Missing Msgs",
+      "passed": true
+    },
+    {
+      "name": "sdk-3-32768-500:Total Duplicate Msgs",
+      "passed": true
+    },
+    {
+      "name": "sdk-3-32768-500:Total Redelivered Msgs",
+      "passed": true
+    },
+    {
+      "name": "sdk-3-32768-500:broker_attempts_equal_expected",
+      "passed": true
+    },
+    {
+      "name": "sdk-3-32768-500:drained",
+      "passed": true
+    },
+    {
+      "name": "sdk-3-32768-500:queue_received",
+      "passed": true
+    },
+    {
+      "name": "sdk-3-32768-500:returncodes",
+      "passed": true
+    },
+    {
+      "name": "sdk-3-32768-500:enough_interior_samples",
+      "passed": true
+    },
+    {
+      "name": "sdk-3-32768-500:strict_sample_times",
+      "passed": true
+    },
+    {
+      "name": "sdk-3-32768-500:interior_rate_recomputed",
+      "passed": true
+    }
+  ],
+  "check_count": 83,
+  "all_passed": true,
+  "source_messages": 1320000,
+  "consumer_receipts": 1320000,
+  "case_summaries": [
+    {
+      "case": "sdk-0-256-4000",
+      "size": 256,
+      "target_rate": 4000,
+      "interior_ingress_rate": 3999.396566479216,
+      "source_messages": 240000
+    },
+    {
+      "case": "sdk-1-256-8000",
+      "size": 256,
+      "target_rate": 8000,
+      "interior_ingress_rate": 5118.574770584824,
+      "source_messages": 480000
+    },
+    {
+      "case": "sdk-2-256-9500",
+      "size": 256,
+      "target_rate": 9500,
+      "interior_ingress_rate": 5890.748905041624,
+      "source_messages": 570000
+    },
+    {
+      "case": "sdk-3-32768-500",
+      "size": 32768,
+      "target_rate": 500,
+      "interior_ingress_rate": 499.94776504370105,
+      "source_messages": 30000
+    }
+  ],
+  "scope": "Evidence integrity and counter/rate recomputation; not a general broker-capacity certificate."
+}

@@ -1,0 +1,1 @@
+[{"duration_seconds": 60, "fanout": 1, "id": "drain-control-131072-152", "process_diagnostics": true, "publisher_end_delay_seconds": 60, "publishers": 4, "queue_quota_mb": 1250, "size": 131072, "target_rate": 152}]

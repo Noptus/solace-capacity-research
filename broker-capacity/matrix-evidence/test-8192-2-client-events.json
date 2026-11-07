@@ -1,0 +1,8024 @@
+{
+  "client_events": [
+    [
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:37:50.768 INFO   solclientjs:  websocket browserSupportBinaryCheck: true - WebSocket supports binaryType\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:37:50.769 INFO   solclientjs:  websocket browserSupportBinaryCheck: true - WebSocket supports binaryType\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:37:50.771 INFO   solclientjs:  websocket browserSupportBinaryCheck: true - WebSocket supports binaryType\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:37:50.773 INFO   solclientjs:  [session-fsm=N/A] [WaitingForDNS] Creating transport session tcp://127.0.0.1:15555\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:37:50.774 INFO   solclientjs:  [session-fsm=N/A] [WaitingForDNS] Attempting to connect session 'null' to host 'tcp://127.0.0.1:15555' (host 1 of 1)(host connection attempt 1 of 1)(total connection attempt 1 of 1)\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:37:50.775 INFO   solclientjs:  [session-fsm=N/A] [WaitingForTransportUp] Receive transport event: {\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  transportEventCode: 'UP_NOTICE (1)',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  infoStr: 'Connected',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  responseCode: 0,\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  errorSubcode: '<none>',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  sid: 'N/A'\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "}\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:37:50.775 INFO   solclientjs:  [session-fsm=0x1a1b55f18b6] [WaitingForTransportUp] Using internally correlationTag=16777215 for tracking ClientCTRL Login\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:37:50.775 INFO   solclientjs:  [session-fsm=0x1a1b55f18b6] [WaitingForTransportUp] Enqueue outstanding ctrl request correlationTag=16777215\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:37:50.776 INFO   solclientjs:  [session-fsm=0x1a1b55f18b6] [WaitingForLogin] Handle SMF response for ClientCTRL Login\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:37:50.777 INFO   solclientjs:  [session-fsm=0x1a1b55f18b6] [WaitingForLogin] ReapplyingSubscriptions: entry\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:37:50.777 INFO   solclientjs:  [session-fsm=0x1a1b55f18b6] [WaitingForLogin] Reapplying subscriptions, count=1\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:37:50.777 INFO   solclientjs:  [session-fsm=0x1a1b55f18b6] [WaitingForLogin] Enqueue outstanding ctrl request correlationTag=1\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:37:50.778 INFO   solclientjs:  [session-fsm=0x1a1b55f18b6] [WaitForSubConfirm] Enqueue outstanding ctrl request correlationTag=2\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:37:50.779 INFO   solclientjs:  [session-fsm=0x1a1b55f18b6] [WaitingForMessagePublisher] Handle SMF response for correlationTag 2\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:37:50.780 INFO   solclientjs:  [session=0x1a1b55f18b6] [message-consumer-fsm=(N/A)] Starting ConsumerFSM 0\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:37:50.781 INFO   solclientjs:  [session-fsm=0x1a1b55f18b6] [SessionFullyConnected] Enqueue outstanding ctrl request correlationTag=3\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:37:50.781 INFO   solclientjs:  [session-fsm=0x1a1b55f18b6] [SessionFullyConnected] Handle SMF response for correlationTag 3\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:37:50.782 INFO   solclientjs:  [session=0x1a1b55f18b6] [flow=20] [message-consumer] Flow is up: flowId = 20\n"
+      },
+      {
+        "type": "ready",
+        "role": "consumer"
+      },
+      {
+        "type": "progress",
+        "received": 64
+      },
+      {
+        "type": "progress",
+        "received": 128
+      },
+      {
+        "type": "progress",
+        "received": 187
+      },
+      {
+        "type": "progress",
+        "received": 251
+      },
+      {
+        "type": "progress",
+        "received": 255
+      },
+      {
+        "type": "progress",
+        "received": 319
+      },
+      {
+        "type": "progress",
+        "received": 383
+      },
+      {
+        "type": "progress",
+        "received": 409
+      },
+      {
+        "type": "progress",
+        "received": 473
+      },
+      {
+        "type": "progress",
+        "received": 537
+      },
+      {
+        "type": "progress",
+        "received": 563
+      },
+      {
+        "type": "progress",
+        "received": 627
+      },
+      {
+        "type": "progress",
+        "received": 691
+      },
+      {
+        "type": "progress",
+        "received": 755
+      },
+      {
+        "type": "progress",
+        "received": 819
+      },
+      {
+        "type": "progress",
+        "received": 871
+      },
+      {
+        "type": "progress",
+        "received": 935
+      },
+      {
+        "type": "progress",
+        "received": 999
+      },
+      {
+        "type": "progress",
+        "received": 1063
+      },
+      {
+        "type": "progress",
+        "received": 1127
+      },
+      {
+        "type": "progress",
+        "received": 1158
+      },
+      {
+        "type": "progress",
+        "received": 1222
+      },
+      {
+        "type": "progress",
+        "received": 1286
+      },
+      {
+        "type": "progress",
+        "received": 1333
+      },
+      {
+        "type": "progress",
+        "received": 1397
+      },
+      {
+        "type": "progress",
+        "received": 1444
+      },
+      {
+        "type": "progress",
+        "received": 1490
+      },
+      {
+        "type": "progress",
+        "received": 1554
+      },
+      {
+        "type": "progress",
+        "received": 1618
+      },
+      {
+        "type": "progress",
+        "received": 1641
+      },
+      {
+        "type": "progress",
+        "received": 1705
+      },
+      {
+        "type": "progress",
+        "received": 1769
+      },
+      {
+        "type": "progress",
+        "received": 1833
+      },
+      {
+        "type": "progress",
+        "received": 1897
+      },
+      {
+        "type": "progress",
+        "received": 1932
+      },
+      {
+        "type": "progress",
+        "received": 1996
+      },
+      {
+        "type": "progress",
+        "received": 2060
+      },
+      {
+        "type": "progress",
+        "received": 2103
+      },
+      {
+        "type": "progress",
+        "received": 2167
+      },
+      {
+        "type": "progress",
+        "received": 2231
+      },
+      {
+        "type": "progress",
+        "received": 2295
+      },
+      {
+        "type": "progress",
+        "received": 2359
+      },
+      {
+        "type": "progress",
+        "received": 2411
+      },
+      {
+        "type": "progress",
+        "received": 2475
+      },
+      {
+        "type": "progress",
+        "received": 2539
+      },
+      {
+        "type": "progress",
+        "received": 2565
+      },
+      {
+        "type": "progress",
+        "received": 2629
+      },
+      {
+        "type": "progress",
+        "received": 2693
+      },
+      {
+        "type": "progress",
+        "received": 2757
+      },
+      {
+        "type": "progress",
+        "received": 2821
+      },
+      {
+        "type": "progress",
+        "received": 2873
+      },
+      {
+        "type": "progress",
+        "received": 2937
+      },
+      {
+        "type": "progress",
+        "received": 3001
+      },
+      {
+        "type": "progress",
+        "received": 3027
+      },
+      {
+        "type": "progress",
+        "received": 3091
+      },
+      {
+        "type": "progress",
+        "received": 3155
+      },
+      {
+        "type": "progress",
+        "received": 3181
+      },
+      {
+        "type": "progress",
+        "received": 3245
+      },
+      {
+        "type": "progress",
+        "received": 3309
+      },
+      {
+        "type": "progress",
+        "received": 3335
+      },
+      {
+        "type": "progress",
+        "received": 3399
+      },
+      {
+        "type": "progress",
+        "received": 3463
+      },
+      {
+        "type": "progress",
+        "received": 3480
+      },
+      {
+        "type": "progress",
+        "received": 3544
+      },
+      {
+        "type": "progress",
+        "received": 3608
+      },
+      {
+        "type": "progress",
+        "received": 3672
+      },
+      {
+        "type": "progress",
+        "received": 3736
+      },
+      {
+        "type": "progress",
+        "received": 3797
+      },
+      {
+        "type": "progress",
+        "received": 3861
+      },
+      {
+        "type": "progress",
+        "received": 3925
+      },
+      {
+        "type": "progress",
+        "received": 3989
+      },
+      {
+        "type": "progress",
+        "received": 4038
+      },
+      {
+        "type": "progress",
+        "received": 4102
+      },
+      {
+        "type": "progress",
+        "received": 4166
+      },
+      {
+        "type": "progress",
+        "received": 4230
+      },
+      {
+        "type": "progress",
+        "received": 4254
+      },
+      {
+        "type": "progress",
+        "received": 4318
+      },
+      {
+        "type": "progress",
+        "received": 4382
+      },
+      {
+        "type": "progress",
+        "received": 4413
+      },
+      {
+        "type": "progress",
+        "received": 4477
+      },
+      {
+        "type": "progress",
+        "received": 4541
+      },
+      {
+        "type": "progress",
+        "received": 4605
+      },
+      {
+        "type": "progress",
+        "received": 4669
+      },
+      {
+        "type": "progress",
+        "received": 4721
+      },
+      {
+        "type": "progress",
+        "received": 4785
+      },
+      {
+        "type": "progress",
+        "received": 4849
+      },
+      {
+        "type": "progress",
+        "received": 4913
+      },
+      {
+        "type": "progress",
+        "received": 4919
+      },
+      {
+        "type": "progress",
+        "received": 4983
+      },
+      {
+        "type": "progress",
+        "received": 5047
+      },
+      {
+        "type": "progress",
+        "received": 5111
+      },
+      {
+        "type": "progress",
+        "received": 5175
+      },
+      {
+        "type": "progress",
+        "received": 5183
+      },
+      {
+        "type": "progress",
+        "received": 5247
+      },
+      {
+        "type": "progress",
+        "received": 5311
+      },
+      {
+        "type": "progress",
+        "received": 5375
+      },
+      {
+        "type": "progress",
+        "received": 5439
+      },
+      {
+        "type": "progress",
+        "received": 5491
+      },
+      {
+        "type": "progress",
+        "received": 5555
+      },
+      {
+        "type": "progress",
+        "received": 5619
+      },
+      {
+        "type": "progress",
+        "received": 5630
+      },
+      {
+        "type": "progress",
+        "received": 5694
+      },
+      {
+        "type": "progress",
+        "received": 5758
+      },
+      {
+        "type": "progress",
+        "received": 5799
+      },
+      {
+        "type": "progress",
+        "received": 5863
+      },
+      {
+        "type": "progress",
+        "received": 5927
+      },
+      {
+        "type": "progress",
+        "received": 5991
+      },
+      {
+        "type": "progress",
+        "received": 6055
+      },
+      {
+        "type": "progress",
+        "received": 6107
+      },
+      {
+        "type": "progress",
+        "received": 6171
+      },
+      {
+        "type": "progress",
+        "received": 6235
+      },
+      {
+        "type": "progress",
+        "received": 6299
+      },
+      {
+        "type": "progress",
+        "received": 6363
+      },
+      {
+        "type": "progress",
+        "received": 6415
+      },
+      {
+        "type": "progress",
+        "received": 6479
+      },
+      {
+        "type": "progress",
+        "received": 6543
+      },
+      {
+        "type": "progress",
+        "received": 6569
+      },
+      {
+        "type": "progress",
+        "received": 6633
+      },
+      {
+        "type": "progress",
+        "received": 6697
+      },
+      {
+        "type": "progress",
+        "received": 6761
+      },
+      {
+        "type": "progress",
+        "received": 6825
+      },
+      {
+        "type": "progress",
+        "received": 6877
+      },
+      {
+        "type": "progress",
+        "received": 6941
+      },
+      {
+        "type": "progress",
+        "received": 7005
+      },
+      {
+        "type": "progress",
+        "received": 7069
+      },
+      {
+        "type": "progress",
+        "received": 7096
+      },
+      {
+        "type": "progress",
+        "received": 7160
+      },
+      {
+        "type": "progress",
+        "received": 7224
+      },
+      {
+        "type": "progress",
+        "received": 7288
+      },
+      {
+        "type": "progress",
+        "received": 7339
+      },
+      {
+        "type": "progress",
+        "received": 7403
+      },
+      {
+        "type": "progress",
+        "received": 7467
+      },
+      {
+        "type": "progress",
+        "received": 7531
+      },
+      {
+        "type": "progress",
+        "received": 7595
+      },
+      {
+        "type": "progress",
+        "received": 7647
+      },
+      {
+        "type": "progress",
+        "received": 7711
+      },
+      {
+        "type": "progress",
+        "received": 7775
+      },
+      {
+        "type": "progress",
+        "received": 7801
+      },
+      {
+        "type": "progress",
+        "received": 7865
+      },
+      {
+        "type": "progress",
+        "received": 7929
+      },
+      {
+        "type": "progress",
+        "received": 7993
+      },
+      {
+        "type": "progress",
+        "received": 8057
+      },
+      {
+        "type": "progress",
+        "received": 8109
+      },
+      {
+        "type": "progress",
+        "received": 8173
+      },
+      {
+        "type": "progress",
+        "received": 8237
+      },
+      {
+        "type": "progress",
+        "received": 8301
+      },
+      {
+        "type": "progress",
+        "received": 8312
+      },
+      {
+        "type": "progress",
+        "received": 8376
+      },
+      {
+        "type": "progress",
+        "received": 8417
+      },
+      {
+        "type": "progress",
+        "received": 8481
+      },
+      {
+        "type": "progress",
+        "received": 8545
+      },
+      {
+        "type": "progress",
+        "received": 8571
+      },
+      {
+        "type": "progress",
+        "received": 8635
+      },
+      {
+        "type": "progress",
+        "received": 8699
+      },
+      {
+        "type": "progress",
+        "received": 8725
+      },
+      {
+        "type": "progress",
+        "received": 8789
+      },
+      {
+        "type": "progress",
+        "received": 8853
+      },
+      {
+        "type": "progress",
+        "received": 8917
+      },
+      {
+        "type": "progress",
+        "received": 8981
+      },
+      {
+        "type": "progress",
+        "received": 9027
+      },
+      {
+        "type": "progress",
+        "received": 9091
+      },
+      {
+        "type": "progress",
+        "received": 9155
+      },
+      {
+        "type": "progress",
+        "received": 9187
+      },
+      {
+        "type": "progress",
+        "received": 9251
+      },
+      {
+        "type": "progress",
+        "received": 9315
+      },
+      {
+        "type": "progress",
+        "received": 9341
+      },
+      {
+        "type": "progress",
+        "received": 9405
+      },
+      {
+        "type": "progress",
+        "received": 9469
+      },
+      {
+        "type": "progress",
+        "received": 9533
+      },
+      {
+        "type": "progress",
+        "received": 9597
+      },
+      {
+        "type": "progress",
+        "received": 9602
+      },
+      {
+        "type": "progress",
+        "received": 9666
+      },
+      {
+        "type": "progress",
+        "received": 9730
+      },
+      {
+        "type": "progress",
+        "received": 9794
+      },
+      {
+        "type": "progress",
+        "received": 9858
+      },
+      {
+        "type": "progress",
+        "received": 9922
+      },
+      {
+        "type": "progress",
+        "received": 9957
+      },
+      {
+        "type": "progress",
+        "received": 10021
+      },
+      {
+        "type": "progress",
+        "received": 10085
+      },
+      {
+        "type": "progress",
+        "received": 10111
+      },
+      {
+        "type": "progress",
+        "received": 10175
+      },
+      {
+        "type": "progress",
+        "received": 10239
+      },
+      {
+        "type": "progress",
+        "received": 10303
+      },
+      {
+        "type": "progress",
+        "received": 10367
+      },
+      {
+        "type": "progress",
+        "received": 10419
+      },
+      {
+        "type": "progress",
+        "received": 10483
+      },
+      {
+        "type": "progress",
+        "received": 10547
+      },
+      {
+        "type": "progress",
+        "received": 10573
+      },
+      {
+        "type": "progress",
+        "received": 10637
+      },
+      {
+        "type": "progress",
+        "received": 10701
+      },
+      {
+        "type": "progress",
+        "received": 10704
+      },
+      {
+        "type": "progress",
+        "received": 10768
+      },
+      {
+        "type": "progress",
+        "received": 10832
+      },
+      {
+        "type": "progress",
+        "received": 10896
+      },
+      {
+        "type": "progress",
+        "received": 10960
+      },
+      {
+        "type": "progress",
+        "received": 11024
+      },
+      {
+        "type": "progress",
+        "received": 11035
+      },
+      {
+        "type": "progress",
+        "received": 11099
+      },
+      {
+        "type": "progress",
+        "received": 11163
+      },
+      {
+        "type": "progress",
+        "received": 11227
+      },
+      {
+        "type": "progress",
+        "received": 11276
+      },
+      {
+        "type": "progress",
+        "received": 11340
+      },
+      {
+        "type": "progress",
+        "received": 11343
+      },
+      {
+        "type": "progress",
+        "received": 11407
+      },
+      {
+        "type": "progress",
+        "received": 11471
+      },
+      {
+        "type": "progress",
+        "received": 11535
+      },
+      {
+        "type": "progress",
+        "received": 11599
+      },
+      {
+        "type": "progress",
+        "received": 11651
+      },
+      {
+        "type": "progress",
+        "received": 11715
+      },
+      {
+        "type": "progress",
+        "received": 11779
+      },
+      {
+        "type": "progress",
+        "received": 11805
+      },
+      {
+        "type": "progress",
+        "received": 11869
+      },
+      {
+        "type": "progress",
+        "received": 11933
+      },
+      {
+        "type": "progress",
+        "received": 11997
+      },
+      {
+        "type": "progress",
+        "received": 12061
+      },
+      {
+        "type": "progress",
+        "received": 12113
+      },
+      {
+        "type": "progress",
+        "received": 12177
+      },
+      {
+        "type": "progress",
+        "received": 12241
+      },
+      {
+        "type": "progress",
+        "received": 12252
+      },
+      {
+        "type": "progress",
+        "received": 12316
+      },
+      {
+        "type": "progress",
+        "received": 12380
+      },
+      {
+        "type": "progress",
+        "received": 12444
+      },
+      {
+        "type": "progress",
+        "received": 12508
+      },
+      {
+        "type": "progress",
+        "received": 12572
+      },
+      {
+        "type": "progress",
+        "received": 12575
+      },
+      {
+        "type": "progress",
+        "received": 12639
+      },
+      {
+        "type": "progress",
+        "received": 12703
+      },
+      {
+        "type": "progress",
+        "received": 12729
+      },
+      {
+        "type": "progress",
+        "received": 12793
+      },
+      {
+        "type": "progress",
+        "received": 12857
+      },
+      {
+        "type": "progress",
+        "received": 12921
+      },
+      {
+        "type": "progress",
+        "received": 12985
+      },
+      {
+        "type": "progress",
+        "received": 13026
+      },
+      {
+        "type": "progress",
+        "received": 13090
+      },
+      {
+        "type": "progress",
+        "received": 13154
+      },
+      {
+        "type": "progress",
+        "received": 13191
+      },
+      {
+        "type": "progress",
+        "received": 13255
+      },
+      {
+        "type": "progress",
+        "received": 13319
+      },
+      {
+        "type": "progress",
+        "received": 13383
+      },
+      {
+        "type": "progress",
+        "received": 13447
+      },
+      {
+        "type": "progress",
+        "received": 13499
+      },
+      {
+        "type": "progress",
+        "received": 13563
+      },
+      {
+        "type": "progress",
+        "received": 13627
+      },
+      {
+        "type": "progress",
+        "received": 13691
+      },
+      {
+        "type": "progress",
+        "received": 13755
+      },
+      {
+        "type": "progress",
+        "received": 13800
+      },
+      {
+        "type": "progress",
+        "received": 13864
+      },
+      {
+        "type": "progress",
+        "received": 13917
+      },
+      {
+        "type": "progress",
+        "received": 13961
+      },
+      {
+        "type": "progress",
+        "received": 14025
+      },
+      {
+        "type": "progress",
+        "received": 14058
+      },
+      {
+        "type": "progress",
+        "received": 14122
+      },
+      {
+        "type": "progress",
+        "received": 14186
+      },
+      {
+        "type": "progress",
+        "received": 14250
+      },
+      {
+        "type": "progress",
+        "received": 14269
+      },
+      {
+        "type": "progress",
+        "received": 14333
+      },
+      {
+        "type": "progress",
+        "received": 14397
+      },
+      {
+        "type": "progress",
+        "received": 14461
+      },
+      {
+        "type": "progress",
+        "received": 14525
+      },
+      {
+        "type": "progress",
+        "received": 14574
+      },
+      {
+        "type": "progress",
+        "received": 14638
+      },
+      {
+        "type": "progress",
+        "received": 14702
+      },
+      {
+        "type": "progress",
+        "received": 14731
+      },
+      {
+        "type": "progress",
+        "received": 14795
+      },
+      {
+        "type": "progress",
+        "received": 14859
+      },
+      {
+        "type": "progress",
+        "received": 14885
+      },
+      {
+        "type": "progress",
+        "received": 14949
+      },
+      {
+        "type": "progress",
+        "received": 15013
+      },
+      {
+        "type": "progress",
+        "received": 15077
+      },
+      {
+        "type": "progress",
+        "received": 15141
+      },
+      {
+        "type": "progress",
+        "received": 15193
+      },
+      {
+        "type": "progress",
+        "received": 15257
+      },
+      {
+        "type": "progress",
+        "received": 15321
+      },
+      {
+        "type": "progress",
+        "received": 15347
+      },
+      {
+        "type": "progress",
+        "received": 15411
+      },
+      {
+        "type": "progress",
+        "received": 15475
+      },
+      {
+        "type": "progress",
+        "received": 15477
+      },
+      {
+        "type": "progress",
+        "received": 15541
+      },
+      {
+        "type": "progress",
+        "received": 15605
+      },
+      {
+        "type": "progress",
+        "received": 15655
+      },
+      {
+        "type": "progress",
+        "received": 15657
+      },
+      {
+        "type": "progress",
+        "received": 15721
+      },
+      {
+        "type": "progress",
+        "received": 15785
+      },
+      {
+        "type": "progress",
+        "received": 15849
+      },
+      {
+        "type": "progress",
+        "received": 15904
+      },
+      {
+        "type": "progress",
+        "received": 15968
+      },
+      {
+        "type": "progress",
+        "received": 16032
+      },
+      {
+        "type": "progress",
+        "received": 16096
+      },
+      {
+        "type": "progress",
+        "received": 16117
+      },
+      {
+        "type": "progress",
+        "received": 16181
+      },
+      {
+        "type": "progress",
+        "received": 16245
+      },
+      {
+        "type": "progress",
+        "received": 16309
+      },
+      {
+        "type": "progress",
+        "received": 16373
+      },
+      {
+        "type": "progress",
+        "received": 16425
+      },
+      {
+        "type": "progress",
+        "received": 16489
+      },
+      {
+        "type": "progress",
+        "received": 16553
+      },
+      {
+        "type": "progress",
+        "received": 16617
+      },
+      {
+        "type": "progress",
+        "received": 16622
+      },
+      {
+        "type": "progress",
+        "received": 16686
+      },
+      {
+        "type": "progress",
+        "received": 16750
+      },
+      {
+        "type": "progress",
+        "received": 16814
+      },
+      {
+        "type": "progress",
+        "received": 16878
+      },
+      {
+        "type": "progress",
+        "received": 16887
+      },
+      {
+        "type": "progress",
+        "received": 16951
+      },
+      {
+        "type": "progress",
+        "received": 17015
+      },
+      {
+        "type": "progress",
+        "received": 17025
+      },
+      {
+        "type": "progress",
+        "received": 17089
+      },
+      {
+        "type": "progress",
+        "received": 17153
+      },
+      {
+        "type": "progress",
+        "received": 17217
+      },
+      {
+        "type": "progress",
+        "received": 17281
+      },
+      {
+        "type": "progress",
+        "received": 17345
+      },
+      {
+        "type": "progress",
+        "received": 17349
+      },
+      {
+        "type": "progress",
+        "received": 17413
+      },
+      {
+        "type": "progress",
+        "received": 17477
+      },
+      {
+        "type": "progress",
+        "received": 17503
+      },
+      {
+        "type": "progress",
+        "received": 17567
+      },
+      {
+        "type": "progress",
+        "received": 17631
+      },
+      {
+        "type": "progress",
+        "received": 17695
+      },
+      {
+        "type": "progress",
+        "received": 17759
+      },
+      {
+        "type": "progress",
+        "received": 17799
+      },
+      {
+        "type": "progress",
+        "received": 17863
+      },
+      {
+        "type": "progress",
+        "received": 17927
+      },
+      {
+        "type": "progress",
+        "received": 17965
+      },
+      {
+        "type": "progress",
+        "received": 18029
+      },
+      {
+        "type": "progress",
+        "received": 18093
+      },
+      {
+        "type": "progress",
+        "received": 18119
+      },
+      {
+        "type": "progress",
+        "received": 18183
+      },
+      {
+        "type": "progress",
+        "received": 18247
+      },
+      {
+        "type": "progress",
+        "received": 18311
+      },
+      {
+        "type": "progress",
+        "received": 18375
+      },
+      {
+        "type": "progress",
+        "received": 18427
+      },
+      {
+        "type": "progress",
+        "received": 18491
+      },
+      {
+        "type": "progress",
+        "received": 18555
+      },
+      {
+        "type": "progress",
+        "received": 18619
+      },
+      {
+        "type": "progress",
+        "received": 18683
+      },
+      {
+        "type": "progress",
+        "received": 18735
+      },
+      {
+        "type": "progress",
+        "received": 18799
+      },
+      {
+        "type": "progress",
+        "received": 18863
+      },
+      {
+        "type": "progress",
+        "received": 18889
+      },
+      {
+        "type": "progress",
+        "received": 18953
+      },
+      {
+        "type": "progress",
+        "received": 19017
+      },
+      {
+        "type": "progress",
+        "received": 19081
+      },
+      {
+        "type": "progress",
+        "received": 19145
+      },
+      {
+        "type": "progress",
+        "received": 19197
+      },
+      {
+        "type": "progress",
+        "received": 19261
+      },
+      {
+        "type": "progress",
+        "received": 19325
+      },
+      {
+        "type": "progress",
+        "received": 19389
+      },
+      {
+        "type": "progress",
+        "received": 19453
+      },
+      {
+        "type": "progress",
+        "received": 19505
+      },
+      {
+        "type": "progress",
+        "received": 19569
+      },
+      {
+        "type": "progress",
+        "received": 19633
+      },
+      {
+        "type": "progress",
+        "received": 19659
+      },
+      {
+        "type": "progress",
+        "received": 19723
+      },
+      {
+        "type": "progress",
+        "received": 19787
+      },
+      {
+        "type": "progress",
+        "received": 19851
+      },
+      {
+        "type": "progress",
+        "received": 19915
+      },
+      {
+        "type": "progress",
+        "received": 19968
+      },
+      {
+        "type": "progress",
+        "received": 20032
+      },
+      {
+        "type": "progress",
+        "received": 20096
+      },
+      {
+        "type": "progress",
+        "received": 20160
+      },
+      {
+        "type": "progress",
+        "received": 20224
+      },
+      {
+        "type": "progress",
+        "received": 20275
+      },
+      {
+        "type": "progress",
+        "received": 20339
+      },
+      {
+        "type": "progress",
+        "received": 20386
+      },
+      {
+        "type": "progress",
+        "received": 20450
+      },
+      {
+        "type": "progress",
+        "received": 20514
+      },
+      {
+        "type": "progress",
+        "received": 20578
+      },
+      {
+        "type": "progress",
+        "received": 20583
+      },
+      {
+        "type": "progress",
+        "received": 20647
+      },
+      {
+        "type": "progress",
+        "received": 20711
+      },
+      {
+        "type": "progress",
+        "received": 20775
+      },
+      {
+        "type": "progress",
+        "received": 20839
+      },
+      {
+        "type": "progress",
+        "received": 20891
+      },
+      {
+        "type": "progress",
+        "received": 20955
+      },
+      {
+        "type": "progress",
+        "received": 21019
+      },
+      {
+        "type": "progress",
+        "received": 21083
+      },
+      {
+        "type": "progress",
+        "received": 21147
+      },
+      {
+        "type": "progress",
+        "received": 21199
+      },
+      {
+        "type": "progress",
+        "received": 21263
+      },
+      {
+        "type": "progress",
+        "received": 21327
+      },
+      {
+        "type": "progress",
+        "received": 21353
+      },
+      {
+        "type": "progress",
+        "received": 21417
+      },
+      {
+        "type": "progress",
+        "received": 21481
+      },
+      {
+        "type": "progress",
+        "received": 21507
+      },
+      {
+        "type": "progress",
+        "received": 21571
+      },
+      {
+        "type": "progress",
+        "received": 21635
+      },
+      {
+        "type": "progress",
+        "received": 21699
+      },
+      {
+        "type": "progress",
+        "received": 21763
+      },
+      {
+        "type": "progress",
+        "received": 21798
+      },
+      {
+        "type": "progress",
+        "received": 21862
+      },
+      {
+        "type": "progress",
+        "received": 21926
+      },
+      {
+        "type": "progress",
+        "received": 21954
+      },
+      {
+        "type": "progress",
+        "received": 22018
+      },
+      {
+        "type": "progress",
+        "received": 22082
+      },
+      {
+        "type": "progress",
+        "received": 22123
+      },
+      {
+        "type": "progress",
+        "received": 22187
+      },
+      {
+        "type": "progress",
+        "received": 22251
+      },
+      {
+        "type": "progress",
+        "received": 22315
+      },
+      {
+        "type": "progress",
+        "received": 22379
+      },
+      {
+        "type": "progress",
+        "received": 22431
+      },
+      {
+        "type": "progress",
+        "received": 22495
+      },
+      {
+        "type": "progress",
+        "received": 22559
+      },
+      {
+        "type": "progress",
+        "received": 22572
+      },
+      {
+        "type": "progress",
+        "received": 22636
+      },
+      {
+        "type": "progress",
+        "received": 22700
+      },
+      {
+        "type": "progress",
+        "received": 22764
+      },
+      {
+        "type": "progress",
+        "received": 22807
+      },
+      {
+        "type": "progress",
+        "received": 22871
+      },
+      {
+        "type": "progress",
+        "received": 22935
+      },
+      {
+        "type": "progress",
+        "received": 22999
+      },
+      {
+        "type": "progress",
+        "received": 23047
+      },
+      {
+        "type": "progress",
+        "received": 23111
+      },
+      {
+        "type": "progress",
+        "received": 23175
+      },
+      {
+        "type": "progress",
+        "received": 23201
+      },
+      {
+        "type": "progress",
+        "received": 23265
+      },
+      {
+        "type": "progress",
+        "received": 23329
+      },
+      {
+        "type": "progress",
+        "received": 23393
+      },
+      {
+        "type": "progress",
+        "received": 23457
+      },
+      {
+        "type": "progress",
+        "received": 23509
+      },
+      {
+        "type": "progress",
+        "received": 23573
+      },
+      {
+        "type": "progress",
+        "received": 23637
+      },
+      {
+        "type": "progress",
+        "received": 23701
+      },
+      {
+        "type": "progress",
+        "received": 23765
+      },
+      {
+        "type": "progress",
+        "received": 23817
+      },
+      {
+        "type": "progress",
+        "received": 23881
+      },
+      {
+        "type": "progress",
+        "received": 23945
+      },
+      {
+        "type": "progress",
+        "received": 23971
+      },
+      {
+        "type": "progress",
+        "received": 24035
+      },
+      {
+        "type": "progress",
+        "received": 24099
+      },
+      {
+        "type": "progress",
+        "received": 24163
+      },
+      {
+        "type": "progress",
+        "received": 24211
+      },
+      {
+        "type": "progress",
+        "received": 24275
+      },
+      {
+        "type": "progress",
+        "received": 24279
+      },
+      {
+        "type": "progress",
+        "received": 24343
+      },
+      {
+        "type": "progress",
+        "received": 24407
+      },
+      {
+        "type": "progress",
+        "received": 24471
+      },
+      {
+        "type": "progress",
+        "received": 24535
+      },
+      {
+        "type": "progress",
+        "received": 24587
+      },
+      {
+        "type": "progress",
+        "received": 24651
+      },
+      {
+        "type": "progress",
+        "received": 24715
+      },
+      {
+        "type": "progress",
+        "received": 24741
+      },
+      {
+        "type": "progress",
+        "received": 24805
+      },
+      {
+        "type": "progress",
+        "received": 24869
+      },
+      {
+        "type": "progress",
+        "received": 24933
+      },
+      {
+        "type": "progress",
+        "received": 24997
+      },
+      {
+        "type": "progress",
+        "received": 25049
+      },
+      {
+        "type": "progress",
+        "received": 25113
+      },
+      {
+        "type": "progress",
+        "received": 25177
+      },
+      {
+        "type": "progress",
+        "received": 25203
+      },
+      {
+        "type": "progress",
+        "received": 25267
+      },
+      {
+        "type": "progress",
+        "received": 25331
+      },
+      {
+        "type": "progress",
+        "received": 25357
+      },
+      {
+        "type": "progress",
+        "received": 25421
+      },
+      {
+        "type": "progress",
+        "received": 25485
+      },
+      {
+        "type": "progress",
+        "received": 25514
+      },
+      {
+        "type": "progress",
+        "received": 25578
+      },
+      {
+        "type": "progress",
+        "received": 25642
+      },
+      {
+        "type": "progress",
+        "received": 25706
+      },
+      {
+        "type": "progress",
+        "received": 25770
+      },
+      {
+        "type": "progress",
+        "received": 25797
+      },
+      {
+        "type": "progress",
+        "received": 25861
+      },
+      {
+        "type": "progress",
+        "received": 25925
+      },
+      {
+        "type": "progress",
+        "received": 25989
+      },
+      {
+        "type": "progress",
+        "received": 26053
+      },
+      {
+        "type": "progress",
+        "received": 26117
+      },
+      {
+        "type": "progress",
+        "received": 26127
+      },
+      {
+        "type": "progress",
+        "received": 26191
+      },
+      {
+        "type": "progress",
+        "received": 26255
+      },
+      {
+        "type": "progress",
+        "received": 26281
+      },
+      {
+        "type": "progress",
+        "received": 26345
+      },
+      {
+        "type": "progress",
+        "received": 26409
+      },
+      {
+        "type": "progress",
+        "received": 26435
+      },
+      {
+        "type": "progress",
+        "received": 26499
+      },
+      {
+        "type": "progress",
+        "received": 26563
+      },
+      {
+        "type": "progress",
+        "received": 26571
+      },
+      {
+        "type": "progress",
+        "received": 26635
+      },
+      {
+        "type": "progress",
+        "received": 26699
+      },
+      {
+        "type": "progress",
+        "received": 26763
+      },
+      {
+        "type": "progress",
+        "received": 26827
+      },
+      {
+        "type": "progress",
+        "received": 26891
+      },
+      {
+        "type": "progress",
+        "received": 26897
+      },
+      {
+        "type": "progress",
+        "received": 26961
+      },
+      {
+        "type": "progress",
+        "received": 27025
+      },
+      {
+        "type": "progress",
+        "received": 27051
+      },
+      {
+        "type": "progress",
+        "received": 27115
+      },
+      {
+        "type": "progress",
+        "received": 27179
+      },
+      {
+        "type": "progress",
+        "received": 27243
+      },
+      {
+        "type": "progress",
+        "received": 27307
+      },
+      {
+        "type": "progress",
+        "received": 27345
+      },
+      {
+        "type": "progress",
+        "received": 27409
+      },
+      {
+        "type": "progress",
+        "received": 27473
+      },
+      {
+        "type": "progress",
+        "received": 27537
+      },
+      {
+        "type": "progress",
+        "received": 27601
+      },
+      {
+        "type": "progress",
+        "received": 27665
+      },
+      {
+        "type": "progress",
+        "received": 27667
+      },
+      {
+        "type": "progress",
+        "received": 27731
+      },
+      {
+        "type": "progress",
+        "received": 27795
+      },
+      {
+        "type": "progress",
+        "received": 27859
+      },
+      {
+        "type": "progress",
+        "received": 27923
+      },
+      {
+        "type": "progress",
+        "received": 27975
+      },
+      {
+        "type": "progress",
+        "received": 28039
+      },
+      {
+        "type": "progress",
+        "received": 28103
+      },
+      {
+        "type": "progress",
+        "received": 28119
+      },
+      {
+        "type": "progress",
+        "received": 28183
+      },
+      {
+        "type": "progress",
+        "received": 28247
+      },
+      {
+        "type": "progress",
+        "received": 28283
+      },
+      {
+        "type": "progress",
+        "received": 28347
+      },
+      {
+        "type": "progress",
+        "received": 28411
+      },
+      {
+        "type": "progress",
+        "received": 28437
+      },
+      {
+        "type": "progress",
+        "received": 28501
+      },
+      {
+        "type": "progress",
+        "received": 28565
+      },
+      {
+        "type": "progress",
+        "received": 28591
+      },
+      {
+        "type": "progress",
+        "received": 28655
+      },
+      {
+        "type": "progress",
+        "received": 28719
+      },
+      {
+        "type": "progress",
+        "received": 28783
+      },
+      {
+        "type": "progress",
+        "received": 28833
+      },
+      {
+        "type": "progress",
+        "received": 28897
+      },
+      {
+        "type": "progress",
+        "received": 28961
+      },
+      {
+        "type": "progress",
+        "received": 29025
+      },
+      {
+        "type": "progress",
+        "received": 29053
+      },
+      {
+        "type": "progress",
+        "received": 29117
+      },
+      {
+        "type": "progress",
+        "received": 29181
+      },
+      {
+        "type": "progress",
+        "received": 29207
+      },
+      {
+        "type": "progress",
+        "received": 29271
+      },
+      {
+        "type": "progress",
+        "received": 29335
+      },
+      {
+        "type": "progress",
+        "received": 29361
+      },
+      {
+        "type": "progress",
+        "received": 29425
+      },
+      {
+        "type": "progress",
+        "received": 29489
+      },
+      {
+        "type": "progress",
+        "received": 29515
+      },
+      {
+        "type": "progress",
+        "received": 29579
+      },
+      {
+        "type": "progress",
+        "received": 29643
+      },
+      {
+        "type": "progress",
+        "received": 29667
+      },
+      {
+        "type": "progress",
+        "received": 29731
+      },
+      {
+        "type": "progress",
+        "received": 29795
+      },
+      {
+        "type": "progress",
+        "received": 29823
+      },
+      {
+        "type": "progress",
+        "received": 29887
+      },
+      {
+        "type": "progress",
+        "received": 29951
+      },
+      {
+        "type": "progress",
+        "received": 29977
+      },
+      {
+        "type": "progress",
+        "received": 30041
+      },
+      {
+        "type": "progress",
+        "received": 30105
+      },
+      {
+        "type": "progress",
+        "received": 30131
+      },
+      {
+        "type": "progress",
+        "received": 30195
+      },
+      {
+        "type": "progress",
+        "received": 30259
+      },
+      {
+        "type": "progress",
+        "received": 30285
+      },
+      {
+        "type": "progress",
+        "received": 30288
+      },
+      {
+        "type": "progress",
+        "received": 30352
+      },
+      {
+        "type": "progress",
+        "received": 30416
+      },
+      {
+        "type": "progress",
+        "received": 30439
+      },
+      {
+        "type": "progress",
+        "received": 30503
+      },
+      {
+        "type": "progress",
+        "received": 30567
+      },
+      {
+        "type": "progress",
+        "received": 30570
+      },
+      {
+        "type": "progress",
+        "received": 30634
+      },
+      {
+        "type": "progress",
+        "received": 30698
+      },
+      {
+        "type": "progress",
+        "received": 30747
+      },
+      {
+        "type": "progress",
+        "received": 30811
+      },
+      {
+        "type": "progress",
+        "received": 30875
+      },
+      {
+        "type": "progress",
+        "received": 30939
+      },
+      {
+        "type": "progress",
+        "received": 30950
+      },
+      {
+        "type": "progress",
+        "received": 31014
+      },
+      {
+        "type": "progress",
+        "received": 31078
+      },
+      {
+        "type": "progress",
+        "received": 31142
+      },
+      {
+        "type": "progress",
+        "received": 31206
+      },
+      {
+        "type": "progress",
+        "received": 31209
+      },
+      {
+        "type": "progress",
+        "received": 31273
+      },
+      {
+        "type": "progress",
+        "received": 31337
+      },
+      {
+        "type": "progress",
+        "received": 31344
+      },
+      {
+        "type": "progress",
+        "received": 31408
+      },
+      {
+        "type": "progress",
+        "received": 31472
+      },
+      {
+        "type": "progress",
+        "received": 31536
+      },
+      {
+        "type": "progress",
+        "received": 31537
+      },
+      {
+        "type": "progress",
+        "received": 31601
+      },
+      {
+        "type": "progress",
+        "received": 31665
+      },
+      {
+        "type": "progress",
+        "received": 31729
+      },
+      {
+        "type": "progress",
+        "received": 31793
+      },
+      {
+        "type": "progress",
+        "received": 31825
+      },
+      {
+        "type": "progress",
+        "received": 31889
+      },
+      {
+        "type": "progress",
+        "received": 31953
+      },
+      {
+        "type": "progress",
+        "received": 32017
+      },
+      {
+        "type": "progress",
+        "received": 32081
+      },
+      {
+        "type": "progress",
+        "received": 32118
+      },
+      {
+        "type": "progress",
+        "received": 32182
+      },
+      {
+        "type": "progress",
+        "received": 32246
+      },
+      {
+        "type": "progress",
+        "received": 32310
+      },
+      {
+        "type": "progress",
+        "received": 32374
+      },
+      {
+        "type": "progress",
+        "received": 32438
+      },
+      {
+        "type": "progress",
+        "received": 32441
+      },
+      {
+        "type": "progress",
+        "received": 32505
+      },
+      {
+        "type": "progress",
+        "received": 32569
+      },
+      {
+        "type": "progress",
+        "received": 32595
+      },
+      {
+        "type": "progress",
+        "received": 32659
+      },
+      {
+        "type": "progress",
+        "received": 32723
+      },
+      {
+        "type": "progress",
+        "received": 32749
+      },
+      {
+        "type": "progress",
+        "received": 32813
+      },
+      {
+        "type": "progress",
+        "received": 32877
+      },
+      {
+        "type": "progress",
+        "received": 32941
+      },
+      {
+        "type": "progress",
+        "received": 33005
+      },
+      {
+        "type": "progress",
+        "received": 33057
+      },
+      {
+        "type": "progress",
+        "received": 33121
+      },
+      {
+        "type": "progress",
+        "received": 33185
+      },
+      {
+        "type": "progress",
+        "received": 33249
+      },
+      {
+        "type": "progress",
+        "received": 33313
+      },
+      {
+        "type": "progress",
+        "received": 33365
+      },
+      {
+        "type": "progress",
+        "received": 33429
+      },
+      {
+        "type": "progress",
+        "received": 33493
+      },
+      {
+        "type": "progress",
+        "received": 33519
+      },
+      {
+        "type": "progress",
+        "received": 33583
+      },
+      {
+        "type": "progress",
+        "received": 33647
+      },
+      {
+        "type": "progress",
+        "received": 33666
+      },
+      {
+        "type": "progress",
+        "received": 33730
+      },
+      {
+        "type": "progress",
+        "received": 33794
+      },
+      {
+        "type": "progress",
+        "received": 33858
+      },
+      {
+        "type": "progress",
+        "received": 33922
+      },
+      {
+        "type": "progress",
+        "received": 33981
+      },
+      {
+        "type": "progress",
+        "received": 34045
+      },
+      {
+        "type": "progress",
+        "received": 34109
+      },
+      {
+        "type": "progress",
+        "received": 34169
+      },
+      {
+        "type": "progress",
+        "received": 34233
+      },
+      {
+        "type": "progress",
+        "received": 34297
+      },
+      {
+        "type": "progress",
+        "received": 34361
+      },
+      {
+        "type": "progress",
+        "received": 34425
+      },
+      {
+        "type": "progress",
+        "received": 34440
+      },
+      {
+        "type": "progress",
+        "received": 34504
+      },
+      {
+        "type": "progress",
+        "received": 34568
+      },
+      {
+        "type": "progress",
+        "received": 34597
+      },
+      {
+        "type": "progress",
+        "received": 34661
+      },
+      {
+        "type": "progress",
+        "received": 34725
+      },
+      {
+        "type": "progress",
+        "received": 34789
+      },
+      {
+        "type": "progress",
+        "received": 34853
+      },
+      {
+        "type": "progress",
+        "received": 34905
+      },
+      {
+        "type": "progress",
+        "received": 34969
+      },
+      {
+        "type": "progress",
+        "received": 35033
+      },
+      {
+        "type": "progress",
+        "received": 35097
+      },
+      {
+        "type": "progress",
+        "received": 35113
+      },
+      {
+        "type": "progress",
+        "received": 35177
+      },
+      {
+        "type": "progress",
+        "received": 35241
+      },
+      {
+        "type": "progress",
+        "received": 35305
+      },
+      {
+        "type": "progress",
+        "received": 35343
+      },
+      {
+        "type": "progress",
+        "received": 35407
+      },
+      {
+        "type": "progress",
+        "received": 35471
+      },
+      {
+        "type": "progress",
+        "received": 35535
+      },
+      {
+        "type": "progress",
+        "received": 35599
+      },
+      {
+        "type": "progress",
+        "received": 35663
+      },
+      {
+        "type": "progress",
+        "received": 35675
+      },
+      {
+        "type": "progress",
+        "received": 35739
+      },
+      {
+        "type": "progress",
+        "received": 35803
+      },
+      {
+        "type": "progress",
+        "received": 35829
+      },
+      {
+        "type": "progress",
+        "received": 35893
+      },
+      {
+        "type": "progress",
+        "received": 35957
+      },
+      {
+        "type": "progress",
+        "received": 36021
+      },
+      {
+        "type": "progress",
+        "received": 36085
+      },
+      {
+        "type": "progress",
+        "received": 36117
+      },
+      {
+        "type": "progress",
+        "received": 36181
+      },
+      {
+        "type": "progress",
+        "received": 36245
+      },
+      {
+        "type": "progress",
+        "received": 36291
+      },
+      {
+        "type": "progress",
+        "received": 36355
+      },
+      {
+        "type": "progress",
+        "received": 36419
+      },
+      {
+        "type": "progress",
+        "received": 36445
+      },
+      {
+        "type": "progress",
+        "received": 36509
+      },
+      {
+        "type": "progress",
+        "received": 36573
+      },
+      {
+        "type": "progress",
+        "received": 36599
+      },
+      {
+        "type": "progress",
+        "received": 36663
+      },
+      {
+        "type": "progress",
+        "received": 36727
+      },
+      {
+        "type": "progress",
+        "received": 36753
+      },
+      {
+        "type": "progress",
+        "received": 36817
+      },
+      {
+        "type": "progress",
+        "received": 36881
+      },
+      {
+        "type": "progress",
+        "received": 36891
+      },
+      {
+        "type": "progress",
+        "received": 36955
+      },
+      {
+        "type": "progress",
+        "received": 37019
+      },
+      {
+        "type": "progress",
+        "received": 37083
+      },
+      {
+        "type": "progress",
+        "received": 37147
+      },
+      {
+        "type": "progress",
+        "received": 37211
+      },
+      {
+        "type": "progress",
+        "received": 37275
+      },
+      {
+        "type": "progress",
+        "received": 37339
+      },
+      {
+        "type": "progress",
+        "received": 37403
+      },
+      {
+        "type": "progress",
+        "received": 37467
+      },
+      {
+        "type": "progress",
+        "received": 37531
+      },
+      {
+        "type": "progress",
+        "received": 37595
+      },
+      {
+        "type": "progress",
+        "received": 37659
+      },
+      {
+        "type": "progress",
+        "received": 37723
+      },
+      {
+        "type": "progress",
+        "received": 37787
+      },
+      {
+        "type": "progress",
+        "received": 37851
+      },
+      {
+        "type": "progress",
+        "received": 37915
+      },
+      {
+        "type": "progress",
+        "received": 37979
+      },
+      {
+        "type": "progress",
+        "received": 38043
+      },
+      {
+        "type": "progress",
+        "received": 38107
+      },
+      {
+        "type": "progress",
+        "received": 38114
+      },
+      {
+        "type": "progress",
+        "received": 38178
+      },
+      {
+        "type": "progress",
+        "received": 38242
+      },
+      {
+        "type": "progress",
+        "received": 38306
+      },
+      {
+        "type": "progress",
+        "received": 38370
+      },
+      {
+        "type": "progress",
+        "received": 38434
+      },
+      {
+        "type": "progress",
+        "received": 38498
+      },
+      {
+        "type": "progress",
+        "received": 38562
+      },
+      {
+        "type": "progress",
+        "received": 38626
+      },
+      {
+        "type": "progress",
+        "received": 38690
+      },
+      {
+        "type": "progress",
+        "received": 38754
+      },
+      {
+        "type": "progress",
+        "received": 38800
+      },
+      {
+        "type": "result",
+        "role": "consumer",
+        "window": 255,
+        "sdk_window": 255,
+        "size": 8192,
+        "sent": 0,
+        "acknowledged": 0,
+        "rejected": 0,
+        "received": 38800,
+        "pending": 0,
+        "blocked": 0,
+        "duration_seconds": 32.734280749999996,
+        "ack_timeout_ms": 60000,
+        "sdk_stats": {
+          "TX_PERSISTENT_MSGS": 0,
+          "TX_PERSISTENT_REDELIVERED": 0,
+          "TX_ACK_TIMEOUT": 0,
+          "RX_PERSISTENT_MSGS": 38800,
+          "RX_DISCARD_DUPLICATE": 0,
+          "TX_WINDOW_CLOSE": 0
+        },
+        "cpu_user_seconds": 1.083569,
+        "cpu_system_seconds": 0.210733,
+        "event_loop_utilization": 0.032445441180917134,
+        "mean_ack_ms": null,
+        "max_ack_ms": 0,
+        "samples": [
+          {
+            "seconds": 1.0016771660000001,
+            "interval_seconds": 1.0016771660000001,
+            "ack_delta": 0,
+            "received_delta": 409,
+            "pending": 0
+          },
+          {
+            "seconds": 2.002747708,
+            "interval_seconds": 1.001070542,
+            "ack_delta": 0,
+            "received_delta": 927,
+            "pending": 0
+          },
+          {
+            "seconds": 3.004636833,
+            "interval_seconds": 1.0018891250000002,
+            "ack_delta": 0,
+            "received_delta": 1370,
+            "pending": 0
+          },
+          {
+            "seconds": 4.005679333,
+            "interval_seconds": 1.0010424999999996,
+            "ack_delta": 0,
+            "received_delta": 1707,
+            "pending": 0
+          },
+          {
+            "seconds": 5.006828041,
+            "interval_seconds": 1.0011487080000006,
+            "ack_delta": 0,
+            "received_delta": 1078,
+            "pending": 0
+          },
+          {
+            "seconds": 6.009047750000001,
+            "interval_seconds": 1.002219709,
+            "ack_delta": 0,
+            "received_delta": 1078,
+            "pending": 0
+          },
+          {
+            "seconds": 7.008808833,
+            "interval_seconds": 0.9997610829999994,
+            "ack_delta": 0,
+            "received_delta": 1540,
+            "pending": 0
+          },
+          {
+            "seconds": 8.009498,
+            "interval_seconds": 1.0006891670000004,
+            "ack_delta": 0,
+            "received_delta": 1232,
+            "pending": 0
+          },
+          {
+            "seconds": 9.011734332999998,
+            "interval_seconds": 1.0022363329999988,
+            "ack_delta": 0,
+            "received_delta": 1363,
+            "pending": 0
+          },
+          {
+            "seconds": 10.011951540999998,
+            "interval_seconds": 1.000217208,
+            "ack_delta": 0,
+            "received_delta": 947,
+            "pending": 0
+          },
+          {
+            "seconds": 11.011979208,
+            "interval_seconds": 1.0000276670000003,
+            "ack_delta": 0,
+            "received_delta": 1473,
+            "pending": 0
+          },
+          {
+            "seconds": 12.012255957999999,
+            "interval_seconds": 1.000276750000001,
+            "ack_delta": 0,
+            "received_delta": 1453,
+            "pending": 0
+          },
+          {
+            "seconds": 13.014157165999999,
+            "interval_seconds": 1.0019012079999994,
+            "ack_delta": 0,
+            "received_delta": 1078,
+            "pending": 0
+          },
+          {
+            "seconds": 14.016240125,
+            "interval_seconds": 1.002082959000001,
+            "ack_delta": 0,
+            "received_delta": 1370,
+            "pending": 0
+          },
+          {
+            "seconds": 15.016446375,
+            "interval_seconds": 1.0002062499999993,
+            "ack_delta": 0,
+            "received_delta": 1185,
+            "pending": 0
+          },
+          {
+            "seconds": 16.0179125,
+            "interval_seconds": 1.0014661250000008,
+            "ack_delta": 0,
+            "received_delta": 1295,
+            "pending": 0
+          },
+          {
+            "seconds": 17.017309375,
+            "interval_seconds": 0.9993968749999985,
+            "ack_delta": 0,
+            "received_delta": 1574,
+            "pending": 0
+          },
+          {
+            "seconds": 18.019899875000004,
+            "interval_seconds": 1.0025905000000022,
+            "ack_delta": 0,
+            "received_delta": 1044,
+            "pending": 0
+          },
+          {
+            "seconds": 19.021600291000002,
+            "interval_seconds": 1.0017004159999996,
+            "ack_delta": 0,
+            "received_delta": 1223,
+            "pending": 0
+          },
+          {
+            "seconds": 20.021729833000002,
+            "interval_seconds": 1.0001295419999987,
+            "ack_delta": 0,
+            "received_delta": 1548,
+            "pending": 0
+          },
+          {
+            "seconds": 21.021958708000003,
+            "interval_seconds": 1.0002288750000008,
+            "ack_delta": 0,
+            "received_delta": 1233,
+            "pending": 0
+          },
+          {
+            "seconds": 22.022246041000002,
+            "interval_seconds": 1.0002873330000002,
+            "ack_delta": 0,
+            "received_delta": 1218,
+            "pending": 0
+          },
+          {
+            "seconds": 23.024888916,
+            "interval_seconds": 1.0026428749999978,
+            "ack_delta": 0,
+            "received_delta": 938,
+            "pending": 0
+          },
+          {
+            "seconds": 24.025102458000003,
+            "interval_seconds": 1.0002135420000013,
+            "ack_delta": 0,
+            "received_delta": 1232,
+            "pending": 0
+          },
+          {
+            "seconds": 25.024930833000003,
+            "interval_seconds": 0.999828375000001,
+            "ack_delta": 0,
+            "received_delta": 924,
+            "pending": 0
+          },
+          {
+            "seconds": 26.024665791,
+            "interval_seconds": 0.9997349579999972,
+            "ack_delta": 0,
+            "received_delta": 1057,
+            "pending": 0
+          },
+          {
+            "seconds": 27.025083083000002,
+            "interval_seconds": 1.0004172920000018,
+            "ack_delta": 0,
+            "received_delta": 1715,
+            "pending": 0
+          },
+          {
+            "seconds": 28.025700125,
+            "interval_seconds": 1.000617041999998,
+            "ack_delta": 0,
+            "received_delta": 1229,
+            "pending": 0
+          },
+          {
+            "seconds": 29.025956708000002,
+            "interval_seconds": 1.000256583000002,
+            "ack_delta": 0,
+            "received_delta": 1389,
+            "pending": 0
+          },
+          {
+            "seconds": 30.026594833000004,
+            "interval_seconds": 1.0006381250000014,
+            "ack_delta": 0,
+            "received_delta": 924,
+            "pending": 0
+          },
+          {
+            "seconds": 31.027493291000003,
+            "interval_seconds": 1.0008984579999998,
+            "ack_delta": 0,
+            "received_delta": 2047,
+            "pending": 0
+          },
+          {
+            "seconds": 32.02981475,
+            "interval_seconds": 1.002321458999999,
+            "ack_delta": 0,
+            "received_delta": 0,
+            "pending": 0
+          },
+          {
+            "seconds": 32.733174583,
+            "interval_seconds": 0.7033598329999986,
+            "ack_delta": 0,
+            "received_delta": 0,
+            "pending": 0
+          }
+        ]
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:38:24.099 INFO   solclientjs:  [session-fsm=0x1a1b55f18b6] [SessionFullyConnected] Enqueue outstanding ctrl request correlationTag=4\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:38:24.100 INFO   solclientjs:  [session=0x1a1b55f18b6] [message-consumer-fsm=20] Sent consumer unbind request with arguments { flowId: 20, correlationTag: 4 }\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:38:24.101 INFO   solclientjs:  [session-fsm=0x1a1b55f18b6] [SessionFullyConnected] Cancel keepalive timer\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:38:24.101 INFO   solclientjs:  [session-fsm=0x1a1b55f18b6] [SessionFullyConnected] Disconnecting session {: SessionFSM}\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:38:24.101 INFO   solclientjs:  [session-fsm=0x1a1b55f18b6] [SessionFullyConnected] All flows disconnected\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:38:24.102 INFO   solclientjs:  [session-fsm=0x1a1b55f18b6] [DisconnectingFlows] Flushing transport\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:38:24.102 INFO   solclientjs:  [session-fsm=0x1a1b55f18b6] [DisconnectingFlows] Clean up session\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:38:24.102 INFO   solclientjs:  [session-fsm=0x1a1b55f18b6] [FlushingTransport] Handle Transport Flushed\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:38:24.103 INFO   solclientjs:  [session-fsm=0x1a1b55f18b6] [FlushingTransport] Connecting, disposing transport\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:38:24.103 INFO   solclientjs:  [session-fsm=0x1a1b55f18b6] [FlushingTransport] Destroy transport session\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:38:24.104 INFO   solclientjs:  [session-fsm=0x1a1b55f18b6] [FlushingTransport] Receive transport event: {\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  transportEventCode: 'DESTROYED_NOTICE (2)',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  infoStr: 'Disconnecting session',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  responseCode: null,\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  errorSubcode: 'NO_ERROR (0)',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  sid: 'N/A'\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "}\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:38:24.106 INFO   solclientjs:  [session-fsm=0x1a1b55f18b6] [SessionDisconnected] Clean up session\n"
+      }
+    ],
+    [
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:37:50.872 INFO   solclientjs:  websocket browserSupportBinaryCheck: true - WebSocket supports binaryType\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:37:50.873 INFO   solclientjs:  websocket browserSupportBinaryCheck: true - WebSocket supports binaryType\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:37:50.875 INFO   solclientjs:  websocket browserSupportBinaryCheck: true - WebSocket supports binaryType\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:37:50.877 INFO   solclientjs:  [session-fsm=N/A] [WaitingForDNS] Creating transport session tcp://127.0.0.1:15555\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:37:50.878 INFO   solclientjs:  [session-fsm=N/A] [WaitingForDNS] Attempting to connect session 'null' to host 'tcp://127.0.0.1:15555' (host 1 of 1)(host connection attempt 1 of 1)(total connection attempt 1 of 1)\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:37:50.879 INFO   solclientjs:  [session-fsm=N/A] [WaitingForTransportUp] Receive transport event: {\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  transportEventCode: 'UP_NOTICE (1)',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  infoStr: 'Connected',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  responseCode: 0,\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  errorSubcode: '<none>',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  sid: 'N/A'\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "}\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:37:50.879 INFO   solclientjs:  [session-fsm=0x1a1b55f191e] [WaitingForTransportUp] Using internally correlationTag=16777215 for tracking ClientCTRL Login\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:37:50.879 INFO   solclientjs:  [session-fsm=0x1a1b55f191e] [WaitingForTransportUp] Enqueue outstanding ctrl request correlationTag=16777215\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:37:50.880 INFO   solclientjs:  [session-fsm=0x1a1b55f191e] [WaitingForLogin] Handle SMF response for ClientCTRL Login\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:37:50.881 INFO   solclientjs:  [session-fsm=0x1a1b55f191e] [WaitingForLogin] ReapplyingSubscriptions: entry\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:37:50.881 INFO   solclientjs:  [session-fsm=0x1a1b55f191e] [WaitingForLogin] Reapplying subscriptions, count=1\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:37:50.881 INFO   solclientjs:  [session-fsm=0x1a1b55f191e] [WaitingForLogin] Enqueue outstanding ctrl request correlationTag=1\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:37:50.882 INFO   solclientjs:  [session-fsm=0x1a1b55f191e] [WaitForSubConfirm] Enqueue outstanding ctrl request correlationTag=2\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:37:50.883 INFO   solclientjs:  [session-fsm=0x1a1b55f191e] [WaitingForMessagePublisher] Handle SMF response for correlationTag 2\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:37:50.884 INFO   solclientjs:  [session=0x1a1b55f191e] [message-consumer-fsm=(N/A)] Starting ConsumerFSM 0\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:37:50.885 INFO   solclientjs:  [session-fsm=0x1a1b55f191e] [SessionFullyConnected] Enqueue outstanding ctrl request correlationTag=3\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:37:50.886 INFO   solclientjs:  [session-fsm=0x1a1b55f191e] [SessionFullyConnected] Handle SMF response for correlationTag 3\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:37:50.886 INFO   solclientjs:  [session=0x1a1b55f191e] [flow=21] [message-consumer] Flow is up: flowId = 21\n"
+      },
+      {
+        "type": "ready",
+        "role": "consumer"
+      },
+      {
+        "type": "progress",
+        "received": 64
+      },
+      {
+        "type": "progress",
+        "received": 128
+      },
+      {
+        "type": "progress",
+        "received": 187
+      },
+      {
+        "type": "progress",
+        "received": 251
+      },
+      {
+        "type": "progress",
+        "received": 255
+      },
+      {
+        "type": "progress",
+        "received": 319
+      },
+      {
+        "type": "progress",
+        "received": 383
+      },
+      {
+        "type": "progress",
+        "received": 409
+      },
+      {
+        "type": "progress",
+        "received": 473
+      },
+      {
+        "type": "progress",
+        "received": 537
+      },
+      {
+        "type": "progress",
+        "received": 563
+      },
+      {
+        "type": "progress",
+        "received": 627
+      },
+      {
+        "type": "progress",
+        "received": 691
+      },
+      {
+        "type": "progress",
+        "received": 755
+      },
+      {
+        "type": "progress",
+        "received": 819
+      },
+      {
+        "type": "progress",
+        "received": 871
+      },
+      {
+        "type": "progress",
+        "received": 935
+      },
+      {
+        "type": "progress",
+        "received": 999
+      },
+      {
+        "type": "progress",
+        "received": 1063
+      },
+      {
+        "type": "progress",
+        "received": 1127
+      },
+      {
+        "type": "progress",
+        "received": 1158
+      },
+      {
+        "type": "progress",
+        "received": 1222
+      },
+      {
+        "type": "progress",
+        "received": 1286
+      },
+      {
+        "type": "progress",
+        "received": 1333
+      },
+      {
+        "type": "progress",
+        "received": 1397
+      },
+      {
+        "type": "progress",
+        "received": 1461
+      },
+      {
+        "type": "progress",
+        "received": 1525
+      },
+      {
+        "type": "progress",
+        "received": 1589
+      },
+      {
+        "type": "progress",
+        "received": 1618
+      },
+      {
+        "type": "progress",
+        "received": 1641
+      },
+      {
+        "type": "progress",
+        "received": 1705
+      },
+      {
+        "type": "progress",
+        "received": 1769
+      },
+      {
+        "type": "progress",
+        "received": 1833
+      },
+      {
+        "type": "progress",
+        "received": 1897
+      },
+      {
+        "type": "progress",
+        "received": 1932
+      },
+      {
+        "type": "progress",
+        "received": 1996
+      },
+      {
+        "type": "progress",
+        "received": 2060
+      },
+      {
+        "type": "progress",
+        "received": 2124
+      },
+      {
+        "type": "progress",
+        "received": 2186
+      },
+      {
+        "type": "progress",
+        "received": 2250
+      },
+      {
+        "type": "progress",
+        "received": 2314
+      },
+      {
+        "type": "progress",
+        "received": 2378
+      },
+      {
+        "type": "progress",
+        "received": 2411
+      },
+      {
+        "type": "progress",
+        "received": 2475
+      },
+      {
+        "type": "progress",
+        "received": 2539
+      },
+      {
+        "type": "progress",
+        "received": 2565
+      },
+      {
+        "type": "progress",
+        "received": 2629
+      },
+      {
+        "type": "progress",
+        "received": 2693
+      },
+      {
+        "type": "progress",
+        "received": 2757
+      },
+      {
+        "type": "progress",
+        "received": 2821
+      },
+      {
+        "type": "progress",
+        "received": 2835
+      },
+      {
+        "type": "progress",
+        "received": 2899
+      },
+      {
+        "type": "progress",
+        "received": 2963
+      },
+      {
+        "type": "progress",
+        "received": 3027
+      },
+      {
+        "type": "progress",
+        "received": 3091
+      },
+      {
+        "type": "progress",
+        "received": 3155
+      },
+      {
+        "type": "progress",
+        "received": 3219
+      },
+      {
+        "type": "progress",
+        "received": 3283
+      },
+      {
+        "type": "progress",
+        "received": 3335
+      },
+      {
+        "type": "progress",
+        "received": 3399
+      },
+      {
+        "type": "progress",
+        "received": 3463
+      },
+      {
+        "type": "progress",
+        "received": 3480
+      },
+      {
+        "type": "progress",
+        "received": 3544
+      },
+      {
+        "type": "progress",
+        "received": 3608
+      },
+      {
+        "type": "progress",
+        "received": 3672
+      },
+      {
+        "type": "progress",
+        "received": 3736
+      },
+      {
+        "type": "progress",
+        "received": 3797
+      },
+      {
+        "type": "progress",
+        "received": 3861
+      },
+      {
+        "type": "progress",
+        "received": 3925
+      },
+      {
+        "type": "progress",
+        "received": 3989
+      },
+      {
+        "type": "progress",
+        "received": 4053
+      },
+      {
+        "type": "progress",
+        "received": 4093
+      },
+      {
+        "type": "progress",
+        "received": 4157
+      },
+      {
+        "type": "progress",
+        "received": 4221
+      },
+      {
+        "type": "progress",
+        "received": 4254
+      },
+      {
+        "type": "progress",
+        "received": 4318
+      },
+      {
+        "type": "progress",
+        "received": 4382
+      },
+      {
+        "type": "progress",
+        "received": 4413
+      },
+      {
+        "type": "progress",
+        "received": 4477
+      },
+      {
+        "type": "progress",
+        "received": 4541
+      },
+      {
+        "type": "progress",
+        "received": 4605
+      },
+      {
+        "type": "progress",
+        "received": 4669
+      },
+      {
+        "type": "progress",
+        "received": 4721
+      },
+      {
+        "type": "progress",
+        "received": 4785
+      },
+      {
+        "type": "progress",
+        "received": 4849
+      },
+      {
+        "type": "progress",
+        "received": 4913
+      },
+      {
+        "type": "progress",
+        "received": 4977
+      },
+      {
+        "type": "progress",
+        "received": 4998
+      },
+      {
+        "type": "progress",
+        "received": 5062
+      },
+      {
+        "type": "progress",
+        "received": 5126
+      },
+      {
+        "type": "progress",
+        "received": 5190
+      },
+      {
+        "type": "progress",
+        "received": 5254
+      },
+      {
+        "type": "progress",
+        "received": 5270
+      },
+      {
+        "type": "progress",
+        "received": 5334
+      },
+      {
+        "type": "progress",
+        "received": 5398
+      },
+      {
+        "type": "progress",
+        "received": 5462
+      },
+      {
+        "type": "progress",
+        "received": 5491
+      },
+      {
+        "type": "progress",
+        "received": 5555
+      },
+      {
+        "type": "progress",
+        "received": 5619
+      },
+      {
+        "type": "progress",
+        "received": 5645
+      },
+      {
+        "type": "progress",
+        "received": 5709
+      },
+      {
+        "type": "progress",
+        "received": 5773
+      },
+      {
+        "type": "progress",
+        "received": 5837
+      },
+      {
+        "type": "progress",
+        "received": 5901
+      },
+      {
+        "type": "progress",
+        "received": 5931
+      },
+      {
+        "type": "progress",
+        "received": 5995
+      },
+      {
+        "type": "progress",
+        "received": 6059
+      },
+      {
+        "type": "progress",
+        "received": 6107
+      },
+      {
+        "type": "progress",
+        "received": 6171
+      },
+      {
+        "type": "progress",
+        "received": 6235
+      },
+      {
+        "type": "progress",
+        "received": 6299
+      },
+      {
+        "type": "progress",
+        "received": 6363
+      },
+      {
+        "type": "progress",
+        "received": 6415
+      },
+      {
+        "type": "progress",
+        "received": 6479
+      },
+      {
+        "type": "progress",
+        "received": 6543
+      },
+      {
+        "type": "progress",
+        "received": 6569
+      },
+      {
+        "type": "progress",
+        "received": 6633
+      },
+      {
+        "type": "progress",
+        "received": 6697
+      },
+      {
+        "type": "progress",
+        "received": 6761
+      },
+      {
+        "type": "progress",
+        "received": 6825
+      },
+      {
+        "type": "progress",
+        "received": 6877
+      },
+      {
+        "type": "progress",
+        "received": 6941
+      },
+      {
+        "type": "progress",
+        "received": 7005
+      },
+      {
+        "type": "progress",
+        "received": 7069
+      },
+      {
+        "type": "progress",
+        "received": 7133
+      },
+      {
+        "type": "progress",
+        "received": 7185
+      },
+      {
+        "type": "progress",
+        "received": 7249
+      },
+      {
+        "type": "progress",
+        "received": 7313
+      },
+      {
+        "type": "progress",
+        "received": 7377
+      },
+      {
+        "type": "progress",
+        "received": 7441
+      },
+      {
+        "type": "progress",
+        "received": 7479
+      },
+      {
+        "type": "progress",
+        "received": 7543
+      },
+      {
+        "type": "progress",
+        "received": 7607
+      },
+      {
+        "type": "progress",
+        "received": 7647
+      },
+      {
+        "type": "progress",
+        "received": 7711
+      },
+      {
+        "type": "progress",
+        "received": 7775
+      },
+      {
+        "type": "progress",
+        "received": 7801
+      },
+      {
+        "type": "progress",
+        "received": 7804
+      },
+      {
+        "type": "progress",
+        "received": 7868
+      },
+      {
+        "type": "progress",
+        "received": 7932
+      },
+      {
+        "type": "progress",
+        "received": 7996
+      },
+      {
+        "type": "progress",
+        "received": 8060
+      },
+      {
+        "type": "progress",
+        "received": 8109
+      },
+      {
+        "type": "progress",
+        "received": 8173
+      },
+      {
+        "type": "progress",
+        "received": 8237
+      },
+      {
+        "type": "progress",
+        "received": 8301
+      },
+      {
+        "type": "progress",
+        "received": 8365
+      },
+      {
+        "type": "progress",
+        "received": 8417
+      },
+      {
+        "type": "progress",
+        "received": 8481
+      },
+      {
+        "type": "progress",
+        "received": 8545
+      },
+      {
+        "type": "progress",
+        "received": 8571
+      },
+      {
+        "type": "progress",
+        "received": 8635
+      },
+      {
+        "type": "progress",
+        "received": 8699
+      },
+      {
+        "type": "progress",
+        "received": 8725
+      },
+      {
+        "type": "progress",
+        "received": 8789
+      },
+      {
+        "type": "progress",
+        "received": 8853
+      },
+      {
+        "type": "progress",
+        "received": 8879
+      },
+      {
+        "type": "progress",
+        "received": 8943
+      },
+      {
+        "type": "progress",
+        "received": 9007
+      },
+      {
+        "type": "progress",
+        "received": 9027
+      },
+      {
+        "type": "progress",
+        "received": 9091
+      },
+      {
+        "type": "progress",
+        "received": 9155
+      },
+      {
+        "type": "progress",
+        "received": 9187
+      },
+      {
+        "type": "progress",
+        "received": 9251
+      },
+      {
+        "type": "progress",
+        "received": 9315
+      },
+      {
+        "type": "progress",
+        "received": 9341
+      },
+      {
+        "type": "progress",
+        "received": 9405
+      },
+      {
+        "type": "progress",
+        "received": 9469
+      },
+      {
+        "type": "progress",
+        "received": 9533
+      },
+      {
+        "type": "progress",
+        "received": 9597
+      },
+      {
+        "type": "progress",
+        "received": 9649
+      },
+      {
+        "type": "progress",
+        "received": 9713
+      },
+      {
+        "type": "progress",
+        "received": 9777
+      },
+      {
+        "type": "progress",
+        "received": 9841
+      },
+      {
+        "type": "progress",
+        "received": 9905
+      },
+      {
+        "type": "progress",
+        "received": 9908
+      },
+      {
+        "type": "progress",
+        "received": 9972
+      },
+      {
+        "type": "progress",
+        "received": 10036
+      },
+      {
+        "type": "progress",
+        "received": 10100
+      },
+      {
+        "type": "progress",
+        "received": 10111
+      },
+      {
+        "type": "progress",
+        "received": 10175
+      },
+      {
+        "type": "progress",
+        "received": 10239
+      },
+      {
+        "type": "progress",
+        "received": 10303
+      },
+      {
+        "type": "progress",
+        "received": 10367
+      },
+      {
+        "type": "progress",
+        "received": 10419
+      },
+      {
+        "type": "progress",
+        "received": 10483
+      },
+      {
+        "type": "progress",
+        "received": 10547
+      },
+      {
+        "type": "progress",
+        "received": 10611
+      },
+      {
+        "type": "progress",
+        "received": 10663
+      },
+      {
+        "type": "progress",
+        "received": 10704
+      },
+      {
+        "type": "progress",
+        "received": 10768
+      },
+      {
+        "type": "progress",
+        "received": 10832
+      },
+      {
+        "type": "progress",
+        "received": 10896
+      },
+      {
+        "type": "progress",
+        "received": 10960
+      },
+      {
+        "type": "progress",
+        "received": 11024
+      },
+      {
+        "type": "progress",
+        "received": 11035
+      },
+      {
+        "type": "progress",
+        "received": 11099
+      },
+      {
+        "type": "progress",
+        "received": 11163
+      },
+      {
+        "type": "progress",
+        "received": 11227
+      },
+      {
+        "type": "progress",
+        "received": 11291
+      },
+      {
+        "type": "progress",
+        "received": 11304
+      },
+      {
+        "type": "progress",
+        "received": 11343
+      },
+      {
+        "type": "progress",
+        "received": 11407
+      },
+      {
+        "type": "progress",
+        "received": 11471
+      },
+      {
+        "type": "progress",
+        "received": 11535
+      },
+      {
+        "type": "progress",
+        "received": 11599
+      },
+      {
+        "type": "progress",
+        "received": 11651
+      },
+      {
+        "type": "progress",
+        "received": 11715
+      },
+      {
+        "type": "progress",
+        "received": 11779
+      },
+      {
+        "type": "progress",
+        "received": 11805
+      },
+      {
+        "type": "progress",
+        "received": 11869
+      },
+      {
+        "type": "progress",
+        "received": 11933
+      },
+      {
+        "type": "progress",
+        "received": 11997
+      },
+      {
+        "type": "progress",
+        "received": 12061
+      },
+      {
+        "type": "progress",
+        "received": 12113
+      },
+      {
+        "type": "progress",
+        "received": 12177
+      },
+      {
+        "type": "progress",
+        "received": 12241
+      },
+      {
+        "type": "progress",
+        "received": 12252
+      },
+      {
+        "type": "progress",
+        "received": 12316
+      },
+      {
+        "type": "progress",
+        "received": 12380
+      },
+      {
+        "type": "progress",
+        "received": 12444
+      },
+      {
+        "type": "progress",
+        "received": 12508
+      },
+      {
+        "type": "progress",
+        "received": 12557
+      },
+      {
+        "type": "progress",
+        "received": 12621
+      },
+      {
+        "type": "progress",
+        "received": 12685
+      },
+      {
+        "type": "progress",
+        "received": 12729
+      },
+      {
+        "type": "progress",
+        "received": 12793
+      },
+      {
+        "type": "progress",
+        "received": 12857
+      },
+      {
+        "type": "progress",
+        "received": 12921
+      },
+      {
+        "type": "progress",
+        "received": 12985
+      },
+      {
+        "type": "progress",
+        "received": 13026
+      },
+      {
+        "type": "progress",
+        "received": 13090
+      },
+      {
+        "type": "progress",
+        "received": 13154
+      },
+      {
+        "type": "progress",
+        "received": 13218
+      },
+      {
+        "type": "progress",
+        "received": 13222
+      },
+      {
+        "type": "progress",
+        "received": 13286
+      },
+      {
+        "type": "progress",
+        "received": 13350
+      },
+      {
+        "type": "progress",
+        "received": 13414
+      },
+      {
+        "type": "progress",
+        "received": 13478
+      },
+      {
+        "type": "progress",
+        "received": 13499
+      },
+      {
+        "type": "progress",
+        "received": 13563
+      },
+      {
+        "type": "progress",
+        "received": 13627
+      },
+      {
+        "type": "progress",
+        "received": 13691
+      },
+      {
+        "type": "progress",
+        "received": 13755
+      },
+      {
+        "type": "progress",
+        "received": 13800
+      },
+      {
+        "type": "progress",
+        "received": 13864
+      },
+      {
+        "type": "progress",
+        "received": 13928
+      },
+      {
+        "type": "progress",
+        "received": 13961
+      },
+      {
+        "type": "progress",
+        "received": 14025
+      },
+      {
+        "type": "progress",
+        "received": 14089
+      },
+      {
+        "type": "progress",
+        "received": 14115
+      },
+      {
+        "type": "progress",
+        "received": 14179
+      },
+      {
+        "type": "progress",
+        "received": 14243
+      },
+      {
+        "type": "progress",
+        "received": 14269
+      },
+      {
+        "type": "progress",
+        "received": 14333
+      },
+      {
+        "type": "progress",
+        "received": 14397
+      },
+      {
+        "type": "progress",
+        "received": 14461
+      },
+      {
+        "type": "progress",
+        "received": 14525
+      },
+      {
+        "type": "progress",
+        "received": 14574
+      },
+      {
+        "type": "progress",
+        "received": 14638
+      },
+      {
+        "type": "progress",
+        "received": 14702
+      },
+      {
+        "type": "progress",
+        "received": 14766
+      },
+      {
+        "type": "progress",
+        "received": 14830
+      },
+      {
+        "type": "progress",
+        "received": 14870
+      },
+      {
+        "type": "progress",
+        "received": 14885
+      },
+      {
+        "type": "progress",
+        "received": 14917
+      },
+      {
+        "type": "progress",
+        "received": 14981
+      },
+      {
+        "type": "progress",
+        "received": 15045
+      },
+      {
+        "type": "progress",
+        "received": 15109
+      },
+      {
+        "type": "progress",
+        "received": 15173
+      },
+      {
+        "type": "progress",
+        "received": 15193
+      },
+      {
+        "type": "progress",
+        "received": 15257
+      },
+      {
+        "type": "progress",
+        "received": 15321
+      },
+      {
+        "type": "progress",
+        "received": 15347
+      },
+      {
+        "type": "progress",
+        "received": 15411
+      },
+      {
+        "type": "progress",
+        "received": 15475
+      },
+      {
+        "type": "progress",
+        "received": 15477
+      },
+      {
+        "type": "progress",
+        "received": 15541
+      },
+      {
+        "type": "progress",
+        "received": 15605
+      },
+      {
+        "type": "progress",
+        "received": 15655
+      },
+      {
+        "type": "progress",
+        "received": 15719
+      },
+      {
+        "type": "progress",
+        "received": 15749
+      },
+      {
+        "type": "progress",
+        "received": 15813
+      },
+      {
+        "type": "progress",
+        "received": 15877
+      },
+      {
+        "type": "progress",
+        "received": 15941
+      },
+      {
+        "type": "progress",
+        "received": 15963
+      },
+      {
+        "type": "progress",
+        "received": 16027
+      },
+      {
+        "type": "progress",
+        "received": 16091
+      },
+      {
+        "type": "progress",
+        "received": 16117
+      },
+      {
+        "type": "progress",
+        "received": 16181
+      },
+      {
+        "type": "progress",
+        "received": 16245
+      },
+      {
+        "type": "progress",
+        "received": 16309
+      },
+      {
+        "type": "progress",
+        "received": 16373
+      },
+      {
+        "type": "progress",
+        "received": 16425
+      },
+      {
+        "type": "progress",
+        "received": 16489
+      },
+      {
+        "type": "progress",
+        "received": 16553
+      },
+      {
+        "type": "progress",
+        "received": 16617
+      },
+      {
+        "type": "progress",
+        "received": 16681
+      },
+      {
+        "type": "progress",
+        "received": 16733
+      },
+      {
+        "type": "progress",
+        "received": 16797
+      },
+      {
+        "type": "progress",
+        "received": 16861
+      },
+      {
+        "type": "progress",
+        "received": 16887
+      },
+      {
+        "type": "progress",
+        "received": 16951
+      },
+      {
+        "type": "progress",
+        "received": 17015
+      },
+      {
+        "type": "progress",
+        "received": 17025
+      },
+      {
+        "type": "progress",
+        "received": 17072
+      },
+      {
+        "type": "progress",
+        "received": 17136
+      },
+      {
+        "type": "progress",
+        "received": 17200
+      },
+      {
+        "type": "progress",
+        "received": 17264
+      },
+      {
+        "type": "progress",
+        "received": 17328
+      },
+      {
+        "type": "progress",
+        "received": 17349
+      },
+      {
+        "type": "progress",
+        "received": 17413
+      },
+      {
+        "type": "progress",
+        "received": 17477
+      },
+      {
+        "type": "progress",
+        "received": 17541
+      },
+      {
+        "type": "progress",
+        "received": 17582
+      },
+      {
+        "type": "progress",
+        "received": 17646
+      },
+      {
+        "type": "progress",
+        "received": 17710
+      },
+      {
+        "type": "progress",
+        "received": 17774
+      },
+      {
+        "type": "progress",
+        "received": 17799
+      },
+      {
+        "type": "progress",
+        "received": 17863
+      },
+      {
+        "type": "progress",
+        "received": 17927
+      },
+      {
+        "type": "progress",
+        "received": 17928
+      },
+      {
+        "type": "progress",
+        "received": 17965
+      },
+      {
+        "type": "progress",
+        "received": 18029
+      },
+      {
+        "type": "progress",
+        "received": 18093
+      },
+      {
+        "type": "progress",
+        "received": 18157
+      },
+      {
+        "type": "progress",
+        "received": 18221
+      },
+      {
+        "type": "progress",
+        "received": 18273
+      },
+      {
+        "type": "progress",
+        "received": 18337
+      },
+      {
+        "type": "progress",
+        "received": 18401
+      },
+      {
+        "type": "progress",
+        "received": 18427
+      },
+      {
+        "type": "progress",
+        "received": 18491
+      },
+      {
+        "type": "progress",
+        "received": 18555
+      },
+      {
+        "type": "progress",
+        "received": 18619
+      },
+      {
+        "type": "progress",
+        "received": 18683
+      },
+      {
+        "type": "progress",
+        "received": 18735
+      },
+      {
+        "type": "progress",
+        "received": 18799
+      },
+      {
+        "type": "progress",
+        "received": 18863
+      },
+      {
+        "type": "progress",
+        "received": 18889
+      },
+      {
+        "type": "progress",
+        "received": 18953
+      },
+      {
+        "type": "progress",
+        "received": 19017
+      },
+      {
+        "type": "progress",
+        "received": 19081
+      },
+      {
+        "type": "progress",
+        "received": 19145
+      },
+      {
+        "type": "progress",
+        "received": 19197
+      },
+      {
+        "type": "progress",
+        "received": 19261
+      },
+      {
+        "type": "progress",
+        "received": 19325
+      },
+      {
+        "type": "progress",
+        "received": 19389
+      },
+      {
+        "type": "progress",
+        "received": 19453
+      },
+      {
+        "type": "progress",
+        "received": 19505
+      },
+      {
+        "type": "progress",
+        "received": 19569
+      },
+      {
+        "type": "progress",
+        "received": 19633
+      },
+      {
+        "type": "progress",
+        "received": 19697
+      },
+      {
+        "type": "progress",
+        "received": 19761
+      },
+      {
+        "type": "progress",
+        "received": 19813
+      },
+      {
+        "type": "progress",
+        "received": 19877
+      },
+      {
+        "type": "progress",
+        "received": 19941
+      },
+      {
+        "type": "progress",
+        "received": 20005
+      },
+      {
+        "type": "progress",
+        "received": 20069
+      },
+      {
+        "type": "progress",
+        "received": 20117
+      },
+      {
+        "type": "progress",
+        "received": 20181
+      },
+      {
+        "type": "progress",
+        "received": 20245
+      },
+      {
+        "type": "progress",
+        "received": 20275
+      },
+      {
+        "type": "progress",
+        "received": 20339
+      },
+      {
+        "type": "progress",
+        "received": 20403
+      },
+      {
+        "type": "progress",
+        "received": 20429
+      },
+      {
+        "type": "progress",
+        "received": 20493
+      },
+      {
+        "type": "progress",
+        "received": 20557
+      },
+      {
+        "type": "progress",
+        "received": 20621
+      },
+      {
+        "type": "progress",
+        "received": 20685
+      },
+      {
+        "type": "progress",
+        "received": 20733
+      },
+      {
+        "type": "progress",
+        "received": 20797
+      },
+      {
+        "type": "progress",
+        "received": 20861
+      },
+      {
+        "type": "progress",
+        "received": 20893
+      },
+      {
+        "type": "progress",
+        "received": 20957
+      },
+      {
+        "type": "progress",
+        "received": 21021
+      },
+      {
+        "type": "progress",
+        "received": 21085
+      },
+      {
+        "type": "progress",
+        "received": 21149
+      },
+      {
+        "type": "progress",
+        "received": 21199
+      },
+      {
+        "type": "progress",
+        "received": 21263
+      },
+      {
+        "type": "progress",
+        "received": 21327
+      },
+      {
+        "type": "progress",
+        "received": 21391
+      },
+      {
+        "type": "progress",
+        "received": 21455
+      },
+      {
+        "type": "progress",
+        "received": 21507
+      },
+      {
+        "type": "progress",
+        "received": 21571
+      },
+      {
+        "type": "progress",
+        "received": 21635
+      },
+      {
+        "type": "progress",
+        "received": 21661
+      },
+      {
+        "type": "progress",
+        "received": 21725
+      },
+      {
+        "type": "progress",
+        "received": 21789
+      },
+      {
+        "type": "progress",
+        "received": 21798
+      },
+      {
+        "type": "progress",
+        "received": 21862
+      },
+      {
+        "type": "progress",
+        "received": 21926
+      },
+      {
+        "type": "progress",
+        "received": 21969
+      },
+      {
+        "type": "progress",
+        "received": 22033
+      },
+      {
+        "type": "progress",
+        "received": 22097
+      },
+      {
+        "type": "progress",
+        "received": 22161
+      },
+      {
+        "type": "progress",
+        "received": 22225
+      },
+      {
+        "type": "progress",
+        "received": 22277
+      },
+      {
+        "type": "progress",
+        "received": 22341
+      },
+      {
+        "type": "progress",
+        "received": 22405
+      },
+      {
+        "type": "progress",
+        "received": 22431
+      },
+      {
+        "type": "progress",
+        "received": 22495
+      },
+      {
+        "type": "progress",
+        "received": 22559
+      },
+      {
+        "type": "progress",
+        "received": 22572
+      },
+      {
+        "type": "progress",
+        "received": 22636
+      },
+      {
+        "type": "progress",
+        "received": 22700
+      },
+      {
+        "type": "progress",
+        "received": 22739
+      },
+      {
+        "type": "progress",
+        "received": 22803
+      },
+      {
+        "type": "progress",
+        "received": 22867
+      },
+      {
+        "type": "progress",
+        "received": 22893
+      },
+      {
+        "type": "progress",
+        "received": 22957
+      },
+      {
+        "type": "progress",
+        "received": 23021
+      },
+      {
+        "type": "progress",
+        "received": 23085
+      },
+      {
+        "type": "progress",
+        "received": 23149
+      },
+      {
+        "type": "progress",
+        "received": 23201
+      },
+      {
+        "type": "progress",
+        "received": 23265
+      },
+      {
+        "type": "progress",
+        "received": 23329
+      },
+      {
+        "type": "progress",
+        "received": 23346
+      },
+      {
+        "type": "progress",
+        "received": 23410
+      },
+      {
+        "type": "progress",
+        "received": 23474
+      },
+      {
+        "type": "progress",
+        "received": 23509
+      },
+      {
+        "type": "progress",
+        "received": 23573
+      },
+      {
+        "type": "progress",
+        "received": 23637
+      },
+      {
+        "type": "progress",
+        "received": 23701
+      },
+      {
+        "type": "progress",
+        "received": 23765
+      },
+      {
+        "type": "progress",
+        "received": 23817
+      },
+      {
+        "type": "progress",
+        "received": 23881
+      },
+      {
+        "type": "progress",
+        "received": 23945
+      },
+      {
+        "type": "progress",
+        "received": 23971
+      },
+      {
+        "type": "progress",
+        "received": 24035
+      },
+      {
+        "type": "progress",
+        "received": 24099
+      },
+      {
+        "type": "progress",
+        "received": 24163
+      },
+      {
+        "type": "progress",
+        "received": 24227
+      },
+      {
+        "type": "progress",
+        "received": 24279
+      },
+      {
+        "type": "progress",
+        "received": 24343
+      },
+      {
+        "type": "progress",
+        "received": 24407
+      },
+      {
+        "type": "progress",
+        "received": 24471
+      },
+      {
+        "type": "progress",
+        "received": 24535
+      },
+      {
+        "type": "progress",
+        "received": 24587
+      },
+      {
+        "type": "progress",
+        "received": 24651
+      },
+      {
+        "type": "progress",
+        "received": 24715
+      },
+      {
+        "type": "progress",
+        "received": 24779
+      },
+      {
+        "type": "progress",
+        "received": 24843
+      },
+      {
+        "type": "progress",
+        "received": 24894
+      },
+      {
+        "type": "progress",
+        "received": 24895
+      },
+      {
+        "type": "progress",
+        "received": 24959
+      },
+      {
+        "type": "progress",
+        "received": 25023
+      },
+      {
+        "type": "progress",
+        "received": 25049
+      },
+      {
+        "type": "progress",
+        "received": 25113
+      },
+      {
+        "type": "progress",
+        "received": 25177
+      },
+      {
+        "type": "progress",
+        "received": 25203
+      },
+      {
+        "type": "progress",
+        "received": 25267
+      },
+      {
+        "type": "progress",
+        "received": 25331
+      },
+      {
+        "type": "progress",
+        "received": 25357
+      },
+      {
+        "type": "progress",
+        "received": 25421
+      },
+      {
+        "type": "progress",
+        "received": 25485
+      },
+      {
+        "type": "progress",
+        "received": 25549
+      },
+      {
+        "type": "progress",
+        "received": 25613
+      },
+      {
+        "type": "progress",
+        "received": 25665
+      },
+      {
+        "type": "progress",
+        "received": 25729
+      },
+      {
+        "type": "progress",
+        "received": 25793
+      },
+      {
+        "type": "progress",
+        "received": 25797
+      },
+      {
+        "type": "progress",
+        "received": 25861
+      },
+      {
+        "type": "progress",
+        "received": 25925
+      },
+      {
+        "type": "progress",
+        "received": 25977
+      },
+      {
+        "type": "progress",
+        "received": 26041
+      },
+      {
+        "type": "progress",
+        "received": 26105
+      },
+      {
+        "type": "progress",
+        "received": 26169
+      },
+      {
+        "type": "progress",
+        "received": 26233
+      },
+      {
+        "type": "progress",
+        "received": 26281
+      },
+      {
+        "type": "progress",
+        "received": 26345
+      },
+      {
+        "type": "progress",
+        "received": 26409
+      },
+      {
+        "type": "progress",
+        "received": 26435
+      },
+      {
+        "type": "progress",
+        "received": 26499
+      },
+      {
+        "type": "progress",
+        "received": 26563
+      },
+      {
+        "type": "progress",
+        "received": 26627
+      },
+      {
+        "type": "progress",
+        "received": 26691
+      },
+      {
+        "type": "progress",
+        "received": 26698
+      },
+      {
+        "type": "progress",
+        "received": 26762
+      },
+      {
+        "type": "progress",
+        "received": 26826
+      },
+      {
+        "type": "progress",
+        "received": 26890
+      },
+      {
+        "type": "progress",
+        "received": 26897
+      },
+      {
+        "type": "progress",
+        "received": 26961
+      },
+      {
+        "type": "progress",
+        "received": 27025
+      },
+      {
+        "type": "progress",
+        "received": 27089
+      },
+      {
+        "type": "progress",
+        "received": 27138
+      },
+      {
+        "type": "progress",
+        "received": 27202
+      },
+      {
+        "type": "progress",
+        "received": 27266
+      },
+      {
+        "type": "progress",
+        "received": 27330
+      },
+      {
+        "type": "progress",
+        "received": 27345
+      },
+      {
+        "type": "progress",
+        "received": 27409
+      },
+      {
+        "type": "progress",
+        "received": 27473
+      },
+      {
+        "type": "progress",
+        "received": 27537
+      },
+      {
+        "type": "progress",
+        "received": 27601
+      },
+      {
+        "type": "progress",
+        "received": 27665
+      },
+      {
+        "type": "progress",
+        "received": 27667
+      },
+      {
+        "type": "progress",
+        "received": 27731
+      },
+      {
+        "type": "progress",
+        "received": 27795
+      },
+      {
+        "type": "progress",
+        "received": 27859
+      },
+      {
+        "type": "progress",
+        "received": 27923
+      },
+      {
+        "type": "progress",
+        "received": 27975
+      },
+      {
+        "type": "progress",
+        "received": 28039
+      },
+      {
+        "type": "progress",
+        "received": 28103
+      },
+      {
+        "type": "progress",
+        "received": 28156
+      },
+      {
+        "type": "progress",
+        "received": 28220
+      },
+      {
+        "type": "progress",
+        "received": 28283
+      },
+      {
+        "type": "progress",
+        "received": 28347
+      },
+      {
+        "type": "progress",
+        "received": 28411
+      },
+      {
+        "type": "progress",
+        "received": 28437
+      },
+      {
+        "type": "progress",
+        "received": 28501
+      },
+      {
+        "type": "progress",
+        "received": 28565
+      },
+      {
+        "type": "progress",
+        "received": 28591
+      },
+      {
+        "type": "progress",
+        "received": 28655
+      },
+      {
+        "type": "progress",
+        "received": 28719
+      },
+      {
+        "type": "progress",
+        "received": 28783
+      },
+      {
+        "type": "progress",
+        "received": 28824
+      },
+      {
+        "type": "progress",
+        "received": 28888
+      },
+      {
+        "type": "progress",
+        "received": 28952
+      },
+      {
+        "type": "progress",
+        "received": 29016
+      },
+      {
+        "type": "progress",
+        "received": 29053
+      },
+      {
+        "type": "progress",
+        "received": 29117
+      },
+      {
+        "type": "progress",
+        "received": 29181
+      },
+      {
+        "type": "progress",
+        "received": 29207
+      },
+      {
+        "type": "progress",
+        "received": 29271
+      },
+      {
+        "type": "progress",
+        "received": 29335
+      },
+      {
+        "type": "progress",
+        "received": 29361
+      },
+      {
+        "type": "progress",
+        "received": 29425
+      },
+      {
+        "type": "progress",
+        "received": 29489
+      },
+      {
+        "type": "progress",
+        "received": 29515
+      },
+      {
+        "type": "progress",
+        "received": 29579
+      },
+      {
+        "type": "progress",
+        "received": 29626
+      },
+      {
+        "type": "progress",
+        "received": 29667
+      },
+      {
+        "type": "progress",
+        "received": 29731
+      },
+      {
+        "type": "progress",
+        "received": 29795
+      },
+      {
+        "type": "progress",
+        "received": 29823
+      },
+      {
+        "type": "progress",
+        "received": 29887
+      },
+      {
+        "type": "progress",
+        "received": 29951
+      },
+      {
+        "type": "progress",
+        "received": 29977
+      },
+      {
+        "type": "progress",
+        "received": 30041
+      },
+      {
+        "type": "progress",
+        "received": 30105
+      },
+      {
+        "type": "progress",
+        "received": 30131
+      },
+      {
+        "type": "progress",
+        "received": 30195
+      },
+      {
+        "type": "progress",
+        "received": 30259
+      },
+      {
+        "type": "progress",
+        "received": 30285
+      },
+      {
+        "type": "progress",
+        "received": 30349
+      },
+      {
+        "type": "progress",
+        "received": 30381
+      },
+      {
+        "type": "progress",
+        "received": 30439
+      },
+      {
+        "type": "progress",
+        "received": 30503
+      },
+      {
+        "type": "progress",
+        "received": 30567
+      },
+      {
+        "type": "progress",
+        "received": 30570
+      },
+      {
+        "type": "progress",
+        "received": 30634
+      },
+      {
+        "type": "progress",
+        "received": 30698
+      },
+      {
+        "type": "progress",
+        "received": 30747
+      },
+      {
+        "type": "progress",
+        "received": 30811
+      },
+      {
+        "type": "progress",
+        "received": 30875
+      },
+      {
+        "type": "progress",
+        "received": 30939
+      },
+      {
+        "type": "progress",
+        "received": 30985
+      },
+      {
+        "type": "progress",
+        "received": 31049
+      },
+      {
+        "type": "progress",
+        "received": 31113
+      },
+      {
+        "type": "progress",
+        "received": 31177
+      },
+      {
+        "type": "progress",
+        "received": 31209
+      },
+      {
+        "type": "progress",
+        "received": 31273
+      },
+      {
+        "type": "progress",
+        "received": 31337
+      },
+      {
+        "type": "progress",
+        "received": 31344
+      },
+      {
+        "type": "progress",
+        "received": 31408
+      },
+      {
+        "type": "progress",
+        "received": 31472
+      },
+      {
+        "type": "progress",
+        "received": 31536
+      },
+      {
+        "type": "progress",
+        "received": 31585
+      },
+      {
+        "type": "progress",
+        "received": 31649
+      },
+      {
+        "type": "progress",
+        "received": 31713
+      },
+      {
+        "type": "progress",
+        "received": 31777
+      },
+      {
+        "type": "progress",
+        "received": 31825
+      },
+      {
+        "type": "progress",
+        "received": 31889
+      },
+      {
+        "type": "progress",
+        "received": 31953
+      },
+      {
+        "type": "progress",
+        "received": 32017
+      },
+      {
+        "type": "progress",
+        "received": 32081
+      },
+      {
+        "type": "progress",
+        "received": 32118
+      },
+      {
+        "type": "progress",
+        "received": 32182
+      },
+      {
+        "type": "progress",
+        "received": 32246
+      },
+      {
+        "type": "progress",
+        "received": 32310
+      },
+      {
+        "type": "progress",
+        "received": 32374
+      },
+      {
+        "type": "progress",
+        "received": 32438
+      },
+      {
+        "type": "progress",
+        "received": 32441
+      },
+      {
+        "type": "progress",
+        "received": 32505
+      },
+      {
+        "type": "progress",
+        "received": 32569
+      },
+      {
+        "type": "progress",
+        "received": 32595
+      },
+      {
+        "type": "progress",
+        "received": 32659
+      },
+      {
+        "type": "progress",
+        "received": 32723
+      },
+      {
+        "type": "progress",
+        "received": 32749
+      },
+      {
+        "type": "progress",
+        "received": 32813
+      },
+      {
+        "type": "progress",
+        "received": 32877
+      },
+      {
+        "type": "progress",
+        "received": 32941
+      },
+      {
+        "type": "progress",
+        "received": 33005
+      },
+      {
+        "type": "progress",
+        "received": 33057
+      },
+      {
+        "type": "progress",
+        "received": 33121
+      },
+      {
+        "type": "progress",
+        "received": 33185
+      },
+      {
+        "type": "progress",
+        "received": 33249
+      },
+      {
+        "type": "progress",
+        "received": 33313
+      },
+      {
+        "type": "progress",
+        "received": 33365
+      },
+      {
+        "type": "progress",
+        "received": 33429
+      },
+      {
+        "type": "progress",
+        "received": 33493
+      },
+      {
+        "type": "progress",
+        "received": 33519
+      },
+      {
+        "type": "progress",
+        "received": 33583
+      },
+      {
+        "type": "progress",
+        "received": 33647
+      },
+      {
+        "type": "progress",
+        "received": 33666
+      },
+      {
+        "type": "progress",
+        "received": 33730
+      },
+      {
+        "type": "progress",
+        "received": 33794
+      },
+      {
+        "type": "progress",
+        "received": 33858
+      },
+      {
+        "type": "progress",
+        "received": 33922
+      },
+      {
+        "type": "progress",
+        "received": 33981
+      },
+      {
+        "type": "progress",
+        "received": 34045
+      },
+      {
+        "type": "progress",
+        "received": 34109
+      },
+      {
+        "type": "progress",
+        "received": 34173
+      },
+      {
+        "type": "progress",
+        "received": 34237
+      },
+      {
+        "type": "progress",
+        "received": 34289
+      },
+      {
+        "type": "progress",
+        "received": 34353
+      },
+      {
+        "type": "progress",
+        "received": 34417
+      },
+      {
+        "type": "progress",
+        "received": 34440
+      },
+      {
+        "type": "progress",
+        "received": 34504
+      },
+      {
+        "type": "progress",
+        "received": 34561
+      },
+      {
+        "type": "progress",
+        "received": 34597
+      },
+      {
+        "type": "progress",
+        "received": 34661
+      },
+      {
+        "type": "progress",
+        "received": 34725
+      },
+      {
+        "type": "progress",
+        "received": 34789
+      },
+      {
+        "type": "progress",
+        "received": 34853
+      },
+      {
+        "type": "progress",
+        "received": 34905
+      },
+      {
+        "type": "progress",
+        "received": 34969
+      },
+      {
+        "type": "progress",
+        "received": 35033
+      },
+      {
+        "type": "progress",
+        "received": 35097
+      },
+      {
+        "type": "progress",
+        "received": 35134
+      },
+      {
+        "type": "progress",
+        "received": 35198
+      },
+      {
+        "type": "progress",
+        "received": 35262
+      },
+      {
+        "type": "progress",
+        "received": 35326
+      },
+      {
+        "type": "progress",
+        "received": 35343
+      },
+      {
+        "type": "progress",
+        "received": 35407
+      },
+      {
+        "type": "progress",
+        "received": 35471
+      },
+      {
+        "type": "progress",
+        "received": 35535
+      },
+      {
+        "type": "progress",
+        "received": 35599
+      },
+      {
+        "type": "progress",
+        "received": 35663
+      },
+      {
+        "type": "progress",
+        "received": 35664
+      },
+      {
+        "type": "progress",
+        "received": 35728
+      },
+      {
+        "type": "progress",
+        "received": 35783
+      },
+      {
+        "type": "progress",
+        "received": 35829
+      },
+      {
+        "type": "progress",
+        "received": 35893
+      },
+      {
+        "type": "progress",
+        "received": 35957
+      },
+      {
+        "type": "progress",
+        "received": 36021
+      },
+      {
+        "type": "progress",
+        "received": 36085
+      },
+      {
+        "type": "progress",
+        "received": 36117
+      },
+      {
+        "type": "progress",
+        "received": 36181
+      },
+      {
+        "type": "progress",
+        "received": 36245
+      },
+      {
+        "type": "progress",
+        "received": 36291
+      },
+      {
+        "type": "progress",
+        "received": 36355
+      },
+      {
+        "type": "progress",
+        "received": 36419
+      },
+      {
+        "type": "progress",
+        "received": 36445
+      },
+      {
+        "type": "progress",
+        "received": 36509
+      },
+      {
+        "type": "progress",
+        "received": 36573
+      },
+      {
+        "type": "progress",
+        "received": 36599
+      },
+      {
+        "type": "progress",
+        "received": 36663
+      },
+      {
+        "type": "progress",
+        "received": 36727
+      },
+      {
+        "type": "progress",
+        "received": 36753
+      },
+      {
+        "type": "progress",
+        "received": 36817
+      },
+      {
+        "type": "progress",
+        "received": 36881
+      },
+      {
+        "type": "progress",
+        "received": 36891
+      },
+      {
+        "type": "progress",
+        "received": 36955
+      },
+      {
+        "type": "progress",
+        "received": 37019
+      },
+      {
+        "type": "progress",
+        "received": 37083
+      },
+      {
+        "type": "progress",
+        "received": 37147
+      },
+      {
+        "type": "progress",
+        "received": 37211
+      },
+      {
+        "type": "progress",
+        "received": 37275
+      },
+      {
+        "type": "progress",
+        "received": 37339
+      },
+      {
+        "type": "progress",
+        "received": 37403
+      },
+      {
+        "type": "progress",
+        "received": 37467
+      },
+      {
+        "type": "progress",
+        "received": 37531
+      },
+      {
+        "type": "progress",
+        "received": 37595
+      },
+      {
+        "type": "progress",
+        "received": 37659
+      },
+      {
+        "type": "progress",
+        "received": 37723
+      },
+      {
+        "type": "progress",
+        "received": 37787
+      },
+      {
+        "type": "progress",
+        "received": 37851
+      },
+      {
+        "type": "progress",
+        "received": 37915
+      },
+      {
+        "type": "progress",
+        "received": 37979
+      },
+      {
+        "type": "progress",
+        "received": 38043
+      },
+      {
+        "type": "progress",
+        "received": 38107
+      },
+      {
+        "type": "progress",
+        "received": 38171
+      },
+      {
+        "type": "progress",
+        "received": 38235
+      },
+      {
+        "type": "progress",
+        "received": 38241
+      },
+      {
+        "type": "progress",
+        "received": 38305
+      },
+      {
+        "type": "progress",
+        "received": 38369
+      },
+      {
+        "type": "progress",
+        "received": 38433
+      },
+      {
+        "type": "progress",
+        "received": 38497
+      },
+      {
+        "type": "progress",
+        "received": 38561
+      },
+      {
+        "type": "progress",
+        "received": 38625
+      },
+      {
+        "type": "progress",
+        "received": 38689
+      },
+      {
+        "type": "progress",
+        "received": 38753
+      },
+      {
+        "type": "progress",
+        "received": 38800
+      },
+      {
+        "type": "result",
+        "role": "consumer",
+        "window": 255,
+        "sdk_window": 255,
+        "size": 8192,
+        "sent": 0,
+        "acknowledged": 0,
+        "rejected": 0,
+        "received": 38800,
+        "pending": 0,
+        "blocked": 0,
+        "duration_seconds": 32.734229166,
+        "ack_timeout_ms": 60000,
+        "sdk_stats": {
+          "TX_PERSISTENT_MSGS": 0,
+          "TX_PERSISTENT_REDELIVERED": 0,
+          "TX_ACK_TIMEOUT": 0,
+          "RX_PERSISTENT_MSGS": 38800,
+          "RX_DISCARD_DUPLICATE": 0,
+          "TX_WINDOW_CLOSE": 0
+        },
+        "cpu_user_seconds": 1.198631,
+        "cpu_system_seconds": 0.215307,
+        "event_loop_utilization": 0.033263354925775986,
+        "mean_ack_ms": null,
+        "max_ack_ms": 0,
+        "samples": [
+          {
+            "seconds": 0.9997166660000001,
+            "interval_seconds": 0.9997166660000001,
+            "ack_delta": 0,
+            "received_delta": 409,
+            "pending": 0
+          },
+          {
+            "seconds": 2.0008929999999996,
+            "interval_seconds": 1.0011763339999997,
+            "ack_delta": 0,
+            "received_delta": 924,
+            "pending": 0
+          },
+          {
+            "seconds": 3.0029245,
+            "interval_seconds": 1.0020315,
+            "ack_delta": 0,
+            "received_delta": 1373,
+            "pending": 0
+          },
+          {
+            "seconds": 4.004753958,
+            "interval_seconds": 1.0018294580000002,
+            "ack_delta": 0,
+            "received_delta": 1707,
+            "pending": 0
+          },
+          {
+            "seconds": 5.006825,
+            "interval_seconds": 1.0020710419999996,
+            "ack_delta": 0,
+            "received_delta": 1078,
+            "pending": 0
+          },
+          {
+            "seconds": 6.007587916,
+            "interval_seconds": 1.0007629160000007,
+            "ack_delta": 0,
+            "received_delta": 1078,
+            "pending": 0
+          },
+          {
+            "seconds": 7.007615041,
+            "interval_seconds": 1.0000271249999997,
+            "ack_delta": 0,
+            "received_delta": 1540,
+            "pending": 0
+          },
+          {
+            "seconds": 8.009719916000002,
+            "interval_seconds": 1.002104875000001,
+            "ack_delta": 0,
+            "received_delta": 1232,
+            "pending": 0
+          },
+          {
+            "seconds": 9.0118555,
+            "interval_seconds": 1.0021355839999997,
+            "ack_delta": 0,
+            "received_delta": 1363,
+            "pending": 0
+          },
+          {
+            "seconds": 10.011267624999999,
+            "interval_seconds": 0.9994121249999989,
+            "ack_delta": 0,
+            "received_delta": 1018,
+            "pending": 0
+          },
+          {
+            "seconds": 11.012132958,
+            "interval_seconds": 1.0008653330000015,
+            "ack_delta": 0,
+            "received_delta": 1315,
+            "pending": 0
+          },
+          {
+            "seconds": 12.011265625,
+            "interval_seconds": 0.9991326669999998,
+            "ack_delta": 0,
+            "received_delta": 1587,
+            "pending": 0
+          },
+          {
+            "seconds": 13.013376457999998,
+            "interval_seconds": 1.0021108329999988,
+            "ack_delta": 0,
+            "received_delta": 1031,
+            "pending": 0
+          },
+          {
+            "seconds": 14.014174333,
+            "interval_seconds": 1.0007978750000002,
+            "ack_delta": 0,
+            "received_delta": 1370,
+            "pending": 0
+          },
+          {
+            "seconds": 15.014275041,
+            "interval_seconds": 1.000100708,
+            "ack_delta": 0,
+            "received_delta": 1139,
+            "pending": 0
+          },
+          {
+            "seconds": 16.016890999999998,
+            "interval_seconds": 1.0026159589999988,
+            "ack_delta": 0,
+            "received_delta": 1341,
+            "pending": 0
+          },
+          {
+            "seconds": 17.016428625,
+            "interval_seconds": 0.9995376250000009,
+            "ack_delta": 0,
+            "received_delta": 1583,
+            "pending": 0
+          },
+          {
+            "seconds": 18.018796333,
+            "interval_seconds": 1.0023677080000015,
+            "ack_delta": 0,
+            "received_delta": 1035,
+            "pending": 0
+          },
+          {
+            "seconds": 19.020164833000003,
+            "interval_seconds": 1.0013685000000005,
+            "ack_delta": 0,
+            "received_delta": 1223,
+            "pending": 0
+          },
+          {
+            "seconds": 20.021617000000003,
+            "interval_seconds": 1.0014521669999994,
+            "ack_delta": 0,
+            "received_delta": 1548,
+            "pending": 0
+          },
+          {
+            "seconds": 21.021450500000004,
+            "interval_seconds": 0.9998335000000006,
+            "ack_delta": 0,
+            "received_delta": 1182,
+            "pending": 0
+          },
+          {
+            "seconds": 22.021563916,
+            "interval_seconds": 1.000113416,
+            "ack_delta": 0,
+            "received_delta": 1269,
+            "pending": 0
+          },
+          {
+            "seconds": 23.023617041,
+            "interval_seconds": 1.0020531249999984,
+            "ack_delta": 0,
+            "received_delta": 938,
+            "pending": 0
+          },
+          {
+            "seconds": 24.024922208,
+            "interval_seconds": 1.0013051669999986,
+            "ack_delta": 0,
+            "received_delta": 1232,
+            "pending": 0
+          },
+          {
+            "seconds": 25.027240583,
+            "interval_seconds": 1.0023183750000026,
+            "ack_delta": 0,
+            "received_delta": 924,
+            "pending": 0
+          },
+          {
+            "seconds": 26.026971083,
+            "interval_seconds": 0.9997304999999979,
+            "ack_delta": 0,
+            "received_delta": 1055,
+            "pending": 0
+          },
+          {
+            "seconds": 27.0271865,
+            "interval_seconds": 1.0002154169999995,
+            "ack_delta": 0,
+            "received_delta": 1581,
+            "pending": 0
+          },
+          {
+            "seconds": 28.028884083,
+            "interval_seconds": 1.001697583000001,
+            "ack_delta": 0,
+            "received_delta": 1214,
+            "pending": 0
+          },
+          {
+            "seconds": 29.030265125000003,
+            "interval_seconds": 1.0013810420000009,
+            "ack_delta": 0,
+            "received_delta": 1494,
+            "pending": 0
+          },
+          {
+            "seconds": 30.030791083,
+            "interval_seconds": 1.0005259579999983,
+            "ack_delta": 0,
+            "received_delta": 970,
+            "pending": 0
+          },
+          {
+            "seconds": 31.031526791,
+            "interval_seconds": 1.0007357080000001,
+            "ack_delta": 0,
+            "received_delta": 2047,
+            "pending": 0
+          },
+          {
+            "seconds": 32.034130166000004,
+            "interval_seconds": 1.0026033750000025,
+            "ack_delta": 0,
+            "received_delta": 0,
+            "pending": 0
+          },
+          {
+            "seconds": 32.733171583,
+            "interval_seconds": 0.6990414169999968,
+            "ack_delta": 0,
+            "received_delta": 0,
+            "pending": 0
+          }
+        ]
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:38:24.100 INFO   solclientjs:  [session-fsm=0x1a1b55f191e] [SessionFullyConnected] Enqueue outstanding ctrl request correlationTag=4\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:38:24.100 INFO   solclientjs:  [session=0x1a1b55f191e] [message-consumer-fsm=21] Sent consumer unbind request with arguments { flowId: 21, correlationTag: 4 }\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:38:24.101 INFO   solclientjs:  [session-fsm=0x1a1b55f191e] [SessionFullyConnected] Cancel keepalive timer\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:38:24.101 INFO   solclientjs:  [session-fsm=0x1a1b55f191e] [SessionFullyConnected] Disconnecting session {: SessionFSM}\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:38:24.101 INFO   solclientjs:  [session-fsm=0x1a1b55f191e] [SessionFullyConnected] All flows disconnected\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:38:24.102 INFO   solclientjs:  [session-fsm=0x1a1b55f191e] [DisconnectingFlows] Flushing transport\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:38:24.102 INFO   solclientjs:  [session-fsm=0x1a1b55f191e] [DisconnectingFlows] Clean up session\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:38:24.102 INFO   solclientjs:  [session-fsm=0x1a1b55f191e] [FlushingTransport] Handle Transport Flushed\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:38:24.103 INFO   solclientjs:  [session-fsm=0x1a1b55f191e] [FlushingTransport] Connecting, disposing transport\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:38:24.103 INFO   solclientjs:  [session-fsm=0x1a1b55f191e] [FlushingTransport] Destroy transport session\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:38:24.104 INFO   solclientjs:  [session-fsm=0x1a1b55f191e] [FlushingTransport] Receive transport event: {\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  transportEventCode: 'DESTROYED_NOTICE (2)',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  infoStr: 'Disconnecting session',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  responseCode: null,\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  errorSubcode: 'NO_ERROR (0)',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  sid: 'N/A'\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "}\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:38:24.106 INFO   solclientjs:  [session-fsm=0x1a1b55f191e] [SessionDisconnected] Clean up session\n"
+      }
+    ],
+    [
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:37:50.977 INFO   solclientjs:  websocket browserSupportBinaryCheck: true - WebSocket supports binaryType\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:37:50.977 INFO   solclientjs:  websocket browserSupportBinaryCheck: true - WebSocket supports binaryType\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:37:50.980 INFO   solclientjs:  websocket browserSupportBinaryCheck: true - WebSocket supports binaryType\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:37:50.982 INFO   solclientjs:  [session-fsm=N/A] [WaitingForDNS] Creating transport session tcp://127.0.0.1:15555\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:37:50.983 INFO   solclientjs:  [session-fsm=N/A] [WaitingForDNS] Attempting to connect session 'null' to host 'tcp://127.0.0.1:15555' (host 1 of 1)(host connection attempt 1 of 1)(total connection attempt 1 of 1)\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:37:50.983 INFO   solclientjs:  [session-fsm=N/A] [WaitingForTransportUp] Receive transport event: {\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  transportEventCode: 'UP_NOTICE (1)',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  infoStr: 'Connected',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  responseCode: 0,\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  errorSubcode: '<none>',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  sid: 'N/A'\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "}\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:37:50.984 INFO   solclientjs:  [session-fsm=0x1a1b55f1986] [WaitingForTransportUp] Using internally correlationTag=16777215 for tracking ClientCTRL Login\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:37:50.984 INFO   solclientjs:  [session-fsm=0x1a1b55f1986] [WaitingForTransportUp] Enqueue outstanding ctrl request correlationTag=16777215\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:37:50.985 INFO   solclientjs:  [session-fsm=0x1a1b55f1986] [WaitingForLogin] Handle SMF response for ClientCTRL Login\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:37:50.986 INFO   solclientjs:  [session-fsm=0x1a1b55f1986] [WaitingForLogin] ReapplyingSubscriptions: entry\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:37:50.986 INFO   solclientjs:  [session-fsm=0x1a1b55f1986] [WaitingForLogin] Reapplying subscriptions, count=1\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:37:50.986 INFO   solclientjs:  [session-fsm=0x1a1b55f1986] [WaitingForLogin] Enqueue outstanding ctrl request correlationTag=1\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:37:50.987 INFO   solclientjs:  [session-fsm=0x1a1b55f1986] [WaitForSubConfirm] Enqueue outstanding ctrl request correlationTag=2\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:37:50.988 INFO   solclientjs:  [session-fsm=0x1a1b55f1986] [WaitingForMessagePublisher] Handle SMF response for correlationTag 2\n"
+      },
+      {
+        "type": "ready",
+        "role": "publisher"
+      },
+      {
+        "type": "result",
+        "role": "publisher",
+        "window": 255,
+        "sdk_window": 255,
+        "size": 8192,
+        "sent": 9700,
+        "acknowledged": 9700,
+        "rejected": 0,
+        "received": 0,
+        "pending": 0,
+        "blocked": 0,
+        "duration_seconds": 30.722142666,
+        "ack_timeout_ms": 60000,
+        "sdk_stats": {
+          "TX_PERSISTENT_MSGS": 9700,
+          "TX_PERSISTENT_REDELIVERED": 0,
+          "TX_ACK_TIMEOUT": 0,
+          "RX_PERSISTENT_MSGS": 0,
+          "RX_DISCARD_DUPLICATE": 0,
+          "TX_WINDOW_CLOSE": 0
+        },
+        "cpu_user_seconds": 0.818991,
+        "cpu_system_seconds": 0.145601,
+        "event_loop_utilization": 0.029745968481456,
+        "mean_ack_ms": 313.60244184041284,
+        "max_ack_ms": 1002.1397089999991,
+        "samples": [
+          {
+            "seconds": 1.001839041,
+            "interval_seconds": 1.001839041,
+            "ack_delta": 340,
+            "received_delta": 0,
+            "pending": 255
+          },
+          {
+            "seconds": 2.003097875,
+            "interval_seconds": 1.001258834,
+            "ack_delta": 425,
+            "received_delta": 0,
+            "pending": 80
+          },
+          {
+            "seconds": 3.0043830829999996,
+            "interval_seconds": 1.0012852079999999,
+            "ack_delta": 340,
+            "received_delta": 0,
+            "pending": 80
+          },
+          {
+            "seconds": 4.005598249999999,
+            "interval_seconds": 1.0012151669999998,
+            "ack_delta": 425,
+            "received_delta": 0,
+            "pending": 77
+          },
+          {
+            "seconds": 5.007345375000001,
+            "interval_seconds": 1.0017471250000007,
+            "ack_delta": 255,
+            "received_delta": 0,
+            "pending": 99
+          },
+          {
+            "seconds": 6.008503625,
+            "interval_seconds": 1.0011582499999996,
+            "ack_delta": 255,
+            "received_delta": 0,
+            "pending": 114
+          },
+          {
+            "seconds": 7.008418666000001,
+            "interval_seconds": 0.9999150410000002,
+            "ack_delta": 425,
+            "received_delta": 0,
+            "pending": 74
+          },
+          {
+            "seconds": 8.011100375000002,
+            "interval_seconds": 1.0026817090000004,
+            "ack_delta": 255,
+            "received_delta": 0,
+            "pending": 120
+          },
+          {
+            "seconds": 9.013100957999999,
+            "interval_seconds": 1.0020005829999992,
+            "ack_delta": 340,
+            "received_delta": 0,
+            "pending": 128
+          },
+          {
+            "seconds": 10.012934,
+            "interval_seconds": 0.9998330420000002,
+            "ack_delta": 255,
+            "received_delta": 0,
+            "pending": 109
+          },
+          {
+            "seconds": 11.014152833,
+            "interval_seconds": 1.001218833000001,
+            "ack_delta": 340,
+            "received_delta": 0,
+            "pending": 113
+          },
+          {
+            "seconds": 12.014240082999999,
+            "interval_seconds": 1.0000872499999987,
+            "ack_delta": 425,
+            "received_delta": 0,
+            "pending": 75
+          },
+          {
+            "seconds": 13.015487457999999,
+            "interval_seconds": 1.0012473750000008,
+            "ack_delta": 255,
+            "received_delta": 0,
+            "pending": 90
+          },
+          {
+            "seconds": 14.015811249999999,
+            "interval_seconds": 1.0003237919999992,
+            "ack_delta": 340,
+            "received_delta": 0,
+            "pending": 93
+          },
+          {
+            "seconds": 15.016505125,
+            "interval_seconds": 1.000693875000001,
+            "ack_delta": 255,
+            "received_delta": 0,
+            "pending": 121
+          },
+          {
+            "seconds": 16.017920875,
+            "interval_seconds": 1.00141575,
+            "ack_delta": 340,
+            "received_delta": 0,
+            "pending": 105
+          },
+          {
+            "seconds": 17.018395249999998,
+            "interval_seconds": 1.000474374999998,
+            "ack_delta": 425,
+            "received_delta": 0,
+            "pending": 87
+          },
+          {
+            "seconds": 18.020024416000002,
+            "interval_seconds": 1.0016291660000025,
+            "ack_delta": 255,
+            "received_delta": 0,
+            "pending": 82
+          },
+          {
+            "seconds": 19.021440125,
+            "interval_seconds": 1.0014157090000009,
+            "ack_delta": 340,
+            "received_delta": 0,
+            "pending": 54
+          },
+          {
+            "seconds": 20.021611083,
+            "interval_seconds": 1.0001709579999989,
+            "ack_delta": 340,
+            "received_delta": 0,
+            "pending": 99
+          },
+          {
+            "seconds": 21.023639125,
+            "interval_seconds": 1.002028041999998,
+            "ack_delta": 340,
+            "received_delta": 0,
+            "pending": 52
+          },
+          {
+            "seconds": 22.024394291,
+            "interval_seconds": 1.0007551660000027,
+            "ack_delta": 255,
+            "received_delta": 0,
+            "pending": 119
+          },
+          {
+            "seconds": 23.024890250000002,
+            "interval_seconds": 1.0004959589999998,
+            "ack_delta": 255,
+            "received_delta": 0,
+            "pending": 102
+          },
+          {
+            "seconds": 24.027024041,
+            "interval_seconds": 1.002133791,
+            "ack_delta": 340,
+            "received_delta": 0,
+            "pending": 70
+          },
+          {
+            "seconds": 25.027329041,
+            "interval_seconds": 1.0003050000000002,
+            "ack_delta": 255,
+            "received_delta": 0,
+            "pending": 46
+          },
+          {
+            "seconds": 26.027716625,
+            "interval_seconds": 1.000387584,
+            "ack_delta": 170,
+            "received_delta": 0,
+            "pending": 135
+          },
+          {
+            "seconds": 27.028171666,
+            "interval_seconds": 1.0004550409999975,
+            "ack_delta": 425,
+            "received_delta": 0,
+            "pending": 106
+          },
+          {
+            "seconds": 28.028894375,
+            "interval_seconds": 1.0007227090000015,
+            "ack_delta": 340,
+            "received_delta": 0,
+            "pending": 74
+          },
+          {
+            "seconds": 29.030338916,
+            "interval_seconds": 1.0014445410000008,
+            "ack_delta": 340,
+            "received_delta": 0,
+            "pending": 107
+          },
+          {
+            "seconds": 30.032697333,
+            "interval_seconds": 1.0023584169999995,
+            "ack_delta": 255,
+            "received_delta": 0,
+            "pending": 95
+          },
+          {
+            "seconds": 30.720884707999996,
+            "interval_seconds": 0.6881873749999977,
+            "ack_delta": 95,
+            "received_delta": 0,
+            "pending": 0
+          }
+        ]
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:38:22.086 INFO   solclientjs:  [session-fsm=0x1a1b55f1986] [SessionFullyConnected] Cancel keepalive timer\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:38:22.087 INFO   solclientjs:  [session-fsm=0x1a1b55f1986] [SessionFullyConnected] Disconnecting session {: SessionFSM}\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:38:22.087 INFO   solclientjs:  [session-fsm=0x1a1b55f1986] [SessionFullyConnected] All flows disconnected\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:38:22.087 INFO   solclientjs:  [session-fsm=0x1a1b55f1986] [DisconnectingFlows] Flushing transport\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:38:22.088 INFO   solclientjs:  [session-fsm=0x1a1b55f1986] [DisconnectingFlows] Clean up session\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:38:22.088 INFO   solclientjs:  [session-fsm=0x1a1b55f1986] [FlushingTransport] Handle Transport Flushed\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:38:22.089 INFO   solclientjs:  [session-fsm=0x1a1b55f1986] [FlushingTransport] Connecting, disposing transport\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:38:22.089 INFO   solclientjs:  [session-fsm=0x1a1b55f1986] [FlushingTransport] Destroy transport session\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:38:22.090 INFO   solclientjs:  [session-fsm=0x1a1b55f1986] [FlushingTransport] Receive transport event: {\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  transportEventCode: 'DESTROYED_NOTICE (2)',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  infoStr: 'Disconnecting session',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  responseCode: null,\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  errorSubcode: 'NO_ERROR (0)',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  sid: 'N/A'\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "}\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:38:22.091 INFO   solclientjs:  [session-fsm=0x1a1b55f1986] [SessionDisconnected] Clean up session\n"
+      }
+    ],
+    [
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:37:51.077 INFO   solclientjs:  websocket browserSupportBinaryCheck: true - WebSocket supports binaryType\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:37:51.078 INFO   solclientjs:  websocket browserSupportBinaryCheck: true - WebSocket supports binaryType\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:37:51.081 INFO   solclientjs:  websocket browserSupportBinaryCheck: true - WebSocket supports binaryType\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:37:51.083 INFO   solclientjs:  [session-fsm=N/A] [WaitingForDNS] Creating transport session tcp://127.0.0.1:15555\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:37:51.083 INFO   solclientjs:  [session-fsm=N/A] [WaitingForDNS] Attempting to connect session 'null' to host 'tcp://127.0.0.1:15555' (host 1 of 1)(host connection attempt 1 of 1)(total connection attempt 1 of 1)\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:37:51.084 INFO   solclientjs:  [session-fsm=N/A] [WaitingForTransportUp] Receive transport event: {\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  transportEventCode: 'UP_NOTICE (1)',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  infoStr: 'Connected',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  responseCode: 0,\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  errorSubcode: '<none>',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  sid: 'N/A'\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "}\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:37:51.085 INFO   solclientjs:  [session-fsm=0x1a1b55f19eb] [WaitingForTransportUp] Using internally correlationTag=16777215 for tracking ClientCTRL Login\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:37:51.085 INFO   solclientjs:  [session-fsm=0x1a1b55f19eb] [WaitingForTransportUp] Enqueue outstanding ctrl request correlationTag=16777215\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:37:51.086 INFO   solclientjs:  [session-fsm=0x1a1b55f19eb] [WaitingForLogin] Handle SMF response for ClientCTRL Login\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:37:51.086 INFO   solclientjs:  [session-fsm=0x1a1b55f19eb] [WaitingForLogin] ReapplyingSubscriptions: entry\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:37:51.086 INFO   solclientjs:  [session-fsm=0x1a1b55f19eb] [WaitingForLogin] Reapplying subscriptions, count=1\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:37:51.086 INFO   solclientjs:  [session-fsm=0x1a1b55f19eb] [WaitingForLogin] Enqueue outstanding ctrl request correlationTag=1\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:37:51.087 INFO   solclientjs:  [session-fsm=0x1a1b55f19eb] [WaitForSubConfirm] Enqueue outstanding ctrl request correlationTag=2\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:37:51.088 INFO   solclientjs:  [session-fsm=0x1a1b55f19eb] [WaitingForMessagePublisher] Handle SMF response for correlationTag 2\n"
+      },
+      {
+        "type": "ready",
+        "role": "publisher"
+      },
+      {
+        "type": "result",
+        "role": "publisher",
+        "window": 255,
+        "sdk_window": 255,
+        "size": 8192,
+        "sent": 9700,
+        "acknowledged": 9700,
+        "rejected": 0,
+        "received": 0,
+        "pending": 0,
+        "blocked": 0,
+        "duration_seconds": 30.721900833,
+        "ack_timeout_ms": 60000,
+        "sdk_stats": {
+          "TX_PERSISTENT_MSGS": 9700,
+          "TX_PERSISTENT_REDELIVERED": 0,
+          "TX_ACK_TIMEOUT": 0,
+          "RX_PERSISTENT_MSGS": 0,
+          "RX_DISCARD_DUPLICATE": 0,
+          "TX_WINDOW_CLOSE": 0
+        },
+        "cpu_user_seconds": 0.821877,
+        "cpu_system_seconds": 0.148808,
+        "event_loop_utilization": 0.0317473334745969,
+        "mean_ack_ms": 318.3166853007219,
+        "max_ack_ms": 1002.4163339999977,
+        "samples": [
+          {
+            "seconds": 1.0026932909999997,
+            "interval_seconds": 1.0026932909999997,
+            "ack_delta": 425,
+            "received_delta": 0,
+            "pending": 189
+          },
+          {
+            "seconds": 2.003022291,
+            "interval_seconds": 1.0003290000000002,
+            "ack_delta": 340,
+            "received_delta": 0,
+            "pending": 80
+          },
+          {
+            "seconds": 3.0042412910000005,
+            "interval_seconds": 1.001219,
+            "ack_delta": 340,
+            "received_delta": 0,
+            "pending": 80
+          },
+          {
+            "seconds": 4.005443457999999,
+            "interval_seconds": 1.0012021669999995,
+            "ack_delta": 425,
+            "received_delta": 0,
+            "pending": 77
+          },
+          {
+            "seconds": 5.007073041000001,
+            "interval_seconds": 1.0016295830000008,
+            "ack_delta": 255,
+            "received_delta": 0,
+            "pending": 99
+          },
+          {
+            "seconds": 6.008261833000001,
+            "interval_seconds": 1.001188792,
+            "ack_delta": 255,
+            "received_delta": 0,
+            "pending": 114
+          },
+          {
+            "seconds": 7.008428791,
+            "interval_seconds": 1.0001669579999999,
+            "ack_delta": 425,
+            "received_delta": 0,
+            "pending": 74
+          },
+          {
+            "seconds": 8.009492666,
+            "interval_seconds": 1.0010638749999998,
+            "ack_delta": 255,
+            "received_delta": 0,
+            "pending": 120
+          },
+          {
+            "seconds": 9.011619875000001,
+            "interval_seconds": 1.0021272090000002,
+            "ack_delta": 340,
+            "received_delta": 0,
+            "pending": 128
+          },
+          {
+            "seconds": 10.011791708,
+            "interval_seconds": 1.0001718330000002,
+            "ack_delta": 255,
+            "received_delta": 0,
+            "pending": 109
+          },
+          {
+            "seconds": 11.013275791,
+            "interval_seconds": 1.0014840829999994,
+            "ack_delta": 340,
+            "received_delta": 0,
+            "pending": 113
+          },
+          {
+            "seconds": 12.014738833,
+            "interval_seconds": 1.0014630419999995,
+            "ack_delta": 425,
+            "received_delta": 0,
+            "pending": 75
+          },
+          {
+            "seconds": 13.015242291,
+            "interval_seconds": 1.000503458000001,
+            "ack_delta": 255,
+            "received_delta": 0,
+            "pending": 90
+          },
+          {
+            "seconds": 14.017263333,
+            "interval_seconds": 1.0020210420000004,
+            "ack_delta": 340,
+            "received_delta": 0,
+            "pending": 93
+          },
+          {
+            "seconds": 15.01806375,
+            "interval_seconds": 1.0008004169999987,
+            "ack_delta": 255,
+            "received_delta": 0,
+            "pending": 127
+          },
+          {
+            "seconds": 16.018640208,
+            "interval_seconds": 1.0005764580000014,
+            "ack_delta": 340,
+            "received_delta": 0,
+            "pending": 105
+          },
+          {
+            "seconds": 17.0183825,
+            "interval_seconds": 0.999742291999999,
+            "ack_delta": 425,
+            "received_delta": 0,
+            "pending": 87
+          },
+          {
+            "seconds": 18.019658583000002,
+            "interval_seconds": 1.0012760830000007,
+            "ack_delta": 255,
+            "received_delta": 0,
+            "pending": 82
+          },
+          {
+            "seconds": 19.021270333,
+            "interval_seconds": 1.0016117500000001,
+            "ack_delta": 340,
+            "received_delta": 0,
+            "pending": 54
+          },
+          {
+            "seconds": 20.021370458,
+            "interval_seconds": 1.0001001250000008,
+            "ack_delta": 340,
+            "received_delta": 0,
+            "pending": 99
+          },
+          {
+            "seconds": 21.023353458000003,
+            "interval_seconds": 1.001983,
+            "ack_delta": 340,
+            "received_delta": 0,
+            "pending": 52
+          },
+          {
+            "seconds": 22.024110416,
+            "interval_seconds": 1.0007569579999982,
+            "ack_delta": 255,
+            "received_delta": 0,
+            "pending": 119
+          },
+          {
+            "seconds": 23.024747375,
+            "interval_seconds": 1.0006369589999995,
+            "ack_delta": 255,
+            "received_delta": 0,
+            "pending": 102
+          },
+          {
+            "seconds": 24.026825791,
+            "interval_seconds": 1.0020784160000002,
+            "ack_delta": 340,
+            "received_delta": 0,
+            "pending": 70
+          },
+          {
+            "seconds": 25.028146874999997,
+            "interval_seconds": 1.0013210839999993,
+            "ack_delta": 170,
+            "received_delta": 0,
+            "pending": 131
+          },
+          {
+            "seconds": 26.028825958000002,
+            "interval_seconds": 1.0006790830000027,
+            "ack_delta": 255,
+            "received_delta": 0,
+            "pending": 135
+          },
+          {
+            "seconds": 27.028152041000002,
+            "interval_seconds": 0.9993260829999999,
+            "ack_delta": 425,
+            "received_delta": 0,
+            "pending": 106
+          },
+          {
+            "seconds": 28.109272041,
+            "interval_seconds": 1.081119999999999,
+            "ack_delta": 340,
+            "received_delta": 0,
+            "pending": 74
+          },
+          {
+            "seconds": 29.110757041,
+            "interval_seconds": 1.0014850000000006,
+            "ack_delta": 340,
+            "received_delta": 0,
+            "pending": 107
+          },
+          {
+            "seconds": 30.110377916,
+            "interval_seconds": 0.9996208750000005,
+            "ack_delta": 255,
+            "received_delta": 0,
+            "pending": 95
+          },
+          {
+            "seconds": 30.720658708,
+            "interval_seconds": 0.6102807919999977,
+            "ack_delta": 95,
+            "received_delta": 0,
+            "pending": 0
+          }
+        ]
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:38:22.086 INFO   solclientjs:  [session-fsm=0x1a1b55f19eb] [SessionFullyConnected] Cancel keepalive timer\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:38:22.087 INFO   solclientjs:  [session-fsm=0x1a1b55f19eb] [SessionFullyConnected] Disconnecting session {: SessionFSM}\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:38:22.087 INFO   solclientjs:  [session-fsm=0x1a1b55f19eb] [SessionFullyConnected] All flows disconnected\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:38:22.087 INFO   solclientjs:  [session-fsm=0x1a1b55f19eb] [DisconnectingFlows] Flushing transport\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:38:22.087 INFO   solclientjs:  [session-fsm=0x1a1b55f19eb] [DisconnectingFlows] Clean up session\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:38:22.088 INFO   solclientjs:  [session-fsm=0x1a1b55f19eb] [FlushingTransport] Handle Transport Flushed\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:38:22.088 INFO   solclientjs:  [session-fsm=0x1a1b55f19eb] [FlushingTransport] Connecting, disposing transport\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:38:22.089 INFO   solclientjs:  [session-fsm=0x1a1b55f19eb] [FlushingTransport] Destroy transport session\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:38:22.090 INFO   solclientjs:  [session-fsm=0x1a1b55f19eb] [FlushingTransport] Receive transport event: {\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  transportEventCode: 'DESTROYED_NOTICE (2)',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  infoStr: 'Disconnecting session',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  responseCode: null,\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  errorSubcode: 'NO_ERROR (0)',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  sid: 'N/A'\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "}\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:38:22.091 INFO   solclientjs:  [session-fsm=0x1a1b55f19eb] [SessionDisconnected] Clean up session\n"
+      }
+    ],
+    [
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:37:51.179 INFO   solclientjs:  websocket browserSupportBinaryCheck: true - WebSocket supports binaryType\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:37:51.179 INFO   solclientjs:  websocket browserSupportBinaryCheck: true - WebSocket supports binaryType\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:37:51.182 INFO   solclientjs:  websocket browserSupportBinaryCheck: true - WebSocket supports binaryType\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:37:51.184 INFO   solclientjs:  [session-fsm=N/A] [WaitingForDNS] Creating transport session tcp://127.0.0.1:15555\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:37:51.185 INFO   solclientjs:  [session-fsm=N/A] [WaitingForDNS] Attempting to connect session 'null' to host 'tcp://127.0.0.1:15555' (host 1 of 1)(host connection attempt 1 of 1)(total connection attempt 1 of 1)\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:37:51.185 INFO   solclientjs:  [session-fsm=N/A] [WaitingForTransportUp] Receive transport event: {\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  transportEventCode: 'UP_NOTICE (1)',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  infoStr: 'Connected',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  responseCode: 0,\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  errorSubcode: '<none>',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  sid: 'N/A'\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "}\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:37:51.186 INFO   solclientjs:  [session-fsm=0x1a1b55f1a50] [WaitingForTransportUp] Using internally correlationTag=16777215 for tracking ClientCTRL Login\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:37:51.186 INFO   solclientjs:  [session-fsm=0x1a1b55f1a50] [WaitingForTransportUp] Enqueue outstanding ctrl request correlationTag=16777215\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:37:51.187 INFO   solclientjs:  [session-fsm=0x1a1b55f1a50] [WaitingForLogin] Handle SMF response for ClientCTRL Login\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:37:51.187 INFO   solclientjs:  [session-fsm=0x1a1b55f1a50] [WaitingForLogin] ReapplyingSubscriptions: entry\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:37:51.187 INFO   solclientjs:  [session-fsm=0x1a1b55f1a50] [WaitingForLogin] Reapplying subscriptions, count=1\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:37:51.187 INFO   solclientjs:  [session-fsm=0x1a1b55f1a50] [WaitingForLogin] Enqueue outstanding ctrl request correlationTag=1\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:37:51.188 INFO   solclientjs:  [session-fsm=0x1a1b55f1a50] [WaitForSubConfirm] Enqueue outstanding ctrl request correlationTag=2\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:37:51.189 INFO   solclientjs:  [session-fsm=0x1a1b55f1a50] [WaitingForMessagePublisher] Handle SMF response for correlationTag 2\n"
+      },
+      {
+        "type": "ready",
+        "role": "publisher"
+      },
+      {
+        "type": "result",
+        "role": "publisher",
+        "window": 255,
+        "sdk_window": 255,
+        "size": 8192,
+        "sent": 9700,
+        "acknowledged": 9700,
+        "rejected": 0,
+        "received": 0,
+        "pending": 0,
+        "blocked": 0,
+        "duration_seconds": 30.721908917,
+        "ack_timeout_ms": 60000,
+        "sdk_stats": {
+          "TX_PERSISTENT_MSGS": 9700,
+          "TX_PERSISTENT_REDELIVERED": 0,
+          "TX_ACK_TIMEOUT": 0,
+          "RX_PERSISTENT_MSGS": 0,
+          "RX_DISCARD_DUPLICATE": 0,
+          "TX_WINDOW_CLOSE": 0
+        },
+        "cpu_user_seconds": 0.756151,
+        "cpu_system_seconds": 0.142734,
+        "event_loop_utilization": 0.027912289066840918,
+        "mean_ack_ms": 314.2588411655675,
+        "max_ack_ms": 1002.3013750000027,
+        "samples": [
+          {
+            "seconds": 1.002338333,
+            "interval_seconds": 1.002338333,
+            "ack_delta": 340,
+            "received_delta": 0,
+            "pending": 255
+          },
+          {
+            "seconds": 2.002880917,
+            "interval_seconds": 1.000542584,
+            "ack_delta": 425,
+            "received_delta": 0,
+            "pending": 80
+          },
+          {
+            "seconds": 3.0042550419999996,
+            "interval_seconds": 1.001374125,
+            "ack_delta": 340,
+            "received_delta": 0,
+            "pending": 80
+          },
+          {
+            "seconds": 4.005567125,
+            "interval_seconds": 1.0013120829999997,
+            "ack_delta": 425,
+            "received_delta": 0,
+            "pending": 77
+          },
+          {
+            "seconds": 5.006685042,
+            "interval_seconds": 1.0011179170000004,
+            "ack_delta": 255,
+            "received_delta": 0,
+            "pending": 99
+          },
+          {
+            "seconds": 6.0082765,
+            "interval_seconds": 1.0015914579999998,
+            "ack_delta": 255,
+            "received_delta": 0,
+            "pending": 114
+          },
+          {
+            "seconds": 7.008205542,
+            "interval_seconds": 0.9999290419999998,
+            "ack_delta": 425,
+            "received_delta": 0,
+            "pending": 74
+          },
+          {
+            "seconds": 8.009506333000001,
+            "interval_seconds": 1.0013007910000005,
+            "ack_delta": 255,
+            "received_delta": 0,
+            "pending": 120
+          },
+          {
+            "seconds": 9.011835208,
+            "interval_seconds": 1.0023288749999992,
+            "ack_delta": 340,
+            "received_delta": 0,
+            "pending": 128
+          },
+          {
+            "seconds": 10.012295332999999,
+            "interval_seconds": 1.0004601249999996,
+            "ack_delta": 255,
+            "received_delta": 0,
+            "pending": 109
+          },
+          {
+            "seconds": 11.013546750000001,
+            "interval_seconds": 1.0012514170000013,
+            "ack_delta": 340,
+            "received_delta": 0,
+            "pending": 113
+          },
+          {
+            "seconds": 12.013825542,
+            "interval_seconds": 1.0002787919999991,
+            "ack_delta": 425,
+            "received_delta": 0,
+            "pending": 75
+          },
+          {
+            "seconds": 13.015257375000001,
+            "interval_seconds": 1.0014318330000005,
+            "ack_delta": 255,
+            "received_delta": 0,
+            "pending": 90
+          },
+          {
+            "seconds": 14.017376749999999,
+            "interval_seconds": 1.0021193750000001,
+            "ack_delta": 340,
+            "received_delta": 0,
+            "pending": 93
+          },
+          {
+            "seconds": 15.017989291999998,
+            "interval_seconds": 1.000612541999999,
+            "ack_delta": 340,
+            "received_delta": 0,
+            "pending": 42
+          },
+          {
+            "seconds": 16.017794333,
+            "interval_seconds": 0.9998050410000014,
+            "ack_delta": 255,
+            "received_delta": 0,
+            "pending": 105
+          },
+          {
+            "seconds": 17.01834875,
+            "interval_seconds": 1.0005544169999994,
+            "ack_delta": 425,
+            "received_delta": 0,
+            "pending": 87
+          },
+          {
+            "seconds": 18.019734458000002,
+            "interval_seconds": 1.0013857080000017,
+            "ack_delta": 255,
+            "received_delta": 0,
+            "pending": 82
+          },
+          {
+            "seconds": 19.021401542,
+            "interval_seconds": 1.001667083999997,
+            "ack_delta": 340,
+            "received_delta": 0,
+            "pending": 54
+          },
+          {
+            "seconds": 20.021497333,
+            "interval_seconds": 1.0000957909999997,
+            "ack_delta": 340,
+            "received_delta": 0,
+            "pending": 99
+          },
+          {
+            "seconds": 21.023492292000004,
+            "interval_seconds": 1.0019949590000032,
+            "ack_delta": 340,
+            "received_delta": 0,
+            "pending": 52
+          },
+          {
+            "seconds": 22.024032292,
+            "interval_seconds": 1.0005399999999973,
+            "ack_delta": 255,
+            "received_delta": 0,
+            "pending": 119
+          },
+          {
+            "seconds": 23.026257167,
+            "interval_seconds": 1.0022248749999998,
+            "ack_delta": 255,
+            "received_delta": 0,
+            "pending": 102
+          },
+          {
+            "seconds": 24.026814542,
+            "interval_seconds": 1.0005573750000003,
+            "ack_delta": 340,
+            "received_delta": 0,
+            "pending": 70
+          },
+          {
+            "seconds": 25.028184292000002,
+            "interval_seconds": 1.0013697500000016,
+            "ack_delta": 170,
+            "received_delta": 0,
+            "pending": 131
+          },
+          {
+            "seconds": 26.028599625000002,
+            "interval_seconds": 1.0004153330000007,
+            "ack_delta": 255,
+            "received_delta": 0,
+            "pending": 135
+          },
+          {
+            "seconds": 27.029056542000003,
+            "interval_seconds": 1.0004569169999995,
+            "ack_delta": 425,
+            "received_delta": 0,
+            "pending": 122
+          },
+          {
+            "seconds": 28.109459333000004,
+            "interval_seconds": 1.0804027910000005,
+            "ack_delta": 340,
+            "received_delta": 0,
+            "pending": 74
+          },
+          {
+            "seconds": 29.109574375,
+            "interval_seconds": 1.0001150419999976,
+            "ack_delta": 340,
+            "received_delta": 0,
+            "pending": 107
+          },
+          {
+            "seconds": 30.109104332999998,
+            "interval_seconds": 0.9995299579999992,
+            "ack_delta": 255,
+            "received_delta": 0,
+            "pending": 95
+          },
+          {
+            "seconds": 30.720658042,
+            "interval_seconds": 0.6115537089999998,
+            "ack_delta": 95,
+            "received_delta": 0,
+            "pending": 0
+          }
+        ]
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:38:22.086 INFO   solclientjs:  [session-fsm=0x1a1b55f1a50] [SessionFullyConnected] Cancel keepalive timer\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:38:22.087 INFO   solclientjs:  [session-fsm=0x1a1b55f1a50] [SessionFullyConnected] Disconnecting session {: SessionFSM}\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:38:22.087 INFO   solclientjs:  [session-fsm=0x1a1b55f1a50] [SessionFullyConnected] All flows disconnected\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:38:22.087 INFO   solclientjs:  [session-fsm=0x1a1b55f1a50] [DisconnectingFlows] Flushing transport\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:38:22.087 INFO   solclientjs:  [session-fsm=0x1a1b55f1a50] [DisconnectingFlows] Clean up session\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:38:22.088 INFO   solclientjs:  [session-fsm=0x1a1b55f1a50] [FlushingTransport] Handle Transport Flushed\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:38:22.089 INFO   solclientjs:  [session-fsm=0x1a1b55f1a50] [FlushingTransport] Connecting, disposing transport\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:38:22.089 INFO   solclientjs:  [session-fsm=0x1a1b55f1a50] [FlushingTransport] Destroy transport session\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:38:22.090 INFO   solclientjs:  [session-fsm=0x1a1b55f1a50] [FlushingTransport] Receive transport event: {\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  transportEventCode: 'DESTROYED_NOTICE (2)',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  infoStr: 'Disconnecting session',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  responseCode: null,\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  errorSubcode: 'NO_ERROR (0)',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  sid: 'N/A'\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "}\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:38:22.091 INFO   solclientjs:  [session-fsm=0x1a1b55f1a50] [SessionDisconnected] Clean up session\n"
+      }
+    ],
+    [
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:37:51.280 INFO   solclientjs:  websocket browserSupportBinaryCheck: true - WebSocket supports binaryType\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:37:51.280 INFO   solclientjs:  websocket browserSupportBinaryCheck: true - WebSocket supports binaryType\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:37:51.283 INFO   solclientjs:  websocket browserSupportBinaryCheck: true - WebSocket supports binaryType\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:37:51.285 INFO   solclientjs:  [session-fsm=N/A] [WaitingForDNS] Creating transport session tcp://127.0.0.1:15555\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:37:51.286 INFO   solclientjs:  [session-fsm=N/A] [WaitingForDNS] Attempting to connect session 'null' to host 'tcp://127.0.0.1:15555' (host 1 of 1)(host connection attempt 1 of 1)(total connection attempt 1 of 1)\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:37:51.286 INFO   solclientjs:  [session-fsm=N/A] [WaitingForTransportUp] Receive transport event: {\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  transportEventCode: 'UP_NOTICE (1)',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  infoStr: 'Connected',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  responseCode: 0,\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  errorSubcode: '<none>',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  sid: 'N/A'\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "}\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:37:51.286 INFO   solclientjs:  [session-fsm=0x1a1b55f1ab5] [WaitingForTransportUp] Using internally correlationTag=16777215 for tracking ClientCTRL Login\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:37:51.287 INFO   solclientjs:  [session-fsm=0x1a1b55f1ab5] [WaitingForTransportUp] Enqueue outstanding ctrl request correlationTag=16777215\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:37:51.289 INFO   solclientjs:  [session-fsm=0x1a1b55f1ab5] [WaitingForLogin] Handle SMF response for ClientCTRL Login\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:37:51.289 INFO   solclientjs:  [session-fsm=0x1a1b55f1ab5] [WaitingForLogin] ReapplyingSubscriptions: entry\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:37:51.289 INFO   solclientjs:  [session-fsm=0x1a1b55f1ab5] [WaitingForLogin] Reapplying subscriptions, count=1\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:37:51.289 INFO   solclientjs:  [session-fsm=0x1a1b55f1ab5] [WaitingForLogin] Enqueue outstanding ctrl request correlationTag=1\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:37:51.291 INFO   solclientjs:  [session-fsm=0x1a1b55f1ab5] [WaitForSubConfirm] Enqueue outstanding ctrl request correlationTag=2\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:37:51.292 INFO   solclientjs:  [session-fsm=0x1a1b55f1ab5] [WaitingForMessagePublisher] Handle SMF response for correlationTag 2\n"
+      },
+      {
+        "type": "ready",
+        "role": "publisher"
+      },
+      {
+        "type": "result",
+        "role": "publisher",
+        "window": 255,
+        "sdk_window": 255,
+        "size": 8192,
+        "sent": 9700,
+        "acknowledged": 9700,
+        "rejected": 0,
+        "received": 0,
+        "pending": 0,
+        "blocked": 0,
+        "duration_seconds": 30.721767749999998,
+        "ack_timeout_ms": 60000,
+        "sdk_stats": {
+          "TX_PERSISTENT_MSGS": 9700,
+          "TX_PERSISTENT_REDELIVERED": 0,
+          "TX_ACK_TIMEOUT": 0,
+          "RX_PERSISTENT_MSGS": 0,
+          "RX_DISCARD_DUPLICATE": 0,
+          "TX_WINDOW_CLOSE": 0
+        },
+        "cpu_user_seconds": 0.887316,
+        "cpu_system_seconds": 0.146131,
+        "event_loop_utilization": 0.028995556290683865,
+        "mean_ack_ms": 321.200248335257,
+        "max_ack_ms": 1001.6542500000032,
+        "samples": [
+          {
+            "seconds": 1.002284875,
+            "interval_seconds": 1.002284875,
+            "ack_delta": 425,
+            "received_delta": 0,
+            "pending": 189
+          },
+          {
+            "seconds": 2.0028866659999998,
+            "interval_seconds": 1.000601791,
+            "ack_delta": 340,
+            "received_delta": 0,
+            "pending": 80
+          },
+          {
+            "seconds": 3.0042499159999996,
+            "interval_seconds": 1.0013632499999998,
+            "ack_delta": 340,
+            "received_delta": 0,
+            "pending": 80
+          },
+          {
+            "seconds": 4.006251375,
+            "interval_seconds": 1.0020014590000001,
+            "ack_delta": 425,
+            "received_delta": 0,
+            "pending": 77
+          },
+          {
+            "seconds": 5.008151833,
+            "interval_seconds": 1.0019004580000002,
+            "ack_delta": 255,
+            "received_delta": 0,
+            "pending": 99
+          },
+          {
+            "seconds": 6.010532541,
+            "interval_seconds": 1.0023807079999998,
+            "ack_delta": 255,
+            "received_delta": 0,
+            "pending": 114
+          },
+          {
+            "seconds": 7.010738166,
+            "interval_seconds": 1.0002056250000004,
+            "ack_delta": 425,
+            "received_delta": 0,
+            "pending": 74
+          },
+          {
+            "seconds": 8.010800290999999,
+            "interval_seconds": 1.0000621249999995,
+            "ack_delta": 255,
+            "received_delta": 0,
+            "pending": 120
+          },
+          {
+            "seconds": 9.011421083000002,
+            "interval_seconds": 1.0006207920000005,
+            "ack_delta": 340,
+            "received_delta": 0,
+            "pending": 128
+          },
+          {
+            "seconds": 10.011872416000001,
+            "interval_seconds": 1.000451332999999,
+            "ack_delta": 255,
+            "received_delta": 0,
+            "pending": 109
+          },
+          {
+            "seconds": 11.011732083,
+            "interval_seconds": 0.9998596670000006,
+            "ack_delta": 425,
+            "received_delta": 0,
+            "pending": 28
+          },
+          {
+            "seconds": 12.013310416,
+            "interval_seconds": 1.0015783329999994,
+            "ack_delta": 340,
+            "received_delta": 0,
+            "pending": 75
+          },
+          {
+            "seconds": 13.015248333,
+            "interval_seconds": 1.0019379170000011,
+            "ack_delta": 255,
+            "received_delta": 0,
+            "pending": 90
+          },
+          {
+            "seconds": 14.015967625000002,
+            "interval_seconds": 1.0007192919999999,
+            "ack_delta": 340,
+            "received_delta": 0,
+            "pending": 93
+          },
+          {
+            "seconds": 15.016964750000001,
+            "interval_seconds": 1.0009971249999998,
+            "ack_delta": 255,
+            "received_delta": 0,
+            "pending": 121
+          },
+          {
+            "seconds": 16.017608208000002,
+            "interval_seconds": 1.0006434580000005,
+            "ack_delta": 340,
+            "received_delta": 0,
+            "pending": 105
+          },
+          {
+            "seconds": 17.018084666000004,
+            "interval_seconds": 1.000476458000001,
+            "ack_delta": 425,
+            "received_delta": 0,
+            "pending": 87
+          },
+          {
+            "seconds": 18.019588750000004,
+            "interval_seconds": 1.0015040840000002,
+            "ack_delta": 255,
+            "received_delta": 0,
+            "pending": 82
+          },
+          {
+            "seconds": 19.02119525,
+            "interval_seconds": 1.001606499999998,
+            "ack_delta": 255,
+            "received_delta": 0,
+            "pending": 139
+          },
+          {
+            "seconds": 20.0226,
+            "interval_seconds": 1.0014047500000016,
+            "ack_delta": 425,
+            "received_delta": 0,
+            "pending": 99
+          },
+          {
+            "seconds": 21.023643833,
+            "interval_seconds": 1.0010438329999998,
+            "ack_delta": 340,
+            "received_delta": 0,
+            "pending": 52
+          },
+          {
+            "seconds": 22.02394675,
+            "interval_seconds": 1.0003029169999973,
+            "ack_delta": 255,
+            "received_delta": 0,
+            "pending": 119
+          },
+          {
+            "seconds": 23.024579958,
+            "interval_seconds": 1.0006332080000029,
+            "ack_delta": 255,
+            "received_delta": 0,
+            "pending": 102
+          },
+          {
+            "seconds": 24.024903125,
+            "interval_seconds": 1.0003231669999986,
+            "ack_delta": 340,
+            "received_delta": 0,
+            "pending": 70
+          },
+          {
+            "seconds": 25.026480041000003,
+            "interval_seconds": 1.0015769160000019,
+            "ack_delta": 170,
+            "received_delta": 0,
+            "pending": 131
+          },
+          {
+            "seconds": 26.026261875,
+            "interval_seconds": 0.9997818339999976,
+            "ack_delta": 255,
+            "received_delta": 0,
+            "pending": 135
+          },
+          {
+            "seconds": 27.02649375,
+            "interval_seconds": 1.0002318750000012,
+            "ack_delta": 425,
+            "received_delta": 0,
+            "pending": 106
+          },
+          {
+            "seconds": 28.028492041,
+            "interval_seconds": 1.0019982909999998,
+            "ack_delta": 340,
+            "received_delta": 0,
+            "pending": 74
+          },
+          {
+            "seconds": 29.029970916000003,
+            "interval_seconds": 1.0014788750000008,
+            "ack_delta": 340,
+            "received_delta": 0,
+            "pending": 107
+          },
+          {
+            "seconds": 30.031966541000003,
+            "interval_seconds": 1.0019956249999995,
+            "ack_delta": 255,
+            "received_delta": 0,
+            "pending": 95
+          },
+          {
+            "seconds": 30.720575166000003,
+            "interval_seconds": 0.6886086250000008,
+            "ack_delta": 95,
+            "received_delta": 0,
+            "pending": 0
+          }
+        ]
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:38:22.086 INFO   solclientjs:  [session-fsm=0x1a1b55f1ab5] [SessionFullyConnected] Cancel keepalive timer\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:38:22.087 INFO   solclientjs:  [session-fsm=0x1a1b55f1ab5] [SessionFullyConnected] Disconnecting session {: SessionFSM}\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:38:22.087 INFO   solclientjs:  [session-fsm=0x1a1b55f1ab5] [SessionFullyConnected] All flows disconnected\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:38:22.087 INFO   solclientjs:  [session-fsm=0x1a1b55f1ab5] [DisconnectingFlows] Flushing transport\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:38:22.087 INFO   solclientjs:  [session-fsm=0x1a1b55f1ab5] [DisconnectingFlows] Clean up session\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:38:22.088 INFO   solclientjs:  [session-fsm=0x1a1b55f1ab5] [FlushingTransport] Handle Transport Flushed\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:38:22.088 INFO   solclientjs:  [session-fsm=0x1a1b55f1ab5] [FlushingTransport] Connecting, disposing transport\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:38:22.089 INFO   solclientjs:  [session-fsm=0x1a1b55f1ab5] [FlushingTransport] Destroy transport session\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:38:22.090 INFO   solclientjs:  [session-fsm=0x1a1b55f1ab5] [FlushingTransport] Receive transport event: {\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  transportEventCode: 'DESTROYED_NOTICE (2)',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  infoStr: 'Disconnecting session',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  responseCode: null,\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  errorSubcode: 'NO_ERROR (0)',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  sid: 'N/A'\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "}\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:38:22.091 INFO   solclientjs:  [session-fsm=0x1a1b55f1ab5] [SessionDisconnected] Clean up session\n"
+      }
+    ]
+  ],
+  "monitor_errors": [],
+  "setup_readiness_retries": []
+}

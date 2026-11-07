@@ -1,0 +1,204 @@
+{
+  "study": "outputs/broker-capacity/sdkperf-followup-evidence",
+  "study_completed": false,
+  "designed_cases": 3,
+  "audited_accepted_cases": 2,
+  "excluded_or_unrun_cases": [
+    "followup-2-131072-152"
+  ],
+  "checks": [
+    {
+      "name": "design_hash",
+      "passed": true
+    },
+    {
+      "name": "terminal_all_cases",
+      "passed": true
+    },
+    {
+      "name": "at_least_one_accepted_case",
+      "passed": true
+    },
+    {
+      "name": "followup-0-256-8000:case_matches_design",
+      "passed": true
+    },
+    {
+      "name": "followup-0-256-8000:accepted_integrity_record",
+      "passed": true
+    },
+    {
+      "name": "followup-0-256-8000:expected_transmitted",
+      "passed": true
+    },
+    {
+      "name": "followup-0-256-8000:expected_acked",
+      "passed": true
+    },
+    {
+      "name": "followup-0-256-8000:no_nacks",
+      "passed": true
+    },
+    {
+      "name": "followup-0-256-8000:received",
+      "passed": true
+    },
+    {
+      "name": "followup-0-256-8000:all_crc_ok",
+      "passed": true
+    },
+    {
+      "name": "followup-0-256-8000:no_crc_errors",
+      "passed": true
+    },
+    {
+      "name": "followup-0-256-8000:all_order_checked",
+      "passed": true
+    },
+    {
+      "name": "followup-0-256-8000:Total Out of Order Msgs",
+      "passed": true
+    },
+    {
+      "name": "followup-0-256-8000:Total Missing Msgs",
+      "passed": true
+    },
+    {
+      "name": "followup-0-256-8000:Total Duplicate Msgs",
+      "passed": true
+    },
+    {
+      "name": "followup-0-256-8000:Total Redelivered Msgs",
+      "passed": true
+    },
+    {
+      "name": "followup-0-256-8000:broker_attempts_equal_expected",
+      "passed": true
+    },
+    {
+      "name": "followup-0-256-8000:drained",
+      "passed": true
+    },
+    {
+      "name": "followup-0-256-8000:queue_received",
+      "passed": true
+    },
+    {
+      "name": "followup-0-256-8000:returncodes",
+      "passed": true
+    },
+    {
+      "name": "followup-0-256-8000:enough_interior_samples",
+      "passed": true
+    },
+    {
+      "name": "followup-0-256-8000:strict_sample_times",
+      "passed": true
+    },
+    {
+      "name": "followup-0-256-8000:interior_rate_recomputed",
+      "passed": true
+    },
+    {
+      "name": "followup-1-131072-76:case_matches_design",
+      "passed": true
+    },
+    {
+      "name": "followup-1-131072-76:accepted_integrity_record",
+      "passed": true
+    },
+    {
+      "name": "followup-1-131072-76:expected_transmitted",
+      "passed": true
+    },
+    {
+      "name": "followup-1-131072-76:expected_acked",
+      "passed": true
+    },
+    {
+      "name": "followup-1-131072-76:no_nacks",
+      "passed": true
+    },
+    {
+      "name": "followup-1-131072-76:received",
+      "passed": true
+    },
+    {
+      "name": "followup-1-131072-76:all_crc_ok",
+      "passed": true
+    },
+    {
+      "name": "followup-1-131072-76:no_crc_errors",
+      "passed": true
+    },
+    {
+      "name": "followup-1-131072-76:all_order_checked",
+      "passed": true
+    },
+    {
+      "name": "followup-1-131072-76:Total Out of Order Msgs",
+      "passed": true
+    },
+    {
+      "name": "followup-1-131072-76:Total Missing Msgs",
+      "passed": true
+    },
+    {
+      "name": "followup-1-131072-76:Total Duplicate Msgs",
+      "passed": true
+    },
+    {
+      "name": "followup-1-131072-76:Total Redelivered Msgs",
+      "passed": true
+    },
+    {
+      "name": "followup-1-131072-76:broker_attempts_equal_expected",
+      "passed": true
+    },
+    {
+      "name": "followup-1-131072-76:drained",
+      "passed": true
+    },
+    {
+      "name": "followup-1-131072-76:queue_received",
+      "passed": true
+    },
+    {
+      "name": "followup-1-131072-76:returncodes",
+      "passed": true
+    },
+    {
+      "name": "followup-1-131072-76:enough_interior_samples",
+      "passed": true
+    },
+    {
+      "name": "followup-1-131072-76:strict_sample_times",
+      "passed": true
+    },
+    {
+      "name": "followup-1-131072-76:interior_rate_recomputed",
+      "passed": true
+    }
+  ],
+  "check_count": 43,
+  "all_passed": true,
+  "source_messages": 484560,
+  "consumer_receipts": 484560,
+  "case_summaries": [
+    {
+      "case": "followup-0-256-8000",
+      "size": 256,
+      "target_rate": 8000,
+      "interior_ingress_rate": 5887.525176582041,
+      "source_messages": 480000
+    },
+    {
+      "case": "followup-1-131072-76",
+      "size": 131072,
+      "target_rate": 76,
+      "interior_ingress_rate": 76.02873313822118,
+      "source_messages": 4560
+    }
+  ],
+  "scope": "Evidence integrity and counter/rate recomputation; not a general broker-capacity certificate."
+}

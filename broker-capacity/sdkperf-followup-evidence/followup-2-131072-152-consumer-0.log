@@ -1,0 +1,215 @@
+Run Info: CPU usage currently disabled.
+Client naming used:
+	logging ID   = followup-2-131072-152-consumer-0000001
+	username     = default
+	vpn          = default
+	client names = followup-2-131072-152-consumer-0000001
+
+> VM Name: OpenJDK 64-Bit Server VM
+Run Info: Using Java Nanosecond Timer for Timing
+> Timing Package Clock Speed (Hz): 1000000000
+> Getting ready to init clients
+SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+> Adding subscriptions if required
+> Getting ready to start clients.
+PUB MR(5s)=    0, SUB MR(5s)=    0, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=    0, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=    0, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=   24, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=   55, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=   69, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=   84, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=   96, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=  100, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=  108, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=  124, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=  143, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=  148, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=  144, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=  149, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=  154, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=  144, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=  154, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=  150, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=  153, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=  140, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=  139, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=  130, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=  115, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=   97, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=   91, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=   67, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=   56, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=   37, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=   32, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=   23, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=   22, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=   18, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=   14, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=   13, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=   13, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=    9, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=   11, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=   11, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=    7, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=    7, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=    7, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=    7, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=    3, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=    7, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=    7, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=    6, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=    6, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=   10, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=    7, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=    7, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=    7, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=    7, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=    7, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=    7, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=    8, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=   11, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=   11, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=   11, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=   11, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=   11, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=   15, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=   11, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=   15, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=   15, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=   11, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=   11, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=   11, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=   11, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=   12, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=    9, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=   11, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=    7, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=   10, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=   10, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=   10, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=   13, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=   14, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=   13, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=   12, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=   13, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=   13, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=   14, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=   14, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=   13, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=   10, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=    9, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=   10, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=    9, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=    6, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=    6, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=    3, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=    3, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=    3, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=    3, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=    5, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=    5, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=    5, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=    9, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=    9, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=    9, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=    9, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=    5, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=    9, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=    7, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=   11, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=   11, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=   10, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=   10, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=   13, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=   13, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=   13, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=    9, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=   13, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=    9, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=   13, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=   11, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=   15, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=   12, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=   12, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=   12, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=   12, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=   11, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=   11, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=    7, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=   10, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=    9, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=    8, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=    8, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=    8, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=    8, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=    5, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=    5, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=    5, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=    2, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=    2, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=    2, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=    6, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=   10, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=   10, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=   14, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=   73, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=  285, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=  506, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=  718, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=  934, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)= 1154, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)= 1379, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)= 1537, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)= 1534, CPU=0
+> Running sdkperf shutdown...
+Pausing -ped time to allow clients to finish recv messages (2000 ms)
+PUB MR(5s)=    0, SUB MR(5s)= 1474, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)= 1259, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)= 1037, CPU=0
+PUB MR(5s)=    0, SUB MR(5s)=  822, CPU=0
+2026-11-07 11:28:17,972 Thread-1 WARN Unable to register Log4j shutdown hook because JVM is shutting down. Using SimpleLogger
+
+-------------------------------------------------
+Aggregate Stats (Total # clients: 1):
+-------------------------------------------------
+Total Messages transmitted = 0
+Computed publish rate (msg/sec) = 0.0
+-------------------------------------------------
+Total Messages received across all subscribers = 8950
+Messages received with discard indication = 0
+Computed subscriber rate (msg/sec across all subscribers) = 122
+
+CPU usage = 0%
+
+Message Order Check Summary: 
+Total Msgs Order Checked        : 8950
+Total Out of Order Msgs         : 0
+Total Missing Msgs              : 0
+Total Duplicate Msgs            : 0
+Total Redelivered Msgs          : 0
+Total Redelivered Duplicate Msgs: 0
+Total Republished Duplicate Msgs: 0
+Total Replication Group Message Id Duplicate Msgs: 0
+Total Replication Group Message Spool Id Changes: 0
+
+
+Message Integrity Checking: 
+Total Messages with OK          = 8950
+Total Messages with ERRORS      = 0
+Msgs with xml payload OK        = 0
+Msgs with xml payload ERRORS    = 0
+Msgs with attachment OK         = 8950
+Msgs with attachment ERRORS     = 0
+Msgs with userdata OK           = 0
+Msgs with userdata ERRORS       = 0
+Msgs with stuctured data OK     = 0
+Msgs with stuctured data ERRORS = 0
+
+==> Garbage collection information
+====> Collection count 176
+====> Collection time 89 ms.
+
+> Exiting

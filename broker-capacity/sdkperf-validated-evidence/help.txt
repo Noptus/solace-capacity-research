@@ -1,0 +1,72 @@
+sdkperf_java [options]
+
+  Client control:
+    -cip ip[:port]  IP and port of the client appliance. (e.g. -cip=192.168.160.101)
+    -cu user[@vpn]  Client username and optionally VPN name.
+                    (default is 'perf_client' if client-certificate authentication is not used)
+    -cn string      Root name for clients, index appended (default in pubsub mode is '')
+                    First SMF client by default is 'perf_client0001', second is
+                    'perf_client0002', etc.) (default in pubsub mode is API specified)
+
+  Message Control:
+    -mr number      Publishing rate (msg/sec per client) (default 1)
+    -mn number      Total # messages to publish (across ALL clients). (default is 0)
+    -msx list       Comma sep size list in bytes for auto-generated xml payload portion.
+    -msa list       Comma sep size list in bytes for auto-generated binary attachment portion.
+    -mt string      Message type, one of {direct|nonpersistent|persistent}.
+                    Default is direct
+    -md             Dump all received messages to the screen as text
+
+  Publishing options (All files lists are comma separated, full paths): 
+    Note: All lists of message parts specified must be of equal length.
+    -pfl list       Xml data file list
+    -pal list       Binary attachment list.
+    -ptl list       List of topics for publishing. Note: This list must be 
+                    either of size 1 (same topic used for all msgs) or 
+                    of equal length to message parts specified (topics uniquely specified). 
+    -pql list       List of queues for publishing. Note: This list must be 
+                    either of size 1 (same queue used for all msgs) or 
+                    of equal length to message parts specified (queues uniquely specified). 
+    -ptp string     Publish topic prefix. Use with -ptc to generate a large topic list. 
+    -ptc int        Publish topic count. Use with -ptp to generate a large topic list. 
+    -psv number     Configure pub send vector.  Default is 0, meaning disabled.  Max is 50
+    -psm            Enable smooth publishers.  Enabled by default for latency testing. 
+
+  Subscribing options (All lists are comma separated) 
+    Note: Elements of the given lists are applied round robin to clients.  Ie if you have 
+          2 clients and 2 topics, then each client will get 1 topic.
+    -sql list       List of queues for subscribing applied round robin to clients
+    -sdl list       List of durable topic endpoints (DTE) for subscribing.  If using DTEs 
+                    and this param is omitted, topic names will be used as DTE names.
+    -stl list       List of topics for subscribing applied round robin to clients
+    -stp string     Subscription topic prefix. Use with -stc to generate a large list of topics.
+    -stc int        Subscription topic count. Use with -stp to generate a large list of topics.
+    -ssl list       List of selector strings applied to filter messages from flows
+    -tte int        Number of temporary topic endpoints to create per client.
+    -tqe int        Number of temporary queue endpoints to create per client.
+    -nsr            No subscription remove. Flag to indicate that sdkperf should
+                    not remove subscriptions on exit.
+
+  Performance measurement options.  Runtime must be > 1 second:
+    -l  flag        Enable latency measurements (default is no latency). 
+    -lb int         Enable latency measurement with # buckets (default 1024 buckets) 
+    -lg int         Latency granularity factor (default 0)
+    -nagle          Enable Nagle's algorithm (RFC 896) to allow higher tcp throughput. (replaces -tnd)
+
+  Tool Specific Options: 
+    -ka number      Keepalive interval in milliseconds.  (Default -1)
+    -z number       Enable compression. (1..9) 1 is fastest, 9 max compression.
+    -pz number      Enable payload compression. (1..9) 1 is fastest, 9 max compression.
+    -epl list       Comma sep list of extra Props passed blindly to the API
+    -tac mask       CPU bit mask for setting CCSMP context thread affinity (only used by JNI)
+    -ctal string    CPU list for setting CCSMP context thread affinity (only used by JNI)
+
+  General Parameters:
+
+  General Flags:
+    -soe            Stop client connections or publishing on errors.
+    -v              Show version
+    -h | -?         Show this short help
+    -hm             Show more help.  Ie all other options not shown in basic help
+    -he             Show cli examples help
+

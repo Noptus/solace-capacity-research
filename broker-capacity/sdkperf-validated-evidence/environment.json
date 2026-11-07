@@ -1,0 +1,16 @@
+{
+  "image": "solace/solace-pubsub-standard@sha256:adbdf6c060abafb0e30dac3d46e335c1e5ea56a7ff02804f9f64b08d84b7b00e",
+  "cpu_quota": 2,
+  "memory_GiB": 3,
+  "shm_GiB": 1,
+  "container": "sdkperf-crosscheck-88159482",
+  "broker_version": "10.26.9.13589",
+  "java_version": "openjdk version \"17.0.21\" 2026-10-20\nOpenJDK Runtime Environment Temurin-17.0.21+9 (build 17.0.21+9)\nOpenJDK 64-Bit Server VM Temurin-17.0.21+9 (build 17.0.21+9, mixed mode, sharing)\n",
+  "sdkperf_jar_sha256": "9a2909102fc6fd62be992c086fbfc4a73ddf39e9545fe3ef13d6cec8f39a9a48",
+  "sdkperf_version": "10.30.3",
+  "design_sha256": "7dcc97b653f646d2c6218c09832ddd7d56840446a8a0ec29c7b9ef500cbe1d68",
+  "source": "https://products.solace.com/download/SDKPERF_JAVA",
+  "java_host": "native macOS ARM64; clients outside broker Docker CPU quota",
+  "message_semantics": "persistent SMF; one durable queue; CRC+order metadata enabled; no app credit controller",
+  "scope": "Independent client-stack fixed-rate crosscheck, not a matched causal comparison or broker peak proof"
+}

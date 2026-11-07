@@ -1,0 +1,99 @@
+{
+  "studies": [
+    {
+      "folder": "sdkperf-validated-evidence",
+      "study_completed": false,
+      "accepted_cases": [
+        "sdk-0-256-4000",
+        "sdk-1-256-8000",
+        "sdk-2-256-9500",
+        "sdk-3-32768-500"
+      ]
+    },
+    {
+      "folder": "sdkperf-followup-evidence",
+      "study_completed": false,
+      "accepted_cases": [
+        "followup-0-256-8000",
+        "followup-1-131072-76"
+      ]
+    },
+    {
+      "folder": "sdkperf-drain-evidence",
+      "study_completed": false,
+      "accepted_cases": []
+    }
+  ],
+  "clean_cases": 6,
+  "source_messages": 1804560,
+  "consumer_receipts": 1804560,
+  "cases": [
+    {
+      "case": "sdk-0-256-4000",
+      "payload_bytes": 256,
+      "target_messages_per_second": 4000,
+      "interior_ingress_messages_per_second": 3999.396566479216,
+      "target_tracks": true,
+      "sampled_peak_queue_bytes": 1033984,
+      "interior_queue_growth_bytes_per_second": 280.8196436232428,
+      "source_messages": 240000,
+      "publisher_exit_seconds": 62.768304708995856
+    },
+    {
+      "case": "sdk-1-256-8000",
+      "payload_bytes": 256,
+      "target_messages_per_second": 8000,
+      "interior_ingress_messages_per_second": 5118.574770584824,
+      "target_tracks": false,
+      "sampled_peak_queue_bytes": 17039872,
+      "interior_queue_growth_bytes_per_second": -471622.5530315427,
+      "source_messages": 480000,
+      "publisher_exit_seconds": 91.37968754098983
+    },
+    {
+      "case": "sdk-2-256-9500",
+      "payload_bytes": 256,
+      "target_messages_per_second": 9500,
+      "interior_ingress_messages_per_second": 5890.748905041624,
+      "target_tracks": false,
+      "sampled_peak_queue_bytes": 412672,
+      "interior_queue_growth_bytes_per_second": -14.75189495616265,
+      "source_messages": 570000,
+      "publisher_exit_seconds": 99.14763400005177
+    },
+    {
+      "case": "sdk-3-32768-500",
+      "payload_bytes": 32768,
+      "target_messages_per_second": 500,
+      "interior_ingress_messages_per_second": 499.94776504370105,
+      "target_tracks": true,
+      "sampled_peak_queue_bytes": 4947968,
+      "interior_queue_growth_bytes_per_second": -16768.810783562436,
+      "source_messages": 30000,
+      "publisher_exit_seconds": 62.90897483302979
+    },
+    {
+      "case": "followup-0-256-8000",
+      "payload_bytes": 256,
+      "target_messages_per_second": 8000,
+      "interior_ingress_messages_per_second": 5887.525176582041,
+      "target_tracks": false,
+      "sampled_peak_queue_bytes": 604160,
+      "interior_queue_growth_bytes_per_second": 4674.641972720913,
+      "source_messages": 480000,
+      "publisher_exit_seconds": 83.85277070797747
+    },
+    {
+      "case": "followup-1-131072-76",
+      "payload_bytes": 131072,
+      "target_messages_per_second": 76,
+      "interior_ingress_messages_per_second": 76.02873313822118,
+      "target_tracks": true,
+      "sampled_peak_queue_bytes": 14680064,
+      "interior_queue_growth_bytes_per_second": -52011.64474517806,
+      "source_messages": 4560,
+      "publisher_exit_seconds": 62.95232970803045
+    }
+  ],
+  "scope": "Finite-duration independent client-stack checks, not a broker peak certificate."
+}

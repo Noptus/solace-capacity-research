@@ -1,0 +1,182 @@
+[
+  {
+    "study": "matrix-evidence",
+    "case": "train-32768-4",
+    "consumer_0_interior_messages_per_second": 395.48347305573105,
+    "consumer_0_one_second_rate_cv": 0.2066789714264541,
+    "minimum_one_second_rate": 219.96583204741066,
+    "maximum_one_second_rate": 527.7425276143388,
+    "scope": "descriptive variability diagnostic; not a formal stationarity test"
+  },
+  {
+    "study": "matrix-evidence",
+    "case": "train-256-1",
+    "consumer_0_interior_messages_per_second": 5877.103835737772,
+    "consumer_0_one_second_rate_cv": 0.06171219422318031,
+    "minimum_one_second_rate": 5249.390105947733,
+    "maximum_one_second_rate": 6167.33723402291,
+    "scope": "descriptive variability diagnostic; not a formal stationarity test"
+  },
+  {
+    "study": "matrix-evidence",
+    "case": "train-4096-4",
+    "consumer_0_interior_messages_per_second": 3291.9109884225727,
+    "consumer_0_one_second_rate_cv": 0.11974952678069402,
+    "minimum_one_second_rate": 2613.6783899430407,
+    "maximum_one_second_rate": 4339.070971235547,
+    "scope": "descriptive variability diagnostic; not a formal stationarity test"
+  },
+  {
+    "study": "matrix-evidence",
+    "case": "train-131072-1",
+    "consumer_0_interior_messages_per_second": 7.639613658745422,
+    "consumer_0_one_second_rate_cv": 1.0985688364532038,
+    "minimum_one_second_rate": 0.0,
+    "maximum_one_second_rate": 18.007807879363757,
+    "scope": "descriptive variability diagnostic; not a formal stationarity test"
+  },
+  {
+    "study": "matrix-evidence",
+    "case": "train-256-4",
+    "consumer_0_interior_messages_per_second": 5921.908967885531,
+    "consumer_0_one_second_rate_cv": 0.05042828787566646,
+    "minimum_one_second_rate": 5328.656697184632,
+    "maximum_one_second_rate": 6172.816647587759,
+    "scope": "descriptive variability diagnostic; not a formal stationarity test"
+  },
+  {
+    "study": "matrix-evidence",
+    "case": "train-32768-1",
+    "consumer_0_interior_messages_per_second": 517.4560959521428,
+    "consumer_0_one_second_rate_cv": 0.1542681973126272,
+    "minimum_one_second_rate": 395.1355915016418,
+    "maximum_one_second_rate": 659.0753449721693,
+    "scope": "descriptive variability diagnostic; not a formal stationarity test"
+  },
+  {
+    "study": "matrix-evidence",
+    "case": "train-131072-4",
+    "consumer_0_interior_messages_per_second": 68.18010502215832,
+    "consumer_0_one_second_rate_cv": 1.3841530067610794,
+    "minimum_one_second_rate": 0.0,
+    "maximum_one_second_rate": 254.48450981480678,
+    "scope": "descriptive variability diagnostic; not a formal stationarity test"
+  },
+  {
+    "study": "matrix-evidence",
+    "case": "train-4096-1",
+    "consumer_0_interior_messages_per_second": 5494.379714372548,
+    "consumer_0_one_second_rate_cv": 0.09907247392114467,
+    "minimum_one_second_rate": 3693.2376133811713,
+    "maximum_one_second_rate": 5843.341867764459,
+    "scope": "descriptive variability diagnostic; not a formal stationarity test"
+  },
+  {
+    "study": "matrix-evidence",
+    "case": "test-8192-2",
+    "consumer_0_interior_messages_per_second": 1253.8822843827575,
+    "consumer_0_one_second_rate_cv": 0.15224231626638954,
+    "minimum_one_second_rate": 935.5275177116299,
+    "maximum_one_second_rate": 1574.9498916534058,
+    "scope": "descriptive variability diagnostic; not a formal stationarity test"
+  },
+  {
+    "study": "matrix-evidence",
+    "case": "test-65536-3",
+    "consumer_0_interior_messages_per_second": 85.75818443199954,
+    "consumer_0_one_second_rate_cv": 1.0431226595678555,
+    "minimum_one_second_rate": 0.0,
+    "maximum_one_second_rate": 254.61513852428467,
+    "scope": "descriptive variability diagnostic; not a formal stationarity test"
+  },
+  {
+    "study": "matrix-evidence",
+    "case": "repeat-256-1",
+    "consumer_0_interior_messages_per_second": 5948.818914054158,
+    "consumer_0_one_second_rate_cv": 0.10426127444305475,
+    "minimum_one_second_rate": 4630.757068835683,
+    "maximum_one_second_rate": 7019.236965184046,
+    "scope": "descriptive variability diagnostic; not a formal stationarity test"
+  },
+  {
+    "study": "matrix-evidence",
+    "case": "credit-control-256-1",
+    "consumer_0_interior_messages_per_second": 5878.362490210368,
+    "consumer_0_one_second_rate_cv": 0.05641679483149776,
+    "minimum_one_second_rate": 5250.266671544781,
+    "maximum_one_second_rate": 6163.190703525466,
+    "scope": "descriptive variability diagnostic; not a formal stationarity test"
+  },
+  {
+    "study": "replication-evidence",
+    "case": "rep-131072-4-0",
+    "consumer_0_interior_messages_per_second": 27.858517100995034,
+    "consumer_0_one_second_rate_cv": 1.7671171913700834,
+    "minimum_one_second_rate": 0.0,
+    "maximum_one_second_rate": 152.76317888193825,
+    "scope": "descriptive variability diagnostic; not a formal stationarity test"
+  },
+  {
+    "study": "replication-evidence",
+    "case": "rep-131072-1-1",
+    "consumer_0_interior_messages_per_second": 46.280022195251625,
+    "consumer_0_one_second_rate_cv": 1.4050493726330753,
+    "minimum_one_second_rate": 0.0,
+    "maximum_one_second_rate": 224.6065454839486,
+    "scope": "descriptive variability diagnostic; not a formal stationarity test"
+  },
+  {
+    "study": "replication-evidence",
+    "case": "rep-32768-4-2",
+    "consumer_0_interior_messages_per_second": 500.3856077287258,
+    "consumer_0_one_second_rate_cv": 0.17544436713946676,
+    "minimum_one_second_rate": 329.628947571474,
+    "maximum_one_second_rate": 663.2833048815988,
+    "scope": "descriptive variability diagnostic; not a formal stationarity test"
+  },
+  {
+    "study": "replication-evidence",
+    "case": "rep-32768-1-3",
+    "consumer_0_interior_messages_per_second": 510.84632635359975,
+    "consumer_0_one_second_rate_cv": 0.12997429882734568,
+    "minimum_one_second_rate": 329.6236383667019,
+    "maximum_one_second_rate": 659.8639584871346,
+    "scope": "descriptive variability diagnostic; not a formal stationarity test"
+  },
+  {
+    "study": "cache-window-evidence",
+    "case": "cache-window-256-0",
+    "consumer_0_interior_messages_per_second": 63.9157307043262,
+    "consumer_0_one_second_rate_cv": 1.2968213672643474,
+    "minimum_one_second_rate": 0.0,
+    "maximum_one_second_rate": 254.7752775046794,
+    "scope": "descriptive variability diagnostic; not a formal stationarity test"
+  },
+  {
+    "study": "cache-window-evidence",
+    "case": "cache-window-2048-1",
+    "consumer_0_interior_messages_per_second": 2.846804254692078,
+    "consumer_0_one_second_rate_cv": 2.067978663087409,
+    "minimum_one_second_rate": 0.0,
+    "maximum_one_second_rate": 17.988549550680464,
+    "scope": "descriptive variability diagnostic; not a formal stationarity test"
+  },
+  {
+    "study": "cache-window-evidence",
+    "case": "cache-window-256-2",
+    "consumer_0_interior_messages_per_second": 135.22851249741103,
+    "consumer_0_one_second_rate_cv": 0.8358482780082674,
+    "minimum_one_second_rate": 0.0,
+    "maximum_one_second_rate": 270.6117508854985,
+    "scope": "descriptive variability diagnostic; not a formal stationarity test"
+  },
+  {
+    "study": "cache-window-evidence",
+    "case": "cache-window-2048-3",
+    "consumer_0_interior_messages_per_second": 55.26883311191791,
+    "consumer_0_one_second_rate_cv": 1.3596399309392329,
+    "minimum_one_second_rate": 0.0,
+    "maximum_one_second_rate": 228.5627500880089,
+    "scope": "descriptive variability diagnostic; not a formal stationarity test"
+  }
+]

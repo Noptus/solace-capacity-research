@@ -1,0 +1,210 @@
+{
+  "observed_monotonic_ns": 484550400055375,
+  "clients": [
+    {
+      "clientName": "solclientjs/node-25.9.0-OSX-27.0.0-arm64/0185243286/0001",
+      "rxMsgCount": 972,
+      "txMsgCount": 36,
+      "rxByteRate": 3624739,
+      "txByteRate": 0,
+      "connections": {
+        "data": [
+          {
+            "clientAddress": "172.17.0.1:59432",
+            "clientName": "solclientjs/node-25.9.0-OSX-27.0.0-arm64/0185243286/0001",
+            "compression": false,
+            "encryption": false,
+            "fastRetransmitCount": 0,
+            "msgVpnName": "default",
+            "rxQueueByteCount": 0,
+            "segmentReceivedOutOfOrderCount": 0,
+            "smoothedRoundTripTime": 9266000,
+            "tcpState": "established",
+            "timedRetransmitCount": 0,
+            "txQueueByteCount": 0,
+            "uptime": 31
+          }
+        ],
+        "collections": [
+          {}
+        ],
+        "links": [
+          {
+            "uri": "http://127.0.0.1:18080/SEMP/v2/monitor/msgVpns/default/clients/solclientjs%2Fnode-25.9.0-OSX-27.0.0-arm64%2F0185243286%2F0001/connections/172.17.0.1%3A59432"
+          }
+        ],
+        "meta": {
+          "request": {
+            "method": "GET",
+            "uri": "http://127.0.0.1:18080/SEMP/v2/monitor/msgVpns/default/clients/solclientjs%2Fnode-25.9.0-OSX-27.0.0-arm64%2F0185243286%2F0001/connections"
+          },
+          "responseCode": 200
+        }
+      }
+    },
+    {
+      "clientName": "solclientjs/node-25.9.0-OSX-27.0.0-arm64/1219662369/0001",
+      "rxMsgCount": 973,
+      "txMsgCount": 36,
+      "rxByteRate": 3624739,
+      "txByteRate": 0,
+      "connections": {
+        "data": [
+          {
+            "clientAddress": "172.17.0.1:59422",
+            "clientName": "solclientjs/node-25.9.0-OSX-27.0.0-arm64/1219662369/0001",
+            "compression": false,
+            "encryption": false,
+            "fastRetransmitCount": 0,
+            "msgVpnName": "default",
+            "rxQueueByteCount": 0,
+            "segmentReceivedOutOfOrderCount": 0,
+            "smoothedRoundTripTime": 10580000,
+            "tcpState": "established",
+            "timedRetransmitCount": 0,
+            "txQueueByteCount": 0,
+            "uptime": 31
+          }
+        ],
+        "collections": [
+          {}
+        ],
+        "links": [
+          {
+            "uri": "http://127.0.0.1:18080/SEMP/v2/monitor/msgVpns/default/clients/solclientjs%2Fnode-25.9.0-OSX-27.0.0-arm64%2F1219662369%2F0001/connections/172.17.0.1%3A59422"
+          }
+        ],
+        "meta": {
+          "request": {
+            "method": "GET",
+            "uri": "http://127.0.0.1:18080/SEMP/v2/monitor/msgVpns/default/clients/solclientjs%2Fnode-25.9.0-OSX-27.0.0-arm64%2F1219662369%2F0001/connections"
+          },
+          "responseCode": 200
+        }
+      }
+    },
+    {
+      "clientName": "solclientjs/node-25.9.0-OSX-27.0.0-arm64/2596673036/0001",
+      "rxMsgCount": 41,
+      "txMsgCount": 1838,
+      "rxByteRate": 0,
+      "txByteRate": 15748145,
+      "connections": {
+        "data": [
+          {
+            "clientAddress": "172.17.0.1:59420",
+            "clientName": "solclientjs/node-25.9.0-OSX-27.0.0-arm64/2596673036/0001",
+            "compression": false,
+            "encryption": false,
+            "fastRetransmitCount": 0,
+            "msgVpnName": "default",
+            "rxQueueByteCount": 0,
+            "segmentReceivedOutOfOrderCount": 0,
+            "smoothedRoundTripTime": 536000,
+            "tcpState": "established",
+            "timedRetransmitCount": 0,
+            "txQueueByteCount": 0,
+            "uptime": 31
+          }
+        ],
+        "collections": [
+          {}
+        ],
+        "links": [
+          {
+            "uri": "http://127.0.0.1:18080/SEMP/v2/monitor/msgVpns/default/clients/solclientjs%2Fnode-25.9.0-OSX-27.0.0-arm64%2F2596673036%2F0001/connections/172.17.0.1%3A59420"
+          }
+        ],
+        "meta": {
+          "request": {
+            "method": "GET",
+            "uri": "http://127.0.0.1:18080/SEMP/v2/monitor/msgVpns/default/clients/solclientjs%2Fnode-25.9.0-OSX-27.0.0-arm64%2F2596673036%2F0001/connections"
+          },
+          "responseCode": 200
+        }
+      }
+    },
+    {
+      "clientName": "solclientjs/node-25.9.0-OSX-27.0.0-arm64/2861848879/0001",
+      "rxMsgCount": 972,
+      "txMsgCount": 36,
+      "rxByteRate": 3624739,
+      "txByteRate": 0,
+      "connections": {
+        "data": [
+          {
+            "clientAddress": "172.17.0.1:59456",
+            "clientName": "solclientjs/node-25.9.0-OSX-27.0.0-arm64/2861848879/0001",
+            "compression": false,
+            "encryption": false,
+            "fastRetransmitCount": 0,
+            "msgVpnName": "default",
+            "rxQueueByteCount": 0,
+            "segmentReceivedOutOfOrderCount": 0,
+            "smoothedRoundTripTime": 10292000,
+            "tcpState": "established",
+            "timedRetransmitCount": 0,
+            "txQueueByteCount": 0,
+            "uptime": 31
+          }
+        ],
+        "collections": [
+          {}
+        ],
+        "links": [
+          {
+            "uri": "http://127.0.0.1:18080/SEMP/v2/monitor/msgVpns/default/clients/solclientjs%2Fnode-25.9.0-OSX-27.0.0-arm64%2F2861848879%2F0001/connections/172.17.0.1%3A59456"
+          }
+        ],
+        "meta": {
+          "request": {
+            "method": "GET",
+            "uri": "http://127.0.0.1:18080/SEMP/v2/monitor/msgVpns/default/clients/solclientjs%2Fnode-25.9.0-OSX-27.0.0-arm64%2F2861848879%2F0001/connections"
+          },
+          "responseCode": 200
+        }
+      }
+    },
+    {
+      "clientName": "solclientjs/node-25.9.0-OSX-27.0.0-arm64/3697881387/0001",
+      "rxMsgCount": 972,
+      "txMsgCount": 36,
+      "rxByteRate": 3624739,
+      "txByteRate": 0,
+      "connections": {
+        "data": [
+          {
+            "clientAddress": "172.17.0.1:59444",
+            "clientName": "solclientjs/node-25.9.0-OSX-27.0.0-arm64/3697881387/0001",
+            "compression": false,
+            "encryption": false,
+            "fastRetransmitCount": 0,
+            "msgVpnName": "default",
+            "rxQueueByteCount": 0,
+            "segmentReceivedOutOfOrderCount": 0,
+            "smoothedRoundTripTime": 10602000,
+            "tcpState": "established",
+            "timedRetransmitCount": 0,
+            "txQueueByteCount": 0,
+            "uptime": 31
+          }
+        ],
+        "collections": [
+          {}
+        ],
+        "links": [
+          {
+            "uri": "http://127.0.0.1:18080/SEMP/v2/monitor/msgVpns/default/clients/solclientjs%2Fnode-25.9.0-OSX-27.0.0-arm64%2F3697881387%2F0001/connections/172.17.0.1%3A59444"
+          }
+        ],
+        "meta": {
+          "request": {
+            "method": "GET",
+            "uri": "http://127.0.0.1:18080/SEMP/v2/monitor/msgVpns/default/clients/solclientjs%2Fnode-25.9.0-OSX-27.0.0-arm64%2F3697881387%2F0001/connections"
+          },
+          "responseCode": 200
+        }
+      }
+    }
+  ]
+}

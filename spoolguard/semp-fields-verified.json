@@ -1,0 +1,46 @@
+{
+  "checked_date": "2026-11-07",
+  "source": "https://docs.solace.com/API-Developer-Online-Ref-Documentation/swagger-ui/software-broker/monitor/solace-swagger-spec.js",
+  "source_sha256": "3c53c6c06751fa631bf6d1547af364038ee3cf9dd0170b6f28f9acdb931d0acb",
+  "spec_info": {
+    "contact": {
+      "email": "support@solace.com",
+      "name": "Solace",
+      "url": "http://www.solace.com"
+    },
+    "description": "SEMP (starting in `v2`) is a RESTful API for configuring, monitoring, and administering a Solace Event Broker. This specification defines the following API:\n\n\nAPI|Base Path|Purpose\n:---|:---|:---\nMonitoring|/SEMP/v2/monitor|Querying operational state\n\n\n\nThe following APIs are also available:\n\n\nAPI|Base Path|Purpose\n:---|:---|:---\nAction|/SEMP/v2/action|Performing actions\nConfiguration|/SEMP/v2/config|Reading and writing configuration\n\n\n\nFor tutorials, architectural and protocol design documentation, and other information about the SEMP API, consult the [SEMP documentation](https://docs.solace.com/Admin/SEMP/Using-SEMP.htm) on the Solace website. The SEMP API specifications are also [available for download](https://solace.com/downloads/).\n\nIf you need additional support, please contact us at [support@solace.com](mailto:support@solace.com).",
+    "title": "SEMP (Solace Element Management Protocol)",
+    "version": "10.26.9.13589"
+  },
+  "fields": {
+    "queueName": {
+      "description": "The name of the Queue.\n\nThe minimum access scope/level required to retrieve this attribute is \"vpn/read-only\".",
+      "type": "string",
+      "x-deprecated": false
+    },
+    "msgSpoolUsage": {
+      "description": "The message spool usage by the Queue, in bytes (B).\n\nThe minimum access scope/level required to retrieve this attribute is \"vpn/read-only\".",
+      "format": "int64",
+      "type": "integer",
+      "x-deprecated": false
+    },
+    "maxMsgSpoolUsage": {
+      "description": "The maximum message spool usage allowed by the Queue, in megabytes (MB). A value of 0 only allows spooling of the last message received and disables quota checking.\n\nThe minimum access scope/level required to retrieve this attribute is \"vpn/read-only\". (This description is taken from the corresponding attribute in the configuration API.)\n\n",
+      "format": "int64",
+      "type": "integer",
+      "x-deprecated": false
+    },
+    "rxByteRate": {
+      "description": "The current message rate received by the Queue, in bytes per second (B/sec).\n\nThe minimum access scope/level required to retrieve this attribute is \"vpn/read-only\".",
+      "format": "int64",
+      "type": "integer",
+      "x-deprecated": false
+    },
+    "txByteRate": {
+      "description": "The current message rate transmitted by the Queue, in bytes per second (B/sec).\n\nThe minimum access scope/level required to retrieve this attribute is \"vpn/read-only\".",
+      "format": "int64",
+      "type": "integer",
+      "x-deprecated": false
+    }
+  }
+}

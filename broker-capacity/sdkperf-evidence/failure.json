@@ -1,0 +1,4 @@
+{
+  "error": "RuntimeError(\"Integrity check failed: {'publisher_exit_zero': True, 'sent_expected': True, 'acked_expected': True, 'no_nacks': True, 'broker_ingress_equals_unique_sends': True, 'received_expected': True, 'crc_checked_all': True, 'order_checked_all': True, 'no_missing_duplicate_out_of_order_redelivery': False, 'queue_drained': True}\")",
+  "completed": []
+}

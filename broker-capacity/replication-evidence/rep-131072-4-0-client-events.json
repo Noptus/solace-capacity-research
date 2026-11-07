@@ -1,0 +1,5942 @@
+{
+  "client_events": [
+    [
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:56.118 INFO   solclientjs:  websocket browserSupportBinaryCheck: true - WebSocket supports binaryType\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:56.119 INFO   solclientjs:  websocket browserSupportBinaryCheck: true - WebSocket supports binaryType\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:56.122 INFO   solclientjs:  websocket browserSupportBinaryCheck: true - WebSocket supports binaryType\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:56.124 INFO   solclientjs:  [session-fsm=N/A] [WaitingForDNS] Creating transport session tcp://127.0.0.1:15555\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:56.125 INFO   solclientjs:  [session-fsm=N/A] [WaitingForDNS] Attempting to connect session 'null' to host 'tcp://127.0.0.1:15555' (host 1 of 1)(host connection attempt 1 of 1)(total connection attempt 1 of 1)\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:56.125 INFO   solclientjs:  [session-fsm=N/A] [WaitingForTransportUp] Receive transport event: {\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  transportEventCode: 'UP_NOTICE (1)',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  infoStr: 'Connected',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  responseCode: 0,\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  errorSubcode: '<none>',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  sid: 'N/A'\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "}\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:56.126 INFO   solclientjs:  [session-fsm=0x1a1b562d71c] [WaitingForTransportUp] Using internally correlationTag=16777215 for tracking ClientCTRL Login\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:56.126 INFO   solclientjs:  [session-fsm=0x1a1b562d71c] [WaitingForTransportUp] Enqueue outstanding ctrl request correlationTag=16777215\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:56.127 INFO   solclientjs:  [session-fsm=0x1a1b562d71c] [WaitingForLogin] Handle SMF response for ClientCTRL Login\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:56.127 INFO   solclientjs:  [session-fsm=0x1a1b562d71c] [WaitingForLogin] ReapplyingSubscriptions: entry\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:56.127 INFO   solclientjs:  [session-fsm=0x1a1b562d71c] [WaitingForLogin] Reapplying subscriptions, count=1\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:56.128 INFO   solclientjs:  [session-fsm=0x1a1b562d71c] [WaitingForLogin] Enqueue outstanding ctrl request correlationTag=1\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:56.129 INFO   solclientjs:  [session-fsm=0x1a1b562d71c] [WaitForSubConfirm] Enqueue outstanding ctrl request correlationTag=2\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:56.130 INFO   solclientjs:  [session-fsm=0x1a1b562d71c] [WaitingForMessagePublisher] Handle SMF response for correlationTag 2\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:56.131 INFO   solclientjs:  [session=0x1a1b562d71c] [message-consumer-fsm=(N/A)] Starting ConsumerFSM 0\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:56.132 INFO   solclientjs:  [session-fsm=0x1a1b562d71c] [SessionFullyConnected] Enqueue outstanding ctrl request correlationTag=3\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:56.132 INFO   solclientjs:  [session-fsm=0x1a1b562d71c] [SessionFullyConnected] Handle SMF response for correlationTag 3\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:56.133 INFO   solclientjs:  [session=0x1a1b562d71c] [flow=(N/A)] [message-consumer] Flow is up: flowId = 0\n"
+      },
+      {
+        "type": "ready",
+        "role": "consumer"
+      },
+      {
+        "type": "progress",
+        "received": 9
+      },
+      {
+        "type": "progress",
+        "received": 20
+      },
+      {
+        "type": "progress",
+        "received": 33
+      },
+      {
+        "type": "progress",
+        "received": 44
+      },
+      {
+        "type": "progress",
+        "received": 52
+      },
+      {
+        "type": "progress",
+        "received": 70
+      },
+      {
+        "type": "progress",
+        "received": 73
+      },
+      {
+        "type": "progress",
+        "received": 75
+      },
+      {
+        "type": "progress",
+        "received": 77
+      },
+      {
+        "type": "progress",
+        "received": 81
+      },
+      {
+        "type": "progress",
+        "received": 88
+      },
+      {
+        "type": "progress",
+        "received": 91
+      },
+      {
+        "type": "progress",
+        "received": 92
+      },
+      {
+        "type": "progress",
+        "received": 106
+      },
+      {
+        "type": "progress",
+        "received": 113
+      },
+      {
+        "type": "progress",
+        "received": 124
+      },
+      {
+        "type": "progress",
+        "received": 133
+      },
+      {
+        "type": "progress",
+        "received": 142
+      },
+      {
+        "type": "progress",
+        "received": 151
+      },
+      {
+        "type": "progress",
+        "received": 153
+      },
+      {
+        "type": "progress",
+        "received": 169
+      },
+      {
+        "type": "progress",
+        "received": 191
+      },
+      {
+        "type": "progress",
+        "received": 243
+      },
+      {
+        "type": "progress",
+        "received": 290
+      },
+      {
+        "type": "progress",
+        "received": 313
+      },
+      {
+        "type": "progress",
+        "received": 331
+      },
+      {
+        "type": "progress",
+        "received": 346
+      },
+      {
+        "type": "progress",
+        "received": 404
+      },
+      {
+        "type": "progress",
+        "received": 448
+      },
+      {
+        "type": "progress",
+        "received": 466
+      },
+      {
+        "type": "progress",
+        "received": 484
+      },
+      {
+        "type": "progress",
+        "received": 518
+      },
+      {
+        "type": "progress",
+        "received": 570
+      },
+      {
+        "type": "progress",
+        "received": 619
+      },
+      {
+        "type": "progress",
+        "received": 628
+      },
+      {
+        "type": "progress",
+        "received": 637
+      },
+      {
+        "type": "progress",
+        "received": 644
+      },
+      {
+        "type": "progress",
+        "received": 696
+      },
+      {
+        "type": "progress",
+        "received": 746
+      },
+      {
+        "type": "progress",
+        "received": 763
+      },
+      {
+        "type": "progress",
+        "received": 781
+      },
+      {
+        "type": "progress",
+        "received": 792
+      },
+      {
+        "type": "progress",
+        "received": 847
+      },
+      {
+        "type": "progress",
+        "received": 889
+      },
+      {
+        "type": "progress",
+        "received": 907
+      },
+      {
+        "type": "progress",
+        "received": 954
+      },
+      {
+        "type": "progress",
+        "received": 1008
+      },
+      {
+        "type": "progress",
+        "received": 1042
+      },
+      {
+        "type": "progress",
+        "received": 1060
+      },
+      {
+        "type": "progress",
+        "received": 1061
+      },
+      {
+        "type": "progress",
+        "received": 1103
+      },
+      {
+        "type": "progress",
+        "received": 1156
+      },
+      {
+        "type": "progress",
+        "received": 1210
+      },
+      {
+        "type": "progress",
+        "received": 1262
+      },
+      {
+        "type": "progress",
+        "received": 1322
+      },
+      {
+        "type": "progress",
+        "received": 1369
+      },
+      {
+        "type": "progress",
+        "received": 1427
+      },
+      {
+        "type": "progress",
+        "received": 1475
+      },
+      {
+        "type": "progress",
+        "received": 1528
+      },
+      {
+        "type": "progress",
+        "received": 1588
+      },
+      {
+        "type": "progress",
+        "received": 1652
+      },
+      {
+        "type": "progress",
+        "received": 1700
+      },
+      {
+        "type": "progress",
+        "received": 1757
+      },
+      {
+        "type": "progress",
+        "received": 1813
+      },
+      {
+        "type": "progress",
+        "received": 1866
+      },
+      {
+        "type": "progress",
+        "received": 1928
+      },
+      {
+        "type": "progress",
+        "received": 1980
+      },
+      {
+        "type": "progress",
+        "received": 2033
+      },
+      {
+        "type": "progress",
+        "received": 2091
+      },
+      {
+        "type": "progress",
+        "received": 2138
+      },
+      {
+        "type": "progress",
+        "received": 2196
+      },
+      {
+        "type": "progress",
+        "received": 2253
+      },
+      {
+        "type": "progress",
+        "received": 2311
+      },
+      {
+        "type": "progress",
+        "received": 2368
+      },
+      {
+        "type": "progress",
+        "received": 2424
+      },
+      {
+        "type": "progress",
+        "received": 2488
+      },
+      {
+        "type": "progress",
+        "received": 2491
+      },
+      {
+        "type": "progress",
+        "received": 2555
+      },
+      {
+        "type": "progress",
+        "received": 2606
+      },
+      {
+        "type": "progress",
+        "received": 2670
+      },
+      {
+        "type": "progress",
+        "received": 2720
+      },
+      {
+        "type": "progress",
+        "received": 2784
+      },
+      {
+        "type": "progress",
+        "received": 2848
+      },
+      {
+        "type": "progress",
+        "received": 2886
+      },
+      {
+        "type": "progress",
+        "received": 2950
+      },
+      {
+        "type": "progress",
+        "received": 3014
+      },
+      {
+        "type": "progress",
+        "received": 3078
+      },
+      {
+        "type": "progress",
+        "received": 3108
+      },
+      {
+        "type": "result",
+        "role": "consumer",
+        "window": 255,
+        "sdk_window": 255,
+        "size": 131072,
+        "sent": 0,
+        "acknowledged": 0,
+        "rejected": 0,
+        "received": 3108,
+        "pending": 0,
+        "blocked": 0,
+        "duration_seconds": 38.207532625,
+        "ack_timeout_ms": 60000,
+        "sdk_stats": {
+          "TX_PERSISTENT_MSGS": 0,
+          "TX_PERSISTENT_REDELIVERED": 0,
+          "TX_ACK_TIMEOUT": 0,
+          "RX_PERSISTENT_MSGS": 3108,
+          "RX_DISCARD_DUPLICATE": 0,
+          "TX_WINDOW_CLOSE": 0
+        },
+        "cpu_user_seconds": 0.973262,
+        "cpu_system_seconds": 0.222014,
+        "event_loop_utilization": 0.023012510792215134,
+        "mean_ack_ms": null,
+        "max_ack_ms": 0,
+        "samples": [
+          {
+            "seconds": 1.001971375,
+            "interval_seconds": 1.001971375,
+            "ack_delta": 0,
+            "received_delta": 52,
+            "pending": 0
+          },
+          {
+            "seconds": 2.00427525,
+            "interval_seconds": 1.0023038749999997,
+            "ack_delta": 0,
+            "received_delta": 0,
+            "pending": 0
+          },
+          {
+            "seconds": 3.00510675,
+            "interval_seconds": 1.0008315000000003,
+            "ack_delta": 0,
+            "received_delta": 18,
+            "pending": 0
+          },
+          {
+            "seconds": 4.006507625,
+            "interval_seconds": 1.0014008749999999,
+            "ack_delta": 0,
+            "received_delta": 0,
+            "pending": 0
+          },
+          {
+            "seconds": 5.008186791,
+            "interval_seconds": 1.001679166,
+            "ack_delta": 0,
+            "received_delta": 7,
+            "pending": 0
+          },
+          {
+            "seconds": 6.010028791000001,
+            "interval_seconds": 1.0018420000000006,
+            "ack_delta": 0,
+            "received_delta": 11,
+            "pending": 0
+          },
+          {
+            "seconds": 7.0102272910000005,
+            "interval_seconds": 1.0001984999999995,
+            "ack_delta": 0,
+            "received_delta": 0,
+            "pending": 0
+          },
+          {
+            "seconds": 8.011467041000001,
+            "interval_seconds": 1.0012397500000005,
+            "ack_delta": 0,
+            "received_delta": 0,
+            "pending": 0
+          },
+          {
+            "seconds": 9.013524291,
+            "interval_seconds": 1.0020572499999998,
+            "ack_delta": 0,
+            "received_delta": 3,
+            "pending": 0
+          },
+          {
+            "seconds": 10.014465666,
+            "interval_seconds": 1.0009413750000002,
+            "ack_delta": 0,
+            "received_delta": 0,
+            "pending": 0
+          },
+          {
+            "seconds": 11.01618025,
+            "interval_seconds": 1.0017145839999995,
+            "ack_delta": 0,
+            "received_delta": 15,
+            "pending": 0
+          },
+          {
+            "seconds": 12.018198583,
+            "interval_seconds": 1.002018333,
+            "ack_delta": 0,
+            "received_delta": 0,
+            "pending": 0
+          },
+          {
+            "seconds": 13.019207125,
+            "interval_seconds": 1.0010085419999997,
+            "ack_delta": 0,
+            "received_delta": 18,
+            "pending": 0
+          },
+          {
+            "seconds": 14.020596625,
+            "interval_seconds": 1.001389500000001,
+            "ack_delta": 0,
+            "received_delta": 9,
+            "pending": 0
+          },
+          {
+            "seconds": 15.023028832999998,
+            "interval_seconds": 1.0024322079999983,
+            "ack_delta": 0,
+            "received_delta": 18,
+            "pending": 0
+          },
+          {
+            "seconds": 16.023563958,
+            "interval_seconds": 1.0005351250000003,
+            "ack_delta": 0,
+            "received_delta": 0,
+            "pending": 0
+          },
+          {
+            "seconds": 17.026272875,
+            "interval_seconds": 1.0027089169999999,
+            "ack_delta": 0,
+            "received_delta": 2,
+            "pending": 0
+          },
+          {
+            "seconds": 18.028088541000002,
+            "interval_seconds": 1.0018156660000022,
+            "ack_delta": 0,
+            "received_delta": 16,
+            "pending": 0
+          },
+          {
+            "seconds": 19.029408458,
+            "interval_seconds": 1.0013199169999971,
+            "ack_delta": 0,
+            "received_delta": 0,
+            "pending": 0
+          },
+          {
+            "seconds": 20.029680582999998,
+            "interval_seconds": 1.0002721249999995,
+            "ack_delta": 0,
+            "received_delta": 144,
+            "pending": 0
+          },
+          {
+            "seconds": 21.032074666,
+            "interval_seconds": 1.0023940830000029,
+            "ack_delta": 0,
+            "received_delta": 18,
+            "pending": 0
+          },
+          {
+            "seconds": 22.033624916,
+            "interval_seconds": 1.0015502500000002,
+            "ack_delta": 0,
+            "received_delta": 153,
+            "pending": 0
+          },
+          {
+            "seconds": 23.035403916,
+            "interval_seconds": 1.0017789999999986,
+            "ack_delta": 0,
+            "received_delta": 135,
+            "pending": 0
+          },
+          {
+            "seconds": 24.03628875,
+            "interval_seconds": 1.0008848340000005,
+            "ack_delta": 0,
+            "received_delta": 9,
+            "pending": 0
+          },
+          {
+            "seconds": 25.03580525,
+            "interval_seconds": 0.9995164999999979,
+            "ack_delta": 0,
+            "received_delta": 66,
+            "pending": 0
+          },
+          {
+            "seconds": 26.037546665999997,
+            "interval_seconds": 1.0017414160000007,
+            "ack_delta": 0,
+            "received_delta": 87,
+            "pending": 0
+          },
+          {
+            "seconds": 27.03862125,
+            "interval_seconds": 1.0010745840000017,
+            "ack_delta": 0,
+            "received_delta": 108,
+            "pending": 0
+          },
+          {
+            "seconds": 28.038566583,
+            "interval_seconds": 0.9999453329999997,
+            "ack_delta": 0,
+            "received_delta": 42,
+            "pending": 0
+          },
+          {
+            "seconds": 29.040779375,
+            "interval_seconds": 1.0022127919999984,
+            "ack_delta": 0,
+            "received_delta": 129,
+            "pending": 0
+          },
+          {
+            "seconds": 30.042008041000003,
+            "interval_seconds": 1.0012286660000027,
+            "ack_delta": 0,
+            "received_delta": 0,
+            "pending": 0
+          },
+          {
+            "seconds": 31.043997166,
+            "interval_seconds": 1.0019891250000001,
+            "ack_delta": 0,
+            "received_delta": 0,
+            "pending": 0
+          },
+          {
+            "seconds": 32.04555504099999,
+            "interval_seconds": 1.001557874999995,
+            "ack_delta": 0,
+            "received_delta": 0,
+            "pending": 0
+          },
+          {
+            "seconds": 33.046809833,
+            "interval_seconds": 1.0012547919999997,
+            "ack_delta": 0,
+            "received_delta": 0,
+            "pending": 0
+          },
+          {
+            "seconds": 34.046482833,
+            "interval_seconds": 0.9996730000000025,
+            "ack_delta": 0,
+            "received_delta": 468,
+            "pending": 0
+          },
+          {
+            "seconds": 35.04689475,
+            "interval_seconds": 1.0004119169999977,
+            "ack_delta": 0,
+            "received_delta": 563,
+            "pending": 0
+          },
+          {
+            "seconds": 36.047045916,
+            "interval_seconds": 1.0001511660000033,
+            "ack_delta": 0,
+            "received_delta": 795,
+            "pending": 0
+          },
+          {
+            "seconds": 37.047111333000004,
+            "interval_seconds": 1.000065416999998,
+            "ack_delta": 0,
+            "received_delta": 222,
+            "pending": 0
+          },
+          {
+            "seconds": 38.046729541,
+            "interval_seconds": 0.9996182079999999,
+            "ack_delta": 0,
+            "received_delta": 0,
+            "pending": 0
+          },
+          {
+            "seconds": 38.206921083000005,
+            "interval_seconds": 0.1601915420000005,
+            "ack_delta": 0,
+            "received_delta": 0,
+            "pending": 0
+          }
+        ]
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:42:35.263 INFO   solclientjs:  [session-fsm=0x1a1b562d71c] [SessionFullyConnected] Enqueue outstanding ctrl request correlationTag=4\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:42:35.263 INFO   solclientjs:  [session=0x1a1b562d71c] [message-consumer-fsm=(N/A)] Sent consumer unbind request with arguments { flowId: 0, correlationTag: 4 }\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:42:35.264 INFO   solclientjs:  [session-fsm=0x1a1b562d71c] [SessionFullyConnected] Cancel keepalive timer\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:42:35.264 INFO   solclientjs:  [session-fsm=0x1a1b562d71c] [SessionFullyConnected] Disconnecting session {: SessionFSM}\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:42:35.264 INFO   solclientjs:  [session-fsm=0x1a1b562d71c] [SessionFullyConnected] All flows disconnected\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:42:35.264 INFO   solclientjs:  [session-fsm=0x1a1b562d71c] [DisconnectingFlows] Flushing transport\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:42:35.264 INFO   solclientjs:  [session-fsm=0x1a1b562d71c] [DisconnectingFlows] Clean up session\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:42:35.265 INFO   solclientjs:  [session-fsm=0x1a1b562d71c] [FlushingTransport] Handle Transport Flushed\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:42:35.265 INFO   solclientjs:  [session-fsm=0x1a1b562d71c] [FlushingTransport] Connecting, disposing transport\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:42:35.265 INFO   solclientjs:  [session-fsm=0x1a1b562d71c] [FlushingTransport] Destroy transport session\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:42:35.266 INFO   solclientjs:  [session-fsm=0x1a1b562d71c] [FlushingTransport] Receive transport event: {\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  transportEventCode: 'DESTROYED_NOTICE (2)',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  infoStr: 'Disconnecting session',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  responseCode: null,\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  errorSubcode: 'NO_ERROR (0)',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  sid: 'N/A'\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "}\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:42:35.267 INFO   solclientjs:  [session-fsm=0x1a1b562d71c] [SessionDisconnected] Clean up session\n"
+      }
+    ],
+    [
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:56.224 INFO   solclientjs:  websocket browserSupportBinaryCheck: true - WebSocket supports binaryType\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:56.225 INFO   solclientjs:  websocket browserSupportBinaryCheck: true - WebSocket supports binaryType\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:56.227 INFO   solclientjs:  websocket browserSupportBinaryCheck: true - WebSocket supports binaryType\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:56.229 INFO   solclientjs:  [session-fsm=N/A] [WaitingForDNS] Creating transport session tcp://127.0.0.1:15555\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:56.230 INFO   solclientjs:  [session-fsm=N/A] [WaitingForDNS] Attempting to connect session 'null' to host 'tcp://127.0.0.1:15555' (host 1 of 1)(host connection attempt 1 of 1)(total connection attempt 1 of 1)\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:56.231 INFO   solclientjs:  [session-fsm=N/A] [WaitingForTransportUp] Receive transport event: {\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  transportEventCode: 'UP_NOTICE (1)',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  infoStr: 'Connected',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  responseCode: 0,\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  errorSubcode: '<none>',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  sid: 'N/A'\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "}\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:56.231 INFO   solclientjs:  [session-fsm=0x1a1b562d786] [WaitingForTransportUp] Using internally correlationTag=16777215 for tracking ClientCTRL Login\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:56.231 INFO   solclientjs:  [session-fsm=0x1a1b562d786] [WaitingForTransportUp] Enqueue outstanding ctrl request correlationTag=16777215\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:56.233 INFO   solclientjs:  [session-fsm=0x1a1b562d786] [WaitingForLogin] Handle SMF response for ClientCTRL Login\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:56.233 INFO   solclientjs:  [session-fsm=0x1a1b562d786] [WaitingForLogin] ReapplyingSubscriptions: entry\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:56.233 INFO   solclientjs:  [session-fsm=0x1a1b562d786] [WaitingForLogin] Reapplying subscriptions, count=1\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:56.233 INFO   solclientjs:  [session-fsm=0x1a1b562d786] [WaitingForLogin] Enqueue outstanding ctrl request correlationTag=1\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:56.234 INFO   solclientjs:  [session-fsm=0x1a1b562d786] [WaitForSubConfirm] Enqueue outstanding ctrl request correlationTag=2\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:56.235 INFO   solclientjs:  [session-fsm=0x1a1b562d786] [WaitingForMessagePublisher] Handle SMF response for correlationTag 2\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:56.237 INFO   solclientjs:  [session=0x1a1b562d786] [message-consumer-fsm=(N/A)] Starting ConsumerFSM 0\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:56.237 INFO   solclientjs:  [session-fsm=0x1a1b562d786] [SessionFullyConnected] Enqueue outstanding ctrl request correlationTag=3\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:56.238 INFO   solclientjs:  [session-fsm=0x1a1b562d786] [SessionFullyConnected] Handle SMF response for correlationTag 3\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:56.238 INFO   solclientjs:  [session=0x1a1b562d786] [flow=1] [message-consumer] Flow is up: flowId = 1\n"
+      },
+      {
+        "type": "ready",
+        "role": "consumer"
+      },
+      {
+        "type": "progress",
+        "received": 10
+      },
+      {
+        "type": "progress",
+        "received": 19
+      },
+      {
+        "type": "progress",
+        "received": 33
+      },
+      {
+        "type": "progress",
+        "received": 45
+      },
+      {
+        "type": "progress",
+        "received": 52
+      },
+      {
+        "type": "progress",
+        "received": 70
+      },
+      {
+        "type": "progress",
+        "received": 73
+      },
+      {
+        "type": "progress",
+        "received": 75
+      },
+      {
+        "type": "progress",
+        "received": 77
+      },
+      {
+        "type": "progress",
+        "received": 84
+      },
+      {
+        "type": "progress",
+        "received": 91
+      },
+      {
+        "type": "progress",
+        "received": 97
+      },
+      {
+        "type": "progress",
+        "received": 98
+      },
+      {
+        "type": "progress",
+        "received": 100
+      },
+      {
+        "type": "progress",
+        "received": 115
+      },
+      {
+        "type": "progress",
+        "received": 121
+      },
+      {
+        "type": "progress",
+        "received": 133
+      },
+      {
+        "type": "progress",
+        "received": 151
+      },
+      {
+        "type": "progress",
+        "received": 161
+      },
+      {
+        "type": "progress",
+        "received": 178
+      },
+      {
+        "type": "progress",
+        "received": 196
+      },
+      {
+        "type": "progress",
+        "received": 209
+      },
+      {
+        "type": "progress",
+        "received": 262
+      },
+      {
+        "type": "progress",
+        "received": 308
+      },
+      {
+        "type": "progress",
+        "received": 372
+      },
+      {
+        "type": "progress",
+        "received": 381
+      },
+      {
+        "type": "progress",
+        "received": 421
+      },
+      {
+        "type": "progress",
+        "received": 431
+      },
+      {
+        "type": "progress",
+        "received": 440
+      },
+      {
+        "type": "progress",
+        "received": 494
+      },
+      {
+        "type": "progress",
+        "received": 535
+      },
+      {
+        "type": "progress",
+        "received": 578
+      },
+      {
+        "type": "progress",
+        "received": 642
+      },
+      {
+        "type": "progress",
+        "received": 665
+      },
+      {
+        "type": "progress",
+        "received": 686
+      },
+      {
+        "type": "progress",
+        "received": 716
+      },
+      {
+        "type": "progress",
+        "received": 765
+      },
+      {
+        "type": "progress",
+        "received": 814
+      },
+      {
+        "type": "progress",
+        "received": 875
+      },
+      {
+        "type": "progress",
+        "received": 939
+      },
+      {
+        "type": "progress",
+        "received": 941
+      },
+      {
+        "type": "progress",
+        "received": 942
+      },
+      {
+        "type": "progress",
+        "received": 993
+      },
+      {
+        "type": "progress",
+        "received": 1041
+      },
+      {
+        "type": "progress",
+        "received": 1097
+      },
+      {
+        "type": "progress",
+        "received": 1123
+      },
+      {
+        "type": "progress",
+        "received": 1141
+      },
+      {
+        "type": "progress",
+        "received": 1145
+      },
+      {
+        "type": "progress",
+        "received": 1192
+      },
+      {
+        "type": "progress",
+        "received": 1241
+      },
+      {
+        "type": "progress",
+        "received": 1305
+      },
+      {
+        "type": "progress",
+        "received": 1316
+      },
+      {
+        "type": "progress",
+        "received": 1380
+      },
+      {
+        "type": "progress",
+        "received": 1396
+      },
+      {
+        "type": "progress",
+        "received": 1430
+      },
+      {
+        "type": "progress",
+        "received": 1484
+      },
+      {
+        "type": "progress",
+        "received": 1532
+      },
+      {
+        "type": "progress",
+        "received": 1592
+      },
+      {
+        "type": "progress",
+        "received": 1651
+      },
+      {
+        "type": "progress",
+        "received": 1684
+      },
+      {
+        "type": "progress",
+        "received": 1741
+      },
+      {
+        "type": "progress",
+        "received": 1794
+      },
+      {
+        "type": "progress",
+        "received": 1845
+      },
+      {
+        "type": "progress",
+        "received": 1905
+      },
+      {
+        "type": "progress",
+        "received": 1961
+      },
+      {
+        "type": "progress",
+        "received": 2019
+      },
+      {
+        "type": "progress",
+        "received": 2072
+      },
+      {
+        "type": "progress",
+        "received": 2125
+      },
+      {
+        "type": "progress",
+        "received": 2185
+      },
+      {
+        "type": "progress",
+        "received": 2247
+      },
+      {
+        "type": "progress",
+        "received": 2294
+      },
+      {
+        "type": "progress",
+        "received": 2354
+      },
+      {
+        "type": "progress",
+        "received": 2418
+      },
+      {
+        "type": "progress",
+        "received": 2471
+      },
+      {
+        "type": "progress",
+        "received": 2533
+      },
+      {
+        "type": "progress",
+        "received": 2587
+      },
+      {
+        "type": "progress",
+        "received": 2644
+      },
+      {
+        "type": "progress",
+        "received": 2708
+      },
+      {
+        "type": "progress",
+        "received": 2754
+      },
+      {
+        "type": "progress",
+        "received": 2814
+      },
+      {
+        "type": "progress",
+        "received": 2878
+      },
+      {
+        "type": "progress",
+        "received": 2929
+      },
+      {
+        "type": "progress",
+        "received": 2993
+      },
+      {
+        "type": "progress",
+        "received": 3054
+      },
+      {
+        "type": "progress",
+        "received": 3108
+      },
+      {
+        "type": "result",
+        "role": "consumer",
+        "window": 255,
+        "sdk_window": 255,
+        "size": 131072,
+        "sent": 0,
+        "acknowledged": 0,
+        "rejected": 0,
+        "received": 3108,
+        "pending": 0,
+        "blocked": 0,
+        "duration_seconds": 38.207549166,
+        "ack_timeout_ms": 60000,
+        "sdk_stats": {
+          "TX_PERSISTENT_MSGS": 0,
+          "TX_PERSISTENT_REDELIVERED": 0,
+          "TX_ACK_TIMEOUT": 0,
+          "RX_PERSISTENT_MSGS": 3108,
+          "RX_DISCARD_DUPLICATE": 0,
+          "TX_WINDOW_CLOSE": 0
+        },
+        "cpu_user_seconds": 1.040201,
+        "cpu_system_seconds": 0.227036,
+        "event_loop_utilization": 0.023855903480998163,
+        "mean_ack_ms": null,
+        "max_ack_ms": 0,
+        "samples": [
+          {
+            "seconds": 1.0018624999999999,
+            "interval_seconds": 1.0018624999999999,
+            "ack_delta": 0,
+            "received_delta": 52,
+            "pending": 0
+          },
+          {
+            "seconds": 2.002127166,
+            "interval_seconds": 1.000264666,
+            "ack_delta": 0,
+            "received_delta": 0,
+            "pending": 0
+          },
+          {
+            "seconds": 3.003680291,
+            "interval_seconds": 1.0015531249999998,
+            "ack_delta": 0,
+            "received_delta": 18,
+            "pending": 0
+          },
+          {
+            "seconds": 4.006512915999999,
+            "interval_seconds": 1.002832625,
+            "ack_delta": 0,
+            "received_delta": 0,
+            "pending": 0
+          },
+          {
+            "seconds": 5.008087958,
+            "interval_seconds": 1.0015750420000005,
+            "ack_delta": 0,
+            "received_delta": 14,
+            "pending": 0
+          },
+          {
+            "seconds": 6.009712458,
+            "interval_seconds": 1.0016245,
+            "ack_delta": 0,
+            "received_delta": 7,
+            "pending": 0
+          },
+          {
+            "seconds": 7.009662416,
+            "interval_seconds": 0.9999499580000002,
+            "ack_delta": 0,
+            "received_delta": 6,
+            "pending": 0
+          },
+          {
+            "seconds": 8.011526875,
+            "interval_seconds": 1.0018644589999994,
+            "ack_delta": 0,
+            "received_delta": 1,
+            "pending": 0
+          },
+          {
+            "seconds": 9.013556541,
+            "interval_seconds": 1.0020296660000003,
+            "ack_delta": 0,
+            "received_delta": 0,
+            "pending": 0
+          },
+          {
+            "seconds": 10.015294707999999,
+            "interval_seconds": 1.0017381669999996,
+            "ack_delta": 0,
+            "received_delta": 2,
+            "pending": 0
+          },
+          {
+            "seconds": 11.016191208,
+            "interval_seconds": 1.0008965000000007,
+            "ack_delta": 0,
+            "received_delta": 15,
+            "pending": 0
+          },
+          {
+            "seconds": 12.018215249999999,
+            "interval_seconds": 1.002024041999999,
+            "ack_delta": 0,
+            "received_delta": 0,
+            "pending": 0
+          },
+          {
+            "seconds": 13.019951875,
+            "interval_seconds": 1.0017366250000013,
+            "ack_delta": 0,
+            "received_delta": 18,
+            "pending": 0
+          },
+          {
+            "seconds": 14.020797541,
+            "interval_seconds": 1.0008456659999994,
+            "ack_delta": 0,
+            "received_delta": 0,
+            "pending": 0
+          },
+          {
+            "seconds": 15.021500791000001,
+            "interval_seconds": 1.0007032500000004,
+            "ack_delta": 0,
+            "received_delta": 18,
+            "pending": 0
+          },
+          {
+            "seconds": 16.023522707999998,
+            "interval_seconds": 1.0020219169999982,
+            "ack_delta": 0,
+            "received_delta": 0,
+            "pending": 0
+          },
+          {
+            "seconds": 17.024108666,
+            "interval_seconds": 1.0005859579999996,
+            "ack_delta": 0,
+            "received_delta": 10,
+            "pending": 0
+          },
+          {
+            "seconds": 18.025926000000002,
+            "interval_seconds": 1.001817334000003,
+            "ack_delta": 0,
+            "received_delta": 17,
+            "pending": 0
+          },
+          {
+            "seconds": 19.028317583,
+            "interval_seconds": 1.002391582999997,
+            "ack_delta": 0,
+            "received_delta": 0,
+            "pending": 0
+          },
+          {
+            "seconds": 20.028477333,
+            "interval_seconds": 1.0001597500000026,
+            "ack_delta": 0,
+            "received_delta": 243,
+            "pending": 0
+          },
+          {
+            "seconds": 21.02941475,
+            "interval_seconds": 1.0009374169999974,
+            "ack_delta": 0,
+            "received_delta": 10,
+            "pending": 0
+          },
+          {
+            "seconds": 22.029423416,
+            "interval_seconds": 1.0000086660000016,
+            "ack_delta": 0,
+            "received_delta": 255,
+            "pending": 0
+          },
+          {
+            "seconds": 23.029326166000004,
+            "interval_seconds": 0.9999027500000011,
+            "ack_delta": 0,
+            "received_delta": 149,
+            "pending": 0
+          },
+          {
+            "seconds": 24.030631541,
+            "interval_seconds": 1.0013053749999998,
+            "ack_delta": 0,
+            "received_delta": 106,
+            "pending": 0
+          },
+          {
+            "seconds": 25.030636625000003,
+            "interval_seconds": 1.0000050840000003,
+            "ack_delta": 0,
+            "received_delta": 59,
+            "pending": 0
+          },
+          {
+            "seconds": 26.032417833000004,
+            "interval_seconds": 1.0017812080000004,
+            "ack_delta": 0,
+            "received_delta": 141,
+            "pending": 0
+          },
+          {
+            "seconds": 27.032174708000003,
+            "interval_seconds": 0.9997568749999991,
+            "ack_delta": 0,
+            "received_delta": 255,
+            "pending": 0
+          },
+          {
+            "seconds": 28.032090625000002,
+            "interval_seconds": 0.9999159169999985,
+            "ack_delta": 0,
+            "received_delta": 20,
+            "pending": 0
+          },
+          {
+            "seconds": 29.034064333000003,
+            "interval_seconds": 1.0019737080000013,
+            "ack_delta": 0,
+            "received_delta": 235,
+            "pending": 0
+          },
+          {
+            "seconds": 30.033783916,
+            "interval_seconds": 0.9997195829999982,
+            "ack_delta": 0,
+            "received_delta": 0,
+            "pending": 0
+          },
+          {
+            "seconds": 31.036311416,
+            "interval_seconds": 1.0025275000000002,
+            "ack_delta": 0,
+            "received_delta": 0,
+            "pending": 0
+          },
+          {
+            "seconds": 32.037991416000004,
+            "interval_seconds": 1.0016800000000003,
+            "ack_delta": 0,
+            "received_delta": 0,
+            "pending": 0
+          },
+          {
+            "seconds": 33.040006708,
+            "interval_seconds": 1.0020152920000036,
+            "ack_delta": 0,
+            "received_delta": 0,
+            "pending": 0
+          },
+          {
+            "seconds": 34.0400285,
+            "interval_seconds": 1.0000217919999996,
+            "ack_delta": 0,
+            "received_delta": 479,
+            "pending": 0
+          },
+          {
+            "seconds": 35.039477166,
+            "interval_seconds": 0.9994486659999966,
+            "ack_delta": 0,
+            "received_delta": 583,
+            "pending": 0
+          },
+          {
+            "seconds": 36.039866333,
+            "interval_seconds": 1.0003891670000011,
+            "ack_delta": 0,
+            "received_delta": 395,
+            "pending": 0
+          },
+          {
+            "seconds": 37.03979625,
+            "interval_seconds": 0.9999299170000013,
+            "ack_delta": 0,
+            "received_delta": 0,
+            "pending": 0
+          },
+          {
+            "seconds": 38.041755333,
+            "interval_seconds": 1.0019590830000016,
+            "ack_delta": 0,
+            "received_delta": 0,
+            "pending": 0
+          },
+          {
+            "seconds": 38.206945125,
+            "interval_seconds": 0.1651897919999974,
+            "ack_delta": 0,
+            "received_delta": 0,
+            "pending": 0
+          }
+        ]
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:42:35.263 INFO   solclientjs:  [session-fsm=0x1a1b562d786] [SessionFullyConnected] Enqueue outstanding ctrl request correlationTag=4\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:42:35.263 INFO   solclientjs:  [session=0x1a1b562d786] [message-consumer-fsm=1] Sent consumer unbind request with arguments { flowId: 1, correlationTag: 4 }\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:42:35.264 INFO   solclientjs:  [session-fsm=0x1a1b562d786] [SessionFullyConnected] Cancel keepalive timer\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:42:35.264 INFO   solclientjs:  [session-fsm=0x1a1b562d786] [SessionFullyConnected] Disconnecting session {: SessionFSM}\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:42:35.264 INFO   solclientjs:  [session-fsm=0x1a1b562d786] [SessionFullyConnected] All flows disconnected\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:42:35.264 INFO   solclientjs:  [session-fsm=0x1a1b562d786] [DisconnectingFlows] Flushing transport\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:42:35.264 INFO   solclientjs:  [session-fsm=0x1a1b562d786] [DisconnectingFlows] Clean up session\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:42:35.264 INFO   solclientjs:  [session-fsm=0x1a1b562d786] [FlushingTransport] Handle Transport Flushed\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:42:35.265 INFO   solclientjs:  [session-fsm=0x1a1b562d786] [FlushingTransport] Connecting, disposing transport\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:42:35.265 INFO   solclientjs:  [session-fsm=0x1a1b562d786] [FlushingTransport] Destroy transport session\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:42:35.265 INFO   solclientjs:  [session-fsm=0x1a1b562d786] [FlushingTransport] Receive transport event: {\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  transportEventCode: 'DESTROYED_NOTICE (2)',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  infoStr: 'Disconnecting session',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  responseCode: null,\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  errorSubcode: 'NO_ERROR (0)',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  sid: 'N/A'\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "}\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:42:35.268 INFO   solclientjs:  [session-fsm=0x1a1b562d786] [SessionDisconnected] Clean up session\n"
+      }
+    ],
+    [
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:56.329 INFO   solclientjs:  websocket browserSupportBinaryCheck: true - WebSocket supports binaryType\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:56.330 INFO   solclientjs:  websocket browserSupportBinaryCheck: true - WebSocket supports binaryType\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:56.332 INFO   solclientjs:  websocket browserSupportBinaryCheck: true - WebSocket supports binaryType\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:56.335 INFO   solclientjs:  [session-fsm=N/A] [WaitingForDNS] Creating transport session tcp://127.0.0.1:15555\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:56.335 INFO   solclientjs:  [session-fsm=N/A] [WaitingForDNS] Attempting to connect session 'null' to host 'tcp://127.0.0.1:15555' (host 1 of 1)(host connection attempt 1 of 1)(total connection attempt 1 of 1)\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:56.336 INFO   solclientjs:  [session-fsm=N/A] [WaitingForTransportUp] Receive transport event: {\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  transportEventCode: 'UP_NOTICE (1)',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  infoStr: 'Connected',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  responseCode: 0,\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  errorSubcode: '<none>',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  sid: 'N/A'\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "}\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:56.336 INFO   solclientjs:  [session-fsm=0x1a1b562d7ef] [WaitingForTransportUp] Using internally correlationTag=16777215 for tracking ClientCTRL Login\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:56.337 INFO   solclientjs:  [session-fsm=0x1a1b562d7ef] [WaitingForTransportUp] Enqueue outstanding ctrl request correlationTag=16777215\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:56.338 INFO   solclientjs:  [session-fsm=0x1a1b562d7ef] [WaitingForLogin] Handle SMF response for ClientCTRL Login\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:56.338 INFO   solclientjs:  [session-fsm=0x1a1b562d7ef] [WaitingForLogin] ReapplyingSubscriptions: entry\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:56.338 INFO   solclientjs:  [session-fsm=0x1a1b562d7ef] [WaitingForLogin] Reapplying subscriptions, count=1\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:56.338 INFO   solclientjs:  [session-fsm=0x1a1b562d7ef] [WaitingForLogin] Enqueue outstanding ctrl request correlationTag=1\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:56.339 INFO   solclientjs:  [session-fsm=0x1a1b562d7ef] [WaitForSubConfirm] Enqueue outstanding ctrl request correlationTag=2\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:56.340 INFO   solclientjs:  [session-fsm=0x1a1b562d7ef] [WaitingForMessagePublisher] Handle SMF response for correlationTag 2\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:56.342 INFO   solclientjs:  [session=0x1a1b562d7ef] [message-consumer-fsm=(N/A)] Starting ConsumerFSM 0\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:56.343 INFO   solclientjs:  [session-fsm=0x1a1b562d7ef] [SessionFullyConnected] Enqueue outstanding ctrl request correlationTag=3\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:56.343 INFO   solclientjs:  [session-fsm=0x1a1b562d7ef] [SessionFullyConnected] Handle SMF response for correlationTag 3\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:56.344 INFO   solclientjs:  [session=0x1a1b562d7ef] [flow=2] [message-consumer] Flow is up: flowId = 2\n"
+      },
+      {
+        "type": "ready",
+        "role": "consumer"
+      },
+      {
+        "type": "progress",
+        "received": 8
+      },
+      {
+        "type": "progress",
+        "received": 19
+      },
+      {
+        "type": "progress",
+        "received": 33
+      },
+      {
+        "type": "progress",
+        "received": 44
+      },
+      {
+        "type": "progress",
+        "received": 52
+      },
+      {
+        "type": "progress",
+        "received": 70
+      },
+      {
+        "type": "progress",
+        "received": 72
+      },
+      {
+        "type": "progress",
+        "received": 75
+      },
+      {
+        "type": "progress",
+        "received": 83
+      },
+      {
+        "type": "progress",
+        "received": 84
+      },
+      {
+        "type": "progress",
+        "received": 91
+      },
+      {
+        "type": "progress",
+        "received": 92
+      },
+      {
+        "type": "progress",
+        "received": 98
+      },
+      {
+        "type": "progress",
+        "received": 115
+      },
+      {
+        "type": "progress",
+        "received": 116
+      },
+      {
+        "type": "progress",
+        "received": 124
+      },
+      {
+        "type": "progress",
+        "received": 133
+      },
+      {
+        "type": "progress",
+        "received": 143
+      },
+      {
+        "type": "progress",
+        "received": 151
+      },
+      {
+        "type": "progress",
+        "received": 161
+      },
+      {
+        "type": "progress",
+        "received": 169
+      },
+      {
+        "type": "progress",
+        "received": 170
+      },
+      {
+        "type": "progress",
+        "received": 187
+      },
+      {
+        "type": "progress",
+        "received": 205
+      },
+      {
+        "type": "progress",
+        "received": 251
+      },
+      {
+        "type": "progress",
+        "received": 309
+      },
+      {
+        "type": "progress",
+        "received": 358
+      },
+      {
+        "type": "progress",
+        "received": 403
+      },
+      {
+        "type": "progress",
+        "received": 421
+      },
+      {
+        "type": "progress",
+        "received": 448
+      },
+      {
+        "type": "progress",
+        "received": 494
+      },
+      {
+        "type": "progress",
+        "received": 535
+      },
+      {
+        "type": "progress",
+        "received": 583
+      },
+      {
+        "type": "progress",
+        "received": 647
+      },
+      {
+        "type": "progress",
+        "received": 664
+      },
+      {
+        "type": "progress",
+        "received": 673
+      },
+      {
+        "type": "progress",
+        "received": 676
+      },
+      {
+        "type": "progress",
+        "received": 678
+      },
+      {
+        "type": "progress",
+        "received": 720
+      },
+      {
+        "type": "progress",
+        "received": 774
+      },
+      {
+        "type": "progress",
+        "received": 825
+      },
+      {
+        "type": "progress",
+        "received": 889
+      },
+      {
+        "type": "progress",
+        "received": 903
+      },
+      {
+        "type": "progress",
+        "received": 931
+      },
+      {
+        "type": "progress",
+        "received": 948
+      },
+      {
+        "type": "progress",
+        "received": 1001
+      },
+      {
+        "type": "progress",
+        "received": 1047
+      },
+      {
+        "type": "progress",
+        "received": 1111
+      },
+      {
+        "type": "progress",
+        "received": 1132
+      },
+      {
+        "type": "progress",
+        "received": 1141
+      },
+      {
+        "type": "progress",
+        "received": 1158
+      },
+      {
+        "type": "progress",
+        "received": 1218
+      },
+      {
+        "type": "progress",
+        "received": 1273
+      },
+      {
+        "type": "progress",
+        "received": 1337
+      },
+      {
+        "type": "progress",
+        "received": 1374
+      },
+      {
+        "type": "progress",
+        "received": 1396
+      },
+      {
+        "type": "progress",
+        "received": 1399
+      },
+      {
+        "type": "progress",
+        "received": 1445
+      },
+      {
+        "type": "progress",
+        "received": 1498
+      },
+      {
+        "type": "progress",
+        "received": 1547
+      },
+      {
+        "type": "progress",
+        "received": 1611
+      },
+      {
+        "type": "progress",
+        "received": 1622
+      },
+      {
+        "type": "progress",
+        "received": 1651
+      },
+      {
+        "type": "progress",
+        "received": 1658
+      },
+      {
+        "type": "progress",
+        "received": 1711
+      },
+      {
+        "type": "progress",
+        "received": 1768
+      },
+      {
+        "type": "progress",
+        "received": 1821
+      },
+      {
+        "type": "progress",
+        "received": 1877
+      },
+      {
+        "type": "progress",
+        "received": 1938
+      },
+      {
+        "type": "progress",
+        "received": 1986
+      },
+      {
+        "type": "progress",
+        "received": 2043
+      },
+      {
+        "type": "progress",
+        "received": 2095
+      },
+      {
+        "type": "progress",
+        "received": 2144
+      },
+      {
+        "type": "progress",
+        "received": 2203
+      },
+      {
+        "type": "progress",
+        "received": 2263
+      },
+      {
+        "type": "progress",
+        "received": 2313
+      },
+      {
+        "type": "progress",
+        "received": 2372
+      },
+      {
+        "type": "progress",
+        "received": 2425
+      },
+      {
+        "type": "progress",
+        "received": 2482
+      },
+      {
+        "type": "progress",
+        "received": 2541
+      },
+      {
+        "type": "progress",
+        "received": 2591
+      },
+      {
+        "type": "progress",
+        "received": 2647
+      },
+      {
+        "type": "progress",
+        "received": 2711
+      },
+      {
+        "type": "progress",
+        "received": 2716
+      },
+      {
+        "type": "progress",
+        "received": 2767
+      },
+      {
+        "type": "progress",
+        "received": 2828
+      },
+      {
+        "type": "progress",
+        "received": 2886
+      },
+      {
+        "type": "progress",
+        "received": 2944
+      },
+      {
+        "type": "progress",
+        "received": 3007
+      },
+      {
+        "type": "progress",
+        "received": 3064
+      },
+      {
+        "type": "progress",
+        "received": 3108
+      },
+      {
+        "type": "result",
+        "role": "consumer",
+        "window": 255,
+        "sdk_window": 255,
+        "size": 131072,
+        "sent": 0,
+        "acknowledged": 0,
+        "rejected": 0,
+        "received": 3108,
+        "pending": 0,
+        "blocked": 0,
+        "duration_seconds": 38.207482459,
+        "ack_timeout_ms": 60000,
+        "sdk_stats": {
+          "TX_PERSISTENT_MSGS": 0,
+          "TX_PERSISTENT_REDELIVERED": 0,
+          "TX_ACK_TIMEOUT": 0,
+          "RX_PERSISTENT_MSGS": 3108,
+          "RX_DISCARD_DUPLICATE": 0,
+          "TX_WINDOW_CLOSE": 0
+        },
+        "cpu_user_seconds": 1.042721,
+        "cpu_system_seconds": 0.226311,
+        "event_loop_utilization": 0.024055944504611276,
+        "mean_ack_ms": null,
+        "max_ack_ms": 0,
+        "samples": [
+          {
+            "seconds": 1.00021,
+            "interval_seconds": 1.00021,
+            "ack_delta": 0,
+            "received_delta": 52,
+            "pending": 0
+          },
+          {
+            "seconds": 2.0021945420000002,
+            "interval_seconds": 1.0019845420000002,
+            "ack_delta": 0,
+            "received_delta": 0,
+            "pending": 0
+          },
+          {
+            "seconds": 3.003511042,
+            "interval_seconds": 1.0013165,
+            "ack_delta": 0,
+            "received_delta": 18,
+            "pending": 0
+          },
+          {
+            "seconds": 4.0061163749999995,
+            "interval_seconds": 1.0026053329999995,
+            "ack_delta": 0,
+            "received_delta": 0,
+            "pending": 0
+          },
+          {
+            "seconds": 5.007879792,
+            "interval_seconds": 1.001763417,
+            "ack_delta": 0,
+            "received_delta": 13,
+            "pending": 0
+          },
+          {
+            "seconds": 6.0095230840000005,
+            "interval_seconds": 1.0016432920000007,
+            "ack_delta": 0,
+            "received_delta": 8,
+            "pending": 0
+          },
+          {
+            "seconds": 7.01011075,
+            "interval_seconds": 1.0005876659999995,
+            "ack_delta": 0,
+            "received_delta": 1,
+            "pending": 0
+          },
+          {
+            "seconds": 8.011588667000002,
+            "interval_seconds": 1.001477917000001,
+            "ack_delta": 0,
+            "received_delta": 6,
+            "pending": 0
+          },
+          {
+            "seconds": 9.013761292,
+            "interval_seconds": 1.0021726249999992,
+            "ack_delta": 0,
+            "received_delta": 17,
+            "pending": 0
+          },
+          {
+            "seconds": 10.014405334,
+            "interval_seconds": 1.0006440419999998,
+            "ack_delta": 0,
+            "received_delta": 0,
+            "pending": 0
+          },
+          {
+            "seconds": 11.014038625000001,
+            "interval_seconds": 0.9996332910000001,
+            "ack_delta": 0,
+            "received_delta": 1,
+            "pending": 0
+          },
+          {
+            "seconds": 12.013769959000001,
+            "interval_seconds": 0.999731334,
+            "ack_delta": 0,
+            "received_delta": 17,
+            "pending": 0
+          },
+          {
+            "seconds": 13.014868417,
+            "interval_seconds": 1.0010984580000004,
+            "ack_delta": 0,
+            "received_delta": 18,
+            "pending": 0
+          },
+          {
+            "seconds": 14.016063792,
+            "interval_seconds": 1.0011953749999993,
+            "ack_delta": 0,
+            "received_delta": 0,
+            "pending": 0
+          },
+          {
+            "seconds": 15.016745959,
+            "interval_seconds": 1.0006821670000008,
+            "ack_delta": 0,
+            "received_delta": 18,
+            "pending": 0
+          },
+          {
+            "seconds": 16.0184545,
+            "interval_seconds": 1.0017085409999982,
+            "ack_delta": 0,
+            "received_delta": 0,
+            "pending": 0
+          },
+          {
+            "seconds": 17.0205595,
+            "interval_seconds": 1.0021049999999996,
+            "ack_delta": 0,
+            "received_delta": 0,
+            "pending": 0
+          },
+          {
+            "seconds": 18.021143792000004,
+            "interval_seconds": 1.0005842920000032,
+            "ack_delta": 0,
+            "received_delta": 18,
+            "pending": 0
+          },
+          {
+            "seconds": 19.021158666999998,
+            "interval_seconds": 1.000014874999997,
+            "ack_delta": 0,
+            "received_delta": 18,
+            "pending": 0
+          },
+          {
+            "seconds": 20.020828875,
+            "interval_seconds": 0.9996702079999995,
+            "ack_delta": 0,
+            "received_delta": 198,
+            "pending": 0
+          },
+          {
+            "seconds": 21.022623667,
+            "interval_seconds": 1.0017947920000005,
+            "ack_delta": 0,
+            "received_delta": 18,
+            "pending": 0
+          },
+          {
+            "seconds": 22.022778542,
+            "interval_seconds": 1.0001548750000002,
+            "ack_delta": 0,
+            "received_delta": 255,
+            "pending": 0
+          },
+          {
+            "seconds": 23.023998709,
+            "interval_seconds": 1.0012201669999994,
+            "ack_delta": 0,
+            "received_delta": 145,
+            "pending": 0
+          },
+          {
+            "seconds": 24.025757709,
+            "interval_seconds": 1.0017590000000018,
+            "ack_delta": 0,
+            "received_delta": 110,
+            "pending": 0
+          },
+          {
+            "seconds": 25.025670209,
+            "interval_seconds": 0.9999124999999985,
+            "ack_delta": 0,
+            "received_delta": 54,
+            "pending": 0
+          },
+          {
+            "seconds": 26.026013959,
+            "interval_seconds": 1.00034375,
+            "ack_delta": 0,
+            "received_delta": 156,
+            "pending": 0
+          },
+          {
+            "seconds": 27.026780375,
+            "interval_seconds": 1.0007664160000023,
+            "ack_delta": 0,
+            "received_delta": 255,
+            "pending": 0
+          },
+          {
+            "seconds": 28.026454209,
+            "interval_seconds": 0.9996738339999974,
+            "ack_delta": 0,
+            "received_delta": 17,
+            "pending": 0
+          },
+          {
+            "seconds": 29.028321667,
+            "interval_seconds": 1.0018674580000007,
+            "ack_delta": 0,
+            "received_delta": 238,
+            "pending": 0
+          },
+          {
+            "seconds": 30.029826167,
+            "interval_seconds": 1.0015044999999991,
+            "ack_delta": 0,
+            "received_delta": 0,
+            "pending": 0
+          },
+          {
+            "seconds": 31.030905084,
+            "interval_seconds": 1.0010789170000025,
+            "ack_delta": 0,
+            "received_delta": 0,
+            "pending": 0
+          },
+          {
+            "seconds": 32.031899875,
+            "interval_seconds": 1.0009947909999974,
+            "ack_delta": 0,
+            "received_delta": 0,
+            "pending": 0
+          },
+          {
+            "seconds": 33.033055334,
+            "interval_seconds": 1.0011554590000014,
+            "ack_delta": 0,
+            "received_delta": 0,
+            "pending": 0
+          },
+          {
+            "seconds": 34.032803959,
+            "interval_seconds": 0.9997486250000002,
+            "ack_delta": 0,
+            "received_delta": 474,
+            "pending": 0
+          },
+          {
+            "seconds": 35.033523125,
+            "interval_seconds": 1.0007191660000025,
+            "ack_delta": 0,
+            "received_delta": 569,
+            "pending": 0
+          },
+          {
+            "seconds": 36.034224542,
+            "interval_seconds": 1.0007014169999966,
+            "ack_delta": 0,
+            "received_delta": 414,
+            "pending": 0
+          },
+          {
+            "seconds": 37.034724417,
+            "interval_seconds": 1.0004998750000014,
+            "ack_delta": 0,
+            "received_delta": 0,
+            "pending": 0
+          },
+          {
+            "seconds": 38.035971083999996,
+            "interval_seconds": 1.0012466669999995,
+            "ack_delta": 0,
+            "received_delta": 0,
+            "pending": 0
+          },
+          {
+            "seconds": 38.206868416999995,
+            "interval_seconds": 0.1708973330000008,
+            "ack_delta": 0,
+            "received_delta": 0,
+            "pending": 0
+          }
+        ]
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:42:35.263 INFO   solclientjs:  [session-fsm=0x1a1b562d7ef] [SessionFullyConnected] Enqueue outstanding ctrl request correlationTag=4\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:42:35.263 INFO   solclientjs:  [session=0x1a1b562d7ef] [message-consumer-fsm=2] Sent consumer unbind request with arguments { flowId: 2, correlationTag: 4 }\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:42:35.264 INFO   solclientjs:  [session-fsm=0x1a1b562d7ef] [SessionFullyConnected] Cancel keepalive timer\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:42:35.264 INFO   solclientjs:  [session-fsm=0x1a1b562d7ef] [SessionFullyConnected] Disconnecting session {: SessionFSM}\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:42:35.264 INFO   solclientjs:  [session-fsm=0x1a1b562d7ef] [SessionFullyConnected] All flows disconnected\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:42:35.264 INFO   solclientjs:  [session-fsm=0x1a1b562d7ef] [DisconnectingFlows] Flushing transport\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:42:35.264 INFO   solclientjs:  [session-fsm=0x1a1b562d7ef] [DisconnectingFlows] Clean up session\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:42:35.265 INFO   solclientjs:  [session-fsm=0x1a1b562d7ef] [FlushingTransport] Handle Transport Flushed\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:42:35.265 INFO   solclientjs:  [session-fsm=0x1a1b562d7ef] [FlushingTransport] Connecting, disposing transport\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:42:35.265 INFO   solclientjs:  [session-fsm=0x1a1b562d7ef] [FlushingTransport] Destroy transport session\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:42:35.265 INFO   solclientjs:  [session-fsm=0x1a1b562d7ef] [FlushingTransport] Receive transport event: {\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  transportEventCode: 'DESTROYED_NOTICE (2)',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  infoStr: 'Disconnecting session',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  responseCode: null,\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  errorSubcode: 'NO_ERROR (0)',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  sid: 'N/A'\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "}\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:42:35.268 INFO   solclientjs:  [session-fsm=0x1a1b562d7ef] [SessionDisconnected] Clean up session\n"
+      }
+    ],
+    [
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:56.435 INFO   solclientjs:  websocket browserSupportBinaryCheck: true - WebSocket supports binaryType\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:56.436 INFO   solclientjs:  websocket browserSupportBinaryCheck: true - WebSocket supports binaryType\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:56.438 INFO   solclientjs:  websocket browserSupportBinaryCheck: true - WebSocket supports binaryType\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:56.440 INFO   solclientjs:  [session-fsm=N/A] [WaitingForDNS] Creating transport session tcp://127.0.0.1:15555\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:56.441 INFO   solclientjs:  [session-fsm=N/A] [WaitingForDNS] Attempting to connect session 'null' to host 'tcp://127.0.0.1:15555' (host 1 of 1)(host connection attempt 1 of 1)(total connection attempt 1 of 1)\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:56.441 INFO   solclientjs:  [session-fsm=N/A] [WaitingForTransportUp] Receive transport event: {\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  transportEventCode: 'UP_NOTICE (1)',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  infoStr: 'Connected',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  responseCode: 0,\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  errorSubcode: '<none>',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  sid: 'N/A'\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "}\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:56.442 INFO   solclientjs:  [session-fsm=0x1a1b562d859] [WaitingForTransportUp] Using internally correlationTag=16777215 for tracking ClientCTRL Login\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:56.442 INFO   solclientjs:  [session-fsm=0x1a1b562d859] [WaitingForTransportUp] Enqueue outstanding ctrl request correlationTag=16777215\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:56.445 INFO   solclientjs:  [session-fsm=0x1a1b562d859] [WaitingForLogin] Handle SMF response for ClientCTRL Login\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:56.445 INFO   solclientjs:  [session-fsm=0x1a1b562d859] [WaitingForLogin] ReapplyingSubscriptions: entry\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:56.445 INFO   solclientjs:  [session-fsm=0x1a1b562d859] [WaitingForLogin] Reapplying subscriptions, count=1\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:56.445 INFO   solclientjs:  [session-fsm=0x1a1b562d859] [WaitingForLogin] Enqueue outstanding ctrl request correlationTag=1\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:56.446 INFO   solclientjs:  [session-fsm=0x1a1b562d859] [WaitForSubConfirm] Enqueue outstanding ctrl request correlationTag=2\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:56.447 INFO   solclientjs:  [session-fsm=0x1a1b562d859] [WaitingForMessagePublisher] Handle SMF response for correlationTag 2\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:56.449 INFO   solclientjs:  [session=0x1a1b562d859] [message-consumer-fsm=(N/A)] Starting ConsumerFSM 0\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:56.449 INFO   solclientjs:  [session-fsm=0x1a1b562d859] [SessionFullyConnected] Enqueue outstanding ctrl request correlationTag=3\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:56.450 INFO   solclientjs:  [session-fsm=0x1a1b562d859] [SessionFullyConnected] Handle SMF response for correlationTag 3\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:56.451 INFO   solclientjs:  [session=0x1a1b562d859] [flow=3] [message-consumer] Flow is up: flowId = 3\n"
+      },
+      {
+        "type": "ready",
+        "role": "consumer"
+      },
+      {
+        "type": "progress",
+        "received": 8
+      },
+      {
+        "type": "progress",
+        "received": 19
+      },
+      {
+        "type": "progress",
+        "received": 33
+      },
+      {
+        "type": "progress",
+        "received": 44
+      },
+      {
+        "type": "progress",
+        "received": 52
+      },
+      {
+        "type": "progress",
+        "received": 70
+      },
+      {
+        "type": "progress",
+        "received": 71
+      },
+      {
+        "type": "progress",
+        "received": 75
+      },
+      {
+        "type": "progress",
+        "received": 81
+      },
+      {
+        "type": "progress",
+        "received": 85
+      },
+      {
+        "type": "progress",
+        "received": 93
+      },
+      {
+        "type": "progress",
+        "received": 97
+      },
+      {
+        "type": "progress",
+        "received": 98
+      },
+      {
+        "type": "progress",
+        "received": 115
+      },
+      {
+        "type": "progress",
+        "received": 116
+      },
+      {
+        "type": "progress",
+        "received": 117
+      },
+      {
+        "type": "progress",
+        "received": 133
+      },
+      {
+        "type": "progress",
+        "received": 139
+      },
+      {
+        "type": "progress",
+        "received": 151
+      },
+      {
+        "type": "progress",
+        "received": 153
+      },
+      {
+        "type": "progress",
+        "received": 169
+      },
+      {
+        "type": "progress",
+        "received": 175
+      },
+      {
+        "type": "progress",
+        "received": 187
+      },
+      {
+        "type": "progress",
+        "received": 205
+      },
+      {
+        "type": "progress",
+        "received": 246
+      },
+      {
+        "type": "progress",
+        "received": 298
+      },
+      {
+        "type": "progress",
+        "received": 344
+      },
+      {
+        "type": "progress",
+        "received": 376
+      },
+      {
+        "type": "progress",
+        "received": 394
+      },
+      {
+        "type": "progress",
+        "received": 413
+      },
+      {
+        "type": "progress",
+        "received": 464
+      },
+      {
+        "type": "progress",
+        "received": 504
+      },
+      {
+        "type": "progress",
+        "received": 549
+      },
+      {
+        "type": "progress",
+        "received": 556
+      },
+      {
+        "type": "progress",
+        "received": 574
+      },
+      {
+        "type": "progress",
+        "received": 614
+      },
+      {
+        "type": "progress",
+        "received": 669
+      },
+      {
+        "type": "progress",
+        "received": 724
+      },
+      {
+        "type": "progress",
+        "received": 772
+      },
+      {
+        "type": "progress",
+        "received": 790
+      },
+      {
+        "type": "progress",
+        "received": 796
+      },
+      {
+        "type": "progress",
+        "received": 850
+      },
+      {
+        "type": "progress",
+        "received": 897
+      },
+      {
+        "type": "progress",
+        "received": 961
+      },
+      {
+        "type": "progress",
+        "received": 970
+      },
+      {
+        "type": "progress",
+        "received": 979
+      },
+      {
+        "type": "progress",
+        "received": 988
+      },
+      {
+        "type": "progress",
+        "received": 999
+      },
+      {
+        "type": "progress",
+        "received": 1057
+      },
+      {
+        "type": "progress",
+        "received": 1109
+      },
+      {
+        "type": "progress",
+        "received": 1150
+      },
+      {
+        "type": "progress",
+        "received": 1168
+      },
+      {
+        "type": "progress",
+        "received": 1213
+      },
+      {
+        "type": "progress",
+        "received": 1265
+      },
+      {
+        "type": "progress",
+        "received": 1315
+      },
+      {
+        "type": "progress",
+        "received": 1375
+      },
+      {
+        "type": "progress",
+        "received": 1380
+      },
+      {
+        "type": "progress",
+        "received": 1393
+      },
+      {
+        "type": "progress",
+        "received": 1437
+      },
+      {
+        "type": "progress",
+        "received": 1493
+      },
+      {
+        "type": "progress",
+        "received": 1546
+      },
+      {
+        "type": "progress",
+        "received": 1596
+      },
+      {
+        "type": "progress",
+        "received": 1655
+      },
+      {
+        "type": "progress",
+        "received": 1703
+      },
+      {
+        "type": "progress",
+        "received": 1759
+      },
+      {
+        "type": "progress",
+        "received": 1815
+      },
+      {
+        "type": "progress",
+        "received": 1866
+      },
+      {
+        "type": "progress",
+        "received": 1925
+      },
+      {
+        "type": "progress",
+        "received": 1987
+      },
+      {
+        "type": "progress",
+        "received": 2033
+      },
+      {
+        "type": "progress",
+        "received": 2092
+      },
+      {
+        "type": "progress",
+        "received": 2153
+      },
+      {
+        "type": "progress",
+        "received": 2208
+      },
+      {
+        "type": "progress",
+        "received": 2268
+      },
+      {
+        "type": "progress",
+        "received": 2323
+      },
+      {
+        "type": "progress",
+        "received": 2382
+      },
+      {
+        "type": "progress",
+        "received": 2446
+      },
+      {
+        "type": "progress",
+        "received": 2495
+      },
+      {
+        "type": "progress",
+        "received": 2556
+      },
+      {
+        "type": "progress",
+        "received": 2616
+      },
+      {
+        "type": "progress",
+        "received": 2668
+      },
+      {
+        "type": "progress",
+        "received": 2727
+      },
+      {
+        "type": "progress",
+        "received": 2788
+      },
+      {
+        "type": "progress",
+        "received": 2852
+      },
+      {
+        "type": "progress",
+        "received": 2853
+      },
+      {
+        "type": "progress",
+        "received": 2917
+      },
+      {
+        "type": "progress",
+        "received": 2966
+      },
+      {
+        "type": "progress",
+        "received": 3030
+      },
+      {
+        "type": "progress",
+        "received": 3083
+      },
+      {
+        "type": "progress",
+        "received": 3108
+      },
+      {
+        "type": "result",
+        "role": "consumer",
+        "window": 255,
+        "sdk_window": 255,
+        "size": 131072,
+        "sent": 0,
+        "acknowledged": 0,
+        "rejected": 0,
+        "received": 3108,
+        "pending": 0,
+        "blocked": 0,
+        "duration_seconds": 38.207469165999996,
+        "ack_timeout_ms": 60000,
+        "sdk_stats": {
+          "TX_PERSISTENT_MSGS": 0,
+          "TX_PERSISTENT_REDELIVERED": 0,
+          "TX_ACK_TIMEOUT": 0,
+          "RX_PERSISTENT_MSGS": 3108,
+          "RX_DISCARD_DUPLICATE": 0,
+          "TX_WINDOW_CLOSE": 0
+        },
+        "cpu_user_seconds": 1.028174,
+        "cpu_system_seconds": 0.225472,
+        "event_loop_utilization": 0.0240205562035694,
+        "mean_ack_ms": null,
+        "max_ack_ms": 0,
+        "samples": [
+          {
+            "seconds": 1.001908333,
+            "interval_seconds": 1.001908333,
+            "ack_delta": 0,
+            "received_delta": 52,
+            "pending": 0
+          },
+          {
+            "seconds": 2.0019748749999997,
+            "interval_seconds": 1.0000665420000001,
+            "ack_delta": 0,
+            "received_delta": 0,
+            "pending": 0
+          },
+          {
+            "seconds": 3.003597166,
+            "interval_seconds": 1.001622291,
+            "ack_delta": 0,
+            "received_delta": 18,
+            "pending": 0
+          },
+          {
+            "seconds": 4.005935624999999,
+            "interval_seconds": 1.0023384589999995,
+            "ack_delta": 0,
+            "received_delta": 0,
+            "pending": 0
+          },
+          {
+            "seconds": 5.006215,
+            "interval_seconds": 1.000279375,
+            "ack_delta": 0,
+            "received_delta": 11,
+            "pending": 0
+          },
+          {
+            "seconds": 6.006821625000001,
+            "interval_seconds": 1.0006066250000003,
+            "ack_delta": 0,
+            "received_delta": 12,
+            "pending": 0
+          },
+          {
+            "seconds": 7.006973583,
+            "interval_seconds": 1.0001519579999996,
+            "ack_delta": 0,
+            "received_delta": 4,
+            "pending": 0
+          },
+          {
+            "seconds": 8.007533291,
+            "interval_seconds": 1.0005597079999997,
+            "ack_delta": 0,
+            "received_delta": 1,
+            "pending": 0
+          },
+          {
+            "seconds": 9.009060708000002,
+            "interval_seconds": 1.0015274170000013,
+            "ack_delta": 0,
+            "received_delta": 17,
+            "pending": 0
+          },
+          {
+            "seconds": 10.010933458,
+            "interval_seconds": 1.0018727499999986,
+            "ack_delta": 0,
+            "received_delta": 0,
+            "pending": 0
+          },
+          {
+            "seconds": 11.013127541,
+            "interval_seconds": 1.0021940830000002,
+            "ack_delta": 0,
+            "received_delta": 1,
+            "pending": 0
+          },
+          {
+            "seconds": 12.0140405,
+            "interval_seconds": 1.0009129590000012,
+            "ack_delta": 0,
+            "received_delta": 17,
+            "pending": 0
+          },
+          {
+            "seconds": 13.0158945,
+            "interval_seconds": 1.0018539999999994,
+            "ack_delta": 0,
+            "received_delta": 18,
+            "pending": 0
+          },
+          {
+            "seconds": 14.016737166,
+            "interval_seconds": 1.0008426660000005,
+            "ack_delta": 0,
+            "received_delta": 0,
+            "pending": 0
+          },
+          {
+            "seconds": 15.017023416,
+            "interval_seconds": 1.0002862499999992,
+            "ack_delta": 0,
+            "received_delta": 18,
+            "pending": 0
+          },
+          {
+            "seconds": 16.016888541,
+            "interval_seconds": 0.9998651250000002,
+            "ack_delta": 0,
+            "received_delta": 0,
+            "pending": 0
+          },
+          {
+            "seconds": 17.018603541,
+            "interval_seconds": 1.0017150000000001,
+            "ack_delta": 0,
+            "received_delta": 6,
+            "pending": 0
+          },
+          {
+            "seconds": 18.020945916000002,
+            "interval_seconds": 1.0023423750000002,
+            "ack_delta": 0,
+            "received_delta": 12,
+            "pending": 0
+          },
+          {
+            "seconds": 19.022504333,
+            "interval_seconds": 1.0015584170000003,
+            "ack_delta": 0,
+            "received_delta": 18,
+            "pending": 0
+          },
+          {
+            "seconds": 20.023273832999998,
+            "interval_seconds": 1.0007694999999985,
+            "ack_delta": 0,
+            "received_delta": 171,
+            "pending": 0
+          },
+          {
+            "seconds": 21.023132708000002,
+            "interval_seconds": 0.9998588750000017,
+            "ack_delta": 0,
+            "received_delta": 18,
+            "pending": 0
+          },
+          {
+            "seconds": 22.024783749999997,
+            "interval_seconds": 1.0016510419999978,
+            "ack_delta": 0,
+            "received_delta": 180,
+            "pending": 0
+          },
+          {
+            "seconds": 23.024612041,
+            "interval_seconds": 0.9998282910000016,
+            "ack_delta": 0,
+            "received_delta": 154,
+            "pending": 0
+          },
+          {
+            "seconds": 24.024783041,
+            "interval_seconds": 1.0001709999999984,
+            "ack_delta": 0,
+            "received_delta": 62,
+            "pending": 0
+          },
+          {
+            "seconds": 25.024445458000002,
+            "interval_seconds": 0.9996624170000031,
+            "ack_delta": 0,
+            "received_delta": 53,
+            "pending": 0
+          },
+          {
+            "seconds": 26.026871625,
+            "interval_seconds": 1.0024261669999979,
+            "ack_delta": 0,
+            "received_delta": 145,
+            "pending": 0
+          },
+          {
+            "seconds": 27.027201791,
+            "interval_seconds": 1.0003301659999997,
+            "ack_delta": 0,
+            "received_delta": 162,
+            "pending": 0
+          },
+          {
+            "seconds": 28.027244333,
+            "interval_seconds": 1.0000425419999992,
+            "ack_delta": 0,
+            "received_delta": 35,
+            "pending": 0
+          },
+          {
+            "seconds": 29.028318208,
+            "interval_seconds": 1.001073875000002,
+            "ack_delta": 0,
+            "received_delta": 190,
+            "pending": 0
+          },
+          {
+            "seconds": 30.029743833,
+            "interval_seconds": 1.0014256249999998,
+            "ack_delta": 0,
+            "received_delta": 5,
+            "pending": 0
+          },
+          {
+            "seconds": 31.03097625,
+            "interval_seconds": 1.0012324169999993,
+            "ack_delta": 0,
+            "received_delta": 0,
+            "pending": 0
+          },
+          {
+            "seconds": 32.030792833,
+            "interval_seconds": 0.9998165829999998,
+            "ack_delta": 0,
+            "received_delta": 0,
+            "pending": 0
+          },
+          {
+            "seconds": 33.032340624999996,
+            "interval_seconds": 1.001547792000001,
+            "ack_delta": 0,
+            "received_delta": 13,
+            "pending": 0
+          },
+          {
+            "seconds": 34.031885665999994,
+            "interval_seconds": 0.9995450409999976,
+            "ack_delta": 0,
+            "received_delta": 466,
+            "pending": 0
+          },
+          {
+            "seconds": 35.03140958299999,
+            "interval_seconds": 0.9995239169999987,
+            "ack_delta": 0,
+            "received_delta": 576,
+            "pending": 0
+          },
+          {
+            "seconds": 36.031674499999994,
+            "interval_seconds": 1.0002649170000004,
+            "ack_delta": 0,
+            "received_delta": 673,
+            "pending": 0
+          },
+          {
+            "seconds": 37.03259420799999,
+            "interval_seconds": 1.0009197080000012,
+            "ack_delta": 0,
+            "received_delta": 0,
+            "pending": 0
+          },
+          {
+            "seconds": 38.033807958,
+            "interval_seconds": 1.0012137500000027,
+            "ack_delta": 0,
+            "received_delta": 0,
+            "pending": 0
+          },
+          {
+            "seconds": 38.206875874999994,
+            "interval_seconds": 0.1730679170000003,
+            "ack_delta": 0,
+            "received_delta": 0,
+            "pending": 0
+          }
+        ]
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:42:35.263 INFO   solclientjs:  [session-fsm=0x1a1b562d859] [SessionFullyConnected] Enqueue outstanding ctrl request correlationTag=4\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:42:35.263 INFO   solclientjs:  [session=0x1a1b562d859] [message-consumer-fsm=3] Sent consumer unbind request with arguments { flowId: 3, correlationTag: 4 }\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:42:35.264 INFO   solclientjs:  [session-fsm=0x1a1b562d859] [SessionFullyConnected] Cancel keepalive timer\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:42:35.264 INFO   solclientjs:  [session-fsm=0x1a1b562d859] [SessionFullyConnected] Disconnecting session {: SessionFSM}\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:42:35.264 INFO   solclientjs:  [session-fsm=0x1a1b562d859] [SessionFullyConnected] All flows disconnected\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:42:35.264 INFO   solclientjs:  [session-fsm=0x1a1b562d859] [DisconnectingFlows] Flushing transport\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:42:35.264 INFO   solclientjs:  [session-fsm=0x1a1b562d859] [DisconnectingFlows] Clean up session\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:42:35.265 INFO   solclientjs:  [session-fsm=0x1a1b562d859] [FlushingTransport] Handle Transport Flushed\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:42:35.265 INFO   solclientjs:  [session-fsm=0x1a1b562d859] [FlushingTransport] Connecting, disposing transport\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:42:35.265 INFO   solclientjs:  [session-fsm=0x1a1b562d859] [FlushingTransport] Destroy transport session\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:42:35.266 INFO   solclientjs:  [session-fsm=0x1a1b562d859] [FlushingTransport] Receive transport event: {\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  transportEventCode: 'DESTROYED_NOTICE (2)',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  infoStr: 'Disconnecting session',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  responseCode: null,\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  errorSubcode: 'NO_ERROR (0)',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  sid: 'N/A'\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "}\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:42:35.268 INFO   solclientjs:  [session-fsm=0x1a1b562d859] [SessionDisconnected] Clean up session\n"
+      }
+    ],
+    [
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:56.542 INFO   solclientjs:  websocket browserSupportBinaryCheck: true - WebSocket supports binaryType\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:56.542 INFO   solclientjs:  websocket browserSupportBinaryCheck: true - WebSocket supports binaryType\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:56.545 INFO   solclientjs:  websocket browserSupportBinaryCheck: true - WebSocket supports binaryType\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:56.547 INFO   solclientjs:  [session-fsm=N/A] [WaitingForDNS] Creating transport session tcp://127.0.0.1:15555\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:56.547 INFO   solclientjs:  [session-fsm=N/A] [WaitingForDNS] Attempting to connect session 'null' to host 'tcp://127.0.0.1:15555' (host 1 of 1)(host connection attempt 1 of 1)(total connection attempt 1 of 1)\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:56.548 INFO   solclientjs:  [session-fsm=N/A] [WaitingForTransportUp] Receive transport event: {\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  transportEventCode: 'UP_NOTICE (1)',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  infoStr: 'Connected',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  responseCode: 0,\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  errorSubcode: '<none>',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  sid: 'N/A'\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "}\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:56.548 INFO   solclientjs:  [session-fsm=0x1a1b562d8c3] [WaitingForTransportUp] Using internally correlationTag=16777215 for tracking ClientCTRL Login\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:56.548 INFO   solclientjs:  [session-fsm=0x1a1b562d8c3] [WaitingForTransportUp] Enqueue outstanding ctrl request correlationTag=16777215\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:56.551 INFO   solclientjs:  [session-fsm=0x1a1b562d8c3] [WaitingForLogin] Handle SMF response for ClientCTRL Login\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:56.551 INFO   solclientjs:  [session-fsm=0x1a1b562d8c3] [WaitingForLogin] ReapplyingSubscriptions: entry\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:56.551 INFO   solclientjs:  [session-fsm=0x1a1b562d8c3] [WaitingForLogin] Reapplying subscriptions, count=1\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:56.551 INFO   solclientjs:  [session-fsm=0x1a1b562d8c3] [WaitingForLogin] Enqueue outstanding ctrl request correlationTag=1\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:56.553 INFO   solclientjs:  [session-fsm=0x1a1b562d8c3] [WaitForSubConfirm] Enqueue outstanding ctrl request correlationTag=2\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:56.555 INFO   solclientjs:  [session-fsm=0x1a1b562d8c3] [WaitingForMessagePublisher] Handle SMF response for correlationTag 2\n"
+      },
+      {
+        "type": "ready",
+        "role": "publisher"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:57.226 INFO   solclientjs:  [session-fsm=0x1a1b562d8c3] [SessionFullyConnected] Receive transport event: {\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  transportEventCode: 'CAN_ACCEPT_DATA (4)',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  infoStr: '',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  responseCode: null,\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  errorSubcode: 'NO_ERROR (0)',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  sid: 'N/A'\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "}\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:57.228 INFO   solclientjs:  [session=0x1a1b562d8c3] [message-publisher-fsm=5] [MessagePublisherFlowControlled] Publisher sendMessage blocked due to insufficient space, wait for CAN_SEND\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:57.407 INFO   solclientjs:  [session-fsm=0x1a1b562d8c3] [SessionFullyConnected] Receive transport event: {\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  transportEventCode: 'CAN_ACCEPT_DATA (4)',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  infoStr: '',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  responseCode: null,\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  errorSubcode: 'NO_ERROR (0)',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  sid: 'N/A'\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "}\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:57.408 INFO   solclientjs:  [session=0x1a1b562d8c3] [message-publisher-fsm=5] [MessagePublisherFlowControlled] Publisher sendMessage blocked due to insufficient space, wait for CAN_SEND\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:58.123 INFO   solclientjs:  [session-fsm=0x1a1b562d8c3] [SessionFullyConnected] Receive transport event: {\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  transportEventCode: 'CAN_ACCEPT_DATA (4)',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  infoStr: '',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  responseCode: null,\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  errorSubcode: 'NO_ERROR (0)',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  sid: 'N/A'\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "}\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:42:01.215 INFO   solclientjs:  [session-fsm=0x1a1b562d8c3] [SessionFullyConnected] Receive transport event: {\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  transportEventCode: 'CAN_ACCEPT_DATA (4)',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  infoStr: '',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  responseCode: null,\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  errorSubcode: 'NO_ERROR (0)',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  sid: 'N/A'\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "}\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:42:03.243 INFO   solclientjs:  [session-fsm=0x1a1b562d8c3] [SessionFullyConnected] Receive transport event: {\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  transportEventCode: 'CAN_ACCEPT_DATA (4)',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  infoStr: '',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  responseCode: null,\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  errorSubcode: 'NO_ERROR (0)',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  sid: 'N/A'\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "}\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:42:03.244 INFO   solclientjs:  [session=0x1a1b562d8c3] [message-publisher-fsm=5] [MessagePublisherFlowControlled] Publisher sendMessage blocked due to insufficient space, wait for CAN_SEND\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:42:05.528 INFO   solclientjs:  [session-fsm=0x1a1b562d8c3] [SessionFullyConnected] Receive transport event: {\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  transportEventCode: 'CAN_ACCEPT_DATA (4)',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  infoStr: '',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  responseCode: null,\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  errorSubcode: 'NO_ERROR (0)',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  sid: 'N/A'\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "}\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:42:07.722 INFO   solclientjs:  [session-fsm=0x1a1b562d8c3] [SessionFullyConnected] Receive transport event: {\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  transportEventCode: 'CAN_ACCEPT_DATA (4)',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  infoStr: '',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  responseCode: null,\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  errorSubcode: 'NO_ERROR (0)',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  sid: 'N/A'\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "}\n"
+      },
+      {
+        "type": "result",
+        "role": "publisher",
+        "window": 255,
+        "sdk_window": 255,
+        "size": 131072,
+        "sent": 777,
+        "acknowledged": 777,
+        "rejected": 0,
+        "received": 0,
+        "pending": 0,
+        "blocked": 0,
+        "duration_seconds": 33.142763458,
+        "ack_timeout_ms": 60000,
+        "sdk_stats": {
+          "TX_PERSISTENT_MSGS": 777,
+          "TX_PERSISTENT_REDELIVERED": 0,
+          "TX_ACK_TIMEOUT": 0,
+          "RX_PERSISTENT_MSGS": 0,
+          "RX_DISCARD_DUPLICATE": 0,
+          "TX_WINDOW_CLOSE": 0
+        },
+        "cpu_user_seconds": 0.34692,
+        "cpu_system_seconds": 0.113263,
+        "event_loop_utilization": 0.01235432019601528,
+        "mean_ack_ms": 5709.517941751612,
+        "max_ack_ms": 10516.063750000001,
+        "samples": [
+          {
+            "seconds": 1.0019817920000003,
+            "interval_seconds": 1.0019817920000003,
+            "ack_delta": 0,
+            "received_delta": 0,
+            "pending": 255
+          },
+          {
+            "seconds": 2.002921833,
+            "interval_seconds": 1.0009400409999998,
+            "ack_delta": 0,
+            "received_delta": 0,
+            "pending": 255
+          },
+          {
+            "seconds": 3.004954292,
+            "interval_seconds": 1.002032459,
+            "ack_delta": 56,
+            "received_delta": 0,
+            "pending": 255
+          },
+          {
+            "seconds": 4.006157667,
+            "interval_seconds": 1.001203375,
+            "ack_delta": 29,
+            "received_delta": 0,
+            "pending": 255
+          },
+          {
+            "seconds": 5.0079871250000005,
+            "interval_seconds": 1.0018294580000002,
+            "ack_delta": 35,
+            "received_delta": 0,
+            "pending": 255
+          },
+          {
+            "seconds": 6.009043750000001,
+            "interval_seconds": 1.0010566250000001,
+            "ack_delta": 55,
+            "received_delta": 0,
+            "pending": 255
+          },
+          {
+            "seconds": 7.008511500000001,
+            "interval_seconds": 0.9994677499999998,
+            "ack_delta": 0,
+            "received_delta": 0,
+            "pending": 255
+          },
+          {
+            "seconds": 8.011281917,
+            "interval_seconds": 1.0027704169999998,
+            "ack_delta": 35,
+            "received_delta": 0,
+            "pending": 255
+          },
+          {
+            "seconds": 9.011386958000001,
+            "interval_seconds": 1.0001050410000007,
+            "ack_delta": 35,
+            "received_delta": 0,
+            "pending": 255
+          },
+          {
+            "seconds": 10.012434,
+            "interval_seconds": 1.0010470420000002,
+            "ack_delta": 0,
+            "received_delta": 0,
+            "pending": 255
+          },
+          {
+            "seconds": 11.014059958,
+            "interval_seconds": 1.0016259579999987,
+            "ack_delta": 52,
+            "received_delta": 0,
+            "pending": 241
+          },
+          {
+            "seconds": 12.013544292,
+            "interval_seconds": 0.9994843340000007,
+            "ack_delta": 19,
+            "received_delta": 0,
+            "pending": 222
+          },
+          {
+            "seconds": 13.014779292000002,
+            "interval_seconds": 1.0012350000000005,
+            "ack_delta": 24,
+            "received_delta": 0,
+            "pending": 203
+          },
+          {
+            "seconds": 14.016568375,
+            "interval_seconds": 1.0017890829999996,
+            "ack_delta": 33,
+            "received_delta": 0,
+            "pending": 172
+          },
+          {
+            "seconds": 15.017030833000002,
+            "interval_seconds": 1.0004624579999999,
+            "ack_delta": 36,
+            "received_delta": 0,
+            "pending": 140
+          },
+          {
+            "seconds": 16.018616125,
+            "interval_seconds": 1.0015852919999997,
+            "ack_delta": 0,
+            "received_delta": 0,
+            "pending": 140
+          },
+          {
+            "seconds": 17.019631667000002,
+            "interval_seconds": 1.001015542000001,
+            "ack_delta": 42,
+            "received_delta": 0,
+            "pending": 99
+          },
+          {
+            "seconds": 18.021384667000003,
+            "interval_seconds": 1.0017530000000006,
+            "ack_delta": 25,
+            "received_delta": 0,
+            "pending": 78
+          },
+          {
+            "seconds": 19.023172083000002,
+            "interval_seconds": 1.0017874159999993,
+            "ack_delta": 35,
+            "received_delta": 0,
+            "pending": 43
+          },
+          {
+            "seconds": 20.025144292,
+            "interval_seconds": 1.0019722089999996,
+            "ack_delta": 43,
+            "received_delta": 0,
+            "pending": 36
+          },
+          {
+            "seconds": 21.026899792000002,
+            "interval_seconds": 1.0017554999999994,
+            "ack_delta": 0,
+            "received_delta": 0,
+            "pending": 40
+          },
+          {
+            "seconds": 22.028850583,
+            "interval_seconds": 1.0019507909999994,
+            "ack_delta": 40,
+            "received_delta": 0,
+            "pending": 39
+          },
+          {
+            "seconds": 23.029286125,
+            "interval_seconds": 1.0004355419999993,
+            "ack_delta": 39,
+            "received_delta": 0,
+            "pending": 33
+          },
+          {
+            "seconds": 24.030563125,
+            "interval_seconds": 1.001277000000002,
+            "ack_delta": 0,
+            "received_delta": 0,
+            "pending": 36
+          },
+          {
+            "seconds": 25.031481292,
+            "interval_seconds": 1.0009181669999998,
+            "ack_delta": 36,
+            "received_delta": 0,
+            "pending": 4
+          },
+          {
+            "seconds": 26.034252583,
+            "interval_seconds": 1.0027712910000008,
+            "ack_delta": 0,
+            "received_delta": 0,
+            "pending": 38
+          },
+          {
+            "seconds": 27.034738375,
+            "interval_seconds": 1.0004857919999994,
+            "ack_delta": 38,
+            "received_delta": 0,
+            "pending": 27
+          },
+          {
+            "seconds": 28.035751583,
+            "interval_seconds": 1.0010132080000003,
+            "ack_delta": 31,
+            "received_delta": 0,
+            "pending": 0
+          },
+          {
+            "seconds": 29.036698375,
+            "interval_seconds": 1.0009467919999988,
+            "ack_delta": 0,
+            "received_delta": 0,
+            "pending": 39
+          },
+          {
+            "seconds": 30.036728875,
+            "interval_seconds": 1.0000305000000007,
+            "ack_delta": 0,
+            "received_delta": 0,
+            "pending": 39
+          },
+          {
+            "seconds": 31.037275667000003,
+            "interval_seconds": 1.000546792000001,
+            "ack_delta": 0,
+            "received_delta": 0,
+            "pending": 39
+          },
+          {
+            "seconds": 32.037805,
+            "interval_seconds": 1.0005293329999987,
+            "ack_delta": 0,
+            "received_delta": 0,
+            "pending": 39
+          },
+          {
+            "seconds": 33.039765124999995,
+            "interval_seconds": 1.0019601250000014,
+            "ack_delta": 0,
+            "received_delta": 0,
+            "pending": 39
+          },
+          {
+            "seconds": 33.14217299999999,
+            "interval_seconds": 0.10240787499999715,
+            "ack_delta": 39,
+            "received_delta": 0,
+            "pending": 0
+          }
+        ]
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:42:30.197 INFO   solclientjs:  [session-fsm=0x1a1b562d8c3] [SessionFullyConnected] Cancel keepalive timer\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:42:30.197 INFO   solclientjs:  [session-fsm=0x1a1b562d8c3] [SessionFullyConnected] Disconnecting session {: SessionFSM}\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:42:30.197 INFO   solclientjs:  [session-fsm=0x1a1b562d8c3] [SessionFullyConnected] All flows disconnected\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:42:30.197 INFO   solclientjs:  [session-fsm=0x1a1b562d8c3] [DisconnectingFlows] Flushing transport\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:42:30.197 INFO   solclientjs:  [session-fsm=0x1a1b562d8c3] [DisconnectingFlows] Clean up session\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:42:30.198 INFO   solclientjs:  [session-fsm=0x1a1b562d8c3] [FlushingTransport] Handle Transport Flushed\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:42:30.198 INFO   solclientjs:  [session-fsm=0x1a1b562d8c3] [FlushingTransport] Connecting, disposing transport\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:42:30.198 INFO   solclientjs:  [session-fsm=0x1a1b562d8c3] [FlushingTransport] Destroy transport session\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:42:30.199 INFO   solclientjs:  [session-fsm=0x1a1b562d8c3] [FlushingTransport] Receive transport event: {\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  transportEventCode: 'DESTROYED_NOTICE (2)',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  infoStr: 'Disconnecting session',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  responseCode: null,\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  errorSubcode: 'NO_ERROR (0)',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  sid: 'N/A'\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "}\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:42:30.200 INFO   solclientjs:  [session-fsm=0x1a1b562d8c3] [SessionDisconnected] Clean up session\n"
+      }
+    ],
+    [
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:56.644 INFO   solclientjs:  websocket browserSupportBinaryCheck: true - WebSocket supports binaryType\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:56.645 INFO   solclientjs:  websocket browserSupportBinaryCheck: true - WebSocket supports binaryType\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:56.647 INFO   solclientjs:  websocket browserSupportBinaryCheck: true - WebSocket supports binaryType\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:56.649 INFO   solclientjs:  [session-fsm=N/A] [WaitingForDNS] Creating transport session tcp://127.0.0.1:15555\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:56.650 INFO   solclientjs:  [session-fsm=N/A] [WaitingForDNS] Attempting to connect session 'null' to host 'tcp://127.0.0.1:15555' (host 1 of 1)(host connection attempt 1 of 1)(total connection attempt 1 of 1)\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:56.650 INFO   solclientjs:  [session-fsm=N/A] [WaitingForTransportUp] Receive transport event: {\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  transportEventCode: 'UP_NOTICE (1)',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  infoStr: 'Connected',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  responseCode: 0,\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  errorSubcode: '<none>',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  sid: 'N/A'\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "}\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:56.651 INFO   solclientjs:  [session-fsm=0x1a1b562d92a] [WaitingForTransportUp] Using internally correlationTag=16777215 for tracking ClientCTRL Login\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:56.651 INFO   solclientjs:  [session-fsm=0x1a1b562d92a] [WaitingForTransportUp] Enqueue outstanding ctrl request correlationTag=16777215\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:56.653 INFO   solclientjs:  [session-fsm=0x1a1b562d92a] [WaitingForLogin] Handle SMF response for ClientCTRL Login\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:56.654 INFO   solclientjs:  [session-fsm=0x1a1b562d92a] [WaitingForLogin] ReapplyingSubscriptions: entry\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:56.654 INFO   solclientjs:  [session-fsm=0x1a1b562d92a] [WaitingForLogin] Reapplying subscriptions, count=1\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:56.654 INFO   solclientjs:  [session-fsm=0x1a1b562d92a] [WaitingForLogin] Enqueue outstanding ctrl request correlationTag=1\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:56.656 INFO   solclientjs:  [session-fsm=0x1a1b562d92a] [WaitForSubConfirm] Enqueue outstanding ctrl request correlationTag=2\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:56.658 INFO   solclientjs:  [session-fsm=0x1a1b562d92a] [WaitingForMessagePublisher] Handle SMF response for correlationTag 2\n"
+      },
+      {
+        "type": "ready",
+        "role": "publisher"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:57.253 INFO   solclientjs:  [session-fsm=0x1a1b562d92a] [SessionFullyConnected] Receive transport event: {\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  transportEventCode: 'CAN_ACCEPT_DATA (4)',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  infoStr: '',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  responseCode: null,\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  errorSubcode: 'NO_ERROR (0)',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  sid: 'N/A'\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "}\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:57.254 INFO   solclientjs:  [session=0x1a1b562d92a] [message-publisher-fsm=6] [MessagePublisherFlowControlled] Publisher sendMessage blocked due to insufficient space, wait for CAN_SEND\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:57.446 INFO   solclientjs:  [session-fsm=0x1a1b562d92a] [SessionFullyConnected] Receive transport event: {\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  transportEventCode: 'CAN_ACCEPT_DATA (4)',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  infoStr: '',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  responseCode: null,\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  errorSubcode: 'NO_ERROR (0)',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  sid: 'N/A'\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "}\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:57.446 INFO   solclientjs:  [session=0x1a1b562d92a] [message-publisher-fsm=6] [MessagePublisherFlowControlled] Publisher sendMessage blocked due to insufficient space, wait for CAN_SEND\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:58.871 INFO   solclientjs:  [session-fsm=0x1a1b562d92a] [SessionFullyConnected] Receive transport event: {\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  transportEventCode: 'CAN_ACCEPT_DATA (4)',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  infoStr: '',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  responseCode: null,\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  errorSubcode: 'NO_ERROR (0)',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  sid: 'N/A'\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "}\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:42:01.249 INFO   solclientjs:  [session-fsm=0x1a1b562d92a] [SessionFullyConnected] Receive transport event: {\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  transportEventCode: 'CAN_ACCEPT_DATA (4)',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  infoStr: '',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  responseCode: null,\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  errorSubcode: 'NO_ERROR (0)',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  sid: 'N/A'\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "}\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:42:01.250 INFO   solclientjs:  [session=0x1a1b562d92a] [message-publisher-fsm=6] [MessagePublisherFlowControlled] Publisher sendMessage blocked due to insufficient space, wait for CAN_SEND\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:42:04.059 INFO   solclientjs:  [session-fsm=0x1a1b562d92a] [SessionFullyConnected] Receive transport event: {\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  transportEventCode: 'CAN_ACCEPT_DATA (4)',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  infoStr: '',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  responseCode: null,\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  errorSubcode: 'NO_ERROR (0)',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  sid: 'N/A'\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "}\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:42:04.060 INFO   solclientjs:  [session=0x1a1b562d92a] [message-publisher-fsm=6] [MessagePublisherFlowControlled] Publisher sendMessage blocked due to insufficient space, wait for CAN_SEND\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:42:05.621 INFO   solclientjs:  [session-fsm=0x1a1b562d92a] [SessionFullyConnected] Receive transport event: {\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  transportEventCode: 'CAN_ACCEPT_DATA (4)',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  infoStr: '',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  responseCode: null,\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  errorSubcode: 'NO_ERROR (0)',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  sid: 'N/A'\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "}\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:42:08.432 INFO   solclientjs:  [session-fsm=0x1a1b562d92a] [SessionFullyConnected] Receive transport event: {\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  transportEventCode: 'CAN_ACCEPT_DATA (4)',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  infoStr: '',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  responseCode: null,\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  errorSubcode: 'NO_ERROR (0)',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  sid: 'N/A'\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "}\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:42:08.433 INFO   solclientjs:  [session=0x1a1b562d92a] [message-publisher-fsm=6] [MessagePublisherFlowControlled] Publisher sendMessage blocked due to insufficient space, wait for CAN_SEND\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:42:10.531 INFO   solclientjs:  [session-fsm=0x1a1b562d92a] [SessionFullyConnected] Receive transport event: {\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  transportEventCode: 'CAN_ACCEPT_DATA (4)',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  infoStr: '',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  responseCode: null,\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  errorSubcode: 'NO_ERROR (0)',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  sid: 'N/A'\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "}\n"
+      },
+      {
+        "type": "result",
+        "role": "publisher",
+        "window": 255,
+        "sdk_window": 255,
+        "size": 131072,
+        "sent": 777,
+        "acknowledged": 777,
+        "rejected": 0,
+        "received": 0,
+        "pending": 0,
+        "blocked": 0,
+        "duration_seconds": 33.140251042,
+        "ack_timeout_ms": 60000,
+        "sdk_stats": {
+          "TX_PERSISTENT_MSGS": 777,
+          "TX_PERSISTENT_REDELIVERED": 0,
+          "TX_ACK_TIMEOUT": 0,
+          "RX_PERSISTENT_MSGS": 0,
+          "RX_DISCARD_DUPLICATE": 0,
+          "TX_WINDOW_CLOSE": 0
+        },
+        "cpu_user_seconds": 0.277445,
+        "cpu_system_seconds": 0.108094,
+        "event_loop_utilization": 0.011504280647393256,
+        "mean_ack_ms": 5818.343370961379,
+        "max_ack_ms": 10538.686458,
+        "samples": [
+          {
+            "seconds": 1.0019361249999998,
+            "interval_seconds": 1.0019361249999998,
+            "ack_delta": 0,
+            "received_delta": 0,
+            "pending": 255
+          },
+          {
+            "seconds": 2.003667834,
+            "interval_seconds": 1.001731709,
+            "ack_delta": 0,
+            "received_delta": 0,
+            "pending": 255
+          },
+          {
+            "seconds": 3.0044354170000003,
+            "interval_seconds": 1.0007675830000002,
+            "ack_delta": 41,
+            "received_delta": 0,
+            "pending": 255
+          },
+          {
+            "seconds": 4.00590975,
+            "interval_seconds": 1.0014743329999996,
+            "ack_delta": 37,
+            "received_delta": 0,
+            "pending": 255
+          },
+          {
+            "seconds": 5.007981167,
+            "interval_seconds": 1.002071417,
+            "ack_delta": 34,
+            "received_delta": 0,
+            "pending": 255
+          },
+          {
+            "seconds": 6.009524042,
+            "interval_seconds": 1.0015428750000002,
+            "ack_delta": 54,
+            "received_delta": 0,
+            "pending": 255
+          },
+          {
+            "seconds": 7.012988,
+            "interval_seconds": 1.0034639580000002,
+            "ack_delta": 0,
+            "received_delta": 0,
+            "pending": 255
+          },
+          {
+            "seconds": 8.013656749999999,
+            "interval_seconds": 1.0006687499999989,
+            "ack_delta": 34,
+            "received_delta": 0,
+            "pending": 255
+          },
+          {
+            "seconds": 9.015755167000002,
+            "interval_seconds": 1.0020984170000011,
+            "ack_delta": 35,
+            "received_delta": 0,
+            "pending": 255
+          },
+          {
+            "seconds": 10.015841792000002,
+            "interval_seconds": 1.000086625,
+            "ack_delta": 0,
+            "received_delta": 0,
+            "pending": 255
+          },
+          {
+            "seconds": 11.017407125000002,
+            "interval_seconds": 1.0015653330000005,
+            "ack_delta": 52,
+            "received_delta": 0,
+            "pending": 251
+          },
+          {
+            "seconds": 12.019709667,
+            "interval_seconds": 1.0023025419999994,
+            "ack_delta": 19,
+            "received_delta": 0,
+            "pending": 232
+          },
+          {
+            "seconds": 13.021642959000001,
+            "interval_seconds": 1.0019332919999997,
+            "ack_delta": 24,
+            "received_delta": 0,
+            "pending": 213
+          },
+          {
+            "seconds": 14.022801667000001,
+            "interval_seconds": 1.0011587080000008,
+            "ack_delta": 33,
+            "received_delta": 0,
+            "pending": 182
+          },
+          {
+            "seconds": 15.022843125000001,
+            "interval_seconds": 1.0000414579999997,
+            "ack_delta": 36,
+            "received_delta": 0,
+            "pending": 150
+          },
+          {
+            "seconds": 16.023390209000002,
+            "interval_seconds": 1.000547084,
+            "ack_delta": 0,
+            "received_delta": 0,
+            "pending": 150
+          },
+          {
+            "seconds": 17.023914167,
+            "interval_seconds": 1.0005239580000016,
+            "ack_delta": 42,
+            "received_delta": 0,
+            "pending": 109
+          },
+          {
+            "seconds": 18.025156792,
+            "interval_seconds": 1.001242624999999,
+            "ack_delta": 27,
+            "received_delta": 0,
+            "pending": 86
+          },
+          {
+            "seconds": 19.026865959000002,
+            "interval_seconds": 1.001709167000001,
+            "ack_delta": 35,
+            "received_delta": 0,
+            "pending": 51
+          },
+          {
+            "seconds": 20.026815917,
+            "interval_seconds": 0.9999499579999974,
+            "ack_delta": 51,
+            "received_delta": 0,
+            "pending": 36
+          },
+          {
+            "seconds": 21.026860584,
+            "interval_seconds": 1.0000446670000018,
+            "ack_delta": 0,
+            "received_delta": 0,
+            "pending": 40
+          },
+          {
+            "seconds": 22.02929075,
+            "interval_seconds": 1.0024301659999983,
+            "ack_delta": 40,
+            "received_delta": 0,
+            "pending": 39
+          },
+          {
+            "seconds": 23.030588125,
+            "interval_seconds": 1.0012973750000018,
+            "ack_delta": 39,
+            "received_delta": 0,
+            "pending": 33
+          },
+          {
+            "seconds": 24.031344709000003,
+            "interval_seconds": 1.0007565839999988,
+            "ack_delta": 0,
+            "received_delta": 0,
+            "pending": 36
+          },
+          {
+            "seconds": 25.031887834000003,
+            "interval_seconds": 1.000543125,
+            "ack_delta": 36,
+            "received_delta": 0,
+            "pending": 4
+          },
+          {
+            "seconds": 26.033871084,
+            "interval_seconds": 1.0019832500000012,
+            "ack_delta": 0,
+            "received_delta": 0,
+            "pending": 38
+          },
+          {
+            "seconds": 27.035755292,
+            "interval_seconds": 1.0018842079999994,
+            "ack_delta": 38,
+            "received_delta": 0,
+            "pending": 27
+          },
+          {
+            "seconds": 28.036429375,
+            "interval_seconds": 1.000674082999998,
+            "ack_delta": 31,
+            "received_delta": 0,
+            "pending": 0
+          },
+          {
+            "seconds": 29.039040292000003,
+            "interval_seconds": 1.0026109170000017,
+            "ack_delta": 0,
+            "received_delta": 0,
+            "pending": 39
+          },
+          {
+            "seconds": 30.041005584,
+            "interval_seconds": 1.0019652920000008,
+            "ack_delta": 0,
+            "received_delta": 0,
+            "pending": 39
+          },
+          {
+            "seconds": 31.041823375,
+            "interval_seconds": 1.0008177909999976,
+            "ack_delta": 0,
+            "received_delta": 0,
+            "pending": 39
+          },
+          {
+            "seconds": 32.042464542000005,
+            "interval_seconds": 1.0006411670000015,
+            "ack_delta": 0,
+            "received_delta": 0,
+            "pending": 39
+          },
+          {
+            "seconds": 33.045049084,
+            "interval_seconds": 1.0025845419999968,
+            "ack_delta": 0,
+            "received_delta": 0,
+            "pending": 39
+          },
+          {
+            "seconds": 33.139753375,
+            "interval_seconds": 0.09470429100000183,
+            "ack_delta": 39,
+            "received_delta": 0,
+            "pending": 0
+          }
+        ]
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:42:30.194 INFO   solclientjs:  [session-fsm=0x1a1b562d92a] [SessionFullyConnected] Cancel keepalive timer\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:42:30.194 INFO   solclientjs:  [session-fsm=0x1a1b562d92a] [SessionFullyConnected] Disconnecting session {: SessionFSM}\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:42:30.195 INFO   solclientjs:  [session-fsm=0x1a1b562d92a] [SessionFullyConnected] All flows disconnected\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:42:30.195 INFO   solclientjs:  [session-fsm=0x1a1b562d92a] [DisconnectingFlows] Flushing transport\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:42:30.195 INFO   solclientjs:  [session-fsm=0x1a1b562d92a] [DisconnectingFlows] Clean up session\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:42:30.195 INFO   solclientjs:  [session-fsm=0x1a1b562d92a] [FlushingTransport] Handle Transport Flushed\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:42:30.196 INFO   solclientjs:  [session-fsm=0x1a1b562d92a] [FlushingTransport] Connecting, disposing transport\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:42:30.196 INFO   solclientjs:  [session-fsm=0x1a1b562d92a] [FlushingTransport] Destroy transport session\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:42:30.196 INFO   solclientjs:  [session-fsm=0x1a1b562d92a] [FlushingTransport] Receive transport event: {\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  transportEventCode: 'DESTROYED_NOTICE (2)',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  infoStr: 'Disconnecting session',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  responseCode: null,\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  errorSubcode: 'NO_ERROR (0)',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  sid: 'N/A'\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "}\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:42:30.199 INFO   solclientjs:  [session-fsm=0x1a1b562d92a] [SessionDisconnected] Clean up session\n"
+      }
+    ],
+    [
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:56.747 INFO   solclientjs:  websocket browserSupportBinaryCheck: true - WebSocket supports binaryType\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:56.747 INFO   solclientjs:  websocket browserSupportBinaryCheck: true - WebSocket supports binaryType\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:56.750 INFO   solclientjs:  websocket browserSupportBinaryCheck: true - WebSocket supports binaryType\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:56.752 INFO   solclientjs:  [session-fsm=N/A] [WaitingForDNS] Creating transport session tcp://127.0.0.1:15555\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:56.752 INFO   solclientjs:  [session-fsm=N/A] [WaitingForDNS] Attempting to connect session 'null' to host 'tcp://127.0.0.1:15555' (host 1 of 1)(host connection attempt 1 of 1)(total connection attempt 1 of 1)\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:56.753 INFO   solclientjs:  [session-fsm=N/A] [WaitingForTransportUp] Receive transport event: {\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  transportEventCode: 'UP_NOTICE (1)',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  infoStr: 'Connected',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  responseCode: 0,\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  errorSubcode: '<none>',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  sid: 'N/A'\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "}\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:56.753 INFO   solclientjs:  [session-fsm=0x1a1b562d990] [WaitingForTransportUp] Using internally correlationTag=16777215 for tracking ClientCTRL Login\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:56.753 INFO   solclientjs:  [session-fsm=0x1a1b562d990] [WaitingForTransportUp] Enqueue outstanding ctrl request correlationTag=16777215\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:56.756 INFO   solclientjs:  [session-fsm=0x1a1b562d990] [WaitingForLogin] Handle SMF response for ClientCTRL Login\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:56.756 INFO   solclientjs:  [session-fsm=0x1a1b562d990] [WaitingForLogin] ReapplyingSubscriptions: entry\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:56.756 INFO   solclientjs:  [session-fsm=0x1a1b562d990] [WaitingForLogin] Reapplying subscriptions, count=1\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:56.757 INFO   solclientjs:  [session-fsm=0x1a1b562d990] [WaitingForLogin] Enqueue outstanding ctrl request correlationTag=1\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:56.758 INFO   solclientjs:  [session-fsm=0x1a1b562d990] [WaitForSubConfirm] Enqueue outstanding ctrl request correlationTag=2\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:56.760 INFO   solclientjs:  [session-fsm=0x1a1b562d990] [WaitingForMessagePublisher] Handle SMF response for correlationTag 2\n"
+      },
+      {
+        "type": "ready",
+        "role": "publisher"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:57.255 INFO   solclientjs:  [session-fsm=0x1a1b562d990] [SessionFullyConnected] Receive transport event: {\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  transportEventCode: 'CAN_ACCEPT_DATA (4)',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  infoStr: '',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  responseCode: null,\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  errorSubcode: 'NO_ERROR (0)',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  sid: 'N/A'\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "}\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:57.257 INFO   solclientjs:  [session=0x1a1b562d990] [message-publisher-fsm=7] [MessagePublisherFlowControlled] Publisher sendMessage blocked due to insufficient space, wait for CAN_SEND\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:57.434 INFO   solclientjs:  [session-fsm=0x1a1b562d990] [SessionFullyConnected] Receive transport event: {\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  transportEventCode: 'CAN_ACCEPT_DATA (4)',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  infoStr: '',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  responseCode: null,\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  errorSubcode: 'NO_ERROR (0)',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  sid: 'N/A'\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "}\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:57.435 INFO   solclientjs:  [session=0x1a1b562d990] [message-publisher-fsm=7] [MessagePublisherFlowControlled] Publisher sendMessage blocked due to insufficient space, wait for CAN_SEND\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:58.851 INFO   solclientjs:  [session-fsm=0x1a1b562d990] [SessionFullyConnected] Receive transport event: {\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  transportEventCode: 'CAN_ACCEPT_DATA (4)',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  infoStr: '',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  responseCode: null,\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  errorSubcode: 'NO_ERROR (0)',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  sid: 'N/A'\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "}\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:42:01.217 INFO   solclientjs:  [session-fsm=0x1a1b562d990] [SessionFullyConnected] Receive transport event: {\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  transportEventCode: 'CAN_ACCEPT_DATA (4)',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  infoStr: '',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  responseCode: null,\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  errorSubcode: 'NO_ERROR (0)',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  sid: 'N/A'\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "}\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:42:01.219 INFO   solclientjs:  [session=0x1a1b562d990] [message-publisher-fsm=7] [MessagePublisherFlowControlled] Publisher sendMessage blocked due to insufficient space, wait for CAN_SEND\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:42:03.258 INFO   solclientjs:  [session-fsm=0x1a1b562d990] [SessionFullyConnected] Receive transport event: {\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  transportEventCode: 'CAN_ACCEPT_DATA (4)',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  infoStr: '',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  responseCode: null,\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  errorSubcode: 'NO_ERROR (0)',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  sid: 'N/A'\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "}\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:42:03.259 INFO   solclientjs:  [session=0x1a1b562d990] [message-publisher-fsm=7] [MessagePublisherFlowControlled] Publisher sendMessage blocked due to insufficient space, wait for CAN_SEND\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:42:05.531 INFO   solclientjs:  [session-fsm=0x1a1b562d990] [SessionFullyConnected] Receive transport event: {\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  transportEventCode: 'CAN_ACCEPT_DATA (4)',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  infoStr: '',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  responseCode: null,\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  errorSubcode: 'NO_ERROR (0)',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  sid: 'N/A'\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "}\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:42:08.427 INFO   solclientjs:  [session-fsm=0x1a1b562d990] [SessionFullyConnected] Receive transport event: {\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  transportEventCode: 'CAN_ACCEPT_DATA (4)',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  infoStr: '',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  responseCode: null,\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  errorSubcode: 'NO_ERROR (0)',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  sid: 'N/A'\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "}\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:42:08.429 INFO   solclientjs:  [session=0x1a1b562d990] [message-publisher-fsm=7] [MessagePublisherFlowControlled] Publisher sendMessage blocked due to insufficient space, wait for CAN_SEND\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:42:10.516 INFO   solclientjs:  [session-fsm=0x1a1b562d990] [SessionFullyConnected] Receive transport event: {\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  transportEventCode: 'CAN_ACCEPT_DATA (4)',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  infoStr: '',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  responseCode: null,\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  errorSubcode: 'NO_ERROR (0)',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  sid: 'N/A'\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "}\n"
+      },
+      {
+        "type": "result",
+        "role": "publisher",
+        "window": 255,
+        "sdk_window": 255,
+        "size": 131072,
+        "sent": 777,
+        "acknowledged": 777,
+        "rejected": 0,
+        "received": 0,
+        "pending": 0,
+        "blocked": 0,
+        "duration_seconds": 33.14006525,
+        "ack_timeout_ms": 60000,
+        "sdk_stats": {
+          "TX_PERSISTENT_MSGS": 777,
+          "TX_PERSISTENT_REDELIVERED": 0,
+          "TX_ACK_TIMEOUT": 0,
+          "RX_PERSISTENT_MSGS": 0,
+          "RX_DISCARD_DUPLICATE": 0,
+          "TX_WINDOW_CLOSE": 0
+        },
+        "cpu_user_seconds": 0.314965,
+        "cpu_system_seconds": 0.117052,
+        "event_loop_utilization": 0.012466163231640974,
+        "mean_ack_ms": 5707.130032833974,
+        "max_ack_ms": 10513.055750000001,
+        "samples": [
+          {
+            "seconds": 1.001618375,
+            "interval_seconds": 1.001618375,
+            "ack_delta": 0,
+            "received_delta": 0,
+            "pending": 255
+          },
+          {
+            "seconds": 2.001897667,
+            "interval_seconds": 1.000279292,
+            "ack_delta": 0,
+            "received_delta": 0,
+            "pending": 255
+          },
+          {
+            "seconds": 3.0032135830000004,
+            "interval_seconds": 1.001315916,
+            "ack_delta": 55,
+            "received_delta": 0,
+            "pending": 255
+          },
+          {
+            "seconds": 4.0056530420000005,
+            "interval_seconds": 1.002439459,
+            "ack_delta": 37,
+            "received_delta": 0,
+            "pending": 255
+          },
+          {
+            "seconds": 5.007764625,
+            "interval_seconds": 1.0021115829999998,
+            "ack_delta": 33,
+            "received_delta": 0,
+            "pending": 255
+          },
+          {
+            "seconds": 6.0077887919999995,
+            "interval_seconds": 1.0000241669999996,
+            "ack_delta": 53,
+            "received_delta": 0,
+            "pending": 255
+          },
+          {
+            "seconds": 7.008339499999999,
+            "interval_seconds": 1.0005507079999998,
+            "ack_delta": 0,
+            "received_delta": 0,
+            "pending": 255
+          },
+          {
+            "seconds": 8.010359583,
+            "interval_seconds": 1.0020200830000012,
+            "ack_delta": 34,
+            "received_delta": 0,
+            "pending": 255
+          },
+          {
+            "seconds": 9.011005708,
+            "interval_seconds": 1.0006461249999994,
+            "ack_delta": 33,
+            "received_delta": 0,
+            "pending": 255
+          },
+          {
+            "seconds": 10.010633833,
+            "interval_seconds": 0.9996281249999993,
+            "ack_delta": 0,
+            "received_delta": 0,
+            "pending": 255
+          },
+          {
+            "seconds": 11.010641917000001,
+            "interval_seconds": 1.000008084000001,
+            "ack_delta": 52,
+            "received_delta": 0,
+            "pending": 241
+          },
+          {
+            "seconds": 12.013169958,
+            "interval_seconds": 1.0025280409999995,
+            "ack_delta": 18,
+            "received_delta": 0,
+            "pending": 223
+          },
+          {
+            "seconds": 13.014486792,
+            "interval_seconds": 1.0013168339999994,
+            "ack_delta": 24,
+            "received_delta": 0,
+            "pending": 204
+          },
+          {
+            "seconds": 14.015863042000001,
+            "interval_seconds": 1.0013762500000012,
+            "ack_delta": 33,
+            "received_delta": 0,
+            "pending": 173
+          },
+          {
+            "seconds": 15.016730792,
+            "interval_seconds": 1.0008677499999994,
+            "ack_delta": 37,
+            "received_delta": 0,
+            "pending": 140
+          },
+          {
+            "seconds": 16.01840775,
+            "interval_seconds": 1.001676958,
+            "ack_delta": 0,
+            "received_delta": 0,
+            "pending": 140
+          },
+          {
+            "seconds": 17.019417583,
+            "interval_seconds": 1.0010098330000001,
+            "ack_delta": 42,
+            "received_delta": 0,
+            "pending": 99
+          },
+          {
+            "seconds": 18.020749832999996,
+            "interval_seconds": 1.0013322499999995,
+            "ack_delta": 26,
+            "received_delta": 0,
+            "pending": 77
+          },
+          {
+            "seconds": 19.020763457999998,
+            "interval_seconds": 1.0000136249999996,
+            "ack_delta": 34,
+            "received_delta": 0,
+            "pending": 43
+          },
+          {
+            "seconds": 20.0210065,
+            "interval_seconds": 1.000243042000002,
+            "ack_delta": 43,
+            "received_delta": 0,
+            "pending": 36
+          },
+          {
+            "seconds": 21.022835667,
+            "interval_seconds": 1.001829167,
+            "ack_delta": 0,
+            "received_delta": 0,
+            "pending": 40
+          },
+          {
+            "seconds": 22.025147208,
+            "interval_seconds": 1.0023115409999992,
+            "ack_delta": 40,
+            "received_delta": 0,
+            "pending": 39
+          },
+          {
+            "seconds": 23.026271417,
+            "interval_seconds": 1.0011242090000014,
+            "ack_delta": 39,
+            "received_delta": 0,
+            "pending": 33
+          },
+          {
+            "seconds": 24.02680675,
+            "interval_seconds": 1.0005353329999997,
+            "ack_delta": 0,
+            "received_delta": 0,
+            "pending": 36
+          },
+          {
+            "seconds": 25.028001916999997,
+            "interval_seconds": 1.001195166999998,
+            "ack_delta": 36,
+            "received_delta": 0,
+            "pending": 4
+          },
+          {
+            "seconds": 26.02996125,
+            "interval_seconds": 1.0019593330000025,
+            "ack_delta": 0,
+            "received_delta": 0,
+            "pending": 38
+          },
+          {
+            "seconds": 27.032002417,
+            "interval_seconds": 1.0020411669999993,
+            "ack_delta": 38,
+            "received_delta": 0,
+            "pending": 27
+          },
+          {
+            "seconds": 28.032531416999998,
+            "interval_seconds": 1.0005289999999987,
+            "ack_delta": 31,
+            "received_delta": 0,
+            "pending": 0
+          },
+          {
+            "seconds": 29.034300416999997,
+            "interval_seconds": 1.0017690000000001,
+            "ack_delta": 0,
+            "received_delta": 0,
+            "pending": 39
+          },
+          {
+            "seconds": 30.036270375,
+            "interval_seconds": 1.0019699580000014,
+            "ack_delta": 0,
+            "received_delta": 0,
+            "pending": 39
+          },
+          {
+            "seconds": 31.037063167,
+            "interval_seconds": 1.0007927920000002,
+            "ack_delta": 0,
+            "received_delta": 0,
+            "pending": 39
+          },
+          {
+            "seconds": 32.037590667,
+            "interval_seconds": 1.0005275000000002,
+            "ack_delta": 0,
+            "received_delta": 0,
+            "pending": 39
+          },
+          {
+            "seconds": 33.039287833,
+            "interval_seconds": 1.0016971660000018,
+            "ack_delta": 0,
+            "received_delta": 0,
+            "pending": 39
+          },
+          {
+            "seconds": 33.139579166999994,
+            "interval_seconds": 0.1002913339999941,
+            "ack_delta": 39,
+            "received_delta": 0,
+            "pending": 0
+          }
+        ]
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:42:30.194 INFO   solclientjs:  [session-fsm=0x1a1b562d990] [SessionFullyConnected] Cancel keepalive timer\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:42:30.194 INFO   solclientjs:  [session-fsm=0x1a1b562d990] [SessionFullyConnected] Disconnecting session {: SessionFSM}\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:42:30.195 INFO   solclientjs:  [session-fsm=0x1a1b562d990] [SessionFullyConnected] All flows disconnected\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:42:30.195 INFO   solclientjs:  [session-fsm=0x1a1b562d990] [DisconnectingFlows] Flushing transport\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:42:30.195 INFO   solclientjs:  [session-fsm=0x1a1b562d990] [DisconnectingFlows] Clean up session\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:42:30.195 INFO   solclientjs:  [session-fsm=0x1a1b562d990] [FlushingTransport] Handle Transport Flushed\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:42:30.196 INFO   solclientjs:  [session-fsm=0x1a1b562d990] [FlushingTransport] Connecting, disposing transport\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:42:30.196 INFO   solclientjs:  [session-fsm=0x1a1b562d990] [FlushingTransport] Destroy transport session\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:42:30.196 INFO   solclientjs:  [session-fsm=0x1a1b562d990] [FlushingTransport] Receive transport event: {\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  transportEventCode: 'DESTROYED_NOTICE (2)',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  infoStr: 'Disconnecting session',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  responseCode: null,\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  errorSubcode: 'NO_ERROR (0)',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  sid: 'N/A'\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "}\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:42:30.199 INFO   solclientjs:  [session-fsm=0x1a1b562d990] [SessionDisconnected] Clean up session\n"
+      }
+    ],
+    [
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:56.848 INFO   solclientjs:  websocket browserSupportBinaryCheck: true - WebSocket supports binaryType\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:56.849 INFO   solclientjs:  websocket browserSupportBinaryCheck: true - WebSocket supports binaryType\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:56.851 INFO   solclientjs:  websocket browserSupportBinaryCheck: true - WebSocket supports binaryType\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:56.853 INFO   solclientjs:  [session-fsm=N/A] [WaitingForDNS] Creating transport session tcp://127.0.0.1:15555\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:56.854 INFO   solclientjs:  [session-fsm=N/A] [WaitingForDNS] Attempting to connect session 'null' to host 'tcp://127.0.0.1:15555' (host 1 of 1)(host connection attempt 1 of 1)(total connection attempt 1 of 1)\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:56.854 INFO   solclientjs:  [session-fsm=N/A] [WaitingForTransportUp] Receive transport event: {\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  transportEventCode: 'UP_NOTICE (1)',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  infoStr: 'Connected',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  responseCode: 0,\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  errorSubcode: '<none>',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  sid: 'N/A'\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "}\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:56.855 INFO   solclientjs:  [session-fsm=0x1a1b562d9f5] [WaitingForTransportUp] Using internally correlationTag=16777215 for tracking ClientCTRL Login\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:56.855 INFO   solclientjs:  [session-fsm=0x1a1b562d9f5] [WaitingForTransportUp] Enqueue outstanding ctrl request correlationTag=16777215\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:56.858 INFO   solclientjs:  [session-fsm=0x1a1b562d9f5] [WaitingForLogin] Handle SMF response for ClientCTRL Login\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:56.858 INFO   solclientjs:  [session-fsm=0x1a1b562d9f5] [WaitingForLogin] ReapplyingSubscriptions: entry\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:56.858 INFO   solclientjs:  [session-fsm=0x1a1b562d9f5] [WaitingForLogin] Reapplying subscriptions, count=1\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:56.858 INFO   solclientjs:  [session-fsm=0x1a1b562d9f5] [WaitingForLogin] Enqueue outstanding ctrl request correlationTag=1\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:56.860 INFO   solclientjs:  [session-fsm=0x1a1b562d9f5] [WaitForSubConfirm] Enqueue outstanding ctrl request correlationTag=2\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:56.862 INFO   solclientjs:  [session-fsm=0x1a1b562d9f5] [WaitingForMessagePublisher] Handle SMF response for correlationTag 2\n"
+      },
+      {
+        "type": "ready",
+        "role": "publisher"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:57.255 INFO   solclientjs:  [session-fsm=0x1a1b562d9f5] [SessionFullyConnected] Receive transport event: {\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  transportEventCode: 'CAN_ACCEPT_DATA (4)',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  infoStr: '',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  responseCode: null,\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  errorSubcode: 'NO_ERROR (0)',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  sid: 'N/A'\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "}\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:57.257 INFO   solclientjs:  [session=0x1a1b562d9f5] [message-publisher-fsm=8] [MessagePublisherFlowControlled] Publisher sendMessage blocked due to insufficient space, wait for CAN_SEND\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:57.419 INFO   solclientjs:  [session-fsm=0x1a1b562d9f5] [SessionFullyConnected] Receive transport event: {\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  transportEventCode: 'CAN_ACCEPT_DATA (4)',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  infoStr: '',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  responseCode: null,\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  errorSubcode: 'NO_ERROR (0)',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  sid: 'N/A'\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "}\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:57.420 INFO   solclientjs:  [session=0x1a1b562d9f5] [message-publisher-fsm=8] [MessagePublisherFlowControlled] Publisher sendMessage blocked due to insufficient space, wait for CAN_SEND\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:41:58.849 INFO   solclientjs:  [session-fsm=0x1a1b562d9f5] [SessionFullyConnected] Receive transport event: {\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  transportEventCode: 'CAN_ACCEPT_DATA (4)',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  infoStr: '',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  responseCode: null,\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  errorSubcode: 'NO_ERROR (0)',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  sid: 'N/A'\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "}\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:42:01.231 INFO   solclientjs:  [session-fsm=0x1a1b562d9f5] [SessionFullyConnected] Receive transport event: {\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  transportEventCode: 'CAN_ACCEPT_DATA (4)',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  infoStr: '',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  responseCode: null,\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  errorSubcode: 'NO_ERROR (0)',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  sid: 'N/A'\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "}\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:42:01.233 INFO   solclientjs:  [session=0x1a1b562d9f5] [message-publisher-fsm=8] [MessagePublisherFlowControlled] Publisher sendMessage blocked due to insufficient space, wait for CAN_SEND\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:42:03.271 INFO   solclientjs:  [session-fsm=0x1a1b562d9f5] [SessionFullyConnected] Receive transport event: {\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  transportEventCode: 'CAN_ACCEPT_DATA (4)',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  infoStr: '',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  responseCode: null,\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  errorSubcode: 'NO_ERROR (0)',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  sid: 'N/A'\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "}\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:42:03.272 INFO   solclientjs:  [session=0x1a1b562d9f5] [message-publisher-fsm=8] [MessagePublisherFlowControlled] Publisher sendMessage blocked due to insufficient space, wait for CAN_SEND\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:42:05.531 INFO   solclientjs:  [session-fsm=0x1a1b562d9f5] [SessionFullyConnected] Receive transport event: {\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  transportEventCode: 'CAN_ACCEPT_DATA (4)',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  infoStr: '',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  responseCode: null,\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  errorSubcode: 'NO_ERROR (0)',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  sid: 'N/A'\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "}\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:42:08.417 INFO   solclientjs:  [session-fsm=0x1a1b562d9f5] [SessionFullyConnected] Receive transport event: {\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  transportEventCode: 'CAN_ACCEPT_DATA (4)',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  infoStr: '',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  responseCode: null,\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  errorSubcode: 'NO_ERROR (0)',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  sid: 'N/A'\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "}\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:42:08.419 INFO   solclientjs:  [session=0x1a1b562d9f5] [message-publisher-fsm=8] [MessagePublisherFlowControlled] Publisher sendMessage blocked due to insufficient space, wait for CAN_SEND\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:42:10.519 INFO   solclientjs:  [session-fsm=0x1a1b562d9f5] [SessionFullyConnected] Receive transport event: {\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  transportEventCode: 'CAN_ACCEPT_DATA (4)',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  infoStr: '',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  responseCode: null,\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  errorSubcode: 'NO_ERROR (0)',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  sid: 'N/A'\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "}\n"
+      },
+      {
+        "type": "result",
+        "role": "publisher",
+        "window": 255,
+        "sdk_window": 255,
+        "size": 131072,
+        "sent": 777,
+        "acknowledged": 777,
+        "rejected": 0,
+        "received": 0,
+        "pending": 0,
+        "blocked": 0,
+        "duration_seconds": 33.142843625000005,
+        "ack_timeout_ms": 60000,
+        "sdk_stats": {
+          "TX_PERSISTENT_MSGS": 777,
+          "TX_PERSISTENT_REDELIVERED": 0,
+          "TX_ACK_TIMEOUT": 0,
+          "RX_PERSISTENT_MSGS": 0,
+          "RX_DISCARD_DUPLICATE": 0,
+          "TX_WINDOW_CLOSE": 0
+        },
+        "cpu_user_seconds": 0.319184,
+        "cpu_system_seconds": 0.113074,
+        "event_loop_utilization": 0.011726621870111467,
+        "mean_ack_ms": 5757.093414126123,
+        "max_ack_ms": 10556.531084,
+        "samples": [
+          {
+            "seconds": 1.0015155830000002,
+            "interval_seconds": 1.0015155830000002,
+            "ack_delta": 0,
+            "received_delta": 0,
+            "pending": 255
+          },
+          {
+            "seconds": 2.004220167,
+            "interval_seconds": 1.0027045840000002,
+            "ack_delta": 0,
+            "received_delta": 0,
+            "pending": 255
+          },
+          {
+            "seconds": 3.005081917,
+            "interval_seconds": 1.00086175,
+            "ack_delta": 51,
+            "received_delta": 0,
+            "pending": 255
+          },
+          {
+            "seconds": 4.006131208,
+            "interval_seconds": 1.0010492909999997,
+            "ack_delta": 36,
+            "received_delta": 0,
+            "pending": 255
+          },
+          {
+            "seconds": 5.00799075,
+            "interval_seconds": 1.001859542,
+            "ack_delta": 34,
+            "received_delta": 0,
+            "pending": 255
+          },
+          {
+            "seconds": 6.0094520419999995,
+            "interval_seconds": 1.001461292,
+            "ack_delta": 51,
+            "received_delta": 0,
+            "pending": 255
+          },
+          {
+            "seconds": 7.010544374999999,
+            "interval_seconds": 1.0010923329999997,
+            "ack_delta": 0,
+            "received_delta": 0,
+            "pending": 255
+          },
+          {
+            "seconds": 8.012805083,
+            "interval_seconds": 1.002260708,
+            "ack_delta": 34,
+            "received_delta": 0,
+            "pending": 255
+          },
+          {
+            "seconds": 9.015319833,
+            "interval_seconds": 1.0025147500000002,
+            "ack_delta": 35,
+            "received_delta": 0,
+            "pending": 255
+          },
+          {
+            "seconds": 10.015924667,
+            "interval_seconds": 1.0006048339999998,
+            "ack_delta": 0,
+            "received_delta": 0,
+            "pending": 255
+          },
+          {
+            "seconds": 11.016151792,
+            "interval_seconds": 1.0002271250000012,
+            "ack_delta": 52,
+            "received_delta": 0,
+            "pending": 245
+          },
+          {
+            "seconds": 12.017990667,
+            "interval_seconds": 1.0018388749999994,
+            "ack_delta": 20,
+            "received_delta": 0,
+            "pending": 225
+          },
+          {
+            "seconds": 13.019399667,
+            "interval_seconds": 1.0014089999999995,
+            "ack_delta": 24,
+            "received_delta": 0,
+            "pending": 206
+          },
+          {
+            "seconds": 14.020557083,
+            "interval_seconds": 1.001157416,
+            "ack_delta": 32,
+            "received_delta": 0,
+            "pending": 176
+          },
+          {
+            "seconds": 15.022787291999999,
+            "interval_seconds": 1.0022302089999995,
+            "ack_delta": 36,
+            "received_delta": 0,
+            "pending": 144
+          },
+          {
+            "seconds": 16.024749042,
+            "interval_seconds": 1.0019617500000004,
+            "ack_delta": 0,
+            "received_delta": 0,
+            "pending": 144
+          },
+          {
+            "seconds": 17.024823667,
+            "interval_seconds": 1.0000746249999992,
+            "ack_delta": 42,
+            "received_delta": 0,
+            "pending": 103
+          },
+          {
+            "seconds": 18.026808167000002,
+            "interval_seconds": 1.0019845000000023,
+            "ack_delta": 26,
+            "received_delta": 0,
+            "pending": 81
+          },
+          {
+            "seconds": 19.027118125,
+            "interval_seconds": 1.0003099579999981,
+            "ack_delta": 36,
+            "received_delta": 0,
+            "pending": 45
+          },
+          {
+            "seconds": 20.028903333000002,
+            "interval_seconds": 1.0017852080000011,
+            "ack_delta": 45,
+            "received_delta": 0,
+            "pending": 36
+          },
+          {
+            "seconds": 21.029085667000004,
+            "interval_seconds": 1.000182334000001,
+            "ack_delta": 0,
+            "received_delta": 0,
+            "pending": 40
+          },
+          {
+            "seconds": 22.029337667000004,
+            "interval_seconds": 1.0002520000000004,
+            "ack_delta": 40,
+            "received_delta": 0,
+            "pending": 39
+          },
+          {
+            "seconds": 23.03061225,
+            "interval_seconds": 1.0012745829999985,
+            "ack_delta": 39,
+            "received_delta": 0,
+            "pending": 33
+          },
+          {
+            "seconds": 24.031395375,
+            "interval_seconds": 1.000783124999998,
+            "ack_delta": 0,
+            "received_delta": 0,
+            "pending": 36
+          },
+          {
+            "seconds": 25.03266075,
+            "interval_seconds": 1.0012653750000027,
+            "ack_delta": 36,
+            "received_delta": 0,
+            "pending": 4
+          },
+          {
+            "seconds": 26.033923708000003,
+            "interval_seconds": 1.0012629579999994,
+            "ack_delta": 0,
+            "received_delta": 0,
+            "pending": 38
+          },
+          {
+            "seconds": 27.034738708,
+            "interval_seconds": 1.0008149999999987,
+            "ack_delta": 38,
+            "received_delta": 0,
+            "pending": 27
+          },
+          {
+            "seconds": 28.035586625,
+            "interval_seconds": 1.000847916999999,
+            "ack_delta": 31,
+            "received_delta": 0,
+            "pending": 0
+          },
+          {
+            "seconds": 29.038086833,
+            "interval_seconds": 1.0025002080000014,
+            "ack_delta": 0,
+            "received_delta": 0,
+            "pending": 39
+          },
+          {
+            "seconds": 30.038490167,
+            "interval_seconds": 1.0004033339999987,
+            "ack_delta": 0,
+            "received_delta": 0,
+            "pending": 39
+          },
+          {
+            "seconds": 31.039836792000003,
+            "interval_seconds": 1.001346625000002,
+            "ack_delta": 0,
+            "received_delta": 0,
+            "pending": 39
+          },
+          {
+            "seconds": 32.041933125,
+            "interval_seconds": 1.0020963330000012,
+            "ack_delta": 0,
+            "received_delta": 0,
+            "pending": 39
+          },
+          {
+            "seconds": 33.043577250000006,
+            "interval_seconds": 1.001644124999999,
+            "ack_delta": 0,
+            "received_delta": 0,
+            "pending": 39
+          },
+          {
+            "seconds": 33.142327667,
+            "interval_seconds": 0.09875041700000292,
+            "ack_delta": 39,
+            "received_delta": 0,
+            "pending": 0
+          }
+        ]
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:42:30.197 INFO   solclientjs:  [session-fsm=0x1a1b562d9f5] [SessionFullyConnected] Cancel keepalive timer\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:42:30.197 INFO   solclientjs:  [session-fsm=0x1a1b562d9f5] [SessionFullyConnected] Disconnecting session {: SessionFSM}\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:42:30.197 INFO   solclientjs:  [session-fsm=0x1a1b562d9f5] [SessionFullyConnected] All flows disconnected\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:42:30.197 INFO   solclientjs:  [session-fsm=0x1a1b562d9f5] [DisconnectingFlows] Flushing transport\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:42:30.197 INFO   solclientjs:  [session-fsm=0x1a1b562d9f5] [DisconnectingFlows] Clean up session\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:42:30.198 INFO   solclientjs:  [session-fsm=0x1a1b562d9f5] [FlushingTransport] Handle Transport Flushed\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:42:30.198 INFO   solclientjs:  [session-fsm=0x1a1b562d9f5] [FlushingTransport] Connecting, disposing transport\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:42:30.198 INFO   solclientjs:  [session-fsm=0x1a1b562d9f5] [FlushingTransport] Destroy transport session\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:42:30.199 INFO   solclientjs:  [session-fsm=0x1a1b562d9f5] [FlushingTransport] Receive transport event: {\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  transportEventCode: 'DESTROYED_NOTICE (2)',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  infoStr: 'Disconnecting session',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  responseCode: null,\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  errorSubcode: 'NO_ERROR (0)',\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "  sid: 'N/A'\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "}\n"
+      },
+      {
+        "type": "unparsed",
+        "text": "2026-11-07 10:42:30.200 INFO   solclientjs:  [session-fsm=0x1a1b562d9f5] [SessionDisconnected] Clean up session\n"
+      }
+    ]
+  ],
+  "monitor_errors": [],
+  "setup_readiness_retries": []
+}

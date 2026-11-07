@@ -1,0 +1,26 @@
+[
+  {
+    "application_window": 1,
+    "acked_messages": 30,
+    "received_messages": 30,
+    "acknowledged_messages_per_second": 0.9968733910441663,
+    "mean_ack_ms": 1002.6902041000002,
+    "classification": "end-to-end pipeline measurement; broker peak not established"
+  },
+  {
+    "application_window": 64,
+    "acked_messages": 1920,
+    "received_messages": 1920,
+    "acknowledged_messages_per_second": 63.74318737351989,
+    "mean_ack_ms": 1000.4549463328128,
+    "classification": "end-to-end pipeline measurement; broker peak not established"
+  },
+  {
+    "application_window": 255,
+    "acked_messages": 179500,
+    "received_messages": 179500,
+    "acknowledged_messages_per_second": 5790.175584897248,
+    "mean_ack_ms": 41.25922382237339,
+    "classification": "end-to-end pipeline measurement; broker peak not established"
+  }
+]

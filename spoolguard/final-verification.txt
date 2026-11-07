@@ -1,0 +1,41 @@
+test_all_intervals_of_admitted_trace (test_enforcement.Enforcement.test_all_intervals_of_admitted_trace) ... ok
+test_audit_rejects_forged_trace (test_enforcement.Enforcement.test_audit_rejects_forged_trace) ... ok
+test_backwards_clock_fails (test_enforcement.Enforcement.test_backwards_clock_fails) ... ok
+test_exact_expiry_denies_even_a_funded_message (test_enforcement.Enforcement.test_exact_expiry_denies_even_a_funded_message) ... ok
+test_fractional_rate_never_rounds_early (test_enforcement.Enforcement.test_fractional_rate_never_rounds_early) ... ok
+test_idle_time_cannot_accumulate_unbounded_bursts (test_enforcement.Enforcement.test_idle_time_cannot_accumulate_unbounded_bursts) ... ok
+test_invalid_message_cost_and_clock (test_enforcement.Enforcement.test_invalid_message_cost_and_clock) ... ok
+test_next_message_cannot_be_scheduled_at_or_after_expiry (test_enforcement.Enforcement.test_next_message_cannot_be_scheduled_at_or_after_expiry) ... ok
+test_wait_before_activation (test_enforcement.Enforcement.test_wait_before_activation) ... ok
+test_zero_rate_spends_only_initial_burst (test_enforcement.Enforcement.test_zero_rate_spends_only_initial_burst) ... ok
+test_captured_evidence_passes (test_live_audit.EvidenceAudit.test_captured_evidence_passes) ... ok
+test_detects_mismatched_ack_fanout (test_live_audit.EvidenceAudit.test_detects_mismatched_ack_fanout) ... ok
+test_detects_queue_peak_above_certificate (test_live_audit.EvidenceAudit.test_detects_queue_peak_above_certificate) ... ok
+test_detects_rate_contract_violation (test_live_audit.EvidenceAudit.test_detects_rate_contract_violation) ... ok
+test_detects_send_after_expiry (test_live_audit.EvidenceAudit.test_detects_send_after_expiry) ... ok
+test_multiple_bottlenecks_and_demand_limit (test_spoolguard.Allocation.test_multiple_bottlenecks_and_demand_limit) ... ok
+test_nonunit_route_coefficients_cover_overhead (test_spoolguard.Allocation.test_nonunit_route_coefficients_cover_overhead) ... ok
+test_random_network_feasibility_and_pareto_saturation (test_spoolguard.Allocation.test_random_network_feasibility_and_pareto_saturation) ... ok
+test_sample_certificate (test_spoolguard.Allocation.test_sample_certificate) ... ok
+test_weighted_fairness_and_isolation (test_spoolguard.Allocation.test_weighted_fairness_and_isolation) ... ok
+test_background_traffic_reserves_capacity (test_spoolguard.Bounds.test_background_traffic_reserves_capacity) ... ok
+test_infeasible_burst_is_not_silently_clamped (test_spoolguard.Bounds.test_infeasible_burst_is_not_silently_clamped) ... ok
+test_latency_beyond_horizon_gives_no_service_credit (test_spoolguard.Bounds.test_latency_beyond_horizon_gives_no_service_credit) ... ok
+test_peak_before_horizon (test_spoolguard.Bounds.test_peak_before_horizon) ... ok
+test_random_exact_inverse_and_tightness (test_spoolguard.Bounds.test_random_exact_inverse_and_tightness) ... ok
+test_random_token_bucket_queue_trajectories (test_spoolguard.Bounds.test_random_token_bucket_queue_trajectories) ... ok
+test_service_exceeds_arrival_and_can_release_initial_backlog (test_spoolguard.Bounds.test_service_exceeds_arrival_and_can_release_initial_backlog) ... ok
+test_stale_data_actuation_and_bursts (test_spoolguard.Bounds.test_stale_data_actuation_and_bursts) ... ok
+test_zero_headroom_can_admit_immediate_service_only (test_spoolguard.Bounds.test_zero_headroom_can_admit_immediate_service_only) ... ok
+test_zero_service_outage (test_spoolguard.Bounds.test_zero_service_outage) ... ok
+test_duplicate_names_and_invalid_horizon (test_spoolguard.Validation.test_duplicate_names_and_invalid_horizon) ... ok
+test_invalid_numbers (test_spoolguard.Validation.test_invalid_numbers) ... ok
+test_missing_blind_rate_is_rejected (test_spoolguard.Validation.test_missing_blind_rate_is_rejected) ... ok
+test_semp_last_value_missing_occupancy_and_pagination (test_spoolguard.Validation.test_semp_last_value_missing_occupancy_and_pagination) ... ok
+test_semp_uses_documented_field_and_never_credits_transmission (test_spoolguard.Validation.test_semp_uses_documented_field_and_never_credits_transmission) ... ok
+test_uncovered_publisher_and_unknown_route (test_spoolguard.Validation.test_uncovered_publisher_and_unknown_route) ... ok
+
+----------------------------------------------------------------------
+Ran 36 tests in 1.097s
+
+OK

@@ -1,0 +1,25 @@
+{
+  "horizon_seconds": 30,
+  "publishers": [
+    {"name": "orders", "demand_bps": 2000000, "burst_bytes": 1000000, "weight": 2},
+    {"name": "analytics", "demand_bps": 2000000, "burst_bytes": 1000000, "weight": 1},
+    {"name": "payments", "demand_bps": 2000000, "burst_bytes": 1000000, "weight": 2}
+  ],
+  "queues": [
+    {"name": "archive", "capacity_bytes": 100000000, "reserve_bytes": 10000000,
+     "observed_bytes": 45000000, "age_seconds": 5, "actuation_seconds": 1,
+     "old_ingress_bps": 4000000, "old_burst_bytes": 2000000,
+     "in_flight_bytes": 1000000, "measurement_uncertainty_bytes": 1000000,
+     "service_floor_bps": 0, "routes": {"orders": 1, "analytics": 1}},
+    {"name": "order-processing", "capacity_bytes": 120000000, "reserve_bytes": 10000000,
+     "observed_bytes": 5000000, "age_seconds": 5, "actuation_seconds": 1,
+     "old_ingress_bps": 2000000, "old_burst_bytes": 1000000,
+     "in_flight_bytes": 1000000, "measurement_uncertainty_bytes": 1000000,
+     "service_floor_bps": 0, "routes": {"orders": 1}},
+    {"name": "payment-processing", "capacity_bytes": 120000000, "reserve_bytes": 10000000,
+     "observed_bytes": 5000000, "age_seconds": 5, "actuation_seconds": 1,
+     "old_ingress_bps": 2000000, "old_burst_bytes": 1000000,
+     "in_flight_bytes": 1000000, "measurement_uncertainty_bytes": 1000000,
+     "service_floor_bps": 0, "routes": {"payments": 1}}
+  ]
+}

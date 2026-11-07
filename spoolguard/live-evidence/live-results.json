@@ -1,0 +1,1126 @@
+{
+  "image": "solace/solace-pubsub-standard@sha256:adbdf6c060abafb0e30dac3d46e335c1e5ea56a7ff02804f9f64b08d84b7b00e",
+  "broker_version": "10.26.9.13589",
+  "experiment": "localhost REST persistent publication; every queue egress disabled",
+  "duration_seconds": 30,
+  "activation_ns": 482168581308875,
+  "expiry_ns": 482198581308875,
+  "source_payload_bytes_per_message": 4096,
+  "source_burst_bytes": 8192,
+  "queue_arrival_burst_bytes_per_publisher": 12288,
+  "accounting_expansion_exact": "5/4",
+  "calibration": {
+    "256": {
+      "messages": 20,
+      "payload_bytes_per_message": 256,
+      "observed_spool_bytes": 6320,
+      "observed_bytes_per_message": "316",
+      "observed_overhead_per_message": "60",
+      "raw_monitor": {
+        "data": {
+          "accessType": "exclusive",
+          "alreadyBoundBindFailureCount": 0,
+          "averageBindRequestRate": 0,
+          "averageRxByteRate": 0,
+          "averageRxMsgRate": 0,
+          "averageTxByteRate": 0,
+          "averageTxMsgRate": 0,
+          "bindRequestCount": 0,
+          "bindRequestRate": 0,
+          "bindSuccessCount": 0,
+          "bindTimeForwardingMode": "store-and-forward",
+          "clientProfileDeniedDiscardedMsgCount": 0,
+          "consumerAckPropagationEnabled": true,
+          "createdByManagement": true,
+          "deadMsgQueue": "#DEAD_MSG_QUEUE",
+          "deletedMsgCount": 0,
+          "deliveryCountEnabled": false,
+          "deliveryDelay": 0,
+          "destinationGroupErrorDiscardedMsgCount": 0,
+          "disabledBindFailureCount": 0,
+          "disabledDiscardedMsgCount": 0,
+          "durable": true,
+          "egressEnabled": false,
+          "eventBindCountThreshold": {
+            "clearPercent": 60,
+            "setPercent": 80
+          },
+          "eventMsgSpoolUsageThreshold": {
+            "clearPercent": 18,
+            "setPercent": 25
+          },
+          "eventRejectLowPriorityMsgLimitThreshold": {
+            "clearPercent": 60,
+            "setPercent": 80
+          },
+          "highestAckedMsgId": 0,
+          "highestMsgId": 80,
+          "inProgressAckMsgCount": 0,
+          "ingressEnabled": true,
+          "invalidSelectorBindFailureCount": 0,
+          "lastReplayFailureReason": "N/A",
+          "lastSpooledMsgId": 80,
+          "lowPriorityMsgCongestionDiscardedMsgCount": 0,
+          "lowPriorityMsgCongestionState": "disabled",
+          "lowestAckedMsgId": 0,
+          "lowestMsgId": 61,
+          "maxBindCount": 1000,
+          "maxBindCountExceededBindFailureCount": 0,
+          "maxDeliveredUnackedMsgsPerFlow": 10000,
+          "maxMsgSize": 10000000,
+          "maxMsgSizeExceededDiscardedMsgCount": 0,
+          "maxMsgSpoolUsage": 2,
+          "maxMsgSpoolUsageExceededDiscardedMsgCount": 0,
+          "maxRedeliveryCount": 0,
+          "maxRedeliveryExceededDiscardedMsgCount": 0,
+          "maxRedeliveryExceededToDmqFailedMsgCount": 0,
+          "maxRedeliveryExceededToDmqMsgCount": 0,
+          "maxTtl": 0,
+          "maxTtlExceededDiscardedMsgCount": 0,
+          "maxTtlExpiredDiscardedMsgCount": 0,
+          "maxTtlExpiredToDmqFailedMsgCount": 0,
+          "maxTtlExpiredToDmqMsgCount": 0,
+          "msgSpoolPeakUsage": 6320,
+          "msgSpoolUsage": 6320,
+          "msgVpnName": "default",
+          "networkTopic": "#P2P/QUE/lab-cal-256",
+          "noLocalDeliveryDiscardedMsgCount": 0,
+          "otherBindFailureCount": 0,
+          "owner": "",
+          "partitionCount": 0,
+          "partitionOperationalCount": 0,
+          "partitionRebalanceDelay": 5,
+          "partitionRebalanceMaxHandoffTime": 3,
+          "partitionRebalanceStatus": "ready",
+          "partitionScaleStatus": "invalid-exclusive",
+          "permission": "consume",
+          "queueName": "lab-cal-256",
+          "redeliveredMsgCount": 0,
+          "redeliveryDelayEnabled": false,
+          "redeliveryDelayInitialInterval": 1000,
+          "redeliveryDelayMaxInterval": 64000,
+          "redeliveryDelayMultiplier": 200,
+          "redeliveryEnabled": true,
+          "rejectLowPriorityMsgEnabled": false,
+          "rejectLowPriorityMsgLimit": 0,
+          "rejectMsgToSenderOnDiscardBehavior": "always",
+          "replayFailureCount": 0,
+          "replayStartCount": 0,
+          "replaySuccessCount": 0,
+          "replayedAckedMsgCount": 0,
+          "replayedTxMsgCount": 0,
+          "replicationActiveAckPropTxMsgCount": 0,
+          "replicationStandbyAckPropRxMsgCount": 0,
+          "replicationStandbyAckedByAckPropMsgCount": 0,
+          "replicationStandbyRxMsgCount": 0,
+          "respectDmqEligibleEnabled": false,
+          "respectMsgPriorityEnabled": false,
+          "respectTtlEnabled": false,
+          "rxByteRate": 0,
+          "rxMsgRate": 0,
+          "spooledByteCount": 6320,
+          "spooledMsgCount": 20,
+          "transportRetransmitMsgCount": 0,
+          "txByteRate": 0,
+          "txMsgRate": 0,
+          "txSelector": false,
+          "txUnackedMsgCount": 0,
+          "virtualRouter": "primary",
+          "xaTransactionNotSupportedDiscardedMsgCount": 0
+        },
+        "collections": {
+          "msgs": {
+            "count": 20
+          },
+          "priorities": {},
+          "subscriptions": {},
+          "txFlows": {}
+        },
+        "links": {
+          "msgsUri": "http://127.0.0.1:18080/SEMP/v2/monitor/msgVpns/default/queues/lab-cal-256/msgs",
+          "prioritiesUri": "http://127.0.0.1:18080/SEMP/v2/monitor/msgVpns/default/queues/lab-cal-256/priorities",
+          "subscriptionsUri": "http://127.0.0.1:18080/SEMP/v2/monitor/msgVpns/default/queues/lab-cal-256/subscriptions",
+          "txFlowsUri": "http://127.0.0.1:18080/SEMP/v2/monitor/msgVpns/default/queues/lab-cal-256/txFlows",
+          "uri": "http://127.0.0.1:18080/SEMP/v2/monitor/msgVpns/default/queues/lab-cal-256"
+        },
+        "meta": {
+          "request": {
+            "method": "GET",
+            "uri": "http://127.0.0.1:18080/SEMP/v2/monitor/msgVpns/default/queues/lab-cal-256"
+          },
+          "responseCode": 200
+        }
+      }
+    },
+    "4096": {
+      "messages": 20,
+      "payload_bytes_per_message": 4096,
+      "observed_spool_bytes": 83120,
+      "observed_bytes_per_message": "4156",
+      "observed_overhead_per_message": "60",
+      "raw_monitor": {
+        "data": {
+          "accessType": "exclusive",
+          "alreadyBoundBindFailureCount": 0,
+          "averageBindRequestRate": 0,
+          "averageRxByteRate": 844,
+          "averageRxMsgRate": 0,
+          "averageTxByteRate": 0,
+          "averageTxMsgRate": 0,
+          "bindRequestCount": 0,
+          "bindRequestRate": 0,
+          "bindSuccessCount": 0,
+          "bindTimeForwardingMode": "store-and-forward",
+          "clientProfileDeniedDiscardedMsgCount": 0,
+          "consumerAckPropagationEnabled": true,
+          "createdByManagement": true,
+          "deadMsgQueue": "#DEAD_MSG_QUEUE",
+          "deletedMsgCount": 0,
+          "deliveryCountEnabled": false,
+          "deliveryDelay": 0,
+          "destinationGroupErrorDiscardedMsgCount": 0,
+          "disabledBindFailureCount": 0,
+          "disabledDiscardedMsgCount": 0,
+          "durable": true,
+          "egressEnabled": false,
+          "eventBindCountThreshold": {
+            "clearPercent": 60,
+            "setPercent": 80
+          },
+          "eventMsgSpoolUsageThreshold": {
+            "clearPercent": 18,
+            "setPercent": 25
+          },
+          "eventRejectLowPriorityMsgLimitThreshold": {
+            "clearPercent": 60,
+            "setPercent": 80
+          },
+          "highestAckedMsgId": 0,
+          "highestMsgId": 100,
+          "inProgressAckMsgCount": 0,
+          "ingressEnabled": true,
+          "invalidSelectorBindFailureCount": 0,
+          "lastReplayFailureReason": "N/A",
+          "lastSpooledMsgId": 100,
+          "lowPriorityMsgCongestionDiscardedMsgCount": 0,
+          "lowPriorityMsgCongestionState": "disabled",
+          "lowestAckedMsgId": 0,
+          "lowestMsgId": 81,
+          "maxBindCount": 1000,
+          "maxBindCountExceededBindFailureCount": 0,
+          "maxDeliveredUnackedMsgsPerFlow": 10000,
+          "maxMsgSize": 10000000,
+          "maxMsgSizeExceededDiscardedMsgCount": 0,
+          "maxMsgSpoolUsage": 2,
+          "maxMsgSpoolUsageExceededDiscardedMsgCount": 0,
+          "maxRedeliveryCount": 0,
+          "maxRedeliveryExceededDiscardedMsgCount": 0,
+          "maxRedeliveryExceededToDmqFailedMsgCount": 0,
+          "maxRedeliveryExceededToDmqMsgCount": 0,
+          "maxTtl": 0,
+          "maxTtlExceededDiscardedMsgCount": 0,
+          "maxTtlExpiredDiscardedMsgCount": 0,
+          "maxTtlExpiredToDmqFailedMsgCount": 0,
+          "maxTtlExpiredToDmqMsgCount": 0,
+          "msgSpoolPeakUsage": 83120,
+          "msgSpoolUsage": 83120,
+          "msgVpnName": "default",
+          "networkTopic": "#P2P/QUE/lab-cal-4096",
+          "noLocalDeliveryDiscardedMsgCount": 0,
+          "otherBindFailureCount": 0,
+          "owner": "",
+          "partitionCount": 0,
+          "partitionOperationalCount": 0,
+          "partitionRebalanceDelay": 5,
+          "partitionRebalanceMaxHandoffTime": 3,
+          "partitionRebalanceStatus": "ready",
+          "partitionScaleStatus": "invalid-exclusive",
+          "permission": "consume",
+          "queueName": "lab-cal-4096",
+          "redeliveredMsgCount": 0,
+          "redeliveryDelayEnabled": false,
+          "redeliveryDelayInitialInterval": 1000,
+          "redeliveryDelayMaxInterval": 64000,
+          "redeliveryDelayMultiplier": 200,
+          "redeliveryEnabled": true,
+          "rejectLowPriorityMsgEnabled": false,
+          "rejectLowPriorityMsgLimit": 0,
+          "rejectMsgToSenderOnDiscardBehavior": "always",
+          "replayFailureCount": 0,
+          "replayStartCount": 0,
+          "replaySuccessCount": 0,
+          "replayedAckedMsgCount": 0,
+          "replayedTxMsgCount": 0,
+          "replicationActiveAckPropTxMsgCount": 0,
+          "replicationStandbyAckPropRxMsgCount": 0,
+          "replicationStandbyAckedByAckPropMsgCount": 0,
+          "replicationStandbyRxMsgCount": 0,
+          "respectDmqEligibleEnabled": false,
+          "respectMsgPriorityEnabled": false,
+          "respectTtlEnabled": false,
+          "rxByteRate": 0,
+          "rxMsgRate": 0,
+          "spooledByteCount": 83120,
+          "spooledMsgCount": 20,
+          "transportRetransmitMsgCount": 0,
+          "txByteRate": 0,
+          "txMsgRate": 0,
+          "txSelector": false,
+          "txUnackedMsgCount": 0,
+          "virtualRouter": "primary",
+          "xaTransactionNotSupportedDiscardedMsgCount": 0
+        },
+        "collections": {
+          "msgs": {
+            "count": 20
+          },
+          "priorities": {},
+          "subscriptions": {},
+          "txFlows": {}
+        },
+        "links": {
+          "msgsUri": "http://127.0.0.1:18080/SEMP/v2/monitor/msgVpns/default/queues/lab-cal-4096/msgs",
+          "prioritiesUri": "http://127.0.0.1:18080/SEMP/v2/monitor/msgVpns/default/queues/lab-cal-4096/priorities",
+          "subscriptionsUri": "http://127.0.0.1:18080/SEMP/v2/monitor/msgVpns/default/queues/lab-cal-4096/subscriptions",
+          "txFlowsUri": "http://127.0.0.1:18080/SEMP/v2/monitor/msgVpns/default/queues/lab-cal-4096/txFlows",
+          "uri": "http://127.0.0.1:18080/SEMP/v2/monitor/msgVpns/default/queues/lab-cal-4096"
+        },
+        "meta": {
+          "request": {
+            "method": "GET",
+            "uri": "http://127.0.0.1:18080/SEMP/v2/monitor/msgVpns/default/queues/lab-cal-4096"
+          },
+          "responseCode": 200
+        }
+      }
+    },
+    "65536": {
+      "messages": 20,
+      "payload_bytes_per_message": 65536,
+      "observed_spool_bytes": 1311920,
+      "observed_bytes_per_message": "65596",
+      "observed_overhead_per_message": "60",
+      "raw_monitor": {
+        "data": {
+          "accessType": "exclusive",
+          "alreadyBoundBindFailureCount": 0,
+          "averageBindRequestRate": 0,
+          "averageRxByteRate": 7441,
+          "averageRxMsgRate": 0,
+          "averageTxByteRate": 0,
+          "averageTxMsgRate": 0,
+          "bindRequestCount": 0,
+          "bindRequestRate": 0,
+          "bindSuccessCount": 0,
+          "bindTimeForwardingMode": "store-and-forward",
+          "clientProfileDeniedDiscardedMsgCount": 0,
+          "consumerAckPropagationEnabled": true,
+          "createdByManagement": true,
+          "deadMsgQueue": "#DEAD_MSG_QUEUE",
+          "deletedMsgCount": 0,
+          "deliveryCountEnabled": false,
+          "deliveryDelay": 0,
+          "destinationGroupErrorDiscardedMsgCount": 0,
+          "disabledBindFailureCount": 0,
+          "disabledDiscardedMsgCount": 0,
+          "durable": true,
+          "egressEnabled": false,
+          "eventBindCountThreshold": {
+            "clearPercent": 60,
+            "setPercent": 80
+          },
+          "eventMsgSpoolUsageThreshold": {
+            "clearPercent": 18,
+            "setPercent": 25
+          },
+          "eventRejectLowPriorityMsgLimitThreshold": {
+            "clearPercent": 60,
+            "setPercent": 80
+          },
+          "highestAckedMsgId": 0,
+          "highestMsgId": 120,
+          "inProgressAckMsgCount": 0,
+          "ingressEnabled": true,
+          "invalidSelectorBindFailureCount": 0,
+          "lastReplayFailureReason": "N/A",
+          "lastSpooledMsgId": 120,
+          "lowPriorityMsgCongestionDiscardedMsgCount": 0,
+          "lowPriorityMsgCongestionState": "disabled",
+          "lowestAckedMsgId": 0,
+          "lowestMsgId": 101,
+          "maxBindCount": 1000,
+          "maxBindCountExceededBindFailureCount": 0,
+          "maxDeliveredUnackedMsgsPerFlow": 10000,
+          "maxMsgSize": 10000000,
+          "maxMsgSizeExceededDiscardedMsgCount": 0,
+          "maxMsgSpoolUsage": 2,
+          "maxMsgSpoolUsageExceededDiscardedMsgCount": 0,
+          "maxRedeliveryCount": 0,
+          "maxRedeliveryExceededDiscardedMsgCount": 0,
+          "maxRedeliveryExceededToDmqFailedMsgCount": 0,
+          "maxRedeliveryExceededToDmqMsgCount": 0,
+          "maxTtl": 0,
+          "maxTtlExceededDiscardedMsgCount": 0,
+          "maxTtlExpiredDiscardedMsgCount": 0,
+          "maxTtlExpiredToDmqFailedMsgCount": 0,
+          "maxTtlExpiredToDmqMsgCount": 0,
+          "msgSpoolPeakUsage": 1311920,
+          "msgSpoolUsage": 1311920,
+          "msgVpnName": "default",
+          "networkTopic": "#P2P/QUE/lab-cal-65536",
+          "noLocalDeliveryDiscardedMsgCount": 0,
+          "otherBindFailureCount": 0,
+          "owner": "",
+          "partitionCount": 0,
+          "partitionOperationalCount": 0,
+          "partitionRebalanceDelay": 5,
+          "partitionRebalanceMaxHandoffTime": 3,
+          "partitionRebalanceStatus": "ready",
+          "partitionScaleStatus": "invalid-exclusive",
+          "permission": "consume",
+          "queueName": "lab-cal-65536",
+          "redeliveredMsgCount": 0,
+          "redeliveryDelayEnabled": false,
+          "redeliveryDelayInitialInterval": 1000,
+          "redeliveryDelayMaxInterval": 64000,
+          "redeliveryDelayMultiplier": 200,
+          "redeliveryEnabled": true,
+          "rejectLowPriorityMsgEnabled": false,
+          "rejectLowPriorityMsgLimit": 0,
+          "rejectMsgToSenderOnDiscardBehavior": "always",
+          "replayFailureCount": 0,
+          "replayStartCount": 0,
+          "replaySuccessCount": 0,
+          "replayedAckedMsgCount": 0,
+          "replayedTxMsgCount": 0,
+          "replicationActiveAckPropTxMsgCount": 0,
+          "replicationStandbyAckPropRxMsgCount": 0,
+          "replicationStandbyAckedByAckPropMsgCount": 0,
+          "replicationStandbyRxMsgCount": 0,
+          "respectDmqEligibleEnabled": false,
+          "respectMsgPriorityEnabled": false,
+          "respectTtlEnabled": false,
+          "rxByteRate": 0,
+          "rxMsgRate": 0,
+          "spooledByteCount": 1311920,
+          "spooledMsgCount": 20,
+          "transportRetransmitMsgCount": 0,
+          "txByteRate": 0,
+          "txMsgRate": 0,
+          "txSelector": false,
+          "txUnackedMsgCount": 0,
+          "virtualRouter": "primary",
+          "xaTransactionNotSupportedDiscardedMsgCount": 0
+        },
+        "collections": {
+          "msgs": {
+            "count": 20
+          },
+          "priorities": {},
+          "subscriptions": {},
+          "txFlows": {}
+        },
+        "links": {
+          "msgsUri": "http://127.0.0.1:18080/SEMP/v2/monitor/msgVpns/default/queues/lab-cal-65536/msgs",
+          "prioritiesUri": "http://127.0.0.1:18080/SEMP/v2/monitor/msgVpns/default/queues/lab-cal-65536/priorities",
+          "subscriptionsUri": "http://127.0.0.1:18080/SEMP/v2/monitor/msgVpns/default/queues/lab-cal-65536/subscriptions",
+          "txFlowsUri": "http://127.0.0.1:18080/SEMP/v2/monitor/msgVpns/default/queues/lab-cal-65536/txFlows",
+          "uri": "http://127.0.0.1:18080/SEMP/v2/monitor/msgVpns/default/queues/lab-cal-65536"
+        },
+        "meta": {
+          "request": {
+            "method": "GET",
+            "uri": "http://127.0.0.1:18080/SEMP/v2/monitor/msgVpns/default/queues/lab-cal-65536"
+          },
+          "responseCode": 200
+        }
+      }
+    }
+  },
+  "configs": {
+    "unregulated": {
+      "horizon_seconds": 30,
+      "publishers": [
+        {
+          "name": "orders",
+          "demand_bps": 200000,
+          "burst_bytes": 12288,
+          "weight": 2
+        },
+        {
+          "name": "analytics",
+          "demand_bps": 200000,
+          "burst_bytes": 12288,
+          "weight": 1
+        },
+        {
+          "name": "payments",
+          "demand_bps": 200000,
+          "burst_bytes": 12288,
+          "weight": 2
+        }
+      ],
+      "queues": [
+        {
+          "name": "lab-unregulated-archive",
+          "capacity_bytes": 3000000,
+          "reserve_bytes": 300000,
+          "observed_bytes": 1049536,
+          "measurement_uncertainty_bytes": "261184",
+          "age_seconds": 2,
+          "actuation_seconds": 2,
+          "old_ingress_bps": 0,
+          "old_burst_bytes": 0,
+          "in_flight_bytes": 0,
+          "service_floor_bps": 0,
+          "routes": {
+            "orders": "5/4",
+            "analytics": "5/4"
+          }
+        },
+        {
+          "name": "lab-unregulated-orders",
+          "capacity_bytes": 12000000,
+          "reserve_bytes": 1200000,
+          "observed_bytes": 0,
+          "measurement_uncertainty_bytes": "0",
+          "age_seconds": 2,
+          "actuation_seconds": 2,
+          "old_ingress_bps": 0,
+          "old_burst_bytes": 0,
+          "in_flight_bytes": 0,
+          "service_floor_bps": 0,
+          "routes": {
+            "orders": "5/4"
+          }
+        },
+        {
+          "name": "lab-unregulated-payments",
+          "capacity_bytes": 12000000,
+          "reserve_bytes": 1200000,
+          "observed_bytes": 0,
+          "measurement_uncertainty_bytes": "0",
+          "age_seconds": 2,
+          "actuation_seconds": 2,
+          "old_ingress_bps": 0,
+          "old_burst_bytes": 0,
+          "in_flight_bytes": 0,
+          "service_floor_bps": 0,
+          "routes": {
+            "payments": "5/4"
+          }
+        }
+      ]
+    },
+    "global_throttle": {
+      "horizon_seconds": 30,
+      "publishers": [
+        {
+          "name": "orders",
+          "demand_bps": 200000,
+          "burst_bytes": 12288,
+          "weight": 2
+        },
+        {
+          "name": "analytics",
+          "demand_bps": 200000,
+          "burst_bytes": 12288,
+          "weight": 1
+        },
+        {
+          "name": "payments",
+          "demand_bps": 200000,
+          "burst_bytes": 12288,
+          "weight": 2
+        }
+      ],
+      "queues": [
+        {
+          "name": "lab-global_throttle-archive",
+          "capacity_bytes": 3000000,
+          "reserve_bytes": 300000,
+          "observed_bytes": 1049536,
+          "measurement_uncertainty_bytes": "261184",
+          "age_seconds": 2,
+          "actuation_seconds": 2,
+          "old_ingress_bps": 0,
+          "old_burst_bytes": 0,
+          "in_flight_bytes": 0,
+          "service_floor_bps": 0,
+          "routes": {
+            "orders": "5/4",
+            "analytics": "5/4"
+          }
+        },
+        {
+          "name": "lab-global_throttle-orders",
+          "capacity_bytes": 12000000,
+          "reserve_bytes": 1200000,
+          "observed_bytes": 0,
+          "measurement_uncertainty_bytes": "0",
+          "age_seconds": 2,
+          "actuation_seconds": 2,
+          "old_ingress_bps": 0,
+          "old_burst_bytes": 0,
+          "in_flight_bytes": 0,
+          "service_floor_bps": 0,
+          "routes": {
+            "orders": "5/4"
+          }
+        },
+        {
+          "name": "lab-global_throttle-payments",
+          "capacity_bytes": 12000000,
+          "reserve_bytes": 1200000,
+          "observed_bytes": 0,
+          "measurement_uncertainty_bytes": "0",
+          "age_seconds": 2,
+          "actuation_seconds": 2,
+          "old_ingress_bps": 0,
+          "old_burst_bytes": 0,
+          "in_flight_bytes": 0,
+          "service_floor_bps": 0,
+          "routes": {
+            "payments": "5/4"
+          }
+        }
+      ]
+    },
+    "fanout_aware": {
+      "horizon_seconds": 30,
+      "publishers": [
+        {
+          "name": "orders",
+          "demand_bps": 200000,
+          "burst_bytes": 12288,
+          "weight": 2
+        },
+        {
+          "name": "analytics",
+          "demand_bps": 200000,
+          "burst_bytes": 12288,
+          "weight": 1
+        },
+        {
+          "name": "payments",
+          "demand_bps": 200000,
+          "burst_bytes": 12288,
+          "weight": 2
+        }
+      ],
+      "queues": [
+        {
+          "name": "lab-fanout_aware-archive",
+          "capacity_bytes": 3000000,
+          "reserve_bytes": 300000,
+          "observed_bytes": 1049536,
+          "measurement_uncertainty_bytes": "261184",
+          "age_seconds": 2,
+          "actuation_seconds": 2,
+          "old_ingress_bps": 0,
+          "old_burst_bytes": 0,
+          "in_flight_bytes": 0,
+          "service_floor_bps": 0,
+          "routes": {
+            "orders": "5/4",
+            "analytics": "5/4"
+          }
+        },
+        {
+          "name": "lab-fanout_aware-orders",
+          "capacity_bytes": 12000000,
+          "reserve_bytes": 1200000,
+          "observed_bytes": 0,
+          "measurement_uncertainty_bytes": "0",
+          "age_seconds": 2,
+          "actuation_seconds": 2,
+          "old_ingress_bps": 0,
+          "old_burst_bytes": 0,
+          "in_flight_bytes": 0,
+          "service_floor_bps": 0,
+          "routes": {
+            "orders": "5/4"
+          }
+        },
+        {
+          "name": "lab-fanout_aware-payments",
+          "capacity_bytes": 12000000,
+          "reserve_bytes": 1200000,
+          "observed_bytes": 0,
+          "measurement_uncertainty_bytes": "0",
+          "age_seconds": 2,
+          "actuation_seconds": 2,
+          "old_ingress_bps": 0,
+          "old_burst_bytes": 0,
+          "in_flight_bytes": 0,
+          "service_floor_bps": 0,
+          "routes": {
+            "payments": "5/4"
+          }
+        }
+      ]
+    }
+  },
+  "plans": {
+    "unregulated": {
+      "status": "certified_under_assumptions",
+      "horizon_seconds_exact": "30",
+      "rates_bps_exact": {
+        "orders": "1086848/45",
+        "analytics": "543424/45",
+        "payments": "200000"
+      },
+      "certificates": [
+        {
+          "queue": "lab-unregulated-archive",
+          "protected_capacity_bytes_exact": "2700000",
+          "initial_upper_bound_bytes_exact": "1310720",
+          "burst_bytes_exact": "30720",
+          "total_ingress_bps_exact": "135856/3",
+          "admissible_ingress_bps_exact": "135856/3",
+          "peak_bound_bytes_exact": "2700000",
+          "margin_bytes_exact": "0"
+        },
+        {
+          "queue": "lab-unregulated-orders",
+          "protected_capacity_bytes_exact": "10800000",
+          "initial_upper_bound_bytes_exact": "0",
+          "burst_bytes_exact": "15360",
+          "total_ingress_bps_exact": "271712/9",
+          "admissible_ingress_bps_exact": "359488",
+          "peak_bound_bytes_exact": "2763200/3",
+          "margin_bytes_exact": "29636800/3"
+        },
+        {
+          "queue": "lab-unregulated-payments",
+          "protected_capacity_bytes_exact": "10800000",
+          "initial_upper_bound_bytes_exact": "0",
+          "burst_bytes_exact": "15360",
+          "total_ingress_bps_exact": "250000",
+          "admissible_ingress_bps_exact": "359488",
+          "peak_bound_bytes_exact": "7515360",
+          "margin_bytes_exact": "3284640"
+        }
+      ],
+      "scope": "modeled queue quotas only; no broker/VPN physical spool guarantee"
+    },
+    "global_throttle": {
+      "status": "certified_under_assumptions",
+      "horizon_seconds_exact": "30",
+      "rates_bps_exact": {
+        "orders": "1086848/45",
+        "analytics": "543424/45",
+        "payments": "200000"
+      },
+      "certificates": [
+        {
+          "queue": "lab-global_throttle-archive",
+          "protected_capacity_bytes_exact": "2700000",
+          "initial_upper_bound_bytes_exact": "1310720",
+          "burst_bytes_exact": "30720",
+          "total_ingress_bps_exact": "135856/3",
+          "admissible_ingress_bps_exact": "135856/3",
+          "peak_bound_bytes_exact": "2700000",
+          "margin_bytes_exact": "0"
+        },
+        {
+          "queue": "lab-global_throttle-orders",
+          "protected_capacity_bytes_exact": "10800000",
+          "initial_upper_bound_bytes_exact": "0",
+          "burst_bytes_exact": "15360",
+          "total_ingress_bps_exact": "271712/9",
+          "admissible_ingress_bps_exact": "359488",
+          "peak_bound_bytes_exact": "2763200/3",
+          "margin_bytes_exact": "29636800/3"
+        },
+        {
+          "queue": "lab-global_throttle-payments",
+          "protected_capacity_bytes_exact": "10800000",
+          "initial_upper_bound_bytes_exact": "0",
+          "burst_bytes_exact": "15360",
+          "total_ingress_bps_exact": "250000",
+          "admissible_ingress_bps_exact": "359488",
+          "peak_bound_bytes_exact": "7515360",
+          "margin_bytes_exact": "3284640"
+        }
+      ],
+      "scope": "modeled queue quotas only; no broker/VPN physical spool guarantee"
+    },
+    "fanout_aware": {
+      "status": "certified_under_assumptions",
+      "horizon_seconds_exact": "30",
+      "rates_bps_exact": {
+        "orders": "1086848/45",
+        "analytics": "543424/45",
+        "payments": "200000"
+      },
+      "certificates": [
+        {
+          "queue": "lab-fanout_aware-archive",
+          "protected_capacity_bytes_exact": "2700000",
+          "initial_upper_bound_bytes_exact": "1310720",
+          "burst_bytes_exact": "30720",
+          "total_ingress_bps_exact": "135856/3",
+          "admissible_ingress_bps_exact": "135856/3",
+          "peak_bound_bytes_exact": "2700000",
+          "margin_bytes_exact": "0"
+        },
+        {
+          "queue": "lab-fanout_aware-orders",
+          "protected_capacity_bytes_exact": "10800000",
+          "initial_upper_bound_bytes_exact": "0",
+          "burst_bytes_exact": "15360",
+          "total_ingress_bps_exact": "271712/9",
+          "admissible_ingress_bps_exact": "359488",
+          "peak_bound_bytes_exact": "2763200/3",
+          "margin_bytes_exact": "29636800/3"
+        },
+        {
+          "queue": "lab-fanout_aware-payments",
+          "protected_capacity_bytes_exact": "10800000",
+          "initial_upper_bound_bytes_exact": "0",
+          "burst_bytes_exact": "15360",
+          "total_ingress_bps_exact": "250000",
+          "admissible_ingress_bps_exact": "359488",
+          "peak_bound_bytes_exact": "7515360",
+          "margin_bytes_exact": "3284640"
+        }
+      ],
+      "scope": "modeled queue quotas only; no broker/VPN physical spool guarantee"
+    }
+  },
+  "outcomes": {
+    "unregulated": {
+      "publishers": {
+        "orders": {
+          "attempts": 1418,
+          "accepted": 250,
+          "accepted_payload_bytes": 1024000,
+          "http_status_counts": {
+            "200": 250,
+            "503": 1168
+          },
+          "assigned_rate_bps_exact": "200000",
+          "source_contract_audit": "passed"
+        },
+        "analytics": {
+          "attempts": 1422,
+          "accepted": 255,
+          "accepted_payload_bytes": 1044480,
+          "http_status_counts": {
+            "200": 255,
+            "503": 1167
+          },
+          "assigned_rate_bps_exact": "200000",
+          "source_contract_audit": "passed"
+        },
+        "payments": {
+          "attempts": 1416,
+          "accepted": 1416,
+          "accepted_payload_bytes": 5799936,
+          "http_status_counts": {
+            "200": 1416
+          },
+          "assigned_rate_bps_exact": "200000",
+          "source_contract_audit": "passed"
+        }
+      },
+      "queues": [
+        {
+          "queue": "lab-unregulated-archive",
+          "observed_spool_bytes": 3148316,
+          "observed_peak_bytes": 3148316,
+          "certificate_peak_bytes_exact": "2700000",
+          "protected_capacity_bytes_exact": "2700000",
+          "spooled_messages": 521,
+          "expected_from_publisher_acks": 521,
+          "within_empirical_expansion": true,
+          "within_protected_capacity": false
+        },
+        {
+          "queue": "lab-unregulated-orders",
+          "observed_spool_bytes": 1039000,
+          "observed_peak_bytes": 1039000,
+          "certificate_peak_bytes_exact": "2763200/3",
+          "protected_capacity_bytes_exact": "10800000",
+          "spooled_messages": 250,
+          "expected_from_publisher_acks": 250,
+          "within_empirical_expansion": true,
+          "within_protected_capacity": true
+        },
+        {
+          "queue": "lab-unregulated-payments",
+          "observed_spool_bytes": 5884896,
+          "observed_peak_bytes": 5884896,
+          "certificate_peak_bytes_exact": "7515360",
+          "protected_capacity_bytes_exact": "10800000",
+          "spooled_messages": 1416,
+          "expected_from_publisher_acks": 1416,
+          "within_empirical_expansion": true,
+          "within_protected_capacity": true
+        }
+      ],
+      "accepted_payload_bytes": 7868416,
+      "failed_publications": 2335
+    },
+    "global_throttle": {
+      "publishers": {
+        "orders": {
+          "attempts": 134,
+          "accepted": 134,
+          "accepted_payload_bytes": 548864,
+          "http_status_counts": {
+            "200": 134
+          },
+          "assigned_rate_bps_exact": "271712/15",
+          "source_contract_audit": "passed"
+        },
+        "analytics": {
+          "attempts": 134,
+          "accepted": 134,
+          "accepted_payload_bytes": 548864,
+          "http_status_counts": {
+            "200": 134
+          },
+          "assigned_rate_bps_exact": "271712/15",
+          "source_contract_audit": "passed"
+        },
+        "payments": {
+          "attempts": 134,
+          "accepted": 134,
+          "accepted_payload_bytes": 548864,
+          "http_status_counts": {
+            "200": 134
+          },
+          "assigned_rate_bps_exact": "271712/15",
+          "source_contract_audit": "passed"
+        }
+      },
+      "queues": [
+        {
+          "queue": "lab-global_throttle-archive",
+          "observed_spool_bytes": 2163344,
+          "observed_peak_bytes": 2163344,
+          "certificate_peak_bytes_exact": "2700000",
+          "protected_capacity_bytes_exact": "2700000",
+          "spooled_messages": 284,
+          "expected_from_publisher_acks": 284,
+          "within_empirical_expansion": true,
+          "within_protected_capacity": true
+        },
+        {
+          "queue": "lab-global_throttle-orders",
+          "observed_spool_bytes": 556904,
+          "observed_peak_bytes": 556904,
+          "certificate_peak_bytes_exact": "2763200/3",
+          "protected_capacity_bytes_exact": "10800000",
+          "spooled_messages": 134,
+          "expected_from_publisher_acks": 134,
+          "within_empirical_expansion": true,
+          "within_protected_capacity": true
+        },
+        {
+          "queue": "lab-global_throttle-payments",
+          "observed_spool_bytes": 556904,
+          "observed_peak_bytes": 556904,
+          "certificate_peak_bytes_exact": "7515360",
+          "protected_capacity_bytes_exact": "10800000",
+          "spooled_messages": 134,
+          "expected_from_publisher_acks": 134,
+          "within_empirical_expansion": true,
+          "within_protected_capacity": true
+        }
+      ],
+      "accepted_payload_bytes": 1646592,
+      "failed_publications": 0
+    },
+    "fanout_aware": {
+      "publishers": {
+        "orders": {
+          "attempts": 178,
+          "accepted": 178,
+          "accepted_payload_bytes": 729088,
+          "http_status_counts": {
+            "200": 178
+          },
+          "assigned_rate_bps_exact": "1086848/45",
+          "source_contract_audit": "passed"
+        },
+        "analytics": {
+          "attempts": 90,
+          "accepted": 90,
+          "accepted_payload_bytes": 368640,
+          "http_status_counts": {
+            "200": 90
+          },
+          "assigned_rate_bps_exact": "543424/45",
+          "source_contract_audit": "passed"
+        },
+        "payments": {
+          "attempts": 1421,
+          "accepted": 1421,
+          "accepted_payload_bytes": 5820416,
+          "http_status_counts": {
+            "200": 1421
+          },
+          "assigned_rate_bps_exact": "200000",
+          "source_contract_audit": "passed"
+        }
+      },
+      "queues": [
+        {
+          "queue": "lab-fanout_aware-archive",
+          "observed_spool_bytes": 2163344,
+          "observed_peak_bytes": 2163344,
+          "certificate_peak_bytes_exact": "2700000",
+          "protected_capacity_bytes_exact": "2700000",
+          "spooled_messages": 284,
+          "expected_from_publisher_acks": 284,
+          "within_empirical_expansion": true,
+          "within_protected_capacity": true
+        },
+        {
+          "queue": "lab-fanout_aware-orders",
+          "observed_spool_bytes": 739768,
+          "observed_peak_bytes": 739768,
+          "certificate_peak_bytes_exact": "2763200/3",
+          "protected_capacity_bytes_exact": "10800000",
+          "spooled_messages": 178,
+          "expected_from_publisher_acks": 178,
+          "within_empirical_expansion": true,
+          "within_protected_capacity": true
+        },
+        {
+          "queue": "lab-fanout_aware-payments",
+          "observed_spool_bytes": 5905676,
+          "observed_peak_bytes": 5905676,
+          "certificate_peak_bytes_exact": "7515360",
+          "protected_capacity_bytes_exact": "10800000",
+          "spooled_messages": 1421,
+          "expected_from_publisher_acks": 1421,
+          "within_empirical_expansion": true,
+          "within_protected_capacity": true
+        }
+      ],
+      "accepted_payload_bytes": 6918144,
+      "failed_publications": 0
+    }
+  },
+  "accepted_payload_gain_over_global_throttle": 4.201492537313433,
+  "assertions": [
+    {
+      "check": "lab-unregulated-archive: ACKs match all matching queues",
+      "passed": true
+    },
+    {
+      "check": "lab-unregulated-archive: accounted bytes fit expansion envelope",
+      "passed": true
+    },
+    {
+      "check": "lab-unregulated-orders: ACKs match all matching queues",
+      "passed": true
+    },
+    {
+      "check": "lab-unregulated-orders: accounted bytes fit expansion envelope",
+      "passed": true
+    },
+    {
+      "check": "lab-unregulated-payments: ACKs match all matching queues",
+      "passed": true
+    },
+    {
+      "check": "lab-unregulated-payments: accounted bytes fit expansion envelope",
+      "passed": true
+    },
+    {
+      "check": "unregulated: expected rejection outcome",
+      "passed": true
+    },
+    {
+      "check": "lab-global_throttle-archive: ACKs match all matching queues",
+      "passed": true
+    },
+    {
+      "check": "lab-global_throttle-archive: accounted bytes fit expansion envelope",
+      "passed": true
+    },
+    {
+      "check": "lab-global_throttle-archive: measured peak fits certificate",
+      "passed": true
+    },
+    {
+      "check": "lab-global_throttle-orders: ACKs match all matching queues",
+      "passed": true
+    },
+    {
+      "check": "lab-global_throttle-orders: accounted bytes fit expansion envelope",
+      "passed": true
+    },
+    {
+      "check": "lab-global_throttle-orders: measured peak fits certificate",
+      "passed": true
+    },
+    {
+      "check": "lab-global_throttle-payments: ACKs match all matching queues",
+      "passed": true
+    },
+    {
+      "check": "lab-global_throttle-payments: accounted bytes fit expansion envelope",
+      "passed": true
+    },
+    {
+      "check": "lab-global_throttle-payments: measured peak fits certificate",
+      "passed": true
+    },
+    {
+      "check": "global_throttle: expected rejection outcome",
+      "passed": true
+    },
+    {
+      "check": "lab-fanout_aware-archive: ACKs match all matching queues",
+      "passed": true
+    },
+    {
+      "check": "lab-fanout_aware-archive: accounted bytes fit expansion envelope",
+      "passed": true
+    },
+    {
+      "check": "lab-fanout_aware-archive: measured peak fits certificate",
+      "passed": true
+    },
+    {
+      "check": "lab-fanout_aware-orders: ACKs match all matching queues",
+      "passed": true
+    },
+    {
+      "check": "lab-fanout_aware-orders: accounted bytes fit expansion envelope",
+      "passed": true
+    },
+    {
+      "check": "lab-fanout_aware-orders: measured peak fits certificate",
+      "passed": true
+    },
+    {
+      "check": "lab-fanout_aware-payments: ACKs match all matching queues",
+      "passed": true
+    },
+    {
+      "check": "lab-fanout_aware-payments: accounted bytes fit expansion envelope",
+      "passed": true
+    },
+    {
+      "check": "lab-fanout_aware-payments: measured peak fits certificate",
+      "passed": true
+    },
+    {
+      "check": "fanout_aware: expected rejection outcome",
+      "passed": true
+    },
+    {
+      "check": "fanout-aware admits more than uniform global throttling",
+      "passed": true
+    }
+  ],
+  "all_assertions_passed": true,
+  "broker_version_provenance": "live config OpenAPI specification, matched to the SHA-256 captured by this run"
+}

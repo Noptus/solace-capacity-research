@@ -1,0 +1,42 @@
+[
+  {
+    "size": 131072,
+    "fanout": 4,
+    "original_rate": 133.0059458292844,
+    "repeat_rate": 109.36833685018435,
+    "relative_change": -0.17771843831282075,
+    "minimum_possible_worst_relative_error_for_one_fixed_prediction": 0.0975252354242547,
+    "minimax_fixed_prediction": 120.03450964945776,
+    "accounting_passed": true
+  },
+  {
+    "size": 131072,
+    "fanout": 1,
+    "original_rate": 83.02261828978598,
+    "repeat_rate": 124.2173718763056,
+    "relative_change": 0.4961871166569518,
+    "minimum_possible_worst_relative_error_for_one_fixed_prediction": 0.19877801361360936,
+    "minimax_fixed_prediction": 99.52568943843056,
+    "accounting_passed": true
+  },
+  {
+    "size": 32768,
+    "fanout": 4,
+    "original_rate": 421.5810378001173,
+    "repeat_rate": 505.40289978049395,
+    "relative_change": 0.19882740081900652,
+    "minimum_possible_worst_relative_error_for_one_fixed_prediction": 0.09042428739288422,
+    "minimax_fixed_prediction": 459.70220272154546,
+    "accounting_passed": true
+  },
+  {
+    "size": 32768,
+    "fanout": 1,
+    "original_rate": 521.268777583354,
+    "repeat_rate": 509.8517383229896,
+    "relative_change": -0.021902403810362014,
+    "minimum_possible_worst_relative_error_for_one_fixed_prediction": 0.011072458635282742,
+    "minimax_fixed_prediction": 515.4970506056978,
+    "accounting_passed": true
+  }
+]

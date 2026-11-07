@@ -1,0 +1,181 @@
+{
+  "passed": true,
+  "case_count": 4,
+  "number_of_checks": 42,
+  "totals": {
+    "source_sends": 12512,
+    "source_acks": 12512,
+    "consumer_receipts": 12512
+  },
+  "checks": [
+    {
+      "check": "declared design hash matches environment",
+      "passed": true
+    },
+    {
+      "check": "study has terminal completion record",
+      "passed": true
+    },
+    {
+      "check": "cache-window-256-0: case matches declared design",
+      "passed": true
+    },
+    {
+      "check": "cache-window-256-0: all source sends acknowledged with no rejection",
+      "passed": true
+    },
+    {
+      "check": "cache-window-256-0: sources and consumers match topology",
+      "passed": true
+    },
+    {
+      "check": "cache-window-256-0: every consumer count matches source ACKs",
+      "passed": true
+    },
+    {
+      "check": "cache-window-256-0: runtime source settings match design",
+      "passed": true
+    },
+    {
+      "check": "cache-window-256-0: SEMP ingress reconciles original and retransmitted sends",
+      "passed": true
+    },
+    {
+      "check": "cache-window-256-0: all expected queues observed",
+      "passed": true
+    },
+    {
+      "check": "cache-window-256-0: all queue-copy counters match and all queues drained",
+      "passed": true
+    },
+    {
+      "check": "cache-window-256-0: interior statistic recomputed from raw ACK buckets",
+      "passed": true
+    },
+    {
+      "check": "cache-window-256-0: monitoring completed without an error",
+      "passed": true
+    },
+    {
+      "check": "cache-window-2048-1: case matches declared design",
+      "passed": true
+    },
+    {
+      "check": "cache-window-2048-1: all source sends acknowledged with no rejection",
+      "passed": true
+    },
+    {
+      "check": "cache-window-2048-1: sources and consumers match topology",
+      "passed": true
+    },
+    {
+      "check": "cache-window-2048-1: every consumer count matches source ACKs",
+      "passed": true
+    },
+    {
+      "check": "cache-window-2048-1: runtime source settings match design",
+      "passed": true
+    },
+    {
+      "check": "cache-window-2048-1: SEMP ingress reconciles original and retransmitted sends",
+      "passed": true
+    },
+    {
+      "check": "cache-window-2048-1: all expected queues observed",
+      "passed": true
+    },
+    {
+      "check": "cache-window-2048-1: all queue-copy counters match and all queues drained",
+      "passed": true
+    },
+    {
+      "check": "cache-window-2048-1: interior statistic recomputed from raw ACK buckets",
+      "passed": true
+    },
+    {
+      "check": "cache-window-2048-1: monitoring completed without an error",
+      "passed": true
+    },
+    {
+      "check": "cache-window-256-2: case matches declared design",
+      "passed": true
+    },
+    {
+      "check": "cache-window-256-2: all source sends acknowledged with no rejection",
+      "passed": true
+    },
+    {
+      "check": "cache-window-256-2: sources and consumers match topology",
+      "passed": true
+    },
+    {
+      "check": "cache-window-256-2: every consumer count matches source ACKs",
+      "passed": true
+    },
+    {
+      "check": "cache-window-256-2: runtime source settings match design",
+      "passed": true
+    },
+    {
+      "check": "cache-window-256-2: SEMP ingress reconciles original and retransmitted sends",
+      "passed": true
+    },
+    {
+      "check": "cache-window-256-2: all expected queues observed",
+      "passed": true
+    },
+    {
+      "check": "cache-window-256-2: all queue-copy counters match and all queues drained",
+      "passed": true
+    },
+    {
+      "check": "cache-window-256-2: interior statistic recomputed from raw ACK buckets",
+      "passed": true
+    },
+    {
+      "check": "cache-window-256-2: monitoring completed without an error",
+      "passed": true
+    },
+    {
+      "check": "cache-window-2048-3: case matches declared design",
+      "passed": true
+    },
+    {
+      "check": "cache-window-2048-3: all source sends acknowledged with no rejection",
+      "passed": true
+    },
+    {
+      "check": "cache-window-2048-3: sources and consumers match topology",
+      "passed": true
+    },
+    {
+      "check": "cache-window-2048-3: every consumer count matches source ACKs",
+      "passed": true
+    },
+    {
+      "check": "cache-window-2048-3: runtime source settings match design",
+      "passed": true
+    },
+    {
+      "check": "cache-window-2048-3: SEMP ingress reconciles original and retransmitted sends",
+      "passed": true
+    },
+    {
+      "check": "cache-window-2048-3: all expected queues observed",
+      "passed": true
+    },
+    {
+      "check": "cache-window-2048-3: all queue-copy counters match and all queues drained",
+      "passed": true
+    },
+    {
+      "check": "cache-window-2048-3: interior statistic recomputed from raw ACK buckets",
+      "passed": true
+    },
+    {
+      "check": "cache-window-2048-3: monitoring completed without an error",
+      "passed": true
+    }
+  ],
+  "scope": "internal count/design consistency; does not establish stationarity, message integrity or broker peak"
+}

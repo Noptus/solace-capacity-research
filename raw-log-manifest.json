@@ -1,0 +1,22 @@
+{
+  "broker-capacity/sdkperf-validated-evidence/sdk-4-32768-1000-publisher-0.log": {
+    "uncompressed_bytes": 63033338,
+    "uncompressed_sha256": "aaed6759a5409107ea23b4b0b0164dbdaee9fc1c5cd6501fdbdd61a9e95c68f1",
+    "compressed_path": "broker-capacity/sdkperf-validated-evidence/sdk-4-32768-1000-publisher-0.log.gz"
+  },
+  "broker-capacity/sdkperf-validated-evidence/sdk-4-32768-1000-publisher-1.log": {
+    "uncompressed_bytes": 63427198,
+    "uncompressed_sha256": "6ffa1a9f562e2190d4f458b94fa33b6ecaa5efff2bdd97b7560620621db408b3",
+    "compressed_path": "broker-capacity/sdkperf-validated-evidence/sdk-4-32768-1000-publisher-1.log.gz"
+  },
+  "broker-capacity/sdkperf-validated-evidence/sdk-4-32768-1000-publisher-3.log": {
+    "uncompressed_bytes": 62312658,
+    "uncompressed_sha256": "a08572b0d0c129f1a0cdcbed8c7a8db5068aba47f93d98695aebb6d62e5ecb58",
+    "compressed_path": "broker-capacity/sdkperf-validated-evidence/sdk-4-32768-1000-publisher-3.log.gz"
+  },
+  "broker-capacity/sdkperf-validated-evidence/sdk-4-32768-1000-publisher-2.log": {
+    "uncompressed_bytes": 62790318,
+    "uncompressed_sha256": "6dfb8d6349e12e02cb1f9058e251c8cc5943c27c69847ff4743dd60f4223949f",
+    "compressed_path": "broker-capacity/sdkperf-validated-evidence/sdk-4-32768-1000-publisher-2.log.gz"
+  }
+}

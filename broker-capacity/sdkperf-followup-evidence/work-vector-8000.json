@@ -1,0 +1,287 @@
+{
+  "counts": {
+    "source_data_messages": 210792,
+    "source_data_bytes": 69772152,
+    "guaranteed_ingress_attempts": 214314,
+    "selected_queue_copies": 214314,
+    "selected_queue_spooled_bytes": 54864384
+  },
+  "rates_per_second": {
+    "source_data_messages": {
+      "numerator": 70264000000,
+      "denominator": 12133791,
+      "decimal": 5790.770584395264
+    },
+    "source_data_bytes": {
+      "numerator": 23257384000000,
+      "denominator": 12133791,
+      "decimal": 1916745.0634348325
+    },
+    "guaranteed_ingress_attempts": {
+      "numerator": 71438000000,
+      "denominator": 12133791,
+      "decimal": 5887.525176591554
+    },
+    "selected_queue_copies": {
+      "numerator": 71438000000,
+      "denominator": 12133791,
+      "decimal": 5887.525176591554
+    },
+    "selected_queue_spooled_bytes": {
+      "numerator": 18288128000000,
+      "denominator": 12133791,
+      "decimal": 1507206.4452074377
+    }
+  },
+  "per_source_data_message": {
+    "source_data_messages": {
+      "numerator": 1,
+      "denominator": 1,
+      "decimal": 1.0
+    },
+    "source_data_bytes": {
+      "numerator": 331,
+      "denominator": 1,
+      "decimal": 331.0
+    },
+    "guaranteed_ingress_attempts": {
+      "numerator": 35719,
+      "denominator": 35132,
+      "decimal": 1.0167084139815552
+    },
+    "selected_queue_copies": {
+      "numerator": 35719,
+      "denominator": 35132,
+      "decimal": 1.0167084139815552
+    },
+    "selected_queue_spooled_bytes": {
+      "numerator": 2286016,
+      "denominator": 8783,
+      "decimal": 260.27735397927813
+    }
+  },
+  "guaranteed_minus_source_interval_count": 3522,
+  "warnings": [
+    "Guaranteed-stage delta exceeds source-data delta; stage timing or changing in-flight work prevents interpreting normalized counters as exact per-message costs."
+  ],
+  "elapsed_ns": 36401373000,
+  "selected_queues": [
+    [
+      "default",
+      "followup-0-256-8000-q"
+    ]
+  ],
+  "queue_scope_complete_asserted_by_caller": true,
+  "queue_scope_label": "all asserted queues",
+  "peak_messages_per_second": null,
+  "interpretation": "Traffic demand only. Queue ingress copies are not consumer deliveries; spool ingress can include rejected attempts or retransmissions. dataRxByteCount includes broker-counted data-message bytes, not a pure payload size. No peak inference without calibrated resource/service constraints and saturation checks.",
+  "case": {
+    "id": "followup-0-256-8000",
+    "size": 256,
+    "target_rate": 8000,
+    "publishers": 4,
+    "duration_seconds": 60,
+    "fanout": 1,
+    "queue_quota_mb": 300,
+    "process_diagnostics": true
+  },
+  "pressure_at_last_interior_sample": {
+    "cache_usage_reported": {
+      "numerator": 3709,
+      "denominator": 10000,
+      "decimal": 0.3709
+    },
+    "cache_limit_reported": {
+      "numerator": 10,
+      "denominator": 1,
+      "decimal": 10.0
+    },
+    "cache_fraction_of_reported_limit": {
+      "numerator": 3709,
+      "denominator": 100000,
+      "decimal": 0.03709
+    },
+    "disk_messages_currently_spooled": {
+      "numerator": 0,
+      "denominator": 1,
+      "decimal": 0.0
+    },
+    "cache_unit_note": "Same-unit ratio; do not interpret reported cache usage as MB.",
+    "process_cpu_usage_reported": [
+      {
+        "process_id": "366",
+        "command": "datapla+",
+        "cpu_usage_raw": "8.0",
+        "cpu_time_raw": "0:04.63"
+      },
+      {
+        "process_id": "373",
+        "command": "solcach+",
+        "cpu_usage_raw": "2.0",
+        "cpu_time_raw": "0:00.07"
+      },
+      {
+        "process_id": "521",
+        "command": "datapla+",
+        "cpu_usage_raw": "2.0",
+        "cpu_time_raw": "0:01.64"
+      },
+      {
+        "process_id": "1",
+        "command": "solaced+",
+        "cpu_usage_raw": "0.0",
+        "cpu_time_raw": "0:00.06"
+      },
+      {
+        "process_id": "320",
+        "command": "vmr-sol+",
+        "cpu_usage_raw": "0.0",
+        "cpu_time_raw": "0:00.16"
+      },
+      {
+        "process_id": "364",
+        "command": "watchdog",
+        "cpu_usage_raw": "0.0",
+        "cpu_time_raw": "0:00.09"
+      },
+      {
+        "process_id": "365",
+        "command": "cmdserv+",
+        "cpu_usage_raw": "0.0",
+        "cpu_time_raw": "0:00.07"
+      },
+      {
+        "process_id": "367",
+        "command": "control+",
+        "cpu_usage_raw": "0.0",
+        "cpu_time_raw": "0:00.12"
+      },
+      {
+        "process_id": "368",
+        "command": "smrp",
+        "cpu_usage_raw": "0.0",
+        "cpu_time_raw": "0:00.05"
+      },
+      {
+        "process_id": "369",
+        "command": "mgmtpla+",
+        "cpu_usage_raw": "0.0",
+        "cpu_time_raw": "0:00.39"
+      },
+      {
+        "process_id": "370",
+        "command": "sempman+",
+        "cpu_usage_raw": "0.0",
+        "cpu_time_raw": "0:00.31"
+      },
+      {
+        "process_id": "371",
+        "command": "trmmana+",
+        "cpu_usage_raw": "0.0",
+        "cpu_time_raw": "0:00.07"
+      },
+      {
+        "process_id": "372",
+        "command": "msgbusa+",
+        "cpu_usage_raw": "0.0",
+        "cpu_time_raw": "0:00.07"
+      },
+      {
+        "process_id": "374",
+        "command": "lttng-s+",
+        "cpu_usage_raw": "0.0",
+        "cpu_time_raw": "0:00.01"
+      },
+      {
+        "process_id": "470",
+        "command": "python3",
+        "cpu_usage_raw": "0.0",
+        "cpu_time_raw": "0:01.03"
+      },
+      {
+        "process_id": "535",
+        "command": "sshd",
+        "cpu_usage_raw": "0.0",
+        "cpu_time_raw": "0:00.00"
+      },
+      {
+        "process_id": "558",
+        "command": "nginx",
+        "cpu_usage_raw": "0.0",
+        "cpu_time_raw": "0:00.00"
+      },
+      {
+        "process_id": "579",
+        "command": "nginx",
+        "cpu_usage_raw": "0.0",
+        "cpu_time_raw": "0:00.00"
+      },
+      {
+        "process_id": "596",
+        "command": "sh",
+        "cpu_usage_raw": "0.0",
+        "cpu_time_raw": "0:00.00"
+      },
+      {
+        "process_id": "597",
+        "command": "rsyslogd",
+        "cpu_usage_raw": "0.0",
+        "cpu_time_raw": "0:00.00"
+      },
+      {
+        "process_id": "598",
+        "command": "solsysl+",
+        "cpu_usage_raw": "0.0",
+        "cpu_time_raw": "0:00.00"
+      },
+      {
+        "process_id": "603",
+        "command": "lttng-s+",
+        "cpu_usage_raw": "0.0",
+        "cpu_time_raw": "0:00.00"
+      },
+      {
+        "process_id": "604",
+        "command": "lttng-r+",
+        "cpu_usage_raw": "0.0",
+        "cpu_time_raw": "0:00.00"
+      },
+      {
+        "process_id": "799",
+        "command": "sleep",
+        "cpu_usage_raw": "0.0",
+        "cpu_time_raw": "0:00.00"
+      },
+      {
+        "process_id": "806",
+        "command": "sh",
+        "cpu_usage_raw": "0.0",
+        "cpu_time_raw": "0:00.00"
+      },
+      {
+        "process_id": "807",
+        "command": "top-fix",
+        "cpu_usage_raw": "0.0",
+        "cpu_time_raw": "0:00.00"
+      },
+      {
+        "process_id": "808",
+        "command": "top",
+        "cpu_usage_raw": "0.0",
+        "cpu_time_raw": "0:00.00"
+      }
+    ],
+    "system_cpu_fields_raw": {
+      "us": "0.4",
+      "sy": "0.8",
+      "ni": "0.0",
+      "id": "85.3",
+      "wa": "11.2",
+      "hi": "0.0",
+      "si": "2.4"
+    },
+    "cpu_scope_note": "Legacy top-style fields; host/container denominator and sampling interval require separate validation. No automatic utilization-to-capacity conversion."
+  },
+  "process_cpu_observation_seconds": 45.1708525409922,
+  "class_note": "Persistent SMF, one queue; SDKPerf CRC/order metadata; no TLS/replay/HA in this lab. Do not transfer calibration to other feature classes."
+}

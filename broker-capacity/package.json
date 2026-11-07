@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "solclientjs": "10.18.3"
+  }
+}

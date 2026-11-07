@@ -1,0 +1,10 @@
+{
+  "sdkperf_download": "https://products.solace.com/download/SDKPERF_JAVA",
+  "sdkperf_archive_sha256": "b5c4bbd6ae1c2861174bebfca416e72e262b99788042151dd82b4dfabb6de788",
+  "sdkperf_archive_version": "10.30.3",
+  "jre_release": "jdk-17.0.21+9",
+  "jre_package_link": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.21%2B9/OpenJDK17U-jre_aarch64_mac_hotspot_17.0.21_9.tar.gz",
+  "jre_package_sha256": "a5ab5bacd6e719d5a5570580ed14dceb2ed532208a39af927906b9742da1745e",
+  "jre_checksum_verified_before_extraction": true,
+  "redistribution": "No SDKPerf or Java binaries included; obtain separately from their providers."
+}

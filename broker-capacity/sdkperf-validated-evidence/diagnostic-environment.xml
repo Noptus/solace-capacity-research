@@ -1,0 +1,9 @@
+<rpc-reply semp-version="broker/10.26.9.13589">
+  <rpc>
+    <show>
+      <environment>
+      </environment>
+    </show>
+  </rpc>
+<execute-result code="ok"/>
+</rpc-reply>

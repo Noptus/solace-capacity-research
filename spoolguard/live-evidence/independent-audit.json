@@ -1,0 +1,480 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "check": "horizon matches activation and expiry",
+      "passed": true
+    },
+    {
+      "check": "unregulated/orders: every interval satisfies source token envelope",
+      "passed": true
+    },
+    {
+      "check": "unregulated/orders: activation, expiry and ordering",
+      "passed": true
+    },
+    {
+      "check": "unregulated/orders: at most one HTTP message outstanding",
+      "passed": true
+    },
+    {
+      "check": "unregulated/orders: accepted count matches trace",
+      "passed": true
+    },
+    {
+      "check": "unregulated/orders: fixed message cost matches workload",
+      "passed": true
+    },
+    {
+      "check": "unregulated/orders: demand respected",
+      "passed": true
+    },
+    {
+      "check": "unregulated/analytics: every interval satisfies source token envelope",
+      "passed": true
+    },
+    {
+      "check": "unregulated/analytics: activation, expiry and ordering",
+      "passed": true
+    },
+    {
+      "check": "unregulated/analytics: at most one HTTP message outstanding",
+      "passed": true
+    },
+    {
+      "check": "unregulated/analytics: accepted count matches trace",
+      "passed": true
+    },
+    {
+      "check": "unregulated/analytics: fixed message cost matches workload",
+      "passed": true
+    },
+    {
+      "check": "unregulated/analytics: demand respected",
+      "passed": true
+    },
+    {
+      "check": "unregulated/payments: every interval satisfies source token envelope",
+      "passed": true
+    },
+    {
+      "check": "unregulated/payments: activation, expiry and ordering",
+      "passed": true
+    },
+    {
+      "check": "unregulated/payments: at most one HTTP message outstanding",
+      "passed": true
+    },
+    {
+      "check": "unregulated/payments: accepted count matches trace",
+      "passed": true
+    },
+    {
+      "check": "unregulated/payments: fixed message cost matches workload",
+      "passed": true
+    },
+    {
+      "check": "unregulated/payments: demand respected",
+      "passed": true
+    },
+    {
+      "check": "lab-unregulated-archive: actual starting occupancy covered",
+      "passed": true
+    },
+    {
+      "check": "lab-unregulated-archive: ACK fanout exactly matches raw broker counter",
+      "passed": true
+    },
+    {
+      "check": "lab-unregulated-archive: queue has no egress or TTL release",
+      "passed": true
+    },
+    {
+      "check": "lab-unregulated-archive: final usage equals peak",
+      "passed": true
+    },
+    {
+      "check": "lab-unregulated-archive: observed accounting fits reserved expansion",
+      "passed": true
+    },
+    {
+      "check": "lab-unregulated-orders: actual starting occupancy covered",
+      "passed": true
+    },
+    {
+      "check": "lab-unregulated-orders: ACK fanout exactly matches raw broker counter",
+      "passed": true
+    },
+    {
+      "check": "lab-unregulated-orders: queue has no egress or TTL release",
+      "passed": true
+    },
+    {
+      "check": "lab-unregulated-orders: final usage equals peak",
+      "passed": true
+    },
+    {
+      "check": "lab-unregulated-orders: observed accounting fits reserved expansion",
+      "passed": true
+    },
+    {
+      "check": "lab-unregulated-payments: actual starting occupancy covered",
+      "passed": true
+    },
+    {
+      "check": "lab-unregulated-payments: ACK fanout exactly matches raw broker counter",
+      "passed": true
+    },
+    {
+      "check": "lab-unregulated-payments: queue has no egress or TTL release",
+      "passed": true
+    },
+    {
+      "check": "lab-unregulated-payments: final usage equals peak",
+      "passed": true
+    },
+    {
+      "check": "lab-unregulated-payments: observed accounting fits reserved expansion",
+      "passed": true
+    },
+    {
+      "check": "unregulated: expected rejection behavior",
+      "passed": true
+    },
+    {
+      "check": "unregulated failures are quota-related HTTP 503 responses",
+      "passed": true
+    },
+    {
+      "check": "global_throttle/orders: every interval satisfies source token envelope",
+      "passed": true
+    },
+    {
+      "check": "global_throttle/orders: activation, expiry and ordering",
+      "passed": true
+    },
+    {
+      "check": "global_throttle/orders: at most one HTTP message outstanding",
+      "passed": true
+    },
+    {
+      "check": "global_throttle/orders: accepted count matches trace",
+      "passed": true
+    },
+    {
+      "check": "global_throttle/orders: fixed message cost matches workload",
+      "passed": true
+    },
+    {
+      "check": "global_throttle/orders: demand respected",
+      "passed": true
+    },
+    {
+      "check": "global_throttle/analytics: every interval satisfies source token envelope",
+      "passed": true
+    },
+    {
+      "check": "global_throttle/analytics: activation, expiry and ordering",
+      "passed": true
+    },
+    {
+      "check": "global_throttle/analytics: at most one HTTP message outstanding",
+      "passed": true
+    },
+    {
+      "check": "global_throttle/analytics: accepted count matches trace",
+      "passed": true
+    },
+    {
+      "check": "global_throttle/analytics: fixed message cost matches workload",
+      "passed": true
+    },
+    {
+      "check": "global_throttle/analytics: demand respected",
+      "passed": true
+    },
+    {
+      "check": "global_throttle/payments: every interval satisfies source token envelope",
+      "passed": true
+    },
+    {
+      "check": "global_throttle/payments: activation, expiry and ordering",
+      "passed": true
+    },
+    {
+      "check": "global_throttle/payments: at most one HTTP message outstanding",
+      "passed": true
+    },
+    {
+      "check": "global_throttle/payments: accepted count matches trace",
+      "passed": true
+    },
+    {
+      "check": "global_throttle/payments: fixed message cost matches workload",
+      "passed": true
+    },
+    {
+      "check": "global_throttle/payments: demand respected",
+      "passed": true
+    },
+    {
+      "check": "lab-global_throttle-archive: actual starting occupancy covered",
+      "passed": true
+    },
+    {
+      "check": "lab-global_throttle-archive: ACK fanout exactly matches raw broker counter",
+      "passed": true
+    },
+    {
+      "check": "lab-global_throttle-archive: queue has no egress or TTL release",
+      "passed": true
+    },
+    {
+      "check": "lab-global_throttle-archive: final usage equals peak",
+      "passed": true
+    },
+    {
+      "check": "lab-global_throttle-archive: observed accounting fits reserved expansion",
+      "passed": true
+    },
+    {
+      "check": "lab-global_throttle-archive: actual assigned rates satisfy protected mathematical bound",
+      "passed": true
+    },
+    {
+      "check": "lab-global_throttle-archive: measured peak fits independently recomputed bound",
+      "passed": true
+    },
+    {
+      "check": "lab-global_throttle-orders: actual starting occupancy covered",
+      "passed": true
+    },
+    {
+      "check": "lab-global_throttle-orders: ACK fanout exactly matches raw broker counter",
+      "passed": true
+    },
+    {
+      "check": "lab-global_throttle-orders: queue has no egress or TTL release",
+      "passed": true
+    },
+    {
+      "check": "lab-global_throttle-orders: final usage equals peak",
+      "passed": true
+    },
+    {
+      "check": "lab-global_throttle-orders: observed accounting fits reserved expansion",
+      "passed": true
+    },
+    {
+      "check": "lab-global_throttle-orders: actual assigned rates satisfy protected mathematical bound",
+      "passed": true
+    },
+    {
+      "check": "lab-global_throttle-orders: measured peak fits independently recomputed bound",
+      "passed": true
+    },
+    {
+      "check": "lab-global_throttle-payments: actual starting occupancy covered",
+      "passed": true
+    },
+    {
+      "check": "lab-global_throttle-payments: ACK fanout exactly matches raw broker counter",
+      "passed": true
+    },
+    {
+      "check": "lab-global_throttle-payments: queue has no egress or TTL release",
+      "passed": true
+    },
+    {
+      "check": "lab-global_throttle-payments: final usage equals peak",
+      "passed": true
+    },
+    {
+      "check": "lab-global_throttle-payments: observed accounting fits reserved expansion",
+      "passed": true
+    },
+    {
+      "check": "lab-global_throttle-payments: actual assigned rates satisfy protected mathematical bound",
+      "passed": true
+    },
+    {
+      "check": "lab-global_throttle-payments: measured peak fits independently recomputed bound",
+      "passed": true
+    },
+    {
+      "check": "global_throttle: expected rejection behavior",
+      "passed": true
+    },
+    {
+      "check": "fanout_aware/orders: every interval satisfies source token envelope",
+      "passed": true
+    },
+    {
+      "check": "fanout_aware/orders: activation, expiry and ordering",
+      "passed": true
+    },
+    {
+      "check": "fanout_aware/orders: at most one HTTP message outstanding",
+      "passed": true
+    },
+    {
+      "check": "fanout_aware/orders: accepted count matches trace",
+      "passed": true
+    },
+    {
+      "check": "fanout_aware/orders: fixed message cost matches workload",
+      "passed": true
+    },
+    {
+      "check": "fanout_aware/orders: demand respected",
+      "passed": true
+    },
+    {
+      "check": "fanout_aware/analytics: every interval satisfies source token envelope",
+      "passed": true
+    },
+    {
+      "check": "fanout_aware/analytics: activation, expiry and ordering",
+      "passed": true
+    },
+    {
+      "check": "fanout_aware/analytics: at most one HTTP message outstanding",
+      "passed": true
+    },
+    {
+      "check": "fanout_aware/analytics: accepted count matches trace",
+      "passed": true
+    },
+    {
+      "check": "fanout_aware/analytics: fixed message cost matches workload",
+      "passed": true
+    },
+    {
+      "check": "fanout_aware/analytics: demand respected",
+      "passed": true
+    },
+    {
+      "check": "fanout_aware/payments: every interval satisfies source token envelope",
+      "passed": true
+    },
+    {
+      "check": "fanout_aware/payments: activation, expiry and ordering",
+      "passed": true
+    },
+    {
+      "check": "fanout_aware/payments: at most one HTTP message outstanding",
+      "passed": true
+    },
+    {
+      "check": "fanout_aware/payments: accepted count matches trace",
+      "passed": true
+    },
+    {
+      "check": "fanout_aware/payments: fixed message cost matches workload",
+      "passed": true
+    },
+    {
+      "check": "fanout_aware/payments: demand respected",
+      "passed": true
+    },
+    {
+      "check": "lab-fanout_aware-archive: actual starting occupancy covered",
+      "passed": true
+    },
+    {
+      "check": "lab-fanout_aware-archive: ACK fanout exactly matches raw broker counter",
+      "passed": true
+    },
+    {
+      "check": "lab-fanout_aware-archive: queue has no egress or TTL release",
+      "passed": true
+    },
+    {
+      "check": "lab-fanout_aware-archive: final usage equals peak",
+      "passed": true
+    },
+    {
+      "check": "lab-fanout_aware-archive: observed accounting fits reserved expansion",
+      "passed": true
+    },
+    {
+      "check": "lab-fanout_aware-archive: actual assigned rates satisfy protected mathematical bound",
+      "passed": true
+    },
+    {
+      "check": "lab-fanout_aware-archive: measured peak fits independently recomputed bound",
+      "passed": true
+    },
+    {
+      "check": "lab-fanout_aware-orders: actual starting occupancy covered",
+      "passed": true
+    },
+    {
+      "check": "lab-fanout_aware-orders: ACK fanout exactly matches raw broker counter",
+      "passed": true
+    },
+    {
+      "check": "lab-fanout_aware-orders: queue has no egress or TTL release",
+      "passed": true
+    },
+    {
+      "check": "lab-fanout_aware-orders: final usage equals peak",
+      "passed": true
+    },
+    {
+      "check": "lab-fanout_aware-orders: observed accounting fits reserved expansion",
+      "passed": true
+    },
+    {
+      "check": "lab-fanout_aware-orders: actual assigned rates satisfy protected mathematical bound",
+      "passed": true
+    },
+    {
+      "check": "lab-fanout_aware-orders: measured peak fits independently recomputed bound",
+      "passed": true
+    },
+    {
+      "check": "lab-fanout_aware-payments: actual starting occupancy covered",
+      "passed": true
+    },
+    {
+      "check": "lab-fanout_aware-payments: ACK fanout exactly matches raw broker counter",
+      "passed": true
+    },
+    {
+      "check": "lab-fanout_aware-payments: queue has no egress or TTL release",
+      "passed": true
+    },
+    {
+      "check": "lab-fanout_aware-payments: final usage equals peak",
+      "passed": true
+    },
+    {
+      "check": "lab-fanout_aware-payments: observed accounting fits reserved expansion",
+      "passed": true
+    },
+    {
+      "check": "lab-fanout_aware-payments: actual assigned rates satisfy protected mathematical bound",
+      "passed": true
+    },
+    {
+      "check": "lab-fanout_aware-payments: measured peak fits independently recomputed bound",
+      "passed": true
+    },
+    {
+      "check": "fanout_aware: expected rejection behavior",
+      "passed": true
+    },
+    {
+      "check": "gain recomputed from successful raw publications",
+      "passed": true
+    }
+  ],
+  "number_of_checks": 117,
+  "accepted_payload_bytes": {
+    "unregulated": 7868416,
+    "global_throttle": 1646592,
+    "fanout_aware": 6918144
+  },
+  "accepted_payload_gain_over_global_throttle": 4.201492537313433
+}

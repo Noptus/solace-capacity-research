@@ -1,0 +1,23 @@
+[
+  {
+    "command": [
+      "node",
+      "--check",
+      "outputs/broker-capacity/smf_load.js"
+    ],
+    "returncode": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "python3",
+      "-m",
+      "py_compile",
+      "outputs/broker-capacity/capacity_probe.py"
+    ],
+    "returncode": 0,
+    "stdout": "",
+    "stderr": ""
+  }
+]

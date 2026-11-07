@@ -1,0 +1,36 @@
+{
+  "lower_product_expectation_exact": "19/40",
+  "upper_product_expectation_exact": "77/80",
+  "independence_product_expectation_exact": "23/32",
+  "left_mean_exact": "5/4",
+  "right_mean_exact": "23/40",
+  "constant_cost_exact": "3/5",
+  "net_lower_exact": "-1/8",
+  "net_upper_exact": "29/80",
+  "net_independence_exact": "19/160",
+  "minimizing_joint_distribution": [
+    {
+      "x": "1/2",
+      "y": "9/10",
+      "probability": "1/2"
+    },
+    {
+      "x": "2",
+      "y": "1/4",
+      "probability": "1/2"
+    }
+  ],
+  "maximizing_joint_distribution": [
+    {
+      "x": "1/2",
+      "y": "1/4",
+      "probability": "1/2"
+    },
+    {
+      "x": "2",
+      "y": "9/10",
+      "probability": "1/2"
+    }
+  ],
+  "scope": "sharp bounds conditional on the supplied finite marginals; no empirical profitability claim"
+}

@@ -1,0 +1,11 @@
+{
+  "image": "solace/solace-pubsub-standard@sha256:adbdf6c060abafb0e30dac3d46e335c1e5ea56a7ff02804f9f64b08d84b7b00e",
+  "broker_version": "10.26.9.13589",
+  "sdk_version": "10.18.3",
+  "cpu_quota": 2,
+  "memory_GiB": 3,
+  "container": "capacity-matrix-a506ec21",
+  "design_sha256": "f29351a26f86147cba25995133e7903e6331bc046ce8bab60fab4ebdc53fb7b2",
+  "known_edition_limit": "Standard: documented 10000 messages/s ingress",
+  "utilization_source": "container cgroup CPU: supplemental validation, not SEMP"
+}

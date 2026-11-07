@@ -1,0 +1,4 @@
+{
+  "error": "{'type': 'error', 'error': \"{\\n  sessionEventCode: 'CONNECT_FAILED_ERROR (2)',\\n  infoStr: 'Service Unavailable',\\n  responseCode: 503,\\n  errorSubcode: 'GM_UNAVAILABLE (100)',\\n  correlationKey: null,\\n  reason: {\\n    transportEventCode: 'DESTROYED_NOTICE (2)',\\n    infoStr: 'Disconnecting session',\\n    responseCode: null,\\n    errorSubcode: 'NO_ERROR (0)',\\n    sid: 'N/A'\\n  }\\n}\"}",
+  "completed_cases": 0
+}

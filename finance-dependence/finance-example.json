@@ -1,0 +1,6 @@
+{
+  "description": "Illustrative assumptions only: signal magnitude in basis points times retained fraction at execution. No measured trading signal or market-data calibration.",
+  "left": [{"value":"1/2","weight":1},{"value":2,"weight":1}],
+  "right": [{"value":"1/4","weight":1},{"value":"9/10","weight":1}],
+  "constant_cost":"3/5"
+}

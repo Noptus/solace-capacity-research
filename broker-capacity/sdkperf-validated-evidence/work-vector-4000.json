@@ -1,0 +1,106 @@
+{
+  "counts": {
+    "source_data_messages": 155190,
+    "source_data_bytes": 51367890,
+    "guaranteed_ingress_attempts": 154572,
+    "selected_queue_copies": 154600,
+    "selected_queue_spooled_bytes": 39577600
+  },
+  "rates_per_second": {
+    "source_data_messages": {
+      "numerator": 14780000000,
+      "denominator": 3680841,
+      "decimal": 4015.3867010283793
+    },
+    "source_data_bytes": {
+      "numerator": 4892180000000,
+      "denominator": 3680841,
+      "decimal": 1329092.9980403935
+    },
+    "guaranteed_ingress_attempts": {
+      "numerator": 103048000000,
+      "denominator": 25765887,
+      "decimal": 3999.396566475666
+    },
+    "selected_queue_copies": {
+      "numerator": 309200000000,
+      "denominator": 77297661,
+      "decimal": 4000.1210385913228
+    },
+    "selected_queue_spooled_bytes": {
+      "numerator": 79155200000000,
+      "denominator": 77297661,
+      "decimal": 1024030.9858793786
+    }
+  },
+  "per_source_data_message": {
+    "source_data_messages": {
+      "numerator": 1,
+      "denominator": 1,
+      "decimal": 1.0
+    },
+    "source_data_bytes": {
+      "numerator": 331,
+      "denominator": 1,
+      "decimal": 331.0
+    },
+    "guaranteed_ingress_attempts": {
+      "numerator": 25762,
+      "denominator": 25865,
+      "decimal": 0.9960177846510728
+    },
+    "selected_queue_copies": {
+      "numerator": 15460,
+      "denominator": 15519,
+      "decimal": 0.9961982086474644
+    },
+    "selected_queue_spooled_bytes": {
+      "numerator": 3957760,
+      "denominator": 15519,
+      "decimal": 255.0267414137509
+    }
+  },
+  "elapsed_ns": 38648830500,
+  "selected_queues": [
+    [
+      "default",
+      "sdk-0-256-4000-q"
+    ]
+  ],
+  "queue_scope_complete_asserted_by_caller": true,
+  "queue_scope_label": "all asserted queues",
+  "peak_messages_per_second": null,
+  "interpretation": "Traffic demand only. Queue ingress copies are not consumer deliveries; spool ingress can include rejected attempts or retransmissions. dataRxByteCount includes broker-counted data-message bytes, not a pure payload size. No peak inference without calibrated resource/service constraints and saturation checks.",
+  "case": {
+    "id": "sdk-0-256-4000",
+    "size": 256,
+    "target_rate": 4000,
+    "publishers": 4,
+    "duration_seconds": 60,
+    "fanout": 1
+  },
+  "pressure_at_last_interior_sample": {
+    "cache_usage_reported": {
+      "numerator": 5971,
+      "denominator": 10000,
+      "decimal": 0.5971
+    },
+    "cache_limit_reported": {
+      "numerator": 10,
+      "denominator": 1,
+      "decimal": 10.0
+    },
+    "cache_fraction_of_reported_limit": {
+      "numerator": 5971,
+      "denominator": 100000,
+      "decimal": 0.05971
+    },
+    "disk_messages_currently_spooled": {
+      "numerator": 0,
+      "denominator": 1,
+      "decimal": 0.0
+    },
+    "cache_unit_note": "Same-unit ratio; do not interpret reported cache usage as MB."
+  },
+  "class_note": "Persistent SMF, one queue; SDKPerf CRC/order metadata; no TLS/replay/HA in this lab. Do not transfer calibration to other feature classes."
+}

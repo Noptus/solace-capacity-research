@@ -1,0 +1,7 @@
+{
+  "error": "RuntimeError(\"Integrity check failed: {'publisher_exit_zero': True, 'sent_expected': True, 'acked_expected': False, 'no_nacks': True, 'broker_ingress_equals_unique_sends': True, 'received_expected': False, 'crc_checked_all': False, 'order_checked_all': False, 'no_missing_duplicate_out_of_order_redelivery': True, 'queue_drained': True}\")",
+  "completed": [
+    "followup-0-256-8000",
+    "followup-1-131072-76"
+  ]
+}

@@ -1,0 +1,134 @@
+[
+  {
+    "case": "train-32768-4",
+    "size": 32768,
+    "fanout": 4,
+    "rate": 421.5810378001173,
+    "broker_cpu_cores": 0.16433713023050123,
+    "quota_throttled_period_fraction": 0.0,
+    "mean_ack_ms": 981.6215596032569,
+    "max_ack_ms": 3560.2896249999976,
+    "all_accounting_checks_passed": true
+  },
+  {
+    "case": "train-256-1",
+    "size": 256,
+    "fanout": 1,
+    "rate": 5872.374871447037,
+    "broker_cpu_cores": 0.12055528985098729,
+    "quota_throttled_period_fraction": 0.0,
+    "mean_ack_ms": 164.78114510893818,
+    "max_ack_ms": 1156.2600840000014,
+    "all_accounting_checks_passed": true
+  },
+  {
+    "case": "train-4096-4",
+    "size": 4096,
+    "fanout": 4,
+    "rate": 3294.338644491539,
+    "broker_cpu_cores": 0.2068070684435235,
+    "quota_throttled_period_fraction": 0.0,
+    "mean_ack_ms": 105.82337461390541,
+    "max_ack_ms": 1003.8504580000008,
+    "all_accounting_checks_passed": true
+  },
+  {
+    "case": "train-131072-1",
+    "size": 131072,
+    "fanout": 1,
+    "rate": 83.02261828978598,
+    "broker_cpu_cores": 1.9997479299557965,
+    "quota_throttled_period_fraction": 1.0,
+    "mean_ack_ms": 8930.576521995683,
+    "max_ack_ms": 15129.154583,
+    "all_accounting_checks_passed": true
+  },
+  {
+    "case": "train-256-4",
+    "size": 256,
+    "fanout": 4,
+    "rate": 5926.5998283123445,
+    "broker_cpu_cores": 0.2177080794774911,
+    "quota_throttled_period_fraction": 0.0,
+    "mean_ack_ms": 165.58371321541728,
+    "max_ack_ms": 347.20287499999995,
+    "all_accounting_checks_passed": true
+  },
+  {
+    "case": "train-32768-1",
+    "size": 32768,
+    "fanout": 1,
+    "rate": 521.268777583354,
+    "broker_cpu_cores": 0.13597410321963643,
+    "quota_throttled_period_fraction": 0.0,
+    "mean_ack_ms": 662.8430363968578,
+    "max_ack_ms": 1927.277209,
+    "all_accounting_checks_passed": true
+  },
+  {
+    "case": "train-131072-4",
+    "size": 131072,
+    "fanout": 4,
+    "rate": 133.0059458292844,
+    "broker_cpu_cores": 1.4489882254992104,
+    "quota_throttled_period_fraction": 0.5739644970414202,
+    "mean_ack_ms": 4219.836286776209,
+    "max_ack_ms": 9295.324792,
+    "all_accounting_checks_passed": true
+  },
+  {
+    "case": "train-4096-1",
+    "size": 4096,
+    "fanout": 1,
+    "rate": 5500.099755587329,
+    "broker_cpu_cores": 0.21491768299861463,
+    "quota_throttled_period_fraction": 0.0,
+    "mean_ack_ms": 76.09028427137234,
+    "max_ack_ms": 1002.5596250000017,
+    "all_accounting_checks_passed": true
+  },
+  {
+    "case": "test-8192-2",
+    "size": 8192,
+    "fanout": 2,
+    "rate": 1256.7007753450398,
+    "broker_cpu_cores": 0.14109847020508798,
+    "quota_throttled_period_fraction": 0.0,
+    "mean_ack_ms": 316.84455416048985,
+    "max_ack_ms": 1002.4163339999977,
+    "all_accounting_checks_passed": true
+  },
+  {
+    "case": "test-65536-3",
+    "size": 65536,
+    "fanout": 3,
+    "rate": 159.82228131872733,
+    "broker_cpu_cores": 0.9737337331715019,
+    "quota_throttled_period_fraction": 0.4107142857142857,
+    "mean_ack_ms": 3259.5146963302545,
+    "max_ack_ms": 7711.3333330000005,
+    "all_accounting_checks_passed": true
+  },
+  {
+    "case": "repeat-256-1",
+    "size": 256,
+    "fanout": 1,
+    "rate": 5892.141753722722,
+    "broker_cpu_cores": 0.12855633658485335,
+    "quota_throttled_period_fraction": 0.0,
+    "mean_ack_ms": 165.2736302894426,
+    "max_ack_ms": 363.0777500000004,
+    "all_accounting_checks_passed": true
+  },
+  {
+    "case": "credit-control-256-1",
+    "size": 256,
+    "fanout": 1,
+    "rate": 5881.820570365331,
+    "broker_cpu_cores": 0.12892737715154814,
+    "quota_throttled_period_fraction": 0.0,
+    "mean_ack_ms": 167.3292284228032,
+    "max_ack_ms": 350.3459159999984,
+    "all_accounting_checks_passed": true
+  }
+]

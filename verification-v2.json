@@ -1,0 +1,23 @@
+{
+  "unit_tests": {
+    "spoolguard": 36,
+    "broker_capacity": 12,
+    "finance_dependence": 7,
+    "total": 55,
+    "all_passed": true
+  },
+  "original_study_audit_checks": 206,
+  "sdkperf_accepted_prefix_audit_checks": 126,
+  "sdkperf_clean_cases": 6,
+  "sdkperf_clean_source_messages": 1804560,
+  "sdkperf_clean_consumer_receipts": 1804560,
+  "sdkperf_full_designs_complete": false,
+  "pdf": {
+    "pages": 7,
+    "visual_review": "All pages inspected in contact sheet; SDKPerf page inspected at full size",
+    "bounding_boxes": "passed"
+  },
+  "local_lab_containers_removed": true,
+  "publication_status": "unpublished review artifacts",
+  "career_materials_excluded_from_research_archive": true
+}

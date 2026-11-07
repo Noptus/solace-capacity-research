@@ -1,0 +1,12 @@
+test_broker_counterexample (test_dependence.DependenceBounds.test_broker_counterexample) ... ok
+test_exhaustive_permutation_oracle (test_dependence.DependenceBounds.test_exhaustive_permutation_oracle) ... ok
+test_finance_sign_change (test_dependence.DependenceBounds.test_finance_sign_change) ... ok
+test_independence_is_inside_the_sharp_interval (test_dependence.DependenceBounds.test_independence_is_inside_the_sharp_interval) ... ok
+test_invalid_inputs (test_dependence.DependenceBounds.test_invalid_inputs) ... ok
+test_unequal_discrete_weights_and_witness_marginals (test_dependence.DependenceBounds.test_unequal_discrete_weights_and_witness_marginals) ... ok
+test_zero_mass_duplicate_values_and_scaling (test_dependence.DependenceBounds.test_zero_mass_duplicate_values_and_scaling) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.087s
+
+OK

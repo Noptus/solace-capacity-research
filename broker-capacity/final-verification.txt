@@ -1,0 +1,11 @@
+test_collinear_features_do_not_break_fit (test_fit_model.FitModel.test_collinear_features_do_not_break_fit) ... ok
+test_full_rank_known_nonnegative_model (test_fit_model.FitModel.test_full_rank_known_nonnegative_model) ... ok
+test_negative_unconstrained_solution_is_rejected (test_fit_model.FitModel.test_negative_unconstrained_solution_is_rejected) ... ok
+test_roofline_all_constant_and_all_byte_limited (test_fit_model.FitModel.test_roofline_all_constant_and_all_byte_limited) ... ok
+test_roofline_recovers_two_limits (test_fit_model.FitModel.test_roofline_recovers_two_limits) ... ok
+test_singular_system_is_identified (test_fit_model.FitModel.test_singular_system_is_identified) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.000s
+
+OK
